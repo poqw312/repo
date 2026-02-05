@@ -1,3 +1,21 @@
+Package: Flex3beta
+Version: 3.1
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: debs/Flex3beta解析版_3.1_Roothide.deb
+Size: 33289040
+MD5sum: b83e0ace6d813daadd0672efbfccb855
+SHA1: 4dd69ae1426afda78c0ee00f210772dc3dc9dca1
+SHA256: 02656773e526c3c81f2afcb4fef09772e4d77ac2a3cdae0fe5a12608bf1ae118
+Section: rootless修复插件
+Description: 可解析应用，不用兼容层，粗体会闪退,建议正在学习或者会做补丁者使用(已知点击应用补丁列表不可以，需要搜索)~~~单独装此包只对第三方应用生效，对系统补丁生效需要装另外一个包，安装前卸载现有的，你的配置都在。
+Author: John Coates
+Name: Flex3 Beta解析版-Roothide
+
 Package: MikotoHelper
 Version: 1.3.6.8
 Architecture: iphoneos-arm64e
@@ -37,23 +55,57 @@ Description: 一款强大的App去广告和系统补丁增强神器。本插件�
 Author: John Coates
 Name: Flex3 Beta-Roothide
 
-Package: apt.poqw312.fuckthermal
-Version: 1.2-38
+Package: com.0xkuj.nopastealerts16
+Version: 1.0.0
 Architecture: iphoneos-arm64e
-Maintainer: Shadow
+Maintainer: 0xkuj
+Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
-Conflicts: com.shadow.fuckthermal
-Filename: debs/解除温控Fuckthermal_1.2-38_Roothide.deb
-Size: 213552
-MD5sum: 90a4150909693545899807cb2d7ee878
-SHA1: 8dd10e08738365262bf45e4605b285a1cbad7dfd
-SHA256: 204d25c85db4da48ddd2b5ad94549b5fc1ac3ab9fe5d4275f686ed04066b2d36
-Section: 系统工具
-Description: 解除设备温控，解决设备充电或使用过程中因发烫导致设备处理器降频卡顿，屏幕亮度变暗等问题。安装后没有效果的用户请注销SpringBoard或者重启用户空间！测试支持iOS15-iOS16
-Author: Shadow
-Name: FuckThermal解除温控-Roothide
-Sponsor: Shadow
+Depends: firmware (>= 16.0)
+Filename: debs/NopasteAlerts16_1.0.0_Roothide.deb
+Size: 4032
+MD5sum: af6b8cb99c0c4cc55830cbcbb712b343
+SHA1: e554c24aedd551205da0067cf0f498906ec5d8c4
+SHA256: 9f6a841527622c6c0b8f9d517fbeff8009f43cdc670874840c2c84ae463a3087
+Section: Tweaks
+Description: 移除iOS16中新增的烦人粘贴确认提示。安装后无图标无设置，默认生效。
+Author: 0xkuj
+Name: NoPasteAlerts16禁用粘贴提示-Roothide
+
+Package: com.25mao.doutu.rootless
+Version: 3.1-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/斗图助手_3.1-6_Roothide.deb
+Size: 1052988
+MD5sum: 212c9d5363a6a708175d94a111f3fad7
+SHA1: b6e274e547649809895318b8f66fc62ec9aa8260
+SHA256: 6db6325f045bfdbca84814629ff55b287c70ab2d39eee206664cd9a76d9dc3af
+Section: Rootless
+Priority: optional
+Description: 微信表情斗图助手
+Author: Mao
+Name: 斗图助手-Roothide
+Sponsor: admin@25mao.com
+
+Package: com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: debs/左滑返回_1.0-6_Roothide.deb
+Size: 43112
+MD5sum: 47121f4e62f1d7d67f1664142a4e69c5
+SHA1: 73894a103781f2fefa61092a200cfa01a786e82b
+SHA256: 7942cc53d71bc527007f550817d009c76c7697814b15666999b0de8fb08d98cc
+Section: Roothide
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回-Roothide
 
 Package: com.25mao.miyou.rootless
 Version: 3.9-1
@@ -268,19 +320,20 @@ Package: com.mrgcgamer.libgcuniversal
 Version: 1.7.0
 Architecture: iphoneos-arm64e
 Maintainer: MrGcGamer
+Installed-Size: 380
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
 Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
-Filename: debs/依赖Libgcuniversal_1.7.0_Roothide.deb
-Size: 53172
-MD5sum: cfc4d7732d17412f94e89fb0cc84f822
-SHA1: 337f64d8bbc06f337382fc99492ae8890ef155a4
-SHA256: 52b5cbf44d50083889f0d04a2b77bcdb47ab8e891a3b16de763c0fe0b2b33453
-Section: 嗨-系统
-Description: 开发通用库，例如SettingsRevamp就需要依赖此；转换支持roothide。
+Filename: debs/设置归类依赖LibGcUniversal1.7.0_Roothide.deb
+Size: 55588
+MD5sum: af2cc90fa5351a22de99338e7903f739
+SHA1: 6e4553bbc14d8996ec0b473927d1b45a453dcffc
+SHA256: 42b709cf12d19e0101e30e54ee3c669f51584a906f3770aff9d41586bfddf85d
+Section: Development
+Description: 隐根越狱依赖。
 Tag: role::developer
 Author: MrGcGamer
-Name: LibGcUniversal(RootHide)
+Name: LibGcUniversal-Roothide
 
 Package: com.netskao.appdata
 Version: 1.4.4
@@ -351,6 +404,23 @@ Section: Netskao-Tweaks
 Description: 本补丁是破解Filza完整版，需要自行安装官方源Filza插件。
 Author: Netskao
 Name: Filza破解补丁-Roothide
+
+Package: com.netskao.flexlist
+Version: 1.4-2
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 5020
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<= 15.9.9), mobilesubstrate, preferenceloader
+Filename: debs/FlexList_1.4-2_Roothide.deb
+Size: 1320052
+MD5sum: a6761fee3041bb577bdcd364b1ed2c52
+SHA1: dde416e95ad67e9b74882ac8c52855bbdd0790cc
+SHA256: 6b8432947ead4e75f59e6f097fc7434af28493fbfbd9f4a0a069011330df11db
+Section: Netskao-Tweaks
+Description: Flex3广告抓图辅助工具。目前在iOS16无效，仅兼容于iOS15。
+Author: Netskao
+Name: FlexList-Roothide
 
 Package: com.netskao.smallbanners
 Version: 1.2-8
@@ -560,6 +630,82 @@ Description: Flex用于iOS开发调试工具，一款Flex3广告抓图辅助插�
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Name: FlexLoader广告抓图-Roothide
 
+Package: com.spark.snowboard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 3268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/SnowBoard主题平台_1.5.37_Roothide.deb
+Size: 1129948
+MD5sum: 104ff0c02294cc444528409476016d99
+SHA1: 132ce1090d9424eab8302beb9cd12a55202ba1d7
+SHA256: 7b6df4853e448b075d99328d015bb87ef474263a162460330737e074005f3751
+Section: Tweaks
+Description: 强大的主题平台，Roothide主题存放路径：jbroot/Library/Themes
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard主题平台-Roothide
+
+Package: com.spark.snowboard.dock
+Version: 1.1.3~Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 440
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/SnowBoard_Dock栏拓展_1.1.3_Roothide.deb
+Size: 34180
+MD5sum: 817340d43c6a2ed919f7563994de674f
+SHA1: 76acf422be6125de009f3cefc26e183f335e7f12
+SHA256: a6d0a6b6f3999cf47b1dbf6f258ec0d1c10af5992d7be746bbe0eedd5c84064d
+Section: SnowBoard Extensions
+Description: SnowBoard主题平台Dock栏拓展模块
+Author: Spark
+Name: SnowBoard Dock栏拓展-Roothide
+
+Package: com.spark.snowboard.masks
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/SnowBoard图标拓展_1.2.2_Roothide.deb
+Size: 20256
+MD5sum: acdb31c89350e8882350e1a03d182c5a
+SHA1: a4596c770532fa32fbc7137787c5f2d8f0c1604a
+SHA256: 80215e8dea551de42ff57b1a1cc5636ba310b9d187ed850acbd3381383e9cea7
+Section: SnowBoard Extensions
+Description: SnowBoard主题平台图标遮罩拓展模块。
+Author: Spark
+Name: SnowBoard图标拓展-Roothide
+
+Package: com.susu.nopreferencetips
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: 苏苏
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: debs/NopreferenceTips_1.0.4_Roothide.deb
+Size: 5328
+MD5sum: 4daadbac25a778c42cdd2bb1a3122dff
+SHA1: 1fdb7a0b97de8ab5ef0c0c6d0852d383f7d64cd3
+SHA256: 4dc5c5fc53138ba9fac81f8dcf1a44ce8aff71185acdc94b948f3e823266efdc
+Section: 调整
+Description: 此插件用于屏蔽隐藏设备更换第三方电池和其它非官方配件的未知部件提示。
+   1. 支持iOS15-iOS16多巴胺无根/隐根环境
+   2. 移除“设置-电池-电池健康与充电”的提醒并显示健康值
+   3. 移除桌面上的设置角标（只显示15天）
+   4. 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）
+Author: 苏苏
+Icon: https://www.susubaby.top/images/Preferences.png
+Name: NoPreferencesTips隐藏未知部件提示-Roothide
+
 Package: com.wechat.enhance
 Version: 1.5-5
 Architecture: iphoneos-arm64e
@@ -612,6 +758,24 @@ Author: Traurige & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/eneko.png
 Name: Eneko视频壁纸-Roothide
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/eneko/js.json
+
+Package: github.poqw312.fuckthermal
+Version: 1.2-38
+Architecture: iphoneos-arm64e
+Maintainer: Shadow
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Conflicts: com.shadow.fuckthermal
+Filename: debs/FuckThermal解除温控_1.2-38_Roothide.deb
+Size: 213580
+MD5sum: 594f47a0e9fbcb4893d5582a9415017b
+SHA1: 654bc6a51f10e5cfe0cf025491318dc20e2a5075
+SHA256: 5d8eeaddb8bb136b1fa0745691b9d3bf90295dc236700eb401ad9d073af0de40
+Section: 系统工具
+Description: 解除设备温控，解决设备充电或使用过程中因发烫导致设备处理器降频卡顿，屏幕亮度变暗等问题。在这基础上可以安装Powercuff插件来屏蔽设备高温发烫导致温度计弹窗，安装后没有效果的用户请注销SpringBoard或者重启用户空间！测试支持iOS15-iOS16
+Author: Shadow
+Name: FuckThermal解除温控-Roothide
+Sponsor: Shadow
 
 Package: jp.uzra.aerial
 Version: 3.5
@@ -750,14 +914,14 @@ Architecture: iphoneos-arm64e
 Maintainer: Evelyn
 Depends: mobilesubstrate, cy+cpu.arm64e, firmware (>= 15.0)
 Filename: debs/依赖oldabi_0.3.1_Roothide.deb
-Size: 16400
-MD5sum: aee7cbdda4c03ed3966187a8376ccf7f
-SHA1: fc3119d11e1975cfff71cc8223856128ffbf8459
-SHA256: 9631dc0e3ba6333d771b98be7eac46c2f62171327dda453b0d77832e9000fb21
+Size: 13208
+MD5sum: 9f46485b4c4b67cd7ae19563112c0e80
+SHA1: d8e9d3b635437aa8ed5c3f2ab73ac8d8ea6eb933
+SHA256: 588c536380ec83ae453aef22e73c8c6c75bffeee62969027dbfee566b486ac0e
 Section: Tweak Injection
-Description: Support for legacy arm64e ABI in iOS 15.0+
+Description: 隐根依赖插件。
 Author: Evelyn
-Name: Legacy arm64e Support
+Name: Legacy arm64e Support-Roothide
 
 Package: org.mr.icleanerprorl
 Version: 7.10.0k
@@ -943,6 +1107,43 @@ Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
 Name: CocoaTop64-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2976
 
+Package: xyz.cypwn.killapps-rootless
+Version: 1.2-2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/KillApps_1.2-2_Roothide.deb
+Size: 934792
+MD5sum: 687ec1c7dd7916cd9a641fb92414c0cd
+SHA1: 0fbb989765f5186cb3d9a474db119e8a937673e5
+SHA256: a2cbbd791354b2769e0ca606e16f9fc506497b29b24838b0506236075385596b
+Section: Tweaks
+Description: 一键关闭所有后台应用程序。支持清理白名单，支持向上滑动黑名单
+Author: Netskao
+Depiction: https://repo.cypwn.xyz/depiction/1634
+Name: KillApps关闭后台-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1634
+
+Package: xyz.cypwn.lastlook
+Version: 4.2.2k
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: debs/LastLook息屏特效_4.2.2k_Roothide.deb
+Size: 462520
+MD5sum: 4fd59ae99222bf5ea99c76435c8134ac
+SHA1: 035f296792066a20b072f1b80d255a05f68c0134
+SHA256: cf66c220cb8f6a4251370be17773f76d25527752b24c38ac14aab80c80f4675c
+Section: Tweaks
+Description: 一款AOD调整方案（自定义日期显示）调整功能，拥有无限可能！
+Author: AnthoPak
+Depiction: https://repo.cypwn.xyz/depiction/3113
+Icon: https://repo.cypwn.xyz/packages/LastLook-Rootless/icon.png
+Name: LastLook息屏特效-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3113
+
 Package: xyz.cypwn.limneos
 Version: 3.1
 Architecture: iphoneos-arm64e
@@ -961,6 +1162,25 @@ Author: CBZ
 Depiction: https://repo.cypwn.xyz/depiction/1940
 Name: Limneos破解补丁-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1940
+
+Package: xyz.cypwn.movenotification16
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/MovenotifiaTion16_1.0_Roothide.deb
+Size: 16804
+MD5sum: ea5c32331667e8081bf5f8f647960f87
+SHA1: 63859abd6729f71bd24f87d299215791ed52200c
+SHA256: a18fd098f2b490f969004f1c23464a90178e9b49832a8d11b11a9e8884b94f64
+Section: Tweaks
+Description: 在iOS16上自定义锁屏通知消息上下位置。
+Author: JunesiPhone
+Depiction: https://repo.cypwn.xyz/depiction/3004
+Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
+Name: MoveNotification16移动通知-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3004
 
 Package: xyz.cypwn.settingsrevamp
 Version: 3.0.1
@@ -981,6 +1201,25 @@ Depiction: https://repo.cypwn.xyz/depiction/2887
 Icon: https://repo.cypwn.xyz/packages/SettingsRevamp-Rootless/icon.png
 Name: SettingsRevamp设置归类-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2887
+
+Package: xyz.cypwn.showmytouches
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/ShowmyTouches_1.1.2_Roothide.deb
+Size: 52808
+MD5sum: 377752d5a210ce1dab3c9f09ff7b92b6
+SHA1: 50fb255e1ba2f843468b9fea35458559ac0aad2d
+SHA256: 76c2e6ce3240abffdce8a202534d4a7fcc97c8bc2fc18f16213c9b423d47c1a2
+Section: Tweaks
+Description: 屏幕录制时显示触摸轨迹。
+Author: dvntm
+Depiction: https://repo.cypwn.xyz/depiction/2668
+Icon: https://repo.cypwn.xyz/packages/ShowMyTouches-Rootless/icon.png
+Name: ShowMyTouches触摸轨迹-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2668
 
 Package: xyz.cypwn.smartbatteryios15
 Version: 1.6
