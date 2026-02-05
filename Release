@@ -1,0 +1,8 @@
+Origin: poqw312-repo
+Label: poqw312-repo
+Description: poqw312-repo
+Suite: stable
+Version: 1.0
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Codename: ios15
