@@ -634,14 +634,14 @@ Version: 5.1-12
 Architecture: iphoneos-arm64e
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 6136
-Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions-roothide, firmware(>=15.0)
+Depends: mobilesubstrate, preferenceloader, xyz.cypwn.limneos, net.limneos.simpleactivationactions-roothide, firmware(>=15.0)
 Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
 Filename: debs/AudioRecorderXS_5.1-12_Roothide.deb
-Size: 1199376
-MD5sum: c665ca98cd1bb00f2f49108d248b5e2e
-SHA1: a2fedff497f105f8cafb5c90c761534854f0729c
-SHA256: 04091d591a96f7489042a4d33eca43dbacf2d494953ac0471ce20ee84ea8e7e1
+Size: 1199732
+MD5sum: 35147d652b3f6d559deaa2e26f9c05d1
+SHA1: a241a9eb99c68e0c86045c95585e1522340ef302
+SHA256: fa9b626c56b4f2f71ecc979ed81bd979ee4c3c5f122f334cba33ca1a12e8d278
 Section: Tweaks
 Description: 史上最先进的iOS通话录音器！支持iOS15-iOS17
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -656,19 +656,19 @@ Architecture: iphoneos-arm64e
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 784
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/AutoanAwerx自动接听_2.0-2_Roothide.deb
-Size: 148468
-MD5sum: b3073942078b1940499b28cdf44255bf
-SHA1: c196845b0cc10780308f3fca45d6063b41e2187c
-SHA256: 2b53a3a6bb011b40f9c9ec98acbb8140b82388c244cc9579a6939ccad53054c2
+Depends: mobilesubstrate, xyz.cypwn.limneos, preferenceloader
+Filename: debs/AutoAnswerXS自动接听_2.0-2_Roothide.deb
+Size: 148168
+MD5sum: 93a021fcef9f5ef0cfca3bacd564b0a7
+SHA1: 7ece80ee736b5469b7b31552aa0b26743946450f
+SHA256: 52b19370882089071c6946a4aa4646e1a362bb60a14135ec3fcd34882579487c
 Section: Tweaks
-Description: 自动接听任何电话！本插件为官方完整版汉化，需要购买或者安装破解补丁即可使用。
+Description: 自动接听任何电话！本插件为官方完整汉化版。
 Author: Elias Limneos <limneoselias@gmail.com>
 Depiction: http://limneos.net/autoanswerx
 Icon: file:///Library/PreferenceBundles/AutoAnswer.bundle/AutoAnswerXSettings@2x.png
 Mainlibmd5: f5ea088a5aa89b09cd693dde75214053
-Name: AutoAnswer XS自动接听-Roothide
+Name: AutoAnswerXS自动接听-Roothide
 
 Package: net.limneos.bioprotectxs-rootless
 Version: 4.7-4
@@ -676,20 +676,20 @@ Architecture: iphoneos-arm64e
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 2328
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
+Depends: mobilesubstrate, preferenceloader, xyz.cypwn.limneos
 Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
-Filename: debs/Bioprotectxs_4.7-4_Roothide.deb
-Size: 581904
-MD5sum: 47cac99c05edfc98bb17568449da8215
-SHA1: 051b4ef819fd701db3b51e10564a80bb5cff0f40
-SHA256: 8bb1f23471c89116dcf7d6c02ddf55840dafd211d5bd5d2f946f436c412ce32f
+Filename: debs/BioprotectXS_4.7-4_Roothide.deb
+Size: 581764
+MD5sum: 74842e5eed9062b7663f84f54839f1ea
+SHA1: 6af9681c62ef62c3629ce0d309369a6e78d6b321
+SHA256: a357730ad3a923d3812f3475272c3e9f9331f195d98a70b29c9806018cca168a
 Section: Tweaks
 Description: 使用密码和面容加密应用。支持iOS14-iOS18
 Author: Elias Limneos <limneoselias@gmail.com>
 Depiction: http://limneos.net/bioprotectxs
 Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
 Mainlibmd5: 11a31f2c14af96f0ee846d1e06d5cfd0
-Name: BioProtect应用加密-Roothide
+Name: BioProtectXS应用加密-Roothide
 Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.bioprotectxs
 
 Package: net.limneos.glow-roothide
@@ -1047,16 +1047,16 @@ Depends: mobilesubstrate, firmware (>= 15.0), com.tigisoftware.filza64bit (>= 4.
 Replaces: emt.paisseon.xinamine
 Provides: emt.paisseon.xinamine (= 99)
 Filename: debs/SneakyCam2.2.2依赖_2.6-8_Roothide.deb
-Size: 1946388
-MD5sum: dd090e78bf4af909d9bdedee8faf9d3b
-SHA1: a4b96682bedd70e37c19fada4a9cf0b53bb3ff09
-SHA256: 6d590bb9b0900c146464e08c191e164a5811a26c2f9c91da250565046277f04f
+Size: 1946392
+MD5sum: c70d50b54ff1657b2f92843be94aef5b
+SHA1: 3eeb20543356f08e5b5de3c766583529fc4c7a38
+SHA256: 8752854dc0947f56efa4a64afed9e656b6b91b6cd7eef15adebb8322f581c87d
 Section: Utilities
 Description: 隐私相机SneakyCam设置开关修复依赖，安装后即可卸载。
 Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
 Depiction: https://repo.cypwn.xyz/depiction/2816
 Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
-Name: Xinam1ne AIO
+Name: Xinam1ne AIO-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2816
 
 Package: z.weifeng
