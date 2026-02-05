@@ -1,34 +1,677 @@
-Package: com.fyn.tallyvip
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: ☞风•夜南☜
-Installed-Size: 88
+Package: MikotoHelper
+Version: 1.3.6.8
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: Mikoto
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: debs/com.fyn.tallyvip_0.0.1_iphoneos-arm64.deb
-Size: 3492
-MD5sum: 5a195d3f170b9c88d9263f4acd0e085e
-SHA1: fd87562207920ed126d6d23972a3107eb4136ce0
-SHA256: 3d32f9fb38cc4dd444a7274f0c1198e54acc975259e45682e4fe8cca460ec06b
+Conflicts: MikotoHelper
+Replaces: MikotoHelper
+Provides: MikotoHelper
+Filename: debs/微信MikotoHelper_体验版V8_Roothide.deb
+Size: 39702492
+MD5sum: 068716b6bb592af89320e95d90d10dfa
+SHA1: 33d3f4f85f84d9820991dc65bdb02d5d2703fdab
+SHA256: 56b27478edde3fe6ec45225cd528079bcb26c81e8e7a5bcfabfa67b46a953cc4
 Section: Tweaks
-Description: 鲨鱼记账去广告&本地VIP，函数源自flex3上的coderstory，我打包成deb！版本支持：测试4.38可用！其他版本自测！【提示: 本项目旨在学习，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
-Author: coderstory & ☞风•夜南☜
-Name: 鲨鱼记账 去广告&本地VIP(Rootless)
+Priority: optional
+Description: 微信增强插件，本次更新加入密友功能。
+Author: Mikoto
+Name: MikotoHelper微信插件-Roothide
 
-Package: com.fyn.tallyvip
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: ☞风•夜南☜
-Installed-Size: 88
+Package: apt.llld.flex3beta
+Version: 1:3~Beta98
+Architecture: iphoneos-arm64e
+Maintainer: John Coates
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi, firmware (>=15.0) | org.swift.libswift (>=5.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, apt.llld.Flex3beta, Flex2Blackpackagebeta, com.llld.flexrootless, apt.llld.flex3beta1, cn.llld.flex3beta, com.johncoates.Flex3, Flex3FeatureCatalog, byg.iosios.net.flex3, byg.iosios.net.flex3beta, byg.iosios.net.flex3.xiufu, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/Flex3Beta98-Roothide.deb
+Size: 12547280
+MD5sum: 3e7402e2ee633904581b1fe20c380adf
+SHA1: b2478b8ebf2be41c5924bf286f4e63a6c4b42824
+SHA256: d37f95e40303de1efecbc03c3b52c641f828a21f86eb975db7b48260465b5262
+Section: 修复插件
+Description: 一款强大的App去广告和系统补丁增强神器。本插件由威锋大佬“来了老弟”修复适配多巴胺环境，此版本无法解析，系统补丁和应用补丁功能正常使用，需要科学上网才能使用云端搜索功能(国行设备需要在无线局域网和蜂窝数据中打开Flex3网络开关)，在路径/Library/MobileSubstrate/DynamicLibraries打开Flex.plist文件添加你想要生效的应用Bundle(Appdata插件上滑桌面应用图标就能看到)
+Author: John Coates
+Name: Flex3 Beta-Roothide
+
+Package: apt.poqw312.fuckthermal
+Version: 1.2-38
+Architecture: iphoneos-arm64e
+Maintainer: Shadow
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Conflicts: com.shadow.fuckthermal
+Filename: debs/解除温控Fuckthermal_1.2-38_Roothide.deb
+Size: 213552
+MD5sum: 90a4150909693545899807cb2d7ee878
+SHA1: 8dd10e08738365262bf45e4605b285a1cbad7dfd
+SHA256: 204d25c85db4da48ddd2b5ad94549b5fc1ac3ab9fe5d4275f686ed04066b2d36
+Section: 系统工具
+Description: 解除设备温控，解决设备充电或使用过程中因发烫导致设备处理器降频卡顿，屏幕亮度变暗等问题。安装后没有效果的用户请注销SpringBoard或者重启用户空间！测试支持iOS15-iOS16
+Author: Shadow
+Name: FuckThermal解除温控-Roothide
+Sponsor: Shadow
+
+Package: com.25mao.miyou.rootless
+Version: 3.9-1
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信助手_3.9-1_Roothide.deb
+Size: 10288356
+MD5sum: c3104914ed76433026f36f2481f4d927
+SHA1: 70b1d3bea671c6ba9e0f68a935a70ca51a089224
+SHA256: f9f9f7b8af8fe3ae9099bbee30a9e50aa1beff0153d913ac0db756e4db4acbee
+Section: Rootless
+Priority: optional
+Description: 修复3.9.0斗图按钮以及发送按钮错位的特性，修复热更新后导致工具栏失效问题，修复消息时间问题，概率性修复群助手功能，建议使用折叠的聊天功能或者其他带有分组功能的插件。
+Author: Mao
+Name: 微信助手-Roothide
+Sponsor: admin@25mao.com
+
+Package: com.HBWechatHelper.ailun
+Version: 2.0.2
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: debs/com.fyn.tallyvip_0.0.1_iphoneos-arm64 (1).deb
-Size: 3492
-MD5sum: 5a195d3f170b9c88d9263f4acd0e085e
-SHA1: fd87562207920ed126d6d23972a3107eb4136ce0
-SHA256: 3d32f9fb38cc4dd444a7274f0c1198e54acc975259e45682e4fe8cca460ec06b
+Filename: debs/黄白助手_2.0.2_Roothide.deb
+Size: 25817324
+MD5sum: 7ccfcef0db27b5d85f7a91751753105f
+SHA1: 5edcd65c9109a797d4cc53aa11ccd09edd18e2a4
+SHA256: c99825253955532e9e538f9f555d0327a61628b321fc4d6d5515c5d363e22aa2
+Section: Mao
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Roothide
+
+Package: com.apple.wechat.noads
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: Apple
+Installed-Size: 272
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信广告净化助手_1.2.0_Roothide.deb
+Size: 22332
+MD5sum: 51c0840e9ab8cd8fb78f02fa9f97d361
+SHA1: 46cb60b9f0f144ce1db80b341f2037fe20a3e79f
+SHA256: b262419935271802f3d0ca38b9233d3d4801a4be491e756621c566275e3b186e
 Section: Tweaks
-Description: 鲨鱼记账去广告&本地VIP，函数源自flex3上的coderstory，我打包成deb！版本支持：测试4.38可用！其他版本自测！【提示: 本项目旨在学习，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
-Author: coderstory & ☞风•夜南☜
-Name: 鲨鱼记账 去广告&本地VIP(Rootless)
+Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!
+Author: Apple
+Name: 微信广告净化助手-Roothide
+
+Package: com.brend0n.volumemixer
+Version: 0.0.7~beta3
+Architecture: iphoneos-arm64e
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 1016
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/VolumeMixer音量控制_0.0.7_Roothide.deb
+Size: 178492
+MD5sum: 33ed5852294c0e7f8227a19940a9d5e5
+SHA1: eed4b4aec477270bb67a5ef56ec0ce28c7440f0f
+SHA256: c7e9c23999751e210b0571044ce3c14970bd7ae75bc6e90f67bbcf52b7d2bcf2
+Section: Tweaks
+Description: 独立设置单个应用程序的音量控制。
+Author: Brend0n <brendonjkding@126.com>
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.volumemixer
+Icon: file:///Library/PreferenceBundles/volumemixer.bundle/icon@2x.png
+Name: VolumeMixer音量控制-Roothide
+Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.volumemixer/depiction.json
+
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: debs/Shuffle依赖libcspreferences.deb
+Size: 977006
+MD5sum: ef2364568f01ff257063f92eb487ed67
+SHA1: 01df1da76a53ba772d1804193e5741dea2cafd4d
+SHA256: 11971d0e1f467f2c5e79b9efd6d3628867623e6b7a2e976e17c40573d2c03bfc
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: debs/Shuffle_1.6.2_Roothide.deb
+Size: 268496
+MD5sum: f31b00335952bfbacf22741ef146ddcf
+SHA1: e8d9b5035c8d88ce1ab1a0470f81e5980f2b1e71
+SHA256: 99bd03a6ed574335c5fc9c04702db483e955919190fd0a80f5edf2347756dd8b
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: 一款设置分类插件，可收纳设置里的插件归类，应用归类，系统归类。
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle设置归类-Roothide
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.curtin.pkc.rootless
+Version: 0.8-7
+Architecture: iphoneos-arm64e
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信PKC_0.8-7_Roothide.deb
+Size: 976876
+MD5sum: 08828856a695f00aee9a853eca306a5e
+SHA1: 8c9c7ff764965d9710041e5cf81ace71bf405760
+SHA256: 92222fe5073470dd4052b812e2b543d91026635e4c1ec6070f55fbfa4f1514c5
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等。
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC微信插件-Roothide
+
+Package: com.dumpapp.wechat-rootless
+Version: 2.3.0
+Architecture: iphoneos-arm64e
+Maintainer: DumpApp
+Installed-Size: 14436
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.3.0_Roothide.deb
+Size: 5622044
+MD5sum: 95f4eafed3d9f446a3115b52a2574fd8
+SHA1: 66ec65773626ebe708b7c91ea72e9700630bfe47
+SHA256: 70ce1769065733ee4483f0e7a1b3586b6c881e4c712d79ea288ad14ef4ff5133
+Section: 微信插件
+Description: 微信增强插件。
+Author: DumpApp
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Name: 锤子助手-Roothide
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/dumpapp/js.json
+
+Package: com.huami.dyyy
+Version: 2.2-9
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音魔术师DYYY_2.2-9_1629_Roothide.deb
+Size: 440112
+MD5sum: 9d3a73f01b0884b353e7990a82e3d99b
+SHA1: 971c68b9821a342439dd10141c13e7de3456131f
+SHA256: 7317f40edf19c04efc2709ccd52121af4e48a37e24b93ad4f964f6bcec436848
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.1.31更新1629
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY抖音魔术师-Roothide
+
+Package: com.lclrc.exacttime
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 1284
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
+Filename: debs/ExactTime_2.0.4_Roothide.deb
+Size: 96856
+MD5sum: ff334ffc8968c0863cce88244ac48a65
+SHA1: 53b05827167a740ebfe687fcfa3233dd7a93dd31
+SHA256: a72ace19810a456b842227b4c88f2ed59810c486601fa8f8284af159d2810129
+Section: Tweaks
+Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间。
+Author: gilshahar7, SquidForce
+Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
+Name: ExactTime通知时间-Roothide
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
+
+Package: com.netskao.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 13548
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/AppData_1.4.4_Roothide.deb
+Size: 5046552
+MD5sum: 6c82a207a0a753dcf8b9669de6cb3398
+SHA1: 5b112d2dd9a724efbdc6311ffcecde07d576e011
+SHA256: 36cf954cd6a1a1946d70d57ab65f4fa9b17b22848906af13a81b0d83fafb3b5b
+Section: Netskao-Tweaks
+Description: 查看和管理应用程序数据。
+Author: Fouad Raheb
+Name: AppData应用数据-Roothide
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
+
+Package: com.netskao.ccsim
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/CCSIM_1.1-9_Roothide.deb
+Size: 24844
+MD5sum: 64bc8c8e50912f9a4f1809ca14fe8c68
+SHA1: eea20f38960cf9b492060ae5e8c7de1aec90982e
+SHA256: e387c4bed4eda58694a2e262f5fc543b91730cb3907fd69f810d6962368e1d2d
+Section: Netskao-Tweaks
+Description: 对于双SIM卡设备，在控制中心添加一个快捷关闭或开启SIM卡的按钮。
+Author: Netskao
+Name: CCSIM-Roothide
+
+Package: com.netskao.dumpdecrypter
+Version: 1.5-1
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/Dumpdecrypter_1.5-1_Roothide.deb
+Size: 395088
+MD5sum: 6519c0d1a0a5df3e2ebd47260d587769
+SHA1: 5443f0fb9c4815ddf3da2ebadd07d5170b330fd6
+SHA256: d46fbd5b3a341e7c6a5066968f583394dc9d93a81f30668630927916515556a7
+Section: Netskao-Tweaks
+Description: 解密iOS应用程序和插件，支持 iOS15-iOS16
+Author: Netskao
+Name: DumpDecrypter应用砸壳-Roothide
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.dumpdecrypter.json
+
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 120
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/FilzaCrack_1.1-9_Roothide.deb
+Size: 29464
+MD5sum: 4864430283ab6ad74e1145d3558eb5b9
+SHA1: 34649e4f2f810e27c6280a8dc420e8fcfff42e50
+SHA256: fec53c4903e23ba6c863f6c2099baf81d55ccc1ea182a3fc44533c524bc7b8d7
+Section: Netskao-Tweaks
+Description: 本补丁是破解Filza完整版，需要自行安装官方源Filza插件。
+Author: Netskao
+Name: Filza破解补丁-Roothide
+
+Package: com.netskao.smallbanners
+Version: 1.2-8
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 900
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/SmallBanners_1.2-8_Roothide.deb
+Size: 201876
+MD5sum: bc5a6991c7a77cad489ee93f7705e650
+SHA1: be41db25fe3b858aad72baa53833a4824be4d4c5
+SHA256: efed2b2ccaeed31ea72b553388ef1e9c33f83ec1d610b51d19c09559b90d3047
+Section: Netskao-Tweaks
+Description: 小横幅通知。安装后无图标无设置，默认生效。
+Author: Netskao
+Name: SmallBanners迷你通知-Roothide
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.smallbanners.json
+
+Package: com.netskao.wechatnotiavatar
+Version: 1.3-1
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 1228
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/微信头像WeChatnotiAvatar_1.3-1_Roothide.deb
+Size: 244124
+MD5sum: 246e139e0618c290441580de3b31bf00
+SHA1: 96520c21b03a9f9af35ca772eb285f6a34cb2241
+SHA256: 8451343df658b45d04e12e33b4cef8e6f9d392d372f35a38c69ee29ee0dd9e49
+Section: Netskao-Tweaks
+Description: 微信消息推送显示头像通知，无图标无设置，安装后立即生效。
+Author: Netskao
+Name: WeChatNotiAvatar微信头像-Roothide
+
+Package: com.opa334.choicy
+Version: 1.5.3-3
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1056
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Conflicts: com.dao.choicy
+Filename: debs/Choicy_1.5.3-3_Roothide.deb
+Size: 161916
+MD5sum: b4d7b56c2acf7246cc3d9b4fcf7ee8bf
+SHA1: 33c68e2fc387858c35d672a7592abb65b3d893c9
+SHA256: 98bfd97d0df8d842b110fd5d3c3aae8617c01ac31fdc37b40445d697c3dde661
+Section: Tweaks
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy屏蔽越狱-Roothide
+
+Package: com.ps.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: debs/修复电池健康_1.0.0_Roothide.deb
+Size: 6584
+MD5sum: c27502e7d6208292dea66c6f00d93c46
+SHA1: 3af434f3077e58629455e530ddd0f7f43c44b9e1
+SHA256: 7068096b81589b94f8ec3b6a6fd7b88de9069e4417fdf8e37afc0d6d28df8826
+Section: Tweaks
+Description: 在不支持的设备上开启电池健康功能。
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
+Name: Battery Health Enabler电池健康-Roothide
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/batteryhealthenabler.json
+
+Package: com.ps.recordpause
+Version: 2.0.7
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: debs/RecordPause暂停录制_2.0.7_Roothide.deb
+Size: 11544
+MD5sum: e047108d4302daa7fd23e1e3d490b227
+SHA1: 8dc6443723294761e4cedf9643a67718a9067961
+SHA256: eafd5531541d59f8b3ef3e8a4dfafaf9d63281215b4d08f3285544ed78f11a1b
+Section: Tweaks
+Description: 在iOS相机应用程序中暂停/恢复视频录制。
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
+Name: RecordPause暂停录制-Roothide
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
+
+Package: com.rpetrich.powercuff
+Version: 1.4
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/Powercuff_1.4_Roothide.deb
+Size: 13124
+MD5sum: ca06b352d699868cbec1f9ed1d473fa8
+SHA1: 5082f37e621e9c7985ee05c67c64659ed9cf244b
+SHA256: 9868abe95820401727ad6986d39a52e715ab16140eec19b12c13ffa6dad749e0
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/powercuff/
+Description: 从其他低功耗设备状态中选择
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+Depiction: http://rpetri.ch/cydia/powercuff/
+Dev: rpetrich
+Name: Powercuff省电节流-Roothide
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.ryannair05.cask3
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 840
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: debs/Cask3滚动特效_1.0.3_Roothide.deb
+Size: 315704
+MD5sum: 347a439582d66341bf6e268698ee88d8
+SHA1: 7fdfb54361593fc47b8bd205858f74202066e513
+SHA256: 4f4609e98a3ef62194fe06cec608a72d00e5d134b3f821b7764d64d00e88b6b7
+Section: Tweaks
+Description: 动画表格滚动效果。
+Tag: compatible_min::ios14.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Depiction: https://chariz.com/get/cask-3
+Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
+Name: Cask 3滚动特效-Roothide
+
+Package: com.ryannair05.cylinder
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: Ryan Nair & SINI
+Installed-Size: 1372
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: debs/Cylinder翻页特效_1.1.2_Roothide.deb
+Size: 244988
+MD5sum: 370446de48746bda4d92ba7b5635c339
+SHA1: 2f956b55e55367cdf4aa7d31c0f38c287492c28a
+SHA256: 46a6d10b00705c1171153f7db211d5316c8c7b189235b751b46206c474144a44
+Section: 越狱插件
+Description: 有趣的桌面图标翻页特效，基于开源优化编译，修正汉化，适配支持Roothide。
+Author: Ryan Nair & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
+Name: CylinderReborn图标特效-Roothide
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/cylinderreborn/js.json
+
+Package: com.shtm.flexibleexpression
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: SHTM
+Installed-Size: 4324
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/FlexibleexPression_1.2.0_Roothide.deb
+Size: 3644816
+MD5sum: c2a8f424165cfaf0d094fb50af99d0cb
+SHA1: 0343be6ed84ad91586187c14cc3cdb1778ed025f
+SHA256: 4b2f723805aaf084cc7a8615c94da6d3792a6cccf257cec95095da24776ed83b
+Section: Tweaks
+Description: 灵动空间，灵动岛不再枯燥！新增锁屏动画
+Author: SHTM
+Depiction: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/sileo.json
+Icon: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/FlexibleExpression.png
+Name: FlexibleExpression灵动岛-Roothide
+Sileodepiction: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/sileo.json
+
+Package: com.sini921.atria
+Version: 1.4.1-6
+Architecture: iphoneos-arm64e
+Maintainer: ren7995 & SINI
+Installed-Size: 1072
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: debs/Atria桌面布局重制版_1.4.1-6_Roothide.deb
+Size: 374996
+MD5sum: afd934c7f46c6b02a8d6632711b9594f
+SHA1: bc0ec547c1d9e0c34ee50c4d86b3512bc937afb3
+SHA256: dbc336d256484a3a3f8160000959994757a5b567abd2e469176d311422fcba2f
+Section: 越狱插件
+Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改编译的中文版，去掉了Alderis Color Picker依赖，编译支持Roothide。
+Author: ren7995 & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
+Name: Atria桌面布局-Roothide
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/atria/js.json
+
+Package: com.skypain.flexloader
+Version: 5.25.19-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 3080
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/FlexLoader重制版_5.25.19-1_Roothide.deb
+Size: 669860
+MD5sum: 2f9a9dc6820c85ee9fbd9b1325b592f8
+SHA1: acf2060d24277651fdd7e09b77040fee01adccd8
+SHA256: d9e3cf06c8f562bfd1c4849fa42fb84c12d6cc4f82d2bfbc0ed73db83c2152a9
+Section: Tweaks
+Description: Flex用于iOS开发调试工具，一款Flex3广告抓图辅助插件。
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: FlexLoader广告抓图-Roothide
+
+Package: com.wechat.enhance
+Version: 1.5-5
+Architecture: iphoneos-arm64e
+Maintainer: 愫 茶
+Installed-Size: 2492
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信Enhance_1.5-5_Roothide.deb
+Size: 536928
+MD5sum: 3a62202bce2e5a951f8135996d247096
+SHA1: fe1ae75719614c44686e2ce88f0379d6df8e7e64
+SHA256: c8ef39f406ffb03fbd47b926a27e60c5755714cf645fd28c2ec054b519ee9316
+Section: Tweaks
+Description: 微信插件，支持聊天按钮布局自定义等。
+Author: 愫 茶
+Name: WeChatEnhance-Roothide
+
+Package: com.xuuz.douyinhelper
+Version: 2.1-2
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.1-2_Roothide.deb
+Size: 13504344
+MD5sum: 649bb3c13dcbe87c04a47c2ac633281d
+SHA1: 63e530177c11cb2569efe7d42cd412b835071303
+SHA256: fc41e1cca01df418fe4369d686ddb02d982f28ba0aedc270d6e198d1bf22da05
+Section: Tweaks
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
+Package: dev.traurige.eneko
+Version: 1.4.2
+Architecture: iphoneos-arm64e
+Maintainer: Traurige & SINI
+Installed-Size: 628
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/Eneko视频壁纸重制版_1.4.2_Roothide.deb
+Size: 208712
+MD5sum: 461ad1a86670312af9bfcf8f009aadc5
+SHA1: 732f7e912aa58105fd05b11b598e799a36840f5a
+SHA256: bcc2ceabf0e78865da6d8465b2a4029e6ff08c4a5297e330ec6983e9e1346b36
+Section: 越狱插件
+Description: 使用自定义视频设置锁屏与桌面壁纸，基于开源重新编译，去除LibGcUniversal依赖，编译适配Roothide。
+Author: Traurige & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/eneko.png
+Name: Eneko视频壁纸-Roothide
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/eneko/js.json
+
+Package: net.limneos.audiorecorderxs
+Version: 5.1-12
+Architecture: iphoneos-arm64e
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 6136
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions-roothide, firmware(>=15.0)
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: debs/AudioRecorderXS_5.1-12_Roothide.deb
+Size: 1199376
+MD5sum: c665ca98cd1bb00f2f49108d248b5e2e
+SHA1: a2fedff497f105f8cafb5c90c761534854f0729c
+SHA256: 04091d591a96f7489042a4d33eca43dbacf2d494953ac0471ce20ee84ea8e7e1
+Section: Tweaks
+Description: 史上最先进的iOS通话录音器！支持iOS15-iOS17
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.audiorecorderxs
+Mainlibmd5: 2bd89895e747af47790b0eb2f6bac296
+Name: AudioRecorder通话录音-Roothide
+Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.audiorecorderxs
+
+Package: net.limneos.bioprotectxs-rootless
+Version: 4.7-4
+Architecture: iphoneos-arm64e
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: debs/Bioprotectxs_4.7-4_Roothide.deb
+Size: 581904
+MD5sum: 47cac99c05edfc98bb17568449da8215
+SHA1: 051b4ef819fd701db3b51e10564a80bb5cff0f40
+SHA256: 8bb1f23471c89116dcf7d6c02ddf55840dafd211d5bd5d2f946f436c412ce32f
+Section: Tweaks
+Description: 使用密码和面容加密应用。支持iOS14-iOS18
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/bioprotectxs
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Mainlibmd5: 11a31f2c14af96f0ee846d1e06d5cfd0
+Name: BioProtect应用加密-Roothide
+Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.bioprotectxs
+
+Package: net.limneos.glow-roothide
+Version: 0.6-6
+Architecture: iphoneos-arm64e
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
+Filename: debs/Glow息屏特效_0.6-6_Roothide.deb
+Size: 224992
+MD5sum: 0da07c1659869b3703c2cc7c8f253eba
+SHA1: 5971632a0b4e0c35c38db2f3ec3130f1ce3a5915
+SHA256: 25dee56ffeeaf2fe779e056646dc472bfaa3fd315f71e46ae42f838902040819
+Section: Tweaks
+Description: 让你的锁屏发光吧！本插件为官方正版，已加入完整汉化，没购买的用户需要安装Limneos系列破解补丁插件才能正常使用。
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/glow/
+Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
+Mainlibmd5: 6917b0465197e155f5385405b1258fef
+Name: Glow息屏特效-Roothide
+
+Package: net.limneos.simpleactivationactions-roothide
+Version: 0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/AudioRecorder依赖_0.1-1_Roothide.deb
+Size: 7064
+MD5sum: e430515bca45175770830dd06de892dc
+SHA1: 9aecbe7218e42d91fe41f0fb9f6e167aa9cca57e
+SHA256: 095f59d218035eab46c6fa8397d2c4ca28f1ac4d83a3a6d794bf0df2ad52da0a
+Section: Tweaks
+Description: AudioRecorder通话录音依赖插件，调整状态栏手势激活操作。
+Author: Elias Limneos <limneoselias@gmail.com>
+Name: SimpleActivationActions-Roothide
+
+Package: netskao.3dnetworkfixer-rootless
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 496
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/3dNetworkFixer_1.1-8_Roothide.deb
+Size: 116164
+MD5sum: 920ba34e0988b0b35f1d061c0d02d7c6
+SHA1: 3677482d10bf9c8d6c65e9f592e601f0ec3b71f6
+SHA256: 1e9514ae701414351a22a3db4b74cda06391a07f10e9131b4b59451bb0f2caa6
+Section: Netskao-Tweaks
+Description: 安装后无图标无设置，长按桌面应用程序图标，在弹出的菜单窗口点击NetworkFixer即可快速修复该应用程序的网络权限。支持iOS13-iOS16系统
+Author: Netskao
+Name: 3DNetworkFixer联网修复-Roothide
 
 Package: netskao.filzacrack-rootless
 Version: 1.1-8
@@ -46,4 +689,239 @@ Homepage: https://tigisoftware.com/cydia/
 Description: Filza unlock full functionality, the main program please install in the official source
 Author: Netskao
 Name: Filza Crack-Rootless
+
+Package: oldabi
+Version: 0.3.1~4.f55e807
+Architecture: iphoneos-arm64e
+Maintainer: Evelyn
+Depends: mobilesubstrate, cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/依赖oldabi_0.3.1_Roothide.deb
+Size: 16400
+MD5sum: aee7cbdda4c03ed3966187a8376ccf7f
+SHA1: fc3119d11e1975cfff71cc8223856128ffbf8459
+SHA256: 9631dc0e3ba6333d771b98be7eac46c2f62171327dda453b0d77832e9000fb21
+Section: Tweak Injection
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: Evelyn
+Name: Legacy arm64e Support
+
+Package: org.mr.icleanerprorl
+Version: 7.10.0k
+Architecture: iphoneos-arm64e
+Maintainer: MainRepo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.10.0k_Roothide.deb
+Size: 1103248
+MD5sum: 837ff68664570af60ca9277b74a243c0
+SHA1: 854c836481d1d255c72b707d1ac19d699a0c2f7c
+SHA256: 8cd04e0c473d06d50a84b6023828fa84bacdf1bbd574a07a4ffc1bd6cf3e59f5
+Section: Utilities
+Description: 首款真正的iOS系统清理与优化工具。此版本为破解注册版！默认打开就是简体中文。
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: https://mrepo.org/depiction/5476
+Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
+Name: iCleaner Pro系统清理-Roothide
+Sileodepiction: https://mrepo.org/sileo/5476
+
+Package: se.geometric.graphite
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: Geometric Software
+Installed-Size: 656
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware(>=13.0), mobilesubstrate, firmware(<<17.0)
+Conflicts: com.muris.libgraphite
+Filename: debs/intelligentpass5依赖_2.0_Roothide.deb
+Size: 121756
+MD5sum: c5f158b32738529715836a4261bde6d0
+SHA1: 6d577828a72f0ef2fffb1c0c1e314a96c234ad0d
+SHA256: e0f7d002845a66c88486322549e762bbf686cd5327aa9dd9a5b07601da2dc22e
+Section: Development
+Description: powerful library for iOS development
+Tag: purpose::library role::developer
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/se.geometric.graphite
+Name: Graphite Library
+Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.graphite/depiction
+
+Package: se.geometric.intelligentpass5
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 444
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17), preferenceloader, se.geometric.graphite
+Filename: debs/intelligentpass5_1.0.1_Roothide.deb
+Size: 89340
+MD5sum: ae550a1994b630b69bb82339c1287090
+SHA1: ee24b2fa4d653e67db3f5175e13ef867545097b4
+SHA256: 4d53e1e8aa2cbd7d7cfb7bf4e91dd3e9e8d63b7021e4d094920f7c14822da0f2
+Section: Tweaks
+Description: 在熟悉特定的环境内无需使用密码面容解锁你的iPhone。
+Author: Geometric Software
+Depiction: https://repo.cypwn.xyz/depiction/1346
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/intelligentpass5.png
+Name: IntelligentPass 5免密解锁-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1346
+
+Package: ws.hbang.alderis
+Version: 1.2.3-8+debug
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6016
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: debs/Tinge依赖_1.2.3-8.deb
+Size: 857360
+MD5sum: 163162fd0db44b348478d1973d8576ea
+SHA1: ee9d931f1a598cbcc57a4757bb939fa2edd07204
+SHA256: 23338feb0fa8f0adbdd3ae843df1d191e18bd9450ef1e813983584cf0f094575
+Section: Development
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Dev: hbang
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+
+Package: xyz.cypwn.backgrounderaction15
+Version: 0.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts: jp.akusio.backgrounderaction15
+Replaces: jp.akusio.backgrounderaction15
+Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
+Filename: debs/BackgrounderAction15_0.1.0-1_Roothide.deb
+Size: 9460
+MD5sum: f366ddf124a385d88d50b361eec117b6
+SHA1: ea22803e396b7c5ba2200758fe10d9843a20b158
+SHA256: ef7a31d47f2a05c2ca2d7a99260a6cbdd832156d1d22acb73ce0030ab71edadb
+Section: Tweaks
+Description: Action CCSupport Action会在“控制中心”添加一个对当前应用“后台运行”的便捷按钮。
+Author: @akusio_RR
+Depiction: https://repo.cypwn.xyz/depiction/1640
+Name: Action CCSupport Action后台运行-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1640
+
+Package: xyz.cypwn.backgrounderaction15autostate
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.opa334.altlist
+Filename: debs/BackgrounderAction15Autostate_1.0.3_Roothide.deb
+Size: 25372
+MD5sum: 91dc6dde7250f917766991c090eee78f
+SHA1: 5437903acf7d63a34b9480f7774a72e0e3fe6714
+SHA256: 5b2515b5061bc2bae8cd87894c4572a4206223f0b8cc8625bbd69056e63af444
+Section: Tweaks
+Description: 一款真正可以让应用程序后台运行的插件。搭配同款控制中心后台运行插件BackgrounderAction15CCSupport效果更佳！这两款插件同时安装不冲突。
+Author: 0xkuj
+Depiction: https://repo.cypwn.xyz/depiction/2159
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/backgrounderaction15autostate.png
+Name: BackgrounderAction后台运行-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2159
+
+Package: xyz.cypwn.smartbatteryios15
+Version: 1.6
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ws.hbang.common
+Conflicts: com.idevicelover.smartbattery2
+Filename: debs/SmartBattery_1.6_Roothide.deb
+Size: 699216
+MD5sum: 85e86eb9cdc1717505813916b9e961b2
+SHA1: 03a4bb2f9900ed3bb3a74a4e7e9962dd1598cd13
+SHA256: 3bca2a815a47f12f307122cf6b8ca6381e0886e6101c84dbb0592dc767f6b1a2
+Section: Tweaks
+Description: 用于监控、保存和优化电池性能的终极优化插件。
+Author: elias
+Depiction: https://repo.cypwn.xyz/depiction/2217
+Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
+Name: SmartBattery省电优化-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2217
+
+Package: xyz.cypwn.sneakycam
+Version: 2.2.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: debs/SneakyCam_2.2.2_Roothide.deb
+Size: 109184
+MD5sum: 190b823cb290f584918ac751cfb9cf6a
+SHA1: fa816d9a40263191291d4f8519597a8e2086040c
+SHA256: 22269846f7900ffd15ec8a4cd7cf514af031b5fb498a1bfdbb073de9c97ae2c0
+Section: Tweaks
+Description: 在锁屏状态下或者在任意界面可以通过双击音量键来调用相机的视频录制和拍照。如果视频录制过程中有来电和微信CallKit呼叫或者其他音视频播放，该录制将会立即停止。温馨提示：VolumeMixer音量控制插件可以让播放音视频的同时开启后台录制。
+Author: Spark
+Depiction: https://repo.cypwn.xyz/depiction/2450
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
+Name: SneakyCam隐私相机-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2450
+
+Package: xyz.cypwn.tinge
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
+Filename: debs/Tinge_1.2.2_Roothide.deb
+Size: 40480
+MD5sum: 13c56a5c512159048a3db9bcb6bb4d35
+SHA1: 4858f177e7d6a6049c092b44e2bfdd5ab32d2599
+SHA256: 7c282415cdeb24110db6b3f0e998c3793a9fcb7403379bd7c2e03d231aa8b222
+Section: Tweaks
+Description: 通知角标颜色。跟随应用图标颜色自适应变色！
+Author: P2KDev
+Depiction: https://repo.cypwn.xyz/depiction/2706
+Icon: https://repo.cypwn.xyz/packages/Tinge-Rootless/icon.png
+Name: Tinge角标颜色-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2706
+
+Package: xyz.cypwn.xinam1ne
+Version: 2.6-8
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 15.0), com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
+Replaces: emt.paisseon.xinamine
+Provides: emt.paisseon.xinamine (= 99)
+Filename: debs/SneakyCam2.2.2依赖_2.6-8_Roothide.deb
+Size: 1946388
+MD5sum: dd090e78bf4af909d9bdedee8faf9d3b
+SHA1: a4b96682bedd70e37c19fada4a9cf0b53bb3ff09
+SHA256: 6d590bb9b0900c146464e08c191e164a5811a26c2f9c91da250565046277f04f
+Section: Utilities
+Description: 隐私相机SneakyCam设置开关修复依赖，安装后即可卸载。
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+Depiction: https://repo.cypwn.xyz/depiction/2816
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2816
+
+Package: z.weifeng
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: z
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/威锋去广告_1.5_Roothide.deb
+Size: 5540
+MD5sum: 59ac2a8080fe5e701f0a96c71a14f206
+SHA1: 889766df1aa8ea7ca8bce4474788acd86681770c
+SHA256: 8439135cfc7a579430d0cf32876db34dcb4fcec13049f6163df3d1f8e991fb2c
+Section: Tweaks
+Description: 威锋7.0.8去广告
+Author: z
+Name: 威锋去广告-Roothide
 
