@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+	
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>DELAY</string>
+			<key>footerText</key>
+			<string>Wait until Face ID success animation is completely finished before launching the protected item.</string>
+			
+		</dict>
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>waitUntilFinished</string>
+			<key>label</key>
+			<string>Wait until animation finishes</string>
+			<key>id</key>
+			<string>WAIT_TILL_FINISH</string>
+		</dict>
+ 
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>DELAY_TIME</string>
+			<key>footerText</key>
+			<string>Seconds to delay after a successful Face ID recognition (0.15 is recommended).</string>
+			
+		</dict>
+		
+		
+		
+		<dict>
+			<key>PostNotification</key>
+			<string>net.limneos.bioprotect.prefsChanged</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.15</real>
+			<key>min</key>
+			<real>0</real>
+			<key>max</key>
+			<real>0.5</real>
+			<key>isSegmented</key>
+			<true/>
+			<key>showValue</key>
+			<true/>
+			<key>segmentCount</key>
+			<integer>10</integer>
+			<key>defaults</key>
+			<string>net.limneos.bioprotect</string>
+			<key>key</key>
+			<string>waitDelay</string>
+			<key>id</key>
+			<string>WAIT_DELAY</string>
+		</dict>
+	
+		
+	
+	
+		
+	</array>
+	<key>title</key>
+	<string>Launch Delay</string>
+</dict>
+</plist>

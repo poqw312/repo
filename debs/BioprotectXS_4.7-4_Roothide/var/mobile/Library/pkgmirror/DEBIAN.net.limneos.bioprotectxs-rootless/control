@@ -1,0 +1,15 @@
+Package: net.limneos.bioprotectxs-rootless
+Name: BioProtect (rootless) (iOS 14 to 18) 
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Description: Protect your apps with Touch/Face ID!
+Depiction: http://limneos.net/bioprotectxs
+SileoDepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.bioprotectxs
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Author: Elias Limneos <limneoselias@gmail.com>
+Section: Tweaks
+MainLibMD5: 11a31f2c14af96f0ee846d1e06d5cfd0
+Architecture: iphoneos-arm64
+Version: 4.7-4
+Installed-Size: 2328
