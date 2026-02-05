@@ -73,6 +73,23 @@ Author: Mao
 Name: 微信助手-Roothide
 Sponsor: admin@25mao.com
 
+Package: com.82flex.singlevpn
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 404
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/SingleVPN上色_2.0_Roothide.deb
+Size: 34700
+MD5sum: 503b13ea3a04b496fd98b48f57e88e6a
+SHA1: 042fca5ad2f555927700481702fe2ab6d5cc3dbe
+SHA256: c8cb65df5aebd86377f287efe7798019b31323a56255b2e2fca98d9f871b1b8b
+Section: Tweaks
+Description: 将VPN状态和无线状态合并为一个图标。
+Author: 82Flex <82flex@gmail.com>
+Name: Single VPN-Roothide
+
 Package: com.HBWechatHelper.ailun
 Version: 2.0.2
 Architecture: iphoneos-arm64e
@@ -246,6 +263,24 @@ Author: gilshahar7, SquidForce
 Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
 Name: ExactTime通知时间-Roothide
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
+
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: MrGcGamer
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Filename: debs/依赖Libgcuniversal_1.7.0_Roothide.deb
+Size: 53172
+MD5sum: cfc4d7732d17412f94e89fb0cc84f822
+SHA1: 337f64d8bbc06f337382fc99492ae8890ef155a4
+SHA256: 52b5cbf44d50083889f0d04a2b77bcdb47ab8e891a3b16de763c0fe0b2b33453
+Section: 嗨-系统
+Description: 开发通用库，例如SettingsRevamp就需要依赖此；转换支持roothide。
+Tag: role::developer
+Author: MrGcGamer
+Name: LibGcUniversal(RootHide)
 
 Package: com.netskao.appdata
 Version: 1.4.4
@@ -578,6 +613,22 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/eneko.png
 Name: Eneko视频壁纸-Roothide
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/eneko/js.json
 
+Package: jp.uzra.aerial
+Version: 3.5
+Architecture: iphoneos-arm64e
+Maintainer: uz.ra
+Installed-Size: 2592
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/Aerial应用分屏_3.5_Roothide.deb
+Size: 1438596
+MD5sum: f523daea68569508c2056897c12f2b82
+SHA1: 29699a757a0ffa21f71ab383b861cbe6d835ac89
+SHA256: c621a3369ac57d5e887fb7fb2565d67d0ec154c2af6780121455db14b57fde1e
+Section: Tweaks
+Description: 应用分屏插件。主屏幕长按应用在弹出菜单中选择"Open Aerial"选项即可开启分屏模式。
+Author: uz.ra
+Name: Aerial应用分屏-Roothide
+
 Package: net.limneos.audiorecorderxs
 Version: 5.1-12
 Architecture: iphoneos-arm64e
@@ -598,6 +649,26 @@ Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.audior
 Mainlibmd5: 2bd89895e747af47790b0eb2f6bac296
 Name: AudioRecorder通话录音-Roothide
 Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.audiorecorderxs
+
+Package: net.limneos.autoanswerx-rootless
+Version: 2.0-2
+Architecture: iphoneos-arm64e
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 784
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/AutoanAwerx自动接听_2.0-2_Roothide.deb
+Size: 148468
+MD5sum: b3073942078b1940499b28cdf44255bf
+SHA1: c196845b0cc10780308f3fca45d6063b41e2187c
+SHA256: 2b53a3a6bb011b40f9c9ec98acbb8140b82388c244cc9579a6939ccad53054c2
+Section: Tweaks
+Description: 自动接听任何电话！本插件为官方完整版汉化，需要购买或者安装破解补丁即可使用。
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/autoanswerx
+Icon: file:///Library/PreferenceBundles/AutoAnswer.bundle/AutoAnswerXSettings@2x.png
+Mainlibmd5: f5ea088a5aa89b09cd693dde75214053
+Name: AutoAnswer XS自动接听-Roothide
 
 Package: net.limneos.bioprotectxs-rootless
 Version: 4.7-4
@@ -790,6 +861,45 @@ Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Name: Alderis Color Picker
 Support: https://hashbang.productions/support/
 
+Package: xyz.cypwn.anthocrack2
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/AnthoCrack2破解依赖_1.0.0_Roothide.deb
+Size: 3896
+MD5sum: bf29be3b303e1b2025081e57be82f0c8
+SHA1: b2f784af842cffb95937af248124c1a322307f5f
+SHA256: fd4c41573e3dd38f0eb2823c24092d3d681b30383de5e7b147d8bc0c62a686f0
+Section: Tweaks
+Description: 禁用AnthoPak系列插件的警告提示。這個是給95%的盜版者的。
+Author: CBZ
+Depiction: https://repo.cypwn.xyz/depiction/2153
+Name: AnthoCrack2
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2153
+
+Package: xyz.cypwn.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/AppsyncUnified_116.0_Roothide.deb
+Size: 32452
+MD5sum: 2a80e55ef71c8aa6b2c1195ea2325021
+SHA1: 02365a156000c2bf15e82c06ac9d0b4d641a9ebe
+SHA256: 714b8ef713f69a9502608669468507d0deaf12ec6fd569b5b8c25764006d8c8f
+Section: Tweaks
+Description: 允许在越狱版Filza中安装未签名iOS应用程序。
+Author: Karen/あけみ, Linus Yang
+Depiction: https://repo.cypwn.xyz/depiction/3213
+Name: AppSync Unified-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3213
+
 Package: xyz.cypwn.backgrounderaction15
 Version: 0.1.0-1
 Architecture: iphoneos-arm64e
@@ -830,6 +940,45 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/backgrounderaction15autostate.
 Name: BackgrounderAction后台运行-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2159
 
+Package: xyz.cypwn.cocoatop64
+Version: 2.2.4
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: debs/进程cocoatop64_2.2.4_Roothide.deb
+Size: 155068
+MD5sum: a9482fabc6c851da547debc985913cab
+SHA1: 5998b558c6dd8b2d8a326719d2e04022a6616491
+SHA256: 64a208b6b51523338010f7b1facf71cbc662722454ae5d724091b4b7df228faf
+Section: Utilities
+Description: iOS进程查看器。
+Author: Domo
+Depiction: https://repo.cypwn.xyz/depiction/2976
+Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
+Name: CocoaTop64-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2976
+
+Package: xyz.cypwn.limneos
+Version: 3.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/破解补丁Limneos_3.1_Roothide.deb
+Size: 5424
+MD5sum: 5e6d3f9de0e4ccc3fa0d21f173d6a5af
+SHA1: 8223704326eba7c26951a82620096053d283859f
+SHA256: 534bdc1d700a93812c51d6b77518f8fcdffee17f0fddd71ff19f97204e944407
+Section: Tweaks
+Description: Limneos系列插件破解补丁，安装官方源插件再安装本破解补丁即可。http://limneos.net/repo/
+Author: CBZ
+Depiction: https://repo.cypwn.xyz/depiction/1940
+Name: Limneos破解补丁-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1940
+
 Package: xyz.cypwn.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
@@ -868,6 +1017,25 @@ Depiction: https://repo.cypwn.xyz/depiction/2450
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
 Name: SneakyCam隐私相机-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2450
+
+Package: xyz.cypwn.teleport
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/虚拟定位Teleport_1.1_Roothide.deb
+Size: 7386088
+MD5sum: 529be56b508f70b77ac48523792fccb5
+SHA1: 6cb051a577e075cac224ce2dc224df8899faadec
+SHA256: 74762031df9a10a022be326f880ea17542f283afba31072d7d9f023353c0fa23
+Section: Tweaks
+Description: Spoof GPS location一款免费的虚拟定位插件，已完整汉化！第一次打开没有加载网络数据请安装3DNetworkFixer插件给它网络权限，可以配合应用商店"地图定位大师"App来获得经纬度数据来修改定位。
+Author: SGWC
+Depiction: https://repo.cypwn.xyz/depiction/1305
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/teleport.png
+Name: Teleport虚拟定位-Roothide
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1305
 
 Package: xyz.cypwn.tinge
 Version: 1.2.2
