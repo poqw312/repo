@@ -125,6 +125,24 @@ Author: Mao
 Name: 微信助手-Roothide
 Sponsor: admin@25mao.com
 
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信插件管理wcplugins_0.1-3_Roothide.deb
+Size: 19220
+MD5sum: 9a3f2aca03af47a326d444edfd7e7573
+SHA1: 8b000f41eeb290fdbc3961bbe27cd88cf9b8c321
+SHA256: 4d522b08698a7670619b09395134ef074c6b286e8771728eacf152e3407f9880
+Section: Rootless
+Priority: optional
+Description: 微信插件合集收纳归类。
+Author: Mao
+Name: 微信插件管理-Roothide
+Sponsor: admin@25mao.com
+
 Package: com.82flex.singlevpn
 Version: 2.0
 Architecture: iphoneos-arm64e
@@ -157,6 +175,27 @@ Section: Mao
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Roothide
+
+Package: com.amywhile.aemulotrial
+Version: 1.2.5
+Architecture: iphoneos-arm64e
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 1980
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulo
+Filename: debs/NFC_Aemulotrial_1.2.5_Roothide.deb
+Size: 599896
+MD5sum: 322ddc35b1e3de6587955417bd56b56b
+SHA1: 7b9c70e4b4388746f28efbbafc1d6812ab231c41
+SHA256: 91a2f025071d6c08aade4de0398578969fd61bf0caaadd7e0e5e31da1c1c03c6
+Section: Tweaks
+Description: 不能添加到钱包，可以正常使用模拟NFC功能。
+Author: Amy While <support@anamy.gay>
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
+Name: Aemulo-Roothide(免费版)
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 
 Package: com.apple.wechat.noads
 Version: 1.2.0
@@ -201,14 +240,14 @@ Architecture: iphoneos-arm64e
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 2332
 Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
-Filename: debs/Shuffle依赖libcspreferences.deb
-Size: 977006
-MD5sum: ef2364568f01ff257063f92eb487ed67
-SHA1: 01df1da76a53ba772d1804193e5741dea2cafd4d
-SHA256: 11971d0e1f467f2c5e79b9efd6d3628867623e6b7a2e976e17c40573d2c03bfc
+Filename: debs/依赖libcspreferences_1.5.8_Roothide.deb
+Size: 335560
+MD5sum: 17734489b46eb38c82a5a6ceff31b932
+SHA1: b35c67cea7b22b6c3737115e8253b6a159e3d49e
+SHA256: f89bc9afba008a3ddcbef34deaf682f487925d4c8f858e7b98c09e1ceea69b47
 Section: System
 Homepage: https://creaturecoding.com/
-Description: A Preference Library that doesn't suck!
+Description: 隐根越狱依赖插件。
 Tag: compatible_min::iOS9
 Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
@@ -276,6 +315,41 @@ Icon: https://axs66.github.io/pro/icon/wechat.png
 Name: 锤子助手-Roothide
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/dumpapp/js.json
 
+Package: com.flex2areo.apptools15rootless
+Version: 1.1.8
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 920
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/AppTools15全局高刷_1.1.8_Roothide.deb
+Size: 159160
+MD5sum: 7686c7ecc6f96c5bf110254ec87470fc
+SHA1: 1bb47b31d266fda224fd18ea209ad078067ddfdf
+SHA256: 70ba395311450417ba0d8fef35a9a9623a7920eab10bcaf2528b70d4c7901cb2
+Section: Tweaks
+Description: AppTools15比较低的一个版本，该插件的功能仅用来开启全局120高刷，安装后默认开启全局高刷模式。
+Author: aReo
+Name: AppTools15-Roothide
+
+Package: com.hk.rootless.cc
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc
+Filename: debs/控制中心模块合集_2.1_Roothide.deb
+Size: 498132
+MD5sum: c1885653cca8fdcdacb74b6b978e9923
+SHA1: 551206bb1457470419fbc81d09d2fcba4ef8278e
+SHA256: be5c680cbe1ee9c0c1f801fcb92b716607338c52bea6dff83d5ca30da642dad3
+Section: 嗨-工具
+Description: 超级控制中心模块集合！
+Author: 妖刀
+Name: CCLess++(RootHide)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
 Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64e
@@ -324,16 +398,16 @@ Installed-Size: 380
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
 Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
-Filename: debs/设置归类依赖LibGcUniversal1.7.0_Roothide.deb
-Size: 55588
-MD5sum: af2cc90fa5351a22de99338e7903f739
-SHA1: 6e4553bbc14d8996ec0b473927d1b45a453dcffc
-SHA256: 42b709cf12d19e0101e30e54ee3c669f51584a906f3770aff9d41586bfddf85d
+Filename: debs/依赖LibGcUniversal_1.7.0_Roothide.deb
+Size: 55548
+MD5sum: 945f4b0bf9cb96415e6740a9397d5b6d
+SHA1: 0f65e05abe4c4297f7cff0caa9ab72eab7ceb7ad
+SHA256: 0dcd13bb1f31418747502f187f8bc6c95783cba4d8302536d23c5ba7d691bb1e
 Section: Development
-Description: 隐根越狱依赖。
+Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: MrGcGamer
-Name: LibGcUniversal-Roothide
+Name: LibGcUniversal
 
 Package: com.netskao.appdata
 Version: 1.4.4
@@ -630,6 +704,23 @@ Description: Flex用于iOS开发调试工具，一款Flex3广告抓图辅助插�
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Name: FlexLoader广告抓图-Roothide
 
+Package: com.spark.libsparkapplist
+Version: 1.1.0~rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/依赖libsparkapplist_1.1.0_Roothide.deb
+Size: 26212
+MD5sum: 1c7c147ca9ace36ee2d5f0e4c216ca3f
+SHA1: ebb84c601de483122b270fb94ac287d68f768fba
+SHA256: 6128e0d8f5d35719e021d7ba4656bee7f19b8c828849eb2821d7643f2c6f6691
+Section: System
+Description: 隐根越狱依赖插件。
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
+
 Package: com.spark.snowboard
 Version: 1.5.37-Beta4-rootless
 Architecture: iphoneos-arm64e
@@ -914,14 +1005,14 @@ Architecture: iphoneos-arm64e
 Maintainer: Evelyn
 Depends: mobilesubstrate, cy+cpu.arm64e, firmware (>= 15.0)
 Filename: debs/依赖oldabi_0.3.1_Roothide.deb
-Size: 13208
-MD5sum: 9f46485b4c4b67cd7ae19563112c0e80
-SHA1: d8e9d3b635437aa8ed5c3f2ab73ac8d8ea6eb933
-SHA256: 588c536380ec83ae453aef22e73c8c6c75bffeee62969027dbfee566b486ac0e
+Size: 13160
+MD5sum: 4635647e8adc27358c8ad9e73bac0beb
+SHA1: 9977f34257d6f9e2737dbcab4a22fcaa6a427976
+SHA256: 4c14b5e7ee18f14ef21924f8b10505f62c6fcd538a4d623d326e1c993f899ca6
 Section: Tweak Injection
-Description: 隐根依赖插件。
+Description: 隐根越狱依赖插件。
 Author: Evelyn
-Name: Legacy arm64e Support-Roothide
+Name: Legacy arm64e Support
 
 Package: org.mr.icleanerprorl
 Version: 7.10.0k
@@ -952,13 +1043,13 @@ Installed-Size: 656
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware(>=13.0), mobilesubstrate, firmware(<<17.0)
 Conflicts: com.muris.libgraphite
-Filename: debs/intelligentpass5依赖_2.0_Roothide.deb
-Size: 121756
-MD5sum: c5f158b32738529715836a4261bde6d0
-SHA1: 6d577828a72f0ef2fffb1c0c1e314a96c234ad0d
-SHA256: e0f7d002845a66c88486322549e762bbf686cd5327aa9dd9a5b07601da2dc22e
+Filename: debs/依赖intelligentpass5_2.0_Roothide.deb
+Size: 90296
+MD5sum: 5f66d7cd2d277b99e59e89c0f48c70fc
+SHA1: 83abf88ef2ed05f40feaeafe4344dbc68914a885
+SHA256: 5a8bbc6024a6203f5a292a4e07289aeac0d7903fe44bbb542ccccaf1906c370d
 Section: Development
-Description: powerful library for iOS development
+Description: 隐根越狱依赖插件。
 Tag: purpose::library role::developer
 Author: Geometric Software
 Depiction: https://store.geometricsoftware.se/packages/se.geometric.graphite
@@ -993,19 +1084,39 @@ Installed-Size: 6016
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
 Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
 Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
-Filename: debs/Tinge依赖_1.2.3-8.deb
-Size: 857360
-MD5sum: 163162fd0db44b348478d1973d8576ea
-SHA1: ee9d931f1a598cbcc57a4757bb939fa2edd07204
-SHA256: 23338feb0fa8f0adbdd3ae843df1d191e18bd9450ef1e813983584cf0f094575
+Filename: debs/依赖Alderis_1.2.3-8_Roothide.deb
+Size: 551276
+MD5sum: 2d1de373780a20e110a932ac38d85324
+SHA1: 84a2055b46363421372b48557c5d32a30137b898
+SHA256: 92c4902ccf6d872680fe8c23f40572a55b760c32ef8f6e8b56faed9568748f69
 Section: Development
-Description: Color picker support library for tweaks
+Description: 隐根越狱依赖插件。
 Tag: role::developer, compatible_min::ios12.0
 Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://chariz.com/get/alderis
 Dev: hbang
 Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
 Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0-29
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: debs/依赖Cephei Tweak Support_2.0-29_Roothide.deb
+Size: 270128
+MD5sum: 30575dcb611b643a4ead75dc762f644c
+SHA1: f402eb369b295c4801579b0aeb73890c583a76e4
+SHA256: 0fde566d77c6e6f1283290be3cbd09b45d163cf24d25e58aabdd29d907552eaa
+Section: Development
+Description: 隐根越狱依赖插件。
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
 Package: xyz.cypwn.anthocrack2
