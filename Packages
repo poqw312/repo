@@ -435,10 +435,10 @@ Installed-Size: 5188
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: debs/AppData_1.4.5_Roothide.deb
-Size: 1496128
-MD5sum: 615638b201f6328526d93399ed41a2b9
-SHA1: 0182ab456af94568648eb4ad97d6741b652b472b
-SHA256: 901602166f02cb8a0d955846c8830f53a0116d4d7738d3ed783afbd3a76752cc
+Size: 1495772
+MD5sum: f2ea306cd8ab960f8a40c3bcb28e2893
+SHA1: cc8c200865291d41d211dd0136152b5cc6961d2c
+SHA256: c5333a7cef0b704a60c8542f96ca5bfb33bb3d297cab6967581cef91b488e795
 Section: Netskao-Tweaks
 Description: 从主屏幕查看和管理应用程序数据，1.4.5版本修改API界面，以获取应用程序的降级版本号
 Author: Fouad Raheb
