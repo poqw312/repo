@@ -297,6 +297,25 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC微信插件-Roothide
 
+Package: com.curtin.pkc.rootless
+Version: 0.8-9
+Architecture: iphoneos-arm64e
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信PKC_0.8-9_Roothide.deb
+Size: 957384
+MD5sum: fc141c880984e327b914092ac8107d8b
+SHA1: a56c0dbf5737bcf045a0e80dbaaf3f106f48b878
+SHA256: 2d0d9fe611027406f758b00fa3d8b68430b7163207bb79f06916c2b1b1b04a8c
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等功能。
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC微信插件-Roothide
+
 Package: com.dumpapp.wechat-rootless
 Version: 2.3.0
 Architecture: iphoneos-arm64e
