@@ -1255,6 +1255,28 @@ Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
 Name: CocoaTop64-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2976
 
+Package: xyz.cypwn.dockx
+Version: 2.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 2036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: debs/DockX_2.6.2_Roothide.deb
+Size: 412700
+MD5sum: 9d15957414f36e3d2ed8110287117c18
+SHA1: 7ce9331faa247254a69bdc7d946c133ff531ba24
+SHA256: 214f394cae49e2d97a9a4c816190a7d33411623703393e0d6ea65cbe173be6bc
+Section: Tweaks
+Description: 键盘栏上的剪贴板快捷方式！键盘底部增加：全选、复制、剪切、粘贴、撤销功能等按钮！
+Author: udevs
+Depiction: https://repo.cypwn.xyz/depiction/2759
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX-Roothide
+Otherdepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2759
+
 Package: xyz.cypwn.killapps-rootless
 Version: 1.2-2
 Architecture: iphoneos-arm64e
