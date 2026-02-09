@@ -592,13 +592,13 @@ Maintainer: PoomSmart
 Installed-Size: 152
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
-Filename: debs/修复电池健康_1.0.0_Roothide.deb
-Size: 6584
-MD5sum: c27502e7d6208292dea66c6f00d93c46
-SHA1: 3af434f3077e58629455e530ddd0f7f43c44b9e1
-SHA256: 7068096b81589b94f8ec3b6a6fd7b88de9069e4417fdf8e37afc0d6d28df8826
+Filename: debs/Batteryhealth电池健康_1.0.0_Roothide.deb
+Size: 6628
+MD5sum: 770bb5c693db3628a25eb3f2f7c71bfe
+SHA1: 14b4c45150ee5f4e7f0b1f158fc3c4b847b258e6
+SHA256: 39df169d6f661635d56e64b29034dc55d02eaffa9ee9b69bbd1a1ecad0731b05
 Section: Tweaks
-Description: 在不支持的设备上开启电池健康功能。
+Description: 修复更换第三方电池后显示维修和无法正常显示电池健康度等问题。
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
 Name: Battery Health Enabler电池健康-Roothide
