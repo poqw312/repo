@@ -464,6 +464,24 @@ Author: Fouad Raheb
 Name: AppData应用数据-Roothide
 Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.appdata
 
+Package: com.netskao.appdata
+Version: 1.4.6
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 5140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/AppData_1.4.6_Roothide.deb
+Size: 1504448
+MD5sum: 0ea0995927884da843dc3be7f8bfbd86
+SHA1: 830cedf84e0e77df5968627cb56841db675fb13f
+SHA256: b7e8cdaa8e5ceb1f36457c94295d5ec9f5a0ee2087283dcfeeb73638f11a1dda
+Section: Netskao-Tweaks
+Description: 从主屏幕查看和管理应用程序数据。v1.4.6修复iOS15系统崩溃问题v1.4.5修改获取应用程序降级版本号的API接口。
+Author: Fouad Raheb
+Name: AppData应用数据-Roothide
+Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.appdata
+
 Package: com.netskao.ccsim
 Version: 1.1-9
 Architecture: iphoneos-arm64e
