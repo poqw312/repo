@@ -949,10 +949,10 @@ Installed-Size: 17412
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/抖音助手_2.1-4_Roothide.deb
-Size: 13518632
-MD5sum: d9d48544519ffa66ca87066b1b13eed4
-SHA1: 2a77527a5135f9c5ccfd0161e81996e773dbb1a6
-SHA256: 5cfca91fdc1a1b28bf78ddddda671894a809823e98d887deae60da4278bd37c6
+Size: 13526220
+MD5sum: c3b12a5226858331e29a81c64f7c323d
+SHA1: 8cdf0a4fbc4914a0dd0d479ae3ca504fb9060681
+SHA256: 056a454e26b90a93293b97e5cd3aaf76e1a998fc6345bccd146b5e4fa67f0441
 Section: Tweaks
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
