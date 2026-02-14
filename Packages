@@ -332,6 +332,25 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC(微信插件)-Roothide
 
+Package: com.curtin.pkc.rootless
+Version: 0.9-2
+Architecture: iphoneos-arm64e
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信PKC_0.9-2_Roothide.deb
+Size: 967344
+MD5sum: ffa4c7918db06f4d10e07d0e50035261
+SHA1: ff8ff8d96258391186307b1ba1ddef599547a468
+SHA256: 809cfad8e92cf9811d6862197d24230fa4f75296e50362c9b9d43170834f485c
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等功能。
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(微信插件)-Roothide
+
 Package: com.dumpapp.wechat-rootless
 Version: 2.3.0
 Architecture: iphoneos-arm64e
@@ -915,6 +934,25 @@ Size: 13512620
 MD5sum: 87bac44c4f5cef2fcc3b7eb95c292a59
 SHA1: bcda5db7f4f1c9bc1c3374bdd1a34aaa7ed0025c
 SHA256: c97bedddeca9e1e0f7866500a5e859da93ef23b7fa1fc27b43b8943ea01f384b
+Section: Tweaks
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
+Package: com.xuuz.douyinhelper
+Version: 2.1-4
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.1-4_Roothide.deb
+Size: 13518632
+MD5sum: d9d48544519ffa66ca87066b1b13eed4
+SHA1: 2a77527a5135f9c5ccfd0161e81996e773dbb1a6
+SHA256: 5cfca91fdc1a1b28bf78ddddda671894a809823e98d887deae60da4278bd37c6
 Section: Tweaks
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
