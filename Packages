@@ -161,22 +161,6 @@ Author: 82Flex <82flex@gmail.com>
 Name: Single VPN-Roothide
 
 Package: com.HBWechatHelper.ailun
-Version: 2.0.2
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.0.2_Roothide.deb
-Size: 25817324
-MD5sum: 7ccfcef0db27b5d85f7a91751753105f
-SHA1: 5edcd65c9109a797d4cc53aa11ccd09edd18e2a4
-SHA256: c99825253955532e9e538f9f555d0327a61628b321fc4d6d5515c5d363e22aa2
-Section: Mao
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
-
-Package: com.HBWechatHelper.ailun
 Version: 2.0.3
 Architecture: iphoneos-arm64e
 Maintainer: HuangBai <QQ:1343309363@qq.com>
@@ -293,25 +277,6 @@ Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle设置归类-Roothide
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
-
-Package: com.curtin.pkc.rootless
-Version: 0.8-9
-Architecture: iphoneos-arm64e
-Maintainer: curtinlv@126.com
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0)
-Filename: debs/微信PKC_0.8-9_Roothide.deb
-Size: 957384
-MD5sum: fc141c880984e327b914092ac8107d8b
-SHA1: a56c0dbf5737bcf045a0e80dbaaf3f106f48b878
-SHA256: 2d0d9fe611027406f758b00fa3d8b68430b7163207bb79f06916c2b1b1b04a8c
-Section: PKC-插件
-Priority: optional
-Homepage: https://github.com/curtinlv
-Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等功能。
-Author: Curtin
-Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
-Name: PKC微信插件-Roothide
 
 Package: com.curtin.pkc.rootless
 Version: 0.9-3
@@ -461,24 +426,6 @@ Description: 查看和管理应用程序数据。
 Author: Fouad Raheb
 Name: AppData应用数据-Roothide
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
-
-Package: com.netskao.appdata
-Version: 1.4.5
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 5188
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/AppData_1.4.5_Roothide.deb
-Size: 1495772
-MD5sum: f2ea306cd8ab960f8a40c3bcb28e2893
-SHA1: cc8c200865291d41d211dd0136152b5cc6961d2c
-SHA256: c5333a7cef0b704a60c8542f96ca5bfb33bb3d297cab6967581cef91b488e795
-Section: Netskao-Tweaks
-Description: 从主屏幕查看和管理应用程序数据，1.4.5版本修改API界面，以获取应用程序的降级版本号
-Author: Fouad Raheb
-Name: AppData应用数据-Roothide
-Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.appdata
 
 Package: com.netskao.appdata
 Version: 1.4.6
@@ -853,7 +800,7 @@ Maintainer: Spark
 Installed-Size: 476
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
-Filename: debs/snowboard.ui_1.3.0_Roothide.deb
+Filename: debs/SnowBoard.UI_1.3.0_Roothide.deb
 Size: 67416
 MD5sum: 7aae8d5a84cd9a1177a96c679395427c
 SHA1: 6816fe6a9aeff94d29c8d93530ad73e8d45d4cdf
@@ -900,44 +847,6 @@ Section: Tweaks
 Description: 微信插件，支持聊天按钮布局自定义等。
 Author: 愫 茶
 Name: WeChatEnhance-Roothide
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-2
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17412
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.1-2_Roothide.deb
-Size: 13504344
-MD5sum: 649bb3c13dcbe87c04a47c2ac633281d
-SHA1: 63e530177c11cb2569efe7d42cd412b835071303
-SHA256: fc41e1cca01df418fe4369d686ddb02d982f28ba0aedc270d6e198d1bf22da05
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-3
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17412
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.1-3_Roothide.deb
-Size: 13512620
-MD5sum: 87bac44c4f5cef2fcc3b7eb95c292a59
-SHA1: bcda5db7f4f1c9bc1c3374bdd1a34aaa7ed0025c
-SHA256: c97bedddeca9e1e0f7866500a5e859da93ef23b7fa1fc27b43b8943ea01f384b
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
 
 Package: com.xuuz.douyinhelper
 Version: 2.1-4
