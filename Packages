@@ -1270,24 +1270,6 @@ Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
 Name: CocoaTop64-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2976
 
-Package: xyz.cypwn.cracktool5
-Version: 5.2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: debs/CrackTool5_5.2_Roothide.deb
-Size: 167154176
-MD5sum: bd936326192e4500f060448efe4a54a4
-SHA1: 3326553f65e197b5419b15a3ced64f97800e7a62
-SHA256: d70dd4a4bae3aba64ff9deabb42527719d2544e00494e66907c592ea9e422f6a
-Section: Utilities
-Homepage: https://twitter.com/ijulioverne
-Description: 一键破解Limneos系列插件，支持iOS15-iOS17
-Author: julioverne
-Icon: https://repo.cypwn.xyz/packages/CrackTool5iOS1517rootless-Rootless/icon.png
-Name: CrackTool5-Roothide
-
 Package: xyz.cypwn.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64e
