@@ -846,6 +846,23 @@ Description: SnowBoard主题平台图标遮罩拓展模块。
 Author: Spark
 Name: SnowBoard图标拓展-Roothide
 
+Package: com.spark.snowboard.ui
+Version: 1.3.0~Beta2-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 476
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: debs/snowboard.ui_1.3.0_Roothide.deb
+Size: 67416
+MD5sum: 7aae8d5a84cd9a1177a96c679395427c
+SHA1: 6816fe6a9aeff94d29c8d93530ad73e8d45d4cdf
+SHA256: ae4e8140d660a67b84713358f7ae2b45010a5dc751228dff196bd8a2f6b413f7
+Section: SnowBoard Extensions
+Description: 扩展主题插件的用户界面
+Author: Spark
+Name: SnowBoard UI扩展-Roothide
+
 Package: com.susu.nopreferencetips
 Version: 1.0.4
 Architecture: iphoneos-arm64e
@@ -1343,6 +1360,24 @@ Depiction: https://repo.cypwn.xyz/depiction/2976
 Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
 Name: CocoaTop64-Roothide
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2976
+
+Package: xyz.cypwn.cracktool5
+Version: 5.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: debs/CrackTool5_5.2_Roothide.deb
+Size: 167154176
+MD5sum: bd936326192e4500f060448efe4a54a4
+SHA1: 3326553f65e197b5419b15a3ced64f97800e7a62
+SHA256: d70dd4a4bae3aba64ff9deabb42527719d2544e00494e66907c592ea9e422f6a
+Section: Utilities
+Homepage: https://twitter.com/ijulioverne
+Description: 一键破解Limneos系列插件，支持iOS15-iOS17
+Author: julioverne
+Icon: https://repo.cypwn.xyz/packages/CrackTool5iOS1517rootless-Rootless/icon.png
+Name: CrackTool5-Roothide
 
 Package: xyz.cypwn.dockx
 Version: 2.6.2
