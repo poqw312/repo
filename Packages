@@ -703,6 +703,24 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
 Name: CylinderReborn图标特效-Roothide
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/cylinderreborn/js.json
 
+Package: com.sergy.immortalizer
+Version: 2.3
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 720
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Filename: debs/真后台immortalizer_2.3_Roothide.deb
+Size: 56796
+MD5sum: 454e32b78d853398c51927e0fe7f084e
+SHA1: a012103fee9eb290f70b78e652094520f40ddcf5
+SHA256: 8600d06a541d8aff7be01f796228b7af61c3348ff6a6676f8f7593f6b2be84e3
+Section: 系统增强
+Description: 让应用程序保持在后台运行。
+Author: sergy, Korboy <korboybeats@gmail.com>
+Icon: https://repo.cypwn.xyz/packages/Immortalizer-Rootless/icon.png
+Name: Immortalizer真后台-Roothide
+
 Package: com.shtm.flexibleexpression
 Version: 1.2.0
 Architecture: iphoneos-arm64e
