@@ -601,6 +601,29 @@ Description: 高级插件配置器，可单独为每个程序启用/禁用插件
 Author: opa334 <opa334@protonmail.com>
 Name: Choicy屏蔽越狱-Roothide
 
+Package: com.opa334.libsandy
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 417
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: debs/依赖Libsandy_1.1.6_Roothide.deb
+Size: 20352
+MD5sum: 143a49f4d23e42287fac67d0a73e1594
+SHA1: 8ebb50c33b2b3bbaf3f080786a4caa42df87ace5
+SHA256: 760fbf1f39514fe681a0e5fca05cc025e6dec1f89c84b9ca9fbaf3968e24dce6
+Section: 依赖插件
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Description: 隐根越狱依赖插件。
+Tag: purpose::extension, role::developer
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
+Dev: opa334
+Name: libSandy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.ps.batteryhealthenabler
 Version: 1.0.0
 Architecture: iphoneos-arm64e
