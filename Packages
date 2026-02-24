@@ -108,22 +108,21 @@ Author: Mao
 Name: 左滑返回-Roothide
 
 Package: com.25mao.miyou.rootless
-Version: 3.9-1
+Version: 3.9-2
 Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: debs/微信助手_3.9-1_Roothide.deb
-Size: 10288356
-MD5sum: c3104914ed76433026f36f2481f4d927
-SHA1: 70b1d3bea671c6ba9e0f68a935a70ca51a089224
-SHA256: f9f9f7b8af8fe3ae9099bbee30a9e50aa1beff0153d913ac0db756e4db4acbee
-Section: Rootless
+Filename: debs/微信助手_3.9-2_Roothide.deb
+Size: 8160544
+MD5sum: 6998de3f315dc12af8c14c312625e7d0
+SHA1: 4563c7ffa5068dc8762dae515af9da36e7a5eb26
+SHA256: 49a0decabc45bf76ba50923e94f5a93bcc8dadf5b34de6ad2d9a4b7f5ea7a0c2
+Section: 微信插件
 Priority: optional
-Description: 修复3.9.0斗图按钮以及发送按钮错位的特性，修复热更新后导致工具栏失效问题，修复消息时间问题，概率性修复群助手功能，建议使用折叠的聊天功能或者其他带有分组功能的插件。
+Description: 微信助手-Roothide
 Author: Mao
 Name: 微信助手-Roothide
-Sponsor: admin@25mao.com
 
 Package: com.25mao.wcplugins.rootless
 Version: 0.1-3
