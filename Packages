@@ -294,25 +294,6 @@ Name: Shuffle设置归类-Roothide
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 
 Package: com.curtin.pkc.rootless
-Version: 0.8-9
-Architecture: iphoneos-arm64e
-Maintainer: curtinlv@126.com
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0)
-Filename: debs/微信PKC_0.8-9_Roothide.deb
-Size: 957384
-MD5sum: fc141c880984e327b914092ac8107d8b
-SHA1: a56c0dbf5737bcf045a0e80dbaaf3f106f48b878
-SHA256: 2d0d9fe611027406f758b00fa3d8b68430b7163207bb79f06916c2b1b1b04a8c
-Section: PKC-插件
-Priority: optional
-Homepage: https://github.com/curtinlv
-Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等功能。
-Author: Curtin
-Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
-Name: PKC微信插件-Roothide
-
-Package: com.curtin.pkc.rootless
 Version: 0.9-3
 Architecture: iphoneos-arm64e
 Maintainer: curtinlv@126.com
@@ -324,6 +305,25 @@ MD5sum: df43959ab2ec9b35ec8aa78f73414a9d
 SHA1: b9dc08d00fa4cca5402aafd5b2c032f675d6c4d2
 SHA256: 0ac7b58acc2866f10daf8098ae7fbec1127da8fcc34bc417af08adb7084dfc1d
 Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等。
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(微信插件)-Roothide
+
+Package: com.curtin.pkc.rootless
+Version: 0.9-4
+Architecture: iphoneos-arm64e
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信PKC_0.9-4_Roothide.deb
+Size: 983768
+MD5sum: ef0984987e99b097d57cad59ffda730c
+SHA1: 893854f1e5447d41faa4609425dce7a4807cfa4e
+SHA256: c2db1971943c7c1945f4e7869739668f28bf719efa62ed0af708eace4fbdba2f
+Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
 Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等。
