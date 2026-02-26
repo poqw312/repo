@@ -366,6 +366,23 @@ Description: AppTools15比较低的一个版本，该插件的功能仅用来开
 Author: aReo
 Name: AppTools15-Roothide
 
+Package: com.flex3.processor
+Version: 1.0-4+debug
+Architecture: iphoneos-arm64e
+Maintainer: DXcool223
+Installed-Size: 2112
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), python3, com.opa334.libsandy, unzip
+Filename: debs/Flex3 Processor_1.0-4_Roothide.deb
+Size: 1163956
+MD5sum: 943b70da8acf2372388ec9002249db84
+SHA1: bed7349610523577440b1d9f300c6a04f45f3064
+SHA256: 54820a5dd1f9b89681d5c99c24067c0c2b9b686bff605febfc8f484dc26fec1d
+Section: Applications
+Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插件可以独立对砸壳后的iPA软件包进行解析，点击"Select File"选择你要解析的iPA包(自行砸壳)，然后点击"Execute"即可开始解析，解析成功后会提示解析文件的存放路径。
+Author: DXcool223
+Name: Flex3应用解析-Roothide
+
 Package: com.hk.rootless.cc
 Version: 2.1
 Architecture: iphoneos-arm64e
@@ -1049,6 +1066,41 @@ Author: uz.ra
 Icon: https://repo.cypwn.xyz/packages/Aerial-Rootless/icon.png
 Name: Aerial应用分屏-Roothide
 
+Package: libgdbm6
+Version: 1.19
+Architecture: iphoneos-arm64e
+Maintainer: RootHide <RootHideDev@twitter>
+Installed-Size: 424
+Depends: roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libintl8
+Suggests: libgdbm6-locale
+Conflicts: libgdbm (<< 1.19)
+Replaces: libgdbm (<< 1.19)
+Provides: libgdbm (= 1.19)
+Filename: debs/依赖libgdbm6_1.19_Roothide.deb
+Size: 80404
+MD5sum: 9759189835ab4c691f3a186bc7f6644a
+SHA1: 4ef58481246141a53e7196b043f014cfad246450
+SHA256: 58684980ca4f71c6097b2c237de35b42d030070c4f1bcec792d8e52f1d1ff113
+Section: 依赖插件
+Description: 隐根越狱依赖插件。
+
+Package: libpython3.9
+Version: 3.9.9-2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 70400
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libncursesw6 (>= 6.0), libreadline8 (>= 8.0), libssl3, libffi8, liblzma5 (>= 5.2.5), libgdbm6, libintl8, firmware (>= 14.0) | libexpat1, libcrypt2
+Conflicts: python3.9 (<< 3.9.5)
+Replaces: python3.9 (<< 3.9.5)
+Filename: debs/依赖libpython3.9_3.9.9-2_Roothide.deb
+Size: 16842908
+MD5sum: 6e8c19c5e0c034b8cf572faf439b0716
+SHA1: 60b098480dbc467eb1e92b94639916d946da77b3
+SHA256: 1af24baaf09785cb64b4e1d84eea4a39c6304ef5a11f204a46eb54718891d039
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。
+
 Package: net.limneos.audiorecorderxs
 Version: 5.1-12
 Architecture: iphoneos-arm64e
@@ -1199,6 +1251,36 @@ Depiction: https://mrepo.org/depiction/5476
 Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
 Name: iCleaner Pro系统清理-Roothide
 Sileodepiction: https://mrepo.org/sileo/5476
+
+Package: python3
+Version: 3.9.9-2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 16
+Depends: roothide (>= 0.0.9), python3.9
+Filename: debs/依赖python3_3.9.9-2_Roothide.deb
+Size: 5360
+MD5sum: b053bad309b3fb9cd10fc8b73a1619d4
+SHA1: 90bd0ee49ca47d2766217d6a9dd01be9fcec9cdb
+SHA256: 1d74a95ba7985c0e0f09174be6622e24faa2050fcc47adde121c3c6f1b2f2cca
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。
+
+Package: python3.9
+Version: 3.9.9-2
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 92
+Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2), libpython3.9 (= 3.9.9-2)
+Filename: debs/依赖python3.9_3.9.9-2_Roothide.deb
+Size: 14260
+MD5sum: 1591ce5c13d394a46e482b5e2be31333
+SHA1: 9320e6b2fa8c3d7fd5cef03f2f17e3769930a839
+SHA256: dd75e3085b0aa10fd1a17f3f38ac96bd4cfeafa3a69e77a7171637b79b3c9102
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。
 
 Package: se.geometric.graphite
 Version: 2.0
