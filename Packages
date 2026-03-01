@@ -160,22 +160,6 @@ Author: 82Flex <82flex@gmail.com>
 Name: Single VPN-Roothide
 
 Package: com.HBWechatHelper.ailun
-Version: 2.0.2
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.0.2_Roothide.deb
-Size: 25817324
-MD5sum: 7ccfcef0db27b5d85f7a91751753105f
-SHA1: 5edcd65c9109a797d4cc53aa11ccd09edd18e2a4
-SHA256: c99825253955532e9e538f9f555d0327a61628b321fc4d6d5515c5d363e22aa2
-Section: Mao
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
-
-Package: com.HBWechatHelper.ailun
 Version: 2.0.3
 Architecture: iphoneos-arm64e
 Maintainer: HuangBai <QQ:1343309363@qq.com>
@@ -188,6 +172,22 @@ SHA1: 3afad2f336eb6db722d3cdd8ecec3e9d7205da5b
 SHA256: 21788e2feab68517df68585d383e2bdf67e2844755904f971f442025afb652b0
 Section: Mao
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Roothide
+
+Package: com.HBWechatHelper.ailun
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/黄白助手_2.0.4_Roothide.deb
+Size: 26612744
+MD5sum: 2535fb8ee62b733421aa0f071ece4438
+SHA1: a7a2d3204a8d141e1b336d0501d6fb316c674502
+SHA256: 507e48d63e6e0b31dc06484ba0fbbfad6f654850628067fc5d50580a5cc45665
+Section: 微信插件
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Roothide
 
