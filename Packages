@@ -1103,15 +1103,13 @@ Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate, xyz.cypwn.limneos, preferenceloader, firmware ( >= 12)
 Filename: debs/Glow息屏特效_0.6-6_Roothide.deb
-Size: 224684
-MD5sum: 5c59d81b7620e86b8b399c5e63bd0b87
-SHA1: c7b0f4b2185d37793e66c1fc447874993b593994
-SHA256: 61f8230a2d88ad5cb4e43b664a88879d53fd64f587244a38a337ea3791182315
-Section: Tweaks
+Size: 224768
+MD5sum: 4ae5673ae5885227ef00045c43e7c3f6
+SHA1: f415f0a0f70ea1f9db3bbd08a9c1301b95eac205
+SHA256: eaa4cc2e2c008c2dbef59697240029f40c955e29af2d6583c232b71db1b2b2a2
+Section: 美化插件
 Description: 让你的锁屏发光吧！本插件为官方正版，已加入完整汉化。
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://limneos.net/glow/
-Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
 Mainlibmd5: 6917b0465197e155f5385405b1258fef
 Name: Glow息屏特效-Roothide
 
@@ -1345,16 +1343,14 @@ Conflicts: jp.akusio.backgrounderaction15
 Replaces: jp.akusio.backgrounderaction15
 Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
 Filename: debs/BackgrounderAction15_0.1.0-1_Roothide.deb
-Size: 9460
-MD5sum: f366ddf124a385d88d50b361eec117b6
-SHA1: ea22803e396b7c5ba2200758fe10d9843a20b158
-SHA256: ef7a31d47f2a05c2ca2d7a99260a6cbdd832156d1d22acb73ce0030ab71edadb
+Size: 11484
+MD5sum: 2b986b4dd4113b54df26904851273b22
+SHA1: dd86bcbb7f34b205ffdf5f42326d348e809fbe0d
+SHA256: 669ee0f96e1b71420add46003892f0ff765030cc5b9a69df9ecd242fef888db9
 Section: Tweaks
 Description: Action CCSupport Action会在“控制中心”添加一个对当前应用“后台运行”的便捷按钮。
 Author: @akusio_RR
-Depiction: https://repo.cypwn.xyz/depiction/1640
 Name: Action CCSupport Action后台运行-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1640
 
 Package: xyz.cypwn.backgrounderaction15autostate
 Version: 1.0.3
@@ -1362,18 +1358,15 @@ Architecture: iphoneos-arm64e
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.opa334.altlist
-Filename: debs/BackgrounderAction15Autostate_1.0.3_Roothide.deb
-Size: 25372
-MD5sum: 91dc6dde7250f917766991c090eee78f
-SHA1: 5437903acf7d63a34b9480f7774a72e0e3fe6714
-SHA256: 5b2515b5061bc2bae8cd87894c4572a4206223f0b8cc8625bbd69056e63af444
+Filename: debs/BackgGrounderaAction15_1.0.3_Roothide.deb
+Size: 25336
+MD5sum: 2257de188465f239c546289c5cef9adb
+SHA1: 42528f1cee26b5ea3c02b15a1b5d9ce11aa98770
+SHA256: f78342243807675ce0f0ca40196bdb91467ba5e9a6520c0df5f6cce35348cc0b
 Section: Tweaks
 Description: 一款真正可以让应用程序后台运行的插件。搭配同款控制中心后台运行插件BackgrounderAction15CCSupport效果更佳！这两款插件同时安装不冲突。
 Author: 0xkuj
-Depiction: https://repo.cypwn.xyz/depiction/2159
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/backgrounderaction15autostate.png
 Name: BackgrounderAction后台运行-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2159
 
 Package: xyz.cypwn.cocoatop64
 Version: 2.2.4
@@ -1404,18 +1397,14 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Conflicts: com.restiveconch.actionbar
 Filename: debs/DockX_2.6.2_Roothide.deb
-Size: 412700
-MD5sum: 9d15957414f36e3d2ed8110287117c18
-SHA1: 7ce9331faa247254a69bdc7d946c133ff531ba24
-SHA256: 214f394cae49e2d97a9a4c816190a7d33411623703393e0d6ea65cbe173be6bc
+Size: 412532
+MD5sum: 8017419ab7108cd7f7515d5cf6786602
+SHA1: 4585d7894fd4d4379833c766f84b9d36afd7b7e8
+SHA256: 6e2a8efa81a4a47ea91906195705839b12b58958b544f337e459a5c3886b1bda
 Section: Tweaks
 Description: 键盘栏上的剪贴板快捷方式！键盘底部增加：全选、复制、剪切、粘贴、撤销功能等按钮！
 Author: udevs
-Depiction: https://repo.cypwn.xyz/depiction/2759
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX-Roothide
-Otherdepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2759
 
 Package: xyz.cypwn.killapps-rootless
 Version: 1.2-2
@@ -1424,16 +1413,14 @@ Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: debs/KillApps_1.2-2_Roothide.deb
-Size: 934792
-MD5sum: 687ec1c7dd7916cd9a641fb92414c0cd
-SHA1: 0fbb989765f5186cb3d9a474db119e8a937673e5
-SHA256: a2cbbd791354b2769e0ca606e16f9fc506497b29b24838b0506236075385596b
+Size: 934712
+MD5sum: 793729947744a4cb7941a34521352ddf
+SHA1: ee1f995bf9988feea29ddb6ae71f5d30a882c46a
+SHA256: 098291e7e3035622beef6582d420d9bc7bd0adbbb4d5fa4e095867bda0789680
 Section: Tweaks
 Description: 一键关闭所有后台应用程序。支持清理白名单，支持向上滑动黑名单
 Author: Netskao
-Depiction: https://repo.cypwn.xyz/depiction/1634
 Name: KillApps关闭后台-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1634
 
 Package: xyz.cypwn.lastlook
 Version: 4.2.2k
@@ -1441,18 +1428,15 @@ Architecture: iphoneos-arm64e
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
-Filename: debs/LastLook息屏特效_4.2.2k_Roothide.deb
-Size: 462520
-MD5sum: 4fd59ae99222bf5ea99c76435c8134ac
-SHA1: 035f296792066a20b072f1b80d255a05f68c0134
-SHA256: cf66c220cb8f6a4251370be17773f76d25527752b24c38ac14aab80c80f4675c
-Section: Tweaks
+Filename: debs/Lastlook_4.2.2k_息屏特效.deb
+Size: 462112
+MD5sum: 3114a9094021e16761d7d93f4d66bf42
+SHA1: 6639115b7671d9834a3ece0b86792d7a93daae58
+SHA256: 9410083494d789a6d259c402b403a5c4469ad20b11d339119d72135248b59428
+Section: 美化插件
 Description: 一款AOD调整方案（自定义日期显示）调整功能，拥有无限可能！
 Author: AnthoPak
-Depiction: https://repo.cypwn.xyz/depiction/3113
-Icon: https://repo.cypwn.xyz/packages/LastLook-Rootless/icon.png
 Name: LastLook息屏特效-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3113
 
 Package: xyz.cypwn.limneos
 Version: 3.1
