@@ -7,11 +7,11 @@ Depends: mobilesubstrate, firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Filename: debs/Flex3beta解析版_3.1_Roothide.deb
-Size: 33289040
-MD5sum: b83e0ace6d813daadd0672efbfccb855
-SHA1: 4dd69ae1426afda78c0ee00f210772dc3dc9dca1
-SHA256: 02656773e526c3c81f2afcb4fef09772e4d77ac2a3cdae0fe5a12608bf1ae118
-Section: rootless修复插件
+Size: 33301900
+MD5sum: 593fff9302f43134b7b8f0d36ecb0bf7
+SHA1: a21e22441f9094009bfa58510d8a7bd2ac62b848
+SHA256: 766dc63b9e6641c7316f75d34e60651ca0e465cbad6b236a95bc537b2eb3675a
+Section: 系统增强
 Description: 可解析应用，不用兼容层，粗体会闪退,建议正在学习或者会做补丁者使用(已知点击应用补丁列表不可以，需要搜索)~~~单独装此包只对第三方应用生效，对系统补丁生效需要装另外一个包，安装前卸载现有的，你的配置都在。
 Author: John Coates
 Name: Flex3 Beta解析版-Roothide
@@ -45,12 +45,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, oldabi, firmware (>=15.0) | org.swift.libswift (>=5.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, apt.llld.Flex3beta, Flex2Blackpackagebeta, com.llld.flexrootless, apt.llld.flex3beta1, cn.llld.flex3beta, com.johncoates.Flex3, Flex3FeatureCatalog, byg.iosios.net.flex3, byg.iosios.net.flex3beta, byg.iosios.net.flex3.xiufu, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: debs/Flex3Beta98-Roothide.deb
-Size: 12547280
-MD5sum: 3e7402e2ee633904581b1fe20c380adf
-SHA1: b2478b8ebf2be41c5924bf286f4e63a6c4b42824
-SHA256: d37f95e40303de1efecbc03c3b52c641f828a21f86eb975db7b48260465b5262
-Section: 修复插件
+Filename: debs/Flex3Beta98_Roothide.deb
+Size: 12546228
+MD5sum: 278a11608ec0b745017670442774ab12
+SHA1: 65b6a3981c0cde0591acf4535f65753c456584e5
+SHA256: 491229fc9db24803b7b0969b8836749d9963509e730e9878f3ff98e458e6ee20
+Section: 系统增强
 Description: 一款强大的App去广告和系统补丁增强神器。本插件由威锋大佬“来了老弟”修复适配多巴胺环境，此版本无法解析，系统补丁和应用补丁功能正常使用，需要科学上网才能使用云端搜索功能(国行设备需要在无线局域网和蜂窝数据中打开Flex3网络开关)，在路径/Library/MobileSubstrate/DynamicLibraries打开Flex.plist文件添加你想要生效的应用Bundle(Appdata插件上滑桌面应用图标就能看到)
 Author: John Coates
 Name: Flex3 Beta-Roothide
@@ -689,16 +689,14 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0)
 Replaces: com.ryannair05.cask2
 Filename: debs/Cask3滚动特效_1.0.3_Roothide.deb
-Size: 315704
-MD5sum: 347a439582d66341bf6e268698ee88d8
-SHA1: 7fdfb54361593fc47b8bd205858f74202066e513
-SHA256: 4f4609e98a3ef62194fe06cec608a72d00e5d134b3f821b7764d64d00e88b6b7
-Section: Tweaks
+Size: 315740
+MD5sum: 759b7292e026441d69cc4ade632956a2
+SHA1: af047462d0fdea10b24f3995d0ca7d6b9b9e2a01
+SHA256: ea7e6ad8e02ea6728d81b07a5d6e9d3b4eaef7f26452837a9d4ae589a2ea33d1
+Section: 美化插件
 Description: 动画表格滚动效果。
 Tag: compatible_min::ios14.0
 Author: Ryan Nair <ryannairtweaks@gmail.com>
-Depiction: https://chariz.com/get/cask-3
-Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 Name: Cask 3滚动特效-Roothide
 
 Package: com.ryannair05.cylinder
@@ -708,16 +706,14 @@ Maintainer: Ryan Nair & SINI
 Installed-Size: 1372
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Filename: debs/Cylinder翻页特效_1.1.2_Roothide.deb
-Size: 244988
-MD5sum: 370446de48746bda4d92ba7b5635c339
-SHA1: 2f956b55e55367cdf4aa7d31c0f38c287492c28a
-SHA256: 46a6d10b00705c1171153f7db211d5316c8c7b189235b751b46206c474144a44
-Section: 越狱插件
+Size: 244972
+MD5sum: c144294f779139fd1121a05c75279e2b
+SHA1: f338596da25f326d2945afbbb40e28dad1d0f12d
+SHA256: c84092a32482823a87e776cba6a990e0210af72f6430288438056240480ddf84
+Section: 美化插件
 Description: 有趣的桌面图标翻页特效，基于开源优化编译，修正汉化，适配支持Roothide。
 Author: Ryan Nair & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
 Name: CylinderReborn图标特效-Roothide
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/cylinderreborn/js.json
 
 Package: com.sergy.immortalizer
 Version: 2.3
@@ -963,16 +959,14 @@ Maintainer: Traurige & SINI
 Installed-Size: 628
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Filename: debs/Eneko视频壁纸重制版_1.4.2_Roothide.deb
-Size: 208712
-MD5sum: 461ad1a86670312af9bfcf8f009aadc5
-SHA1: 732f7e912aa58105fd05b11b598e799a36840f5a
-SHA256: bcc2ceabf0e78865da6d8465b2a4029e6ff08c4a5297e330ec6983e9e1346b36
-Section: 越狱插件
+Size: 208668
+MD5sum: 4c76ebce195c31b51988df898954e0da
+SHA1: 74000ce5dd5b58b1653d764803bc01c8e974444e
+SHA256: 86c58e8e368e6e2b260a6ebad3abd4bfdbd4fa7c3be36256d468b9d2779b2365
+Section: 美化插件
 Description: 使用自定义视频设置锁屏与桌面壁纸，基于开源重新编译，去除LibGcUniversal依赖，编译适配Roothide。
 Author: Traurige & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/eneko.png
 Name: Eneko视频壁纸-Roothide
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/eneko/js.json
 
 Package: github.poqw312.fuckthermal
 Version: 1.2-38
