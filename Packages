@@ -221,17 +221,15 @@ Installed-Size: 1016
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Filename: debs/VolumeMixer音量控制_0.0.7_Roothide.deb
-Size: 178492
-MD5sum: 33ed5852294c0e7f8227a19940a9d5e5
-SHA1: eed4b4aec477270bb67a5ef56ec0ce28c7440f0f
-SHA256: c7e9c23999751e210b0571044ce3c14970bd7ae75bc6e90f67bbcf52b7d2bcf2
+Size: 178300
+MD5sum: a52acc186b99f515086a35eb23b407f4
+SHA1: 7cbe13b6ed6f0fdd6082c6d6fffec0966b862f0c
+SHA256: e19b97ee116f79fa5c3498c45c4bfa0b8a0fd5746037dad3a84abfdf45531b67
 Section: Tweaks
 Description: 独立设置单个应用程序的音量控制。
 Author: Brend0n <brendonjkding@126.com>
-Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.volumemixer
 Icon: file:///Library/PreferenceBundles/volumemixer.bundle/icon@2x.png
 Name: VolumeMixer音量控制-Roothide
-Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.volumemixer/depiction.json
 
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
@@ -794,11 +792,11 @@ Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Filename: debs/SnowBoard主题平台_1.5.37_Roothide.deb
-Size: 1129948
-MD5sum: 104ff0c02294cc444528409476016d99
-SHA1: 132ce1090d9424eab8302beb9cd12a55202ba1d7
-SHA256: 7b6df4853e448b075d99328d015bb87ef474263a162460330737e074005f3751
-Section: Tweaks
+Size: 1129944
+MD5sum: 8eec1a26814002c9042e9582573254f5
+SHA1: 39edbddb90188068e7378a1547bbf207a38898b9
+SHA256: b3b8db802c9f8a0bff5b9561ba2d322882f9ab0e4a9f2e0295e977b3ce46ac37
+Section: 美化插件
 Description: 强大的主题平台，Roothide主题存放路径：jbroot/Library/Themes
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard主题平台-Roothide
@@ -810,12 +808,12 @@ Maintainer: Spark
 Installed-Size: 440
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: debs/SnowBoard_Dock栏拓展_1.1.3_Roothide.deb
-Size: 34180
-MD5sum: 817340d43c6a2ed919f7563994de674f
-SHA1: 76acf422be6125de009f3cefc26e183f335e7f12
-SHA256: a6d0a6b6f3999cf47b1dbf6f258ec0d1c10af5992d7be746bbe0eedd5c84064d
-Section: SnowBoard Extensions
+Filename: debs/SnowBoard.Dock栏拓展_1.1.3_Roothide.deb
+Size: 34136
+MD5sum: bbd539decdb0474cc19144bacc1d737e
+SHA1: 8f59e919c0eeca6aec835d93aad15b74e80dcfc5
+SHA256: 4285343c26b2857f976afdee35ac3ed4492564969d96f00a233d04ace1547ce7
+Section: 美化插件
 Description: SnowBoard主题平台Dock栏拓展模块
 Author: Spark
 Name: SnowBoard Dock栏拓展-Roothide
@@ -827,12 +825,12 @@ Maintainer: Spark
 Installed-Size: 340
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: debs/SnowBoard图标拓展_1.2.2_Roothide.deb
-Size: 20256
-MD5sum: acdb31c89350e8882350e1a03d182c5a
-SHA1: a4596c770532fa32fbc7137787c5f2d8f0c1604a
-SHA256: 80215e8dea551de42ff57b1a1cc5636ba310b9d187ed850acbd3381383e9cea7
-Section: SnowBoard Extensions
+Filename: debs/SnowbBoard图标拓展_1.2.2_Roothide.deb
+Size: 20280
+MD5sum: ac71419725d4ed70a6c171834272e515
+SHA1: 797c4dcd65980c100c3ee0279a73ed9a4c310267
+SHA256: 1a0d54e53d00a03546d88cde6bfd8f3e94ef331e9e2603fe570d99ee5d44d9bd
+Section: 美化插件
 Description: SnowBoard主题平台图标遮罩拓展模块。
 Author: Spark
 Name: SnowBoard图标拓展-Roothide
@@ -845,11 +843,11 @@ Installed-Size: 476
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
 Filename: debs/SnowBoard.UI_1.3.0_Roothide.deb
-Size: 67416
-MD5sum: 7aae8d5a84cd9a1177a96c679395427c
-SHA1: 6816fe6a9aeff94d29c8d93530ad73e8d45d4cdf
-SHA256: ae4e8140d660a67b84713358f7ae2b45010a5dc751228dff196bd8a2f6b413f7
-Section: SnowBoard Extensions
+Size: 67468
+MD5sum: 6b8edcfb24868e1db5399ea4f647c424
+SHA1: e2cd1ca35cc70c0881900b4e2629dd62acfb9200
+SHA256: 8a5ddca437fc4ab63232881eefbedbe60d9bdfef4c479913c15ff89d7e4d3cd3
+Section: 美化插件
 Description: 扩展主题插件的用户界面
 Author: Spark
 Name: SnowBoard UI扩展-Roothide
@@ -1445,17 +1443,15 @@ Maintainer: CyPwn
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: debs/破解补丁Limneos_3.1_Roothide.deb
-Size: 5424
-MD5sum: 5e6d3f9de0e4ccc3fa0d21f173d6a5af
-SHA1: 8223704326eba7c26951a82620096053d283859f
-SHA256: 534bdc1d700a93812c51d6b77518f8fcdffee17f0fddd71ff19f97204e944407
+Filename: debs/Limneos破解补丁_3.1_Roothide.deb
+Size: 5396
+MD5sum: 03927029b38be0163826aa8790bd986f
+SHA1: 411723dbc8bf10fe31b149f1b356c949259cd1cd
+SHA256: f75e4c80137cdeca5e94a3b117885a39b6fb748b3b8a9e7033d2f8b8f6ddd6e4
 Section: Tweaks
 Description: Limneos系列插件破解补丁，安装官方源插件再安装本破解补丁即可。http://limneos.net/repo/
 Author: CBZ
-Depiction: https://repo.cypwn.xyz/depiction/1940
 Name: Limneos破解补丁-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1940
 
 Package: xyz.cypwn.movenotification16
 Version: 1.0
@@ -1484,17 +1480,15 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
 Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
 Filename: debs/SettingsRevamp设置归类_3.0.1_Roothide.deb
-Size: 218480
-MD5sum: 4e0523b31ee87871cc3a30c4d4e67822
-SHA1: d2a84d7893172266bf0eaf3a1bbcddbaa21611ea
-SHA256: 612f2d0598f9d6874e90bef4f0b13df9638edc7d1590d06f303c3320950d14d2
+Size: 217720
+MD5sum: 8a832335659803a97e58f0cea2fa7ab7
+SHA1: 951a0ba93ecf4d85965617d3a3377748c3a70f6a
+SHA256: bb3bbea2bc13f68be9a9b18dba36c896e7c3a6325b8afa83e48475605318ef86
 Section: Tweaks
 Description: 自定义iOS设置页面。插件功能总开关在灵动岛下面。
 Author: SOPPPra
-Depiction: https://repo.cypwn.xyz/depiction/2887
 Icon: https://repo.cypwn.xyz/packages/SettingsRevamp-Rootless/icon.png
 Name: SettingsRevamp设置归类-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2887
 
 Package: xyz.cypwn.showmytouches
 Version: 1.1.2
@@ -1503,17 +1497,15 @@ Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: debs/ShowmyTouches_1.1.2_Roothide.deb
-Size: 52808
-MD5sum: 377752d5a210ce1dab3c9f09ff7b92b6
-SHA1: 50fb255e1ba2f843468b9fea35458559ac0aad2d
-SHA256: 76c2e6ce3240abffdce8a202534d4a7fcc97c8bc2fc18f16213c9b423d47c1a2
+Size: 52664
+MD5sum: 96b07891f7e8d92b499de0e0ddb0c671
+SHA1: 6d8fa535445c76c6cb4d4f299417197678b6f826
+SHA256: 52316c56cba72bb3226fbf9399bf82b280f38a8d37fedbe4601d2660e913445f
 Section: Tweaks
 Description: 屏幕录制时显示触摸轨迹。
 Author: dvntm
-Depiction: https://repo.cypwn.xyz/depiction/2668
 Icon: https://repo.cypwn.xyz/packages/ShowMyTouches-Rootless/icon.png
 Name: ShowMyTouches触摸轨迹-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2668
 
 Package: xyz.cypwn.smartbatteryios15
 Version: 1.6
@@ -1560,18 +1552,16 @@ Architecture: iphoneos-arm64e
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: debs/虚拟定位Teleport_1.1_Roothide.deb
-Size: 7386088
-MD5sum: 529be56b508f70b77ac48523792fccb5
-SHA1: 6cb051a577e075cac224ce2dc224df8899faadec
-SHA256: 74762031df9a10a022be326f880ea17542f283afba31072d7d9f023353c0fa23
+Filename: debs/Teleport虚拟定位_1.1_Roothide.deb
+Size: 7386288
+MD5sum: 996d0f8ad45b1ee138dec77115af1bd2
+SHA1: 7d02631e54234f241016022b1a289a92f1f1d07a
+SHA256: 4cde129454e7bc238098802e8267cf7c2874deb670cd5e5d9fbf93446d12a6a6
 Section: Tweaks
 Description: Spoof GPS location一款免费的虚拟定位插件，已完整汉化！第一次打开没有加载网络数据请安装3DNetworkFixer插件给它网络权限，可以配合应用商店"地图定位大师"App来获得经纬度数据来修改定位。
 Author: SGWC
-Depiction: https://repo.cypwn.xyz/depiction/1305
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/teleport.png
 Name: Teleport虚拟定位-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1305
 
 Package: xyz.cypwn.tinge
 Version: 1.2.2
@@ -1580,17 +1570,15 @@ Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
 Filename: debs/Tinge_1.2.2_Roothide.deb
-Size: 40480
-MD5sum: 13c56a5c512159048a3db9bcb6bb4d35
-SHA1: 4858f177e7d6a6049c092b44e2bfdd5ab32d2599
-SHA256: 7c282415cdeb24110db6b3f0e998c3793a9fcb7403379bd7c2e03d231aa8b222
+Size: 40456
+MD5sum: aaff022498be4f601499933e12064605
+SHA1: 44cc6a7c77bca1b11fb1e3becae57044cbb813f6
+SHA256: 0567011fb76b664e1884c55ac844f4542f9ebc579a200cf788149a65c4f7cf46
 Section: Tweaks
 Description: 通知角标颜色。跟随应用图标颜色自适应变色！
 Author: P2KDev
-Depiction: https://repo.cypwn.xyz/depiction/2706
 Icon: https://repo.cypwn.xyz/packages/Tinge-Rootless/icon.png
 Name: Tinge角标颜色-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2706
 
 Package: xyz.cypwn.xinam1ne
 Version: 2.6-8
