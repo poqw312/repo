@@ -340,12 +340,12 @@ Maintainer: aReo
 Installed-Size: 920
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: debs/AppTools15全局高刷_1.1.8_Roothide.deb
-Size: 159160
-MD5sum: 7686c7ecc6f96c5bf110254ec87470fc
-SHA1: 1bb47b31d266fda224fd18ea209ad078067ddfdf
-SHA256: 70ba395311450417ba0d8fef35a9a9623a7920eab10bcaf2528b70d4c7901cb2
-Section: Tweaks
+Filename: debs/Apptools15全局120高刷_1.1.8_Roothide.deb
+Size: 159448
+MD5sum: 32a825027df2a14e2c8258d459d61104
+SHA1: bdb314d2c82680d18907693b7b02a9d5f01b0395
+SHA256: f29cd282a5ca674bf2ebf00ceb04824708f5610a687edea63a90cacfc01284e1
+Section: 系统增强
 Description: AppTools15比较低的一个版本，该插件的功能仅用来开启全局120高刷，安装后默认开启全局高刷模式。
 Author: aReo
 Name: AppTools15-Roothide
@@ -445,24 +445,6 @@ Author: MrGcGamer
 Name: LibGcUniversal
 
 Package: com.netskao.appdata
-Version: 1.4.4
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 13548
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/AppData_1.4.4_Roothide.deb
-Size: 5046552
-MD5sum: 6c82a207a0a753dcf8b9669de6cb3398
-SHA1: 5b112d2dd9a724efbdc6311ffcecde07d576e011
-SHA256: 36cf954cd6a1a1946d70d57ab65f4fa9b17b22848906af13a81b0d83fafb3b5b
-Section: Netskao-Tweaks
-Description: 查看和管理应用程序数据。
-Author: Fouad Raheb
-Name: AppData应用数据-Roothide
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
-
-Package: com.netskao.appdata
 Version: 1.4.6
 Architecture: iphoneos-arm64e
 Maintainer: Netskao
@@ -470,15 +452,14 @@ Installed-Size: 5140
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: debs/AppData_1.4.6_Roothide.deb
-Size: 1504448
-MD5sum: 0ea0995927884da843dc3be7f8bfbd86
-SHA1: 830cedf84e0e77df5968627cb56841db675fb13f
-SHA256: b7e8cdaa8e5ceb1f36457c94295d5ec9f5a0ee2087283dcfeeb73638f11a1dda
+Size: 1503340
+MD5sum: 88c5799021ef32122bcfe76e2dd49bce
+SHA1: 07efb1abd1cf1e7403344b12dfb1eda63ecdb01d
+SHA256: 4c7cff9ec45bea03e7135d4855eac99ffedd01e123a349c43a628be8214efc47
 Section: Netskao-Tweaks
 Description: 从主屏幕查看和管理应用程序数据。v1.4.6修复iOS15系统崩溃问题v1.4.5修改获取应用程序降级版本号的API接口。
 Author: Fouad Raheb
 Name: AppData应用数据-Roothide
-Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.appdata
 
 Package: com.netskao.ccsim
 Version: 1.1-9
@@ -760,16 +741,14 @@ Maintainer: ren7995 & SINI
 Installed-Size: 1072
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Filename: debs/Atria桌面布局重制版_1.4.1-6_Roothide.deb
-Size: 374996
-MD5sum: afd934c7f46c6b02a8d6632711b9594f
-SHA1: bc0ec547c1d9e0c34ee50c4d86b3512bc937afb3
-SHA256: dbc336d256484a3a3f8160000959994757a5b567abd2e469176d311422fcba2f
-Section: 越狱插件
+Size: 375820
+MD5sum: ed36c8e6152b8d393e9c5d43c48f3501
+SHA1: 2136066e3180db52af35bf8ef5f200a3713fcc02
+SHA256: 468adca16905572b508c97c89e56423bc86decfa1e72adff83bd4c4038d20075
+Section: 美化插件
 Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改编译的中文版，去掉了Alderis Color Picker依赖，编译支持Roothide。
 Author: ren7995 & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
 Name: Atria桌面布局-Roothide
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/atria/js.json
 
 Package: com.skypain.flexloader
 Version: 5.25.19-1
@@ -1143,11 +1122,11 @@ Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 152
 Depends: mobilesubstrate
 Filename: debs/AudioRecorder依赖_0.1-1_Roothide.deb
-Size: 7064
-MD5sum: e430515bca45175770830dd06de892dc
-SHA1: 9aecbe7218e42d91fe41f0fb9f6e167aa9cca57e
-SHA256: 095f59d218035eab46c6fa8397d2c4ca28f1ac4d83a3a6d794bf0df2ad52da0a
-Section: Tweaks
+Size: 7060
+MD5sum: 54349eb7a911765c0b3f9acb0ae4b16a
+SHA1: 1ef7ebb3ea9690d7926ccc759b366b0d44ec6767
+SHA256: 29788b6bacc026a13d4ea6afc4d83d44251c6980fd2027137c030fd590a30e6d
+Section: 依赖插件
 Description: AudioRecorder通话录音依赖插件，调整状态栏手势激活操作。
 Author: Elias Limneos <limneoselias@gmail.com>
 Name: SimpleActivationActions-Roothide
@@ -1325,17 +1304,15 @@ Architecture: iphoneos-arm64e
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
-Filename: debs/AnthoCrack2破解依赖_1.0.0_Roothide.deb
-Size: 3896
-MD5sum: bf29be3b303e1b2025081e57be82f0c8
-SHA1: b2f784af842cffb95937af248124c1a322307f5f
-SHA256: fd4c41573e3dd38f0eb2823c24092d3d681b30383de5e7b147d8bc0c62a686f0
-Section: Tweaks
+Filename: debs/Anthocrack2破解依赖_1.0.0_Roothide.deb
+Size: 3880
+MD5sum: 8e29507c9e38a9c03d8a91110cb8c74d
+SHA1: 95d2164bc56d7fba105d18c7c7269adc2c9da0bd
+SHA256: 0b7eb2c6e2f8282a4349e51222c942f403851fa10cea19852e8ffc2473be2ffb
+Section: 依赖插件
 Description: 禁用AnthoPak系列插件的警告提示。這個是給95%的盜版者的。
 Author: CBZ
-Depiction: https://repo.cypwn.xyz/depiction/2153
 Name: AnthoCrack2
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2153
 
 Package: xyz.cypwn.appsyncunified
 Version: 116.0
