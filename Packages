@@ -97,11 +97,11 @@ Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Filename: debs/左滑返回_1.0-6_Roothide.deb
-Size: 43112
-MD5sum: 47121f4e62f1d7d67f1664142a4e69c5
-SHA1: 73894a103781f2fefa61092a200cfa01a786e82b
-SHA256: 7942cc53d71bc527007f550817d009c76c7697814b15666999b0de8fb08d98cc
-Section: Roothide
+Size: 46144
+MD5sum: 75e558c6cc4bca9565fcae75afff9ea3
+SHA1: 0d9ff69ce557d34b517987b60928ca063b4128a0
+SHA256: 76eb1b7c21568bb490e616f88b2d38a4753ac08bacd17798a2d179de82af64f5
+Section: 系统增强
 Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
@@ -862,11 +862,11 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
 Filename: debs/NopreferenceTips_1.0.4_Roothide.deb
-Size: 5328
-MD5sum: 4daadbac25a778c42cdd2bb1a3122dff
-SHA1: 1fdb7a0b97de8ab5ef0c0c6d0852d383f7d64cd3
-SHA256: 4dc5c5fc53138ba9fac81f8dcf1a44ce8aff71185acdc94b948f3e823266efdc
-Section: 调整
+Size: 5344
+MD5sum: 06000d6fdf651b30ae8ea0dfdba99fbb
+SHA1: 2f0800f8232fac0994f88dcc929b410d88218c29
+SHA256: f4db5e6f204bb158f0cf822e6bab8dff83efbd2ef67598ca172c366f69c15f5f
+Section: 系统增强
 Description: 此插件用于屏蔽隐藏设备更换第三方电池和其它非官方配件的未知部件提示。
    1. 支持iOS15-iOS16多巴胺无根/隐根环境
    2. 移除“设置-电池-电池健康与充电”的提醒并显示健康值
