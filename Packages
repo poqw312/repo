@@ -26,12 +26,12 @@ Depends: mobilesubstrate
 Conflicts: MikotoHelper
 Replaces: MikotoHelper
 Provides: MikotoHelper
-Filename: debs/微信MikotoHelper_体验版V8_Roothide.deb
-Size: 39702492
-MD5sum: 068716b6bb592af89320e95d90d10dfa
-SHA1: 33d3f4f85f84d9820991dc65bdb02d5d2703fdab
-SHA256: 56b27478edde3fe6ec45225cd528079bcb26c81e8e7a5bcfabfa67b46a953cc4
-Section: Tweaks
+Filename: debs/微信MikotoHelper_1.3.6.8_Roothide.deb
+Size: 39705596
+MD5sum: 633dcdd0afb40f5d8584f1f6d85cdb34
+SHA1: efa966dc7bd10557d41b241d986942c99c1c6503
+SHA256: 2597e5e9c70046dc473e2364ef9871e68cae35a654d72313d503f34696cb66bd
+Section: 微信插件
 Priority: optional
 Description: 微信增强插件，本次更新加入密友功能。
 Author: Mikoto
@@ -78,12 +78,12 @@ Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: debs/斗图助手_3.1-6_Roothide.deb
-Size: 1052988
-MD5sum: 212c9d5363a6a708175d94a111f3fad7
-SHA1: b6e274e547649809895318b8f66fc62ec9aa8260
-SHA256: 6db6325f045bfdbca84814629ff55b287c70ab2d39eee206664cd9a76d9dc3af
-Section: Rootless
+Filename: debs/微信斗图助手_3.1-6_Roothide.deb
+Size: 1052876
+MD5sum: 1b4f523510fc433f8df30dbd143a2524
+SHA1: 7773b9aab8ebec7c8dfcc97d98a796e4628933d0
+SHA256: ffc5ed8cc19b0abd927389d581188b788fe246a94f9989a3eb04eadd82af8bf4
+Section: 微信插件
 Priority: optional
 Description: 微信表情斗图助手
 Author: Mao
@@ -130,12 +130,12 @@ Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: debs/微信插件管理wcplugins_0.1-3_Roothide.deb
-Size: 19220
-MD5sum: 9a3f2aca03af47a326d444edfd7e7573
-SHA1: 8b000f41eeb290fdbc3961bbe27cd88cf9b8c321
-SHA256: 4d522b08698a7670619b09395134ef074c6b286e8771728eacf152e3407f9880
-Section: Rootless
+Filename: debs/微信归类wcplugins_0.1-3_Roothide.deb
+Size: 19196
+MD5sum: 53a5382ff4c37813d7febbe37d6bfdd7
+SHA1: 66281c6b4adeab005c107c8425b2a9dd89404ba0
+SHA256: 5454c947c14b7b17f786a3259c1287161b2a3bb0b01cc73637f22be226d6e5a1
+Section: 微信插件
 Priority: optional
 Description: 微信插件合集收纳归类。
 Author: Mao
@@ -158,22 +158,6 @@ Section: Tweaks
 Description: 将VPN状态和无线状态合并为一个图标。
 Author: 82Flex <82flex@gmail.com>
 Name: Single VPN-Roothide
-
-Package: com.HBWechatHelper.ailun
-Version: 2.0.3
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.0.3_Roothide.deb
-Size: 26281160
-MD5sum: b60bd3d5644290c83febb58dbb645cf5
-SHA1: 3afad2f336eb6db722d3cdd8ecec3e9d7205da5b
-SHA256: 21788e2feab68517df68585d383e2bdf67e2844755904f971f442025afb652b0
-Section: Mao
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
 
 Package: com.HBWechatHelper.ailun
 Version: 2.0.4
@@ -220,11 +204,11 @@ Installed-Size: 272
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/微信广告净化助手_1.2.0_Roothide.deb
-Size: 22332
-MD5sum: 51c0840e9ab8cd8fb78f02fa9f97d361
-SHA1: 46cb60b9f0f144ce1db80b341f2037fe20a3e79f
-SHA256: b262419935271802f3d0ca38b9233d3d4801a4be491e756621c566275e3b186e
-Section: Tweaks
+Size: 22280
+MD5sum: 76e8c104faf2cb115bc00acabaf2337b
+SHA1: e6b96497b387dc2b8829cefba27da97327740e93
+SHA256: 64acbde0f04fe323555077027ba9d53531a5193a146db100683dbfa792b520ae
+Section: 微信插件
 Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!
 Author: Apple
 Name: 微信广告净化助手-Roothide
@@ -255,12 +239,12 @@ Architecture: iphoneos-arm64e
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 2332
 Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
-Filename: debs/依赖libcspreferences_1.5.8_Roothide.deb
-Size: 335560
-MD5sum: 17734489b46eb38c82a5a6ceff31b932
-SHA1: b35c67cea7b22b6c3737115e8253b6a159e3d49e
-SHA256: f89bc9afba008a3ddcbef34deaf682f487925d4c8f858e7b98c09e1ceea69b47
-Section: System
+Filename: debs/依赖LibcsPreferences_1.5.8_Roothide.deb
+Size: 336476
+MD5sum: 96ae80c47ce485145204fa3f3bf63dc4
+SHA1: 947971818f95f05166bca2aebc6f73dac2a50083
+SHA256: 4fcbf4d30a73b4ec22de50dd3411e8e919a809fa2c306ed6837974be9750f181
+Section: 依赖插件
 Homepage: https://creaturecoding.com/
 Description: 隐根越狱依赖插件。
 Tag: compatible_min::iOS9
@@ -390,12 +374,12 @@ Maintainer: 妖刀
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc
-Filename: debs/控制中心模块合集_2.1_Roothide.deb
-Size: 498132
-MD5sum: c1885653cca8fdcdacb74b6b978e9923
-SHA1: 551206bb1457470419fbc81d09d2fcba4ef8278e
-SHA256: be5c680cbe1ee9c0c1f801fcb92b716607338c52bea6dff83d5ca30da642dad3
-Section: 嗨-工具
+Filename: debs/控制中心合模块集_2.1_Roothide.deb
+Size: 498660
+MD5sum: 8d020308049da32586ffbaa30366dd90
+SHA1: c5184a89b0b9683255d2bcb4ee7e8a0fd8b3de5f
+SHA256: d830215246596176e2b7dae04886c037560f908a6dfd8f657eaded7982da248d
+Section: 系统增强
 Description: 超级控制中心模块集合！
 Author: 妖刀
 Name: CCLess++(RootHide)
@@ -409,11 +393,11 @@ Installed-Size: 2036
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/抖音魔术师DYYY_2.2-9_1629_Roothide.deb
-Size: 440112
-MD5sum: 9d3a73f01b0884b353e7990a82e3d99b
-SHA1: 971c68b9821a342439dd10141c13e7de3456131f
-SHA256: 7317f40edf19c04efc2709ccd52121af4e48a37e24b93ad4f964f6bcec436848
-Section: Tweaks
+Size: 439864
+MD5sum: 6784428a398dd53283053a205cff0fe6
+SHA1: 14792f7b3fe8e2c03cb91042e6bb3a77b447a11e
+SHA256: 166a22dac56501dc33dddba82a62fce9e9a5a546cea3b18ee26e8fa07b67bdb0
+Section: 抖音插件
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
 Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.1.31更新1629
@@ -449,12 +433,12 @@ Installed-Size: 380
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
 Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
-Filename: debs/依赖LibGcUniversal_1.7.0_Roothide.deb
-Size: 55548
-MD5sum: 945f4b0bf9cb96415e6740a9397d5b6d
-SHA1: 0f65e05abe4c4297f7cff0caa9ab72eab7ceb7ad
-SHA256: 0dcd13bb1f31418747502f187f8bc6c95783cba4d8302536d23c5ba7d691bb1e
-Section: Development
+Filename: debs/依赖LibgcUniversal_1.7.0_Roothide.deb
+Size: 55796
+MD5sum: 9bc1618dca5aa2e9da7443c8e9b2ac0b
+SHA1: 833a84acbe694e5b79dec2bf956de414a7f28ee6
+SHA256: 1477cb5c02d2649fbadff3047f11f4c3842a0dfa0b90aeb7b517ad1da500d0a5
+Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: MrGcGamer
@@ -590,12 +574,12 @@ Maintainer: Netskao
 Installed-Size: 1228
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Filename: debs/微信头像WeChatnotiAvatar_1.3-1_Roothide.deb
-Size: 244124
-MD5sum: 246e139e0618c290441580de3b31bf00
-SHA1: 96520c21b03a9f9af35ca772eb285f6a34cb2241
-SHA256: 8451343df658b45d04e12e33b4cef8e6f9d392d372f35a38c69ee29ee0dd9e49
-Section: Netskao-Tweaks
+Filename: debs/微信头像Notiavatar_1.3-1_Roothide.deb
+Size: 243920
+MD5sum: 55a6e99352deb66f7ffaa899c04f3e6e
+SHA1: f5e8d0fce077e67b9db30464bbdd2df349074d58
+SHA256: e3eb4d1fca5a71b921876f86829fc6c334973b35cfd908aaafd096ca397f0494
+Section: 微信插件
 Description: 微信消息推送显示头像通知，无图标无设置，安装后立即生效。
 Author: Netskao
 Name: WeChatNotiAvatar微信头像-Roothide
@@ -813,12 +797,12 @@ Architecture: iphoneos-arm64e
 Maintainer: Spark
 Installed-Size: 408
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/依赖libsparkapplist_1.1.0_Roothide.deb
-Size: 26212
-MD5sum: 1c7c147ca9ace36ee2d5f0e4c216ca3f
-SHA1: ebb84c601de483122b270fb94ac287d68f768fba
-SHA256: 6128e0d8f5d35719e021d7ba4656bee7f19b8c828849eb2821d7643f2c6f6691
-Section: System
+Filename: debs/依赖Libsparkapplist_1.1.0_Roothide.deb
+Size: 26160
+MD5sum: b63cf69570ca7ce36253416dfc854308
+SHA1: 0ff99df7d7e2dd377fe4bae294ce2df8f1e5f28c
+SHA256: cc5cdbd93f149a2933006de96a4068ddcfccec68342937e0969208f61e7fec93
+Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: Spark
@@ -918,39 +902,21 @@ Icon: https://www.susubaby.top/images/Preferences.png
 Name: NoPreferencesTips隐藏未知部件提示-Roothide
 
 Package: com.wechat.enhance
-Version: 1.5-5
+Version: 1.6-5
 Architecture: iphoneos-arm64e
-Maintainer: 愫 茶
-Installed-Size: 2492
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信Enhance_1.5-5_Roothide.deb
-Size: 536928
-MD5sum: 3a62202bce2e5a951f8135996d247096
-SHA1: fe1ae75719614c44686e2ce88f0379d6df8e7e64
-SHA256: c8ef39f406ffb03fbd47b926a27e60c5755714cf645fd28c2ec054b519ee9316
-Section: Tweaks
-Description: 微信插件，支持聊天按钮布局自定义等。
-Author: 愫 茶
-Name: WeChatEnhance-Roothide
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-2
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17412
+Maintainer: 茶 愫
+Installed-Size: 1196
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.1-2_Roothide.deb
-Size: 13504344
-MD5sum: 649bb3c13dcbe87c04a47c2ac633281d
-SHA1: 63e530177c11cb2569efe7d42cd412b835071303
-SHA256: fc41e1cca01df418fe4369d686ddb02d982f28ba0aedc270d6e198d1bf22da05
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
+Depends: mobilesubstrate
+Filename: debs/微信Enhance_1.6-5_Roothide.deb
+Size: 344756
+MD5sum: 9467268e64654ab66ecffe8b1e515648
+SHA1: 8eac66da21a0c58546be165117c082a509077bbd
+SHA256: 25786fc138e6ca051708ec21f2103a8c86f554f1bfd3b2a5f10d2a43d96a0908
+Section: 微信插件
+Description: 微信插件，支持聊天按钮布局自定义等。
+Author: 茶 愫
+Name: WeChatEnhance(微信插件)-Roothide
 
 Package: com.xuuz.douyinhelper
 Version: 2.1-3
@@ -979,11 +945,11 @@ Installed-Size: 17412
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/抖音助手_2.1-4_Roothide.deb
-Size: 13526220
-MD5sum: c3b12a5226858331e29a81c64f7c323d
-SHA1: 8cdf0a4fbc4914a0dd0d479ae3ca504fb9060681
-SHA256: 056a454e26b90a93293b97e5cd3aaf76e1a998fc6345bccd146b5e4fa67f0441
-Section: Tweaks
+Size: 13530180
+MD5sum: 51cd4571323d8851e859609bf2b17692
+SHA1: 6efc6ef995f3209e0545d92373e1a68227368f2e
+SHA256: ac5d2f26d4656ef8652f82d082351fb75716a321e79d0c51a2194d5e8267e130
+Section: 抖音插件
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
 Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
@@ -1215,11 +1181,11 @@ Architecture: iphoneos-arm64e
 Maintainer: Evelyn
 Depends: mobilesubstrate, cy+cpu.arm64e, firmware (>= 15.0)
 Filename: debs/依赖oldabi_0.3.1_Roothide.deb
-Size: 13160
-MD5sum: 4635647e8adc27358c8ad9e73bac0beb
-SHA1: 9977f34257d6f9e2737dbcab4a22fcaa6a427976
-SHA256: 4c14b5e7ee18f14ef21924f8b10505f62c6fcd538a4d623d326e1c993f899ca6
-Section: Tweak Injection
+Size: 13180
+MD5sum: be051822f7ea2aae9945b84f52fcb16a
+SHA1: 8a7ed8eeb79cf6f0b5e47dd0dde302a060862b1e
+SHA256: b8e176fcafe0693ef11e374d8747ce628afa5989ccb624ce86c1bb8a9a71e94e
+Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Author: Evelyn
 Name: Legacy arm64e Support
@@ -1284,11 +1250,11 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware(>=13.0), mobilesubstrate, firmware(<<17.0)
 Conflicts: com.muris.libgraphite
 Filename: debs/依赖intelligentpass5_2.0_Roothide.deb
-Size: 90296
-MD5sum: 5f66d7cd2d277b99e59e89c0f48c70fc
-SHA1: 83abf88ef2ed05f40feaeafe4344dbc68914a885
-SHA256: 5a8bbc6024a6203f5a292a4e07289aeac0d7903fe44bbb542ccccaf1906c370d
-Section: Development
+Size: 90960
+MD5sum: 8870ee2b08e71ca4c88103b4cba95a45
+SHA1: 79ade4338ed3a14e1bbd5927afda0e9902013103
+SHA256: e770903387255d8b6c225a0953b5e1c8371bf584aeb0ed96a99a9fd1adfb82b7
+Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Tag: purpose::library role::developer
 Author: Geometric Software
@@ -1325,11 +1291,11 @@ Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), u
 Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
 Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
 Filename: debs/依赖Alderis_1.2.3-8_Roothide.deb
-Size: 551276
-MD5sum: 2d1de373780a20e110a932ac38d85324
-SHA1: 84a2055b46363421372b48557c5d32a30137b898
-SHA256: 92c4902ccf6d872680fe8c23f40572a55b760c32ef8f6e8b56faed9568748f69
-Section: Development
+Size: 551044
+MD5sum: 0cf029eae9470a6abb1ca5e078b8e6f9
+SHA1: fbd61d5d8ad452db5a85758dd82b08c7dabe4bb3
+SHA256: a1d5785c23f1f21470910dac24ceca919cba5dd70b20778ba7b15a24bb52ebf8
+Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Tag: role::developer, compatible_min::ios12.0
 Author: HASHBANG Productions <support@hbang.ws>
@@ -1345,12 +1311,12 @@ Architecture: iphoneos-arm64e
 Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 3132
 Depends: firmware (>= 15.0)
-Filename: debs/依赖Cephei Tweak Support_2.0-29_Roothide.deb
-Size: 270128
-MD5sum: 30575dcb611b643a4ead75dc762f644c
-SHA1: f402eb369b295c4801579b0aeb73890c583a76e4
-SHA256: 0fde566d77c6e6f1283290be3cbd09b45d163cf24d25e58aabdd29d907552eaa
-Section: Development
+Filename: debs/依赖CepheiTweakSupport_2.0-29_Roothide.deb
+Size: 270252
+MD5sum: 6b28ebd4946fad1209e39df68c114f0e
+SHA1: 66458f88d77531fe660d428ede0d0d3f57883b19
+SHA256: 21729fa81297e256b7022bb7ee8273b77f0eec71b7655233869281cc981b7de4
+Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Tag: role::developer, compatible_min::ios15.0
 Author: HASHBANG Productions <support@hbang.ws>
@@ -1678,18 +1644,15 @@ Maintainer: CyPwn
 Depends: mobilesubstrate, firmware (>= 15.0), com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
 Replaces: emt.paisseon.xinamine
 Provides: emt.paisseon.xinamine (= 99)
-Filename: debs/SneakyCam2.2.2依赖_2.6-8_Roothide.deb
-Size: 1946392
-MD5sum: c70d50b54ff1657b2f92843be94aef5b
-SHA1: 3eeb20543356f08e5b5de3c766583529fc4c7a38
-SHA256: 8752854dc0947f56efa4a64afed9e656b6b91b6cd7eef15adebb8322f581c87d
-Section: Utilities
-Description: 隐私相机SneakyCam设置开关修复依赖，安装后即可卸载。
+Filename: debs/SneakyCam依赖_2.6-8_Roothide.deb
+Size: 1946452
+MD5sum: 0fbd8d59d709b169e7a8244be74de484
+SHA1: 15ee4a80c9eb1725a145c8c248fad6a7ae835f1c
+SHA256: 6ca7591d15262670487cfde489c63a08da376208692e53e549e1f1cdd571210c
+Section: 依赖插件
+Description: 安装本源隐私相机SneakyCam后需要安装该依赖插件来修复设置开关项，安装后即可卸载。
 Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
-Depiction: https://repo.cypwn.xyz/depiction/2816
-Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
-Name: Xinam1ne AIO-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2816
+Name: Xinam1ne AIO
 
 Package: z.weifeng
 Version: 1.5
