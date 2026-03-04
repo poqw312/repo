@@ -260,20 +260,17 @@ Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | 
 Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
-Filename: debs/Shuffle_1.6.2_Roothide.deb
-Size: 268496
-MD5sum: f31b00335952bfbacf22741ef146ddcf
-SHA1: e8d9b5035c8d88ce1ab1a0470f81e5980f2b1e71
-SHA256: 99bd03a6ed574335c5fc9c04702db483e955919190fd0a80f5edf2347756dd8b
+Filename: debs/Shuffle设置归类_1.6.2_Roothide.deb
+Size: 268100
+MD5sum: 3f69d18210747dee16377eb127ef01b7
+SHA1: 4bc3e2b67987eaa0c0263bd3bfa696aeea7c5614
+SHA256: b788e5138258aec379822415034adf042d9aa0a743eeeace3490a8ca87c1482c
 Section: Tweaks
-Homepage: https://creaturecoding.com/
 Description: 一款设置分类插件，可收纳设置里的插件归类，应用归类，系统归类。
 Tag: purpose::extension, compatible_min::ios10
 Author: CreatureSurvive <support@creaturecoding.com>
-Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle设置归类-Roothide
-Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 
 Package: com.curtin.pkc.rootless
 Version: 0.9-3
@@ -603,17 +600,15 @@ Maintainer: PoomSmart
 Installed-Size: 152
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
-Filename: debs/Batteryhealth电池健康_1.0.0_Roothide.deb
-Size: 6628
-MD5sum: 770bb5c693db3628a25eb3f2f7c71bfe
-SHA1: 14b4c45150ee5f4e7f0b1f158fc3c4b847b258e6
-SHA256: 39df169d6f661635d56e64b29034dc55d02eaffa9ee9b69bbd1a1ecad0731b05
+Filename: debs/BatteryhHealth电池健康_1.0.0_Roothide.deb
+Size: 6572
+MD5sum: 4b3cf1e52ad47c8df8e1414b448d280f
+SHA1: 628b4a12dd9662250bd75449399a32019d9f5a8e
+SHA256: 141575bacaaff6fbad679f1b2e6064144ce4e4083f2a527ffd890027804a914d
 Section: Tweaks
 Description: 修复更换第三方电池后显示维修和无法正常显示电池健康度等问题。
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
 Name: Battery Health Enabler电池健康-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/batteryhealthenabler.json
 
 Package: com.ps.recordpause
 Version: 2.0.7
@@ -626,16 +621,14 @@ Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
 Replaces: org.thebigboss.recordpause, com.spicat.recordpause
 Provides: org.thebigboss.recordpause, com.spicat.recordpause
 Filename: debs/RecordPause暂停录制_2.0.7_Roothide.deb
-Size: 11544
-MD5sum: e047108d4302daa7fd23e1e3d490b227
-SHA1: 8dc6443723294761e4cedf9643a67718a9067961
-SHA256: eafd5531541d59f8b3ef3e8a4dfafaf9d63281215b4d08f3285544ed78f11a1b
+Size: 11552
+MD5sum: a80b9e1e5b5e742ae4390be344fe0531
+SHA1: 7090604c8737d92b7363868d75b5996da50a5c6c
+SHA256: 3387cc09b4832131b50473bd0a9ea95896bc8c83095260b9a9da3dc755cd529c
 Section: Tweaks
 Description: 在iOS相机应用程序中暂停/恢复视频录制。
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
 Name: RecordPause暂停录制-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
 
 Package: com.rpetrich.powercuff
 Version: 1.4
@@ -719,18 +712,16 @@ Maintainer: SHTM
 Installed-Size: 4324
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/FlexibleexPression_1.2.0_Roothide.deb
-Size: 3644816
-MD5sum: c2a8f424165cfaf0d094fb50af99d0cb
-SHA1: 0343be6ed84ad91586187c14cc3cdb1778ed025f
-SHA256: 4b2f723805aaf084cc7a8615c94da6d3792a6cccf257cec95095da24776ed83b
+Filename: debs/FlexibleExpression_1.2.0_Roothide.deb
+Size: 3644716
+MD5sum: 45c2550d98272b662d61c77e300b9af9
+SHA1: 7e66dd06b6c1cd962448d1ee0b6e7f39ca3766a5
+SHA256: 00cab2cd2d471557aa7126a2e8c8b8eacb406c07a1ca271aaf48f0c68090de60
 Section: Tweaks
 Description: 灵动空间，灵动岛不再枯燥！新增锁屏动画
 Author: SHTM
-Depiction: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/sileo.json
 Icon: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/FlexibleExpression.png
 Name: FlexibleExpression灵动岛-Roothide
-Sileodepiction: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/sileo.json
 
 Package: com.sini921.atria
 Version: 1.4.1-6
@@ -1239,17 +1230,15 @@ Installed-Size: 444
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17), preferenceloader, se.geometric.graphite
 Filename: debs/intelligentpass5_1.0.1_Roothide.deb
-Size: 89340
-MD5sum: ae550a1994b630b69bb82339c1287090
-SHA1: ee24b2fa4d653e67db3f5175e13ef867545097b4
-SHA256: 4d53e1e8aa2cbd7d7cfb7bf4e91dd3e9e8d63b7021e4d094920f7c14822da0f2
+Size: 89192
+MD5sum: 79ebaefcd5fbadc68ffa3e8579c4aaa5
+SHA1: 1bce62c2854e2fb6ffff77084fcb243c2e0f6949
+SHA256: 45ec0e57bc13a6e636e32e56340c091c3b933b011a015691fe7ce6729425b581
 Section: Tweaks
 Description: 在熟悉特定的环境内无需使用密码面容解锁你的iPhone。
 Author: Geometric Software
-Depiction: https://repo.cypwn.xyz/depiction/1346
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/intelligentpass5.png
 Name: IntelligentPass 5免密解锁-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1346
 
 Package: ws.hbang.alderis
 Version: 1.2.3-8+debug
@@ -1320,16 +1309,14 @@ Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.ap
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Provides: appsync, net.angelxwind.appsyncunified
 Filename: debs/AppsyncUnified_116.0_Roothide.deb
-Size: 32452
-MD5sum: 2a80e55ef71c8aa6b2c1195ea2325021
-SHA1: 02365a156000c2bf15e82c06ac9d0b4d641a9ebe
-SHA256: 714b8ef713f69a9502608669468507d0deaf12ec6fd569b5b8c25764006d8c8f
+Size: 32428
+MD5sum: 7a9f80f8ceb5a4a11e89087cdc85a66b
+SHA1: 4bf250e9905cd7bbf2796bdea9f4b71d69bd4d65
+SHA256: d834504849d1334a4f9c1290f7f60242eaf5d767cdccf58a129935cdbc7f8622
 Section: Tweaks
 Description: 允许在越狱版Filza中安装未签名iOS应用程序。
 Author: Karen/あけみ, Linus Yang
-Depiction: https://repo.cypwn.xyz/depiction/3213
 Name: AppSync Unified-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3213
 
 Package: xyz.cypwn.backgrounderaction15
 Version: 0.1.0-1
@@ -1373,18 +1360,16 @@ Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0)
 Conflicts: ru.domo.cocoatop
-Filename: debs/进程cocoatop64_2.2.4_Roothide.deb
-Size: 155068
-MD5sum: a9482fabc6c851da547debc985913cab
-SHA1: 5998b558c6dd8b2d8a326719d2e04022a6616491
-SHA256: 64a208b6b51523338010f7b1facf71cbc662722454ae5d724091b4b7df228faf
-Section: Utilities
+Filename: debs/CoCoaTop64进程_2.2.4_Roothide.deb
+Size: 155472
+MD5sum: f170f4c9e035af872e0f8ab9f2a19ee2
+SHA1: ba5dd30a590a24c58ce567803f6f03d25f081cac
+SHA256: a83e05743cede54c8c771f0ab9ec3149fb83a637939dd018d735424eb552c090
+Section: Tweaks
 Description: iOS进程查看器。
 Author: Domo
-Depiction: https://repo.cypwn.xyz/depiction/2976
 Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
 Name: CocoaTop64-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2976
 
 Package: xyz.cypwn.dockx
 Version: 2.6.2
@@ -1459,18 +1444,16 @@ Architecture: iphoneos-arm64e
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/MovenotifiaTion16_1.0_Roothide.deb
-Size: 16804
-MD5sum: ea5c32331667e8081bf5f8f647960f87
-SHA1: 63859abd6729f71bd24f87d299215791ed52200c
-SHA256: a18fd098f2b490f969004f1c23464a90178e9b49832a8d11b11a9e8884b94f64
+Filename: debs/MovenotifiCation16_1.0_Roothide.deb
+Size: 16808
+MD5sum: b3e0c1b3916a450e7938813eb84c3ba9
+SHA1: d78ec99f189ae924e6a25382e8471d9e84890d92
+SHA256: 49dca5a285c7824cc904cc6965ecd687acd8df6951ec172ff39ac6ed66480727
 Section: Tweaks
 Description: 在iOS16上自定义锁屏通知消息上下位置。
 Author: JunesiPhone
-Depiction: https://repo.cypwn.xyz/depiction/3004
 Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
 Name: MoveNotification16移动通知-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3004
 
 Package: xyz.cypwn.settingsrevamp
 Version: 3.0.1
@@ -1515,17 +1498,15 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: ws.hbang.common
 Conflicts: com.idevicelover.smartbattery2
 Filename: debs/SmartBattery_1.6_Roothide.deb
-Size: 699216
-MD5sum: 85e86eb9cdc1717505813916b9e961b2
-SHA1: 03a4bb2f9900ed3bb3a74a4e7e9962dd1598cd13
-SHA256: 3bca2a815a47f12f307122cf6b8ca6381e0886e6101c84dbb0592dc767f6b1a2
+Size: 699024
+MD5sum: 3647731a264fbd54d1485cc2deebd5ac
+SHA1: 5ad1001720d96447c79bcf74689e7d938eeec31b
+SHA256: a4f224f60ec959ec909bed5e22555b145c7125519195eeb61bb60bd2b4ab2230
 Section: Tweaks
 Description: 用于监控、保存和优化电池性能的终极优化插件。
 Author: elias
-Depiction: https://repo.cypwn.xyz/depiction/2217
 Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
 Name: SmartBattery省电优化-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2217
 
 Package: xyz.cypwn.sneakycam
 Version: 2.2.2
