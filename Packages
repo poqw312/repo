@@ -1515,17 +1515,15 @@ Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, oldabi
 Filename: debs/SneakyCam_2.2.2_Roothide.deb
-Size: 109184
-MD5sum: 190b823cb290f584918ac751cfb9cf6a
-SHA1: fa816d9a40263191291d4f8519597a8e2086040c
-SHA256: 22269846f7900ffd15ec8a4cd7cf514af031b5fb498a1bfdbb073de9c97ae2c0
+Size: 109200
+MD5sum: 8041018b604e1850e65df8424d59b5b2
+SHA1: 6b8c52e7dc6ebc541b3c47322400cfadcc5ba022
+SHA256: 520dab8d501e4b1ae729928bb568c8c2af5fa0cb4976f4d3b337a47e99a8d840
 Section: Tweaks
-Description: 在锁屏状态下或者在任意界面可以通过双击音量键来调用相机的视频录制和拍照。如果视频录制过程中有来电和微信CallKit呼叫或者其他音视频播放，该录制将会立即停止。温馨提示：VolumeMixer音量控制插件可以让播放音视频的同时开启后台录制。
+Description: 在锁屏状态下或者在任意界面可以通过双击音量键来调用相机的视频录制和拍照。如果视频录制过程中有来电和微信CallKit呼叫或者其他音视频播放，该录制将会立即停止。需要安装本源中的"Xinam1ne AIO"依赖插件来修复设置项，温馨提示：VolumeMixer音量控制插件可以让播放音视频的同时开启后台录制。
 Author: Spark
-Depiction: https://repo.cypwn.xyz/depiction/2450
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
 Name: SneakyCam隐私相机-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2450
 
 Package: xyz.cypwn.teleport
 Version: 1.1
