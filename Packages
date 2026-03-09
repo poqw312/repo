@@ -90,6 +90,23 @@ Author: Mao
 Name: 斗图助手-Roothide
 Sponsor: admin@25mao.com
 
+Package: com.25mao.doutu.rootless
+Version: 3.1-7
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/斗图助手_3.1-7_Roothide.deb
+Size: 784484
+MD5sum: 77ebe4da27d73246a4efa9892b3d4f00
+SHA1: 8e103faabf12e7df7c851cd10a25f9a5b3501f42
+SHA256: 1532b7e6895467a623dfed47e5d813b85a01131159a2e86422792a0f6def5a06
+Section: 微信插件
+Priority: optional
+Description: 微信斗图助手
+Author: Mao
+Name: 斗图助手-Roothide
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64e
@@ -121,6 +138,23 @@ SHA256: 49a0decabc45bf76ba50923e94f5a93bcc8dadf5b34de6ad2d9a4b7f5ea7a0c2
 Section: 微信插件
 Priority: optional
 Description: 微信助手-Roothide
+Author: Mao
+Name: 微信助手-Roothide
+
+Package: com.25mao.miyou.rootless
+Version: 3.9-3
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信助手_3.9-3_Roothide.deb
+Size: 10139664
+MD5sum: acc6fea7688e11fed13401a4256e1c7c
+SHA1: c7c792caf77c70ca5d36536e71b0061fa5e423f2
+SHA256: 1a906e80af5d5f68b7a41b47f8827e5ff321994d8ee5bc1afafd021b6f463508
+Section: 微信插件
+Priority: optional
+Description: 微信助手-Roothide版
 Author: Mao
 Name: 微信助手-Roothide
 
