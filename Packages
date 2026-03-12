@@ -402,12 +402,12 @@ Maintainer: DXcool223
 Installed-Size: 2112
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), python3, com.opa334.libsandy, unzip
-Filename: debs/Flex3 Processor_1.0-4_Roothide.deb
-Size: 1163956
-MD5sum: 943b70da8acf2372388ec9002249db84
-SHA1: bed7349610523577440b1d9f300c6a04f45f3064
-SHA256: 54820a5dd1f9b89681d5c99c24067c0c2b9b686bff605febfc8f484dc26fec1d
-Section: Applications
+Filename: debs/Flex3应用解析_1.0-4_Roothide.deb
+Size: 1164288
+MD5sum: 085053bda10fcec3f59f3c2b039ca08a
+SHA1: cdb90b52cc10343e8c22f74e5f915bb2f5ae2a10
+SHA256: 3e11eefe089aeda95a8d012a120c0bed36c9e904bbddc2504955e9a75093f5fb
+Section: Tweaks
 Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插件可以独立对砸壳后的iPA软件包进行解析，点击"Select File"选择你要解析的iPA包(自行砸壳)，然后点击"Execute"即可开始解析，解析成功后会提示解析文件的存放路径。
 Author: DXcool223
 Name: Flex3应用解析-Roothide
