@@ -1038,6 +1038,25 @@ Author: Shadow
 Name: FuckThermal解除温控-Roothide
 Sponsor: Shadow
 
+Package: github.poqw312.icleanerpro
+Version: 7.10.0k
+Architecture: iphoneos-arm64e
+Maintainer: MainRepo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.10.0k_Roothide.deb
+Size: 1103048
+MD5sum: a07b15d75fb35e45406a593a94317d2f
+SHA1: 9a24d16a1df6029004bf16d3037ea430d9270fee
+SHA256: 8f5859b4194073cc6145fa8155e34f4a7bc9b21771ec1f4267f4caae8aa7fe3b
+Section: 系统增强
+Description: 首款真正的iOS系统清理与优化工具。此版本为破解注册版！默认打开就是简体中文。
+Author: Ivano Bilenchi <support@ib-soft.net>
+Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
+Name: iCleaner Pro系统清理-Roothide
+
 Package: jp.uzra.aerial
 Version: 3.5
 Architecture: iphoneos-arm64e
@@ -1233,27 +1252,6 @@ Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Author: Evelyn
 Name: Legacy arm64e Support
-
-Package: org.mr.icleanerprorl
-Version: 7.10.0k
-Architecture: iphoneos-arm64e
-Maintainer: MainRepo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0)
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: debs/iCleanerPro_7.10.0k_Roothide.deb
-Size: 1103248
-MD5sum: 837ff68664570af60ca9277b74a243c0
-SHA1: 854c836481d1d255c72b707d1ac19d699a0c2f7c
-SHA256: 8cd04e0c473d06d50a84b6023828fa84bacdf1bbd574a07a4ffc1bd6cf3e59f5
-Section: Utilities
-Description: 首款真正的iOS系统清理与优化工具。此版本为破解注册版！默认打开就是简体中文。
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: https://mrepo.org/depiction/5476
-Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
-Name: iCleaner Pro系统清理-Roothide
-Sileodepiction: https://mrepo.org/sileo/5476
 
 Package: python3
 Version: 3.9.9-2
