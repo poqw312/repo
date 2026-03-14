@@ -263,6 +263,22 @@ Description: 插件开关已纳入微信插件管理页面。删除搜索页面�
 Author: Apple
 Name: 微信广告净化助手-Roothide
 
+Package: com.brend0n.nolowpowermode30secautolock
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: debs/解除低电量30秒锁屏_0.0.1_Roothide.deb
+Size: 5576
+MD5sum: 68819bd29129db5ee7bceda7e99bd79a
+SHA1: d0f11f50c88b81f6b2e105261f230852bbe5489b
+SHA256: 1598bd6c441d4df25cb63b6190463855dd0980d054815442138cdf5144c75275
+Section: 系统增强
+Description: NoLowPowerMode30SecAutoLock可以在低电量模式下自由设置屏幕自动锁定时间。安装后默认生效。设置-显示与亮度-自动锁定
+Author: Brend0n <brendonjkding@126.com>
+Name: 解除低电量30秒锁屏-Roothide
+
 Package: com.brend0n.volumemixer
 Version: 0.0.7~beta3
 Architecture: iphoneos-arm64e
@@ -360,6 +376,23 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC(微信插件)-Roothide
 
+Package: com.dao.ccless
+Version: 2.1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.ps.cconandoff, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/CCLess++控制中心_2.1.0.1_Roothide.deb
+Size: 501684
+MD5sum: df549a9fe9fea8a3409dec818dc01531
+SHA1: b6d99ece4c1ffc41f5274d623050d0a76ed9c95a
+SHA256: 35ac7f97f1c2877b4a330231c499c07591d661e6b8c136631ff58e7496df17eb
+Section: 系统增强
+Description: 超级控制中心模块集合：注销、定位、锁屏、截屏、静音、VPN、自动亮度、迷你音量/亮度、双卡切换、4G/5G切换、蜂窝数据切换、系统运行时间、一键清除角标、实时CPU使用率、微信支付宝扫码和付款码等功能。已加入真实关闭Wi-Fi和蓝牙开关功能。
+Author: 妖刀
+Name: CCLess++控制中心(RootHide)
+
 Package: com.dopamine.swapforcer
 Version: 0.0.2-7+debug
 Architecture: iphoneos-arm64e
@@ -429,24 +462,6 @@ Section: Tweaks
 Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插件可以独立对砸壳后的iPA软件包进行解析，点击"Select File"选择你要解析的iPA包(自行砸壳)，然后点击"Execute"即可开始解析，解析成功后会提示解析文件的存放路径。
 Author: DXcool223
 Name: Flex3应用解析-Roothide
-
-Package: com.hk.rootless.cc
-Version: 2.1
-Architecture: iphoneos-arm64e
-Maintainer: 妖刀
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc
-Filename: debs/控制中心合模块集_2.1_Roothide.deb
-Size: 498660
-MD5sum: 8d020308049da32586ffbaa30366dd90
-SHA1: c5184a89b0b9683255d2bcb4ee7e8a0fd8b3de5f
-SHA256: d830215246596176e2b7dae04886c037560f908a6dfd8f657eaded7982da248d
-Section: 系统增强
-Description: 超级控制中心模块集合！
-Author: 妖刀
-Name: CCLess++(RootHide)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
 Package: com.huami.dyyy
 Version: 2.2-9
@@ -522,23 +537,6 @@ Section: Netskao-Tweaks
 Description: 从主屏幕查看和管理应用程序数据。v1.4.6修复iOS15系统崩溃问题v1.4.5修改获取应用程序降级版本号的API接口。
 Author: Fouad Raheb
 Name: AppData应用数据-Roothide
-
-Package: com.netskao.ccsim
-Version: 1.1-9
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 188
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: debs/CCSIM_1.1-9_Roothide.deb
-Size: 24844
-MD5sum: 64bc8c8e50912f9a4f1809ca14fe8c68
-SHA1: eea20f38960cf9b492060ae5e8c7de1aec90982e
-SHA256: e387c4bed4eda58694a2e262f5fc543b91730cb3907fd69f810d6962368e1d2d
-Section: Netskao-Tweaks
-Description: 对于双SIM卡设备，在控制中心添加一个快捷关闭或开启SIM卡的按钮。
-Author: Netskao
-Name: CCSIM-Roothide
 
 Package: com.netskao.dumpdecrypter
 Version: 1.5-1
@@ -779,12 +777,12 @@ Maintainer: SHTM
 Installed-Size: 4324
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/FlexibleExpression_1.2.0_Roothide.deb
-Size: 3644716
-MD5sum: 45c2550d98272b662d61c77e300b9af9
-SHA1: 7e66dd06b6c1cd962448d1ee0b6e7f39ca3766a5
-SHA256: 00cab2cd2d471557aa7126a2e8c8b8eacb406c07a1ca271aaf48f0c68090de60
-Section: Tweaks
+Filename: debs/FlexibleExpression灵动空间_1.2.0_Roothide.deb
+Size: 3644700
+MD5sum: 638d81bde343126d6d4852aeb3b04995
+SHA1: 60087cb35c151a3aeb0834d66ec02507129d7f8a
+SHA256: 4bdbadd4cd602ff9c464466ab84f8eef2a699c2b9387cc6af7bea5b1325c861a
+Section: 美化插件
 Description: 灵动空间，灵动岛不再枯燥！新增锁屏动画
 Author: SHTM
 Icon: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/FlexibleExpression.png
@@ -1134,17 +1132,15 @@ Depends: mobilesubstrate, preferenceloader, xyz.cypwn.limneos, net.limneos.simpl
 Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
 Filename: debs/AudioRecorderXS_5.1-12_Roothide.deb
-Size: 1199732
-MD5sum: 35147d652b3f6d559deaa2e26f9c05d1
-SHA1: a241a9eb99c68e0c86045c95585e1522340ef302
-SHA256: fa9b626c56b4f2f71ecc979ed81bd979ee4c3c5f122f334cba33ca1a12e8d278
+Size: 1199812
+MD5sum: 7dbeb8d27104caf9f49db91063da2224
+SHA1: 9868ca70eb2832a3dc8eec5fb6ec325093f338bf
+SHA256: 12b96bf3a0c9a9fb97717697f39a0b8dac3f37d573e5a9c6790b8bb2094abfb5
 Section: Tweaks
-Description: 史上最先进的iOS通话录音器！支持iOS15-iOS17
+Description: 史上最先进的iOS通话录音器！已完整汉化版，支持iOS15-iOS17。
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.audiorecorderxs
 Mainlibmd5: 2bd89895e747af47790b0eb2f6bac296
 Name: AudioRecorder通话录音-Roothide
-Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.audiorecorderxs
 
 Package: net.limneos.autoanswerx-rootless
 Version: 2.0-2
@@ -1175,18 +1171,16 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, xyz.cypwn.limneos
 Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Filename: debs/BioprotectXS_4.7-4_Roothide.deb
-Size: 581764
-MD5sum: 74842e5eed9062b7663f84f54839f1ea
-SHA1: 6af9681c62ef62c3629ce0d309369a6e78d6b321
-SHA256: a357730ad3a923d3812f3475272c3e9f9331f195d98a70b29c9806018cca168a
+Size: 582388
+MD5sum: 5baa142ea12aca9243d78da580516977
+SHA1: 86ecf87ff34f856747337ce6c1028948e67b29a2
+SHA256: dd3f62a742f943e9f4fb368c74ec213702e00dfddf9838520aaa042e40f80f04
 Section: Tweaks
-Description: 使用密码和面容加密应用。支持iOS14-iOS18
+Description: 使用指纹触控和面容ID加密应用程序。已完整汉化！支持iOS14-iOS18。
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://limneos.net/bioprotectxs
 Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
 Mainlibmd5: 11a31f2c14af96f0ee846d1e06d5cfd0
 Name: BioProtectXS应用加密-Roothide
-Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.bioprotectxs
 
 Package: net.limneos.glow-roothide
 Version: 0.6-6
