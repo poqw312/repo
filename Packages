@@ -114,11 +114,11 @@ Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Filename: debs/左滑返回_1.0-6_Roothide.deb
-Size: 46144
-MD5sum: 75e558c6cc4bca9565fcae75afff9ea3
-SHA1: 0d9ff69ce557d34b517987b60928ca063b4128a0
-SHA256: 76eb1b7c21568bb490e616f88b2d38a4753ac08bacd17798a2d179de82af64f5
-Section: 系统增强
+Size: 46120
+MD5sum: 224957dfe01788af4954d856dcbd9788
+SHA1: 16a4537d2e921153fe72f54135edc7a3032e5c8d
+SHA256: f0dbc2ba49fb82bd6f20222686be4b14074c5f6ee95b038443b04a3535ed5e22
+Section: Tweaks
 Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
@@ -1027,13 +1027,13 @@ Maintainer: Shadow
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
 Conflicts: com.shadow.fuckthermal
-Filename: debs/FuckThermal解除温控_1.2-38_Roothide.deb
-Size: 213580
-MD5sum: 594f47a0e9fbcb4893d5582a9415017b
-SHA1: 654bc6a51f10e5cfe0cf025491318dc20e2a5075
-SHA256: 5d8eeaddb8bb136b1fa0745691b9d3bf90295dc236700eb401ad9d073af0de40
-Section: 系统工具
-Description: 解除设备温控，解决设备充电或使用过程中因发烫导致设备处理器降频卡顿，屏幕亮度变暗等问题。在这基础上可以安装Powercuff插件来屏蔽设备高温发烫导致温度计弹窗，安装后没有效果的用户请注销SpringBoard或者重启用户空间！测试支持iOS15-iOS16
+Filename: debs/FuckThermal_1.2-38_Roothide.deb
+Size: 213748
+MD5sum: 0e965cbe585cc0a5daf5e6700d4154a4
+SHA1: 5585b8777285e987cd7a44566dad7ce6ab1cc8d3
+SHA256: b886e287fb757ee997ce2f6c9bc3379113dd4597e7a319289ddde27579796aef
+Section: 系统增强
+Description: 解除设备在充电或使用过程中因发烫导致设备CPU频率降频卡顿、屏幕亮度变暗等问题。在这基础上可以安装Powercuff插件来屏蔽设备高温发烫导致温度计弹窗，安装后没有效果的用户请注销SpringBoard或者重启用户空间！打开低电量模式后，CPU频率能稳定保持不降频就表示插件生效。测试支持iOS15-iOS16
 Author: Shadow
 Name: FuckThermal解除温控-Roothide
 Sponsor: Shadow
