@@ -63,11 +63,11 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 16.0)
 Filename: debs/NopasteAlerts16_1.0.0_Roothide.deb
-Size: 4032
-MD5sum: af6b8cb99c0c4cc55830cbcbb712b343
-SHA1: e554c24aedd551205da0067cf0f498906ec5d8c4
-SHA256: 9f6a841527622c6c0b8f9d517fbeff8009f43cdc670874840c2c84ae463a3087
-Section: Tweaks
+Size: 4052
+MD5sum: 9bad4bf01524623aac3bdd72d0bf77bc
+SHA1: 247c365283912e2b7839c08e8cc36fb2d0113264
+SHA256: 3049905e51edfbb08af3970c2c58fe563f5d1c2ef437ce13aa2564e35c36085b
+Section: 系统增强
 Description: 移除iOS16中新增的烦人粘贴确认提示。安装后无图标无设置，默认生效。
 Author: 0xkuj
 Name: NoPasteAlerts16禁用粘贴提示-Roothide
@@ -360,6 +360,24 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC(微信插件)-Roothide
 
+Package: com.dopamine.swapforcer
+Version: 0.0.2-7+debug
+Architecture: iphoneos-arm64e
+Maintainer: Dopamine User
+Installed-Size: 76
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/提高应用留存率SwapForcer_0.0.2-7_Roothide.deb
+Size: 6532
+MD5sum: c7dd2147f0974b64ef96cad77884db97
+SHA1: e6e87a87bd3785a67b91a0ebff1adef8922d9865
+SHA256: 86ab6568ec1113ff99d8dc5217b36a91be89a663ec8b038f98d7d3ec28094959
+Section: 系统增强
+Description: 强制启用并稳定运行iOS16的Swap机制,提高应用留存率。
+Author: colorBlack
+Name: SwapForcer-Roothide
+Prefix: /var/jb
+
 Package: com.dumpapp.wechat-rootless
 Version: 2.3.0
 Architecture: iphoneos-arm64e
@@ -434,18 +452,17 @@ Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64e
 Maintainer: huami
-Installed-Size: 2036
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 2136
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音魔术师DYYY_2.2-9_1629_Roothide.deb
-Size: 439864
-MD5sum: 6784428a398dd53283053a205cff0fe6
-SHA1: 14792f7b3fe8e2c03cb91042e6bb3a77b447a11e
-SHA256: 166a22dac56501dc33dddba82a62fce9e9a5a546cea3b18ee26e8fa07b67bdb0
+Filename: debs/抖音魔术师DYYY_2.2-9_1642_Roothide.deb
+Size: 461032
+MD5sum: 244a58d84986002af7651e858543b7af
+SHA1: 922b160dc4beec2c002e6fe06f0cad171a1b233f
+SHA256: d6535ca03a7757ee74d18d1ca1a140b42fce6500354024b3ce58cbb67368697d
 Section: 抖音插件
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
-Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.1.31更新1629
+Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.3.14更新1642
 Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY抖音魔术师-Roothide
@@ -789,6 +806,23 @@ Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改�
 Author: ren7995 & SINI
 Name: Atria桌面布局-Roothide
 
+Package: com.sini921.ccborder
+Version: 1.1.2-36
+Architecture: iphoneos-arm64e
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 968
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/CCBorder_1.1.2-36_Roothide.deb
+Size: 194812
+MD5sum: 10408b8dc411ce130b361d772ae37f50
+SHA1: 70120d408865afc4a6876949d52d9fceceac71e9
+SHA256: d7d2b3b318b9431f352afe0378cb93747979dd0953c5db20771c0d129128544a
+Section: 美化插件
+Description: 仿iOS18控制中心美化，可调整控制中心模块形状，基于开源修改编译，去掉了AlderisColorPicker依赖
+Author: fiore & p2kdev & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Name: CCBorder-Roothide
+
 Package: com.skypain.flexloader
 Version: 5.25.19-1
 Architecture: iphoneos-arm64e
@@ -933,25 +967,6 @@ Author: 茶 愫
 Name: WeChatEnhance(微信插件)-Roothide
 
 Package: com.xuuz.douyinhelper
-Version: 2.1-3
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17412
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.1-3_Roothide.deb
-Size: 13512620
-MD5sum: 87bac44c4f5cef2fcc3b7eb95c292a59
-SHA1: bcda5db7f4f1c9bc1c3374bdd1a34aaa7ed0025c
-SHA256: c97bedddeca9e1e0f7866500a5e859da93ef23b7fa1fc27b43b8943ea01f384b
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
-
-Package: com.xuuz.douyinhelper
 Version: 2.1-4
 Architecture: iphoneos-arm64e
 Maintainer: XUUᶻ
@@ -963,6 +978,25 @@ Size: 13530180
 MD5sum: 51cd4571323d8851e859609bf2b17692
 SHA1: 6efc6ef995f3209e0545d92373e1a68227368f2e
 SHA256: ac5d2f26d4656ef8652f82d082351fb75716a321e79d0c51a2194d5e8267e130
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
+Package: com.xuuz.douyinhelper
+Version: 2.1-5
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17444
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.1-5_Roothide.deb
+Size: 13530560
+MD5sum: 9c3956d90c81afeec6095f448e8076fa
+SHA1: a0c5685879ac067fd8b5bee055577f1cee615670
+SHA256: 7bcd65c2294d26fde36485752dd0c9f8fc26d855094c3e36133b60a1e4d6d3a6
 Section: 抖音插件
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
