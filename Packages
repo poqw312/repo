@@ -107,6 +107,23 @@ Description: 微信斗图助手
 Author: Mao
 Name: 斗图助手-Roothide
 
+Package: com.25mao.doutu.rootless
+Version: 3.1-8
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/斗图助手_3.1-8_Roothide.deb
+Size: 787712
+MD5sum: 9b7f119f891e44b0947917a0cd367b03
+SHA1: 59c849a2b0b56fb393a9544722c2796619c25260
+SHA256: 280bd5c17202dda86f3313481c6c00b40766c10753e87a06450c8f3df7a07c76
+Section: 微信插件
+Priority: optional
+Description: 微信斗图助手
+Author: Mao
+Name: 斗图助手-Roothide
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64e
@@ -882,14 +899,68 @@ Installed-Size: 440
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
 Filename: debs/SnowBoard.Dock栏拓展_1.1.3_Roothide.deb
-Size: 34136
-MD5sum: bbd539decdb0474cc19144bacc1d737e
-SHA1: 8f59e919c0eeca6aec835d93aad15b74e80dcfc5
-SHA256: 4285343c26b2857f976afdee35ac3ed4492564969d96f00a233d04ace1547ce7
+Size: 34028
+MD5sum: df168d7457b2d355d52b4e5f93a54e88
+SHA1: 1232bd13f8d70efa617ec3db4551beadb8158e1a
+SHA256: a0dca7ce295acf66207f505e7582abdcea170023b654d280c48cae224c1e4dab
 Section: 美化插件
-Description: SnowBoard主题平台Dock栏拓展模块
+Description: SnowBoard主题平台的Dock栏拓展模块。
 Author: Spark
 Name: SnowBoard Dock栏拓展-Roothide
+
+Package: com.spark.snowboard.effects
+Version: 1.2.2-Beta2-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 412
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/SnowBoard图标效果_1.2.2_Roothide.deb
+Size: 34700
+MD5sum: 4ab2a5d28e45a27dc0c37ad506946270
+SHA1: 659998c0cfb808df9b07f5bb2c692d8d237d3462
+SHA256: 08cb85a87f4f69beed578a104955a82eb3beaa9b322bdf6d86534a6f31b1556c
+Section: 美化插件
+Description: SnowBoard主题平台的图标效果拓展模块。
+Author: Spark
+Name: SnowBoard图标效果拓展-Roothide
+
+Package: com.spark.snowboard.fonts
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 392
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Conflicts: com.ipr.bytafont, com.bytafont.bytafont3
+Replaces: com.ipr.bytafont, com.bytafont.bytafont3
+Provides: com.ipr.bytafont, com.bytafont.bytafont3
+Filename: debs/SnowBoard字体拓展_1.1.0_Roothide.deb
+Size: 22140
+MD5sum: f9ff930b8bb2c290489cbb3058bd6e3e
+SHA1: d6d753a06dafff9abd4ceaa3bfb52f8c42b745b8
+SHA256: 302e25b5c78a6cea810b698ece388afb41a6be5549de667fdb23e1cf3d391e44
+Section: 美化插件
+Description: SnowBoard主题平台的字体拓展模块。
+Author: Spark
+Name: SnowBoard字体拓展-Roothide
+
+Package: com.spark.snowboard.labels
+Version: 1.1.1~Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 432
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/SnowBoard标签拓展_1.1.1_Roothide.deb
+Size: 27152
+MD5sum: 90fb2d5ed156c72c3929c72040d1f980
+SHA1: 08aa4d38481f216cfb10dfa2c55fd2b095661cc3
+SHA256: 3b0b4ad373242130e6723e49051be7e41c1f27a212e55b813c80b858a8fdf677
+Section: 美化插件
+Description: SnowBoard主题平台的图标标签拓展模块。
+Author: Spark
+Name: SnowBoard标签拓展-Roothide
 
 Package: com.spark.snowboard.masks
 Version: 1.2.2-Beta2-rootless
@@ -898,15 +969,66 @@ Maintainer: Spark
 Installed-Size: 340
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: debs/SnowbBoard图标拓展_1.2.2_Roothide.deb
-Size: 20280
-MD5sum: ac71419725d4ed70a6c171834272e515
-SHA1: 797c4dcd65980c100c3ee0279a73ed9a4c310267
-SHA256: 1a0d54e53d00a03546d88cde6bfd8f3e94ef331e9e2603fe570d99ee5d44d9bd
+Filename: debs/SnowBoard图标遮罩_1.2.2_Roothide.deb
+Size: 20308
+MD5sum: 0e13866114438b22b04a903b945df34f
+SHA1: 01984068ae87491574422539e2afce4c850adae3
+SHA256: 1d559fdc257c480b368ea76872c7bb6d0b723b5250f20c9a392fb3b3ba99d9f9
 Section: 美化插件
-Description: SnowBoard主题平台图标遮罩拓展模块。
+Description: SnowBoard主题平台的图标遮罩拓展模块。
 Author: Spark
-Name: SnowBoard图标拓展-Roothide
+Name: SnowBoard图标遮罩拓展-Roothide
+
+Package: com.spark.snowboard.presetextension
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 488
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: debs/SnowBoard预设拓展_1.1.0_Roothide.deb
+Size: 45044
+MD5sum: f8139bfb9a287825e7f5f9c63fdc2f97
+SHA1: 3f6b590fa8cee960c549cd1ab0ec4c01abab605c
+SHA256: 0ed38d5a7bc86349d589d208b806219b16e0a373c7cc98bfe88d81b2e7cfa255
+Section: 美化插件
+Description: SnowBoard主题平台的预设扩展模块。
+Author: Spark
+Name: SnowBoard预设拓展-Roorhide
+
+Package: com.spark.snowboard.settingsicons
+Version: 1.0.26~Beta3-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 340
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/SnowBoard设置图标_1.0.26_Roothide.deb
+Size: 19180
+MD5sum: 666aceb3fb5f6974fa1f80f443094648
+SHA1: c71e7360a79b2535bda8208c74257b012e5c9bb2
+SHA256: 7bbf2bd35697fd7503a65ab7c80ffd194286882d6df68be5a86c80f340d2b990
+Section: 美化插件
+Description: SnowBoard主题平台的设置图标拓展模块。
+Author: Spark
+Name: SnowBoard设置图标拓展-Roothide
+
+Package: com.spark.snowboard.statusbar
+Version: 1.1.0-Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/SnowBoard状态栏拓展_1.1.0_Roothide.deb
+Size: 28476
+MD5sum: 91af6de09c98b1171d5748bd5ed5cef1
+SHA1: 3ffad6412c0735158e4e24498769874d7b3e28b6
+SHA256: 8c604572f4449734adfd71eaf06b1fc5e4a2054aee64c1a474ddeb6f84f93a6e
+Section: 美化插件
+Description: SnowBoard主题平台的状态栏拓展模块。
+Author: Spark
+Name: SnowBoard状态栏拓展-Roothide
 
 Package: com.spark.snowboard.ui
 Version: 1.3.0~Beta2-rootless
@@ -915,13 +1037,13 @@ Maintainer: Spark
 Installed-Size: 476
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
-Filename: debs/SnowBoard.UI_1.3.0_Roothide.deb
-Size: 67468
-MD5sum: 6b8edcfb24868e1db5399ea4f647c424
-SHA1: e2cd1ca35cc70c0881900b4e2629dd62acfb9200
-SHA256: 8a5ddca437fc4ab63232881eefbedbe60d9bdfef4c479913c15ff89d7e4d3cd3
+Filename: debs/SnowBoard用户界面拓展_1.3.0_Roothide.deb
+Size: 67392
+MD5sum: ebaecf38a2ef56560cbd80660d01844c
+SHA1: f23e0b463861d9212c4b38389bb0b1dbd0e82599
+SHA256: a972c69e940cda9b8e713ab73fce47b2da81b972ce888dc7342545e120cd0dda
 Section: 美化插件
-Description: 扩展主题插件的用户界面
+Description: SnowBoard主题平台的用户界面拓展模块。
 Author: Spark
 Name: SnowBoard UI扩展-Roothide
 
