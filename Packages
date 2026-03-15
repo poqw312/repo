@@ -1038,15 +1038,15 @@ Maintainer: Spark
 Installed-Size: 476
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
-Filename: debs/SnowBoard用户界面拓展_1.3.0_Roothide.deb
-Size: 67392
-MD5sum: ebaecf38a2ef56560cbd80660d01844c
-SHA1: f23e0b463861d9212c4b38389bb0b1dbd0e82599
-SHA256: a972c69e940cda9b8e713ab73fce47b2da81b972ce888dc7342545e120cd0dda
+Filename: debs/SnowBoard.UI拓展_1.3.0_Roothide.deb
+Size: 67860
+MD5sum: 0694aa212c977861784da48540f0980f
+SHA1: f85093dd9fd3bcd5a954dc3c32694233e5f3a905
+SHA256: 5a0595c387ce523dc76582482e58a1040f8d9cd4da5018b09f6780bcd8a6cd59
 Section: 美化插件
 Description: SnowBoard主题平台的用户界面拓展模块。
 Author: Spark
-Name: SnowBoard UI扩展-Roothide
+Name: SnowBoard UI拓展-Roothide
 
 Package: com.susu.nopreferencetips
 Version: 1.0.4
