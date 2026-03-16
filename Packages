@@ -37,6 +37,25 @@ Description: 微信增强插件，本次更新加入密友功能。
 Author: Mikoto
 Name: MikotoHelper微信插件-Roothide
 
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm64e
+Maintainer: Karen/あけみ
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/AppsyncUnified_116.0_Roothide.deb
+Size: 32356
+MD5sum: d89e8956a69449412d3585f0d2dc5e89
+SHA1: b921899d241161acb1ead110ba3a7cc9f5938e31
+SHA256: 7ccf9275d0ab9bdd353d474c8743f90fd155b35baf8443a74e751ff1bcc25f11
+Section: Tweaks
+Description: 允许安装未签名的iOS应用程序。
+Author: Karen/あけみ, Linus Yang
+Name: AppSync Unified-Roothide
+
 Package: apt.llld.flex3beta
 Version: 1:3~Beta98
 Architecture: iphoneos-arm64e
@@ -288,30 +307,6 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle设置归类-Roothide
 
-Package: com.creaturecoding.shuffle
-Version: 1.6.2
-Architecture: iphoneos-arm64e
-Maintainer: CreatureSurvive <support@creaturecoding.com>
-Installed-Size: 1484
-Pre-Depends: rootless-compat(>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
-Depends: com.creaturecoding.libcspreferences
-Conflicts: com.cpdigitaldarkroom.placeholder
-Replaces: com.cpdigitaldarkroom.placeholder
-Filename: debs/Shuffle_1.6.2_Roothide.deb
-Size: 268496
-MD5sum: f31b00335952bfbacf22741ef146ddcf
-SHA1: e8d9b5035c8d88ce1ab1a0470f81e5980f2b1e71
-SHA256: 99bd03a6ed574335c5fc9c04702db483e955919190fd0a80f5edf2347756dd8b
-Section: Tweaks
-Homepage: https://creaturecoding.com/
-Description: 一款设置分类插件，可收纳设置里的插件归类，应用归类，系统归类。
-Tag: purpose::extension, compatible_min::ios10
-Author: CreatureSurvive <support@creaturecoding.com>
-Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
-Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
-Name: Shuffle设置归类-Roothide
-Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
-
 Package: com.curtin.pkc.rootless
 Version: 0.9-4
 Architecture: iphoneos-arm64e
@@ -419,6 +414,23 @@ Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY抖音魔术师-Roothide
 
+Package: com.idevicelover.smartbatteryios15
+Version: 1.6
+Architecture: iphoneos-arm64e
+Maintainer: elias
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: ws.hbang.common
+Conflicts: com.idevicelover.smartbattery2
+Filename: debs/SmartBatteryios15_1.6_Roothide.deb
+Size: 698452
+MD5sum: 26d9ea5268d75cc3c14b3a6e9bb9c13a
+SHA1: b5193fe8caf9a5f026778fa0ccaa1fc7e18b1546
+SHA256: 7145d1ed78cd29681304adaeaa4a79b139d160d450eaf37adcc7ca939b4741f0
+Section: Tweaks
+Description: 用于监控、保存和优化电池性能的终极优化插件。
+Author: elias
+Name: SmartBattery省电优化-Roothide
+
 Package: com.lclrc.exacttime
 Version: 2.0.4
 Architecture: iphoneos-arm64e
@@ -474,6 +486,23 @@ Section: Netskao-Tweaks
 Description: 从主屏幕查看和管理应用程序数据。v1.4.6修复iOS15系统崩溃问题v1.4.5修改获取应用程序降级版本号的API接口。
 Author: Fouad Raheb
 Name: AppData应用数据-Roothide
+
+Package: com.netskao.ccsim
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/CCSIM_1.1-9_Roothide.deb
+Size: 24844
+MD5sum: 64bc8c8e50912f9a4f1809ca14fe8c68
+SHA1: eea20f38960cf9b492060ae5e8c7de1aec90982e
+SHA256: e387c4bed4eda58694a2e262f5fc543b91730cb3907fd69f810d6962368e1d2d
+Section: Netskao-Tweaks
+Description: 对于双SIM卡设备，在控制中心添加一个快捷关闭或开启SIM卡的按钮。
+Author: Netskao
+Name: CCSIM-Roothide
 
 Package: com.netskao.dumpdecrypter
 Version: 1.5-1
@@ -618,6 +647,22 @@ Tag: role::developer
 Author: opa334
 Name: libSandy
 
+Package: com.p2kdev.tinge
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: P2KDev
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
+Filename: debs/Tinge角标颜色_1.2.2_Roothide.deb
+Size: 40392
+MD5sum: ad83b4393a4b9d9b37427b8d54b11c4e
+SHA1: 13c45793ce3639ed63c1295458f4bc855b16a573
+SHA256: 2f14ee1d49920394b9be163c6355851bbb53af31c46a24cb9e906d73dd205d7f
+Section: 美化插件
+Description: 通知角标颜色。跟随应用图标颜色自适应变色！
+Author: P2KDev
+Name: Tinge角标颜色-Roothide
+
 Package: com.ps.batteryhealthenabler
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -634,6 +679,24 @@ Section: Tweaks
 Description: 修复更换第三方电池后显示维修和无法正常显示电池健康度等问题。
 Author: PoomSmart
 Name: Battery Health Enabler电池健康-Roothide
+
+Package: com.ps.cconandoff
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: debs/ConandoFF关闭WiFi蓝牙_1.1.0_Roothide.deb
+Size: 5240
+MD5sum: a8a399cb82e89ea8764ce84de7d38481
+SHA1: cbe360240666e11f16c3381da4f6817af350825a
+SHA256: f8fbfe7a1abd515cb2ec2c5aeb39f186fc8c408f9a7ee626a051ea33a30f0e8e
+Section: 系统增强
+Description: 从控制中心真实关闭Wi-Fi和蓝牙开关。
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
+Name: CC On & Off(Roothide)
 
 Package: com.ps.recordpause
 Version: 2.0.7
@@ -1064,6 +1127,40 @@ Description: 使用自定义视频设置锁屏与桌面壁纸，基于开源重�
 Author: Traurige & SINI
 Name: Eneko视频壁纸-Roothide
 
+Package: github.poqw312.anthocrack2
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: CBZ
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/依赖AnthoCrack2_1.0.0_Roothide.deb
+Size: 3864
+MD5sum: e0258dfb924b35a6cb7dc396629aec96
+SHA1: b58e8ba1fb118785f57404947fb663d04481f3bd
+SHA256: 66843f1f320f9c954d9df1fe46f81abe96f472006d3e71ac5abfc7f86f428cec
+Section: 依赖插件
+Description: LastLook的依赖插件。禁用AnthoPak系列插件的警告提示。
+Author: CBZ
+Name: AnthoCrack2
+
+Package: github.poqw312.dockx
+Version: 2.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 2036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: debs/DockX_2.6.2_Roothide.deb
+Size: 412652
+MD5sum: 2f534c5fa556a508b525166f7d6699a6
+SHA1: 63569ac584a41c4aaeb1141de02c022c18cf8696
+SHA256: e9d115f10a178cb2689182a830deaca3b540c84eb689df279dbce37661aeb6f8
+Section: Tweaks
+Description: 键盘栏上的剪贴板快捷方式！键盘底部增加：全选、复制、剪切、粘贴、撤销功能等按钮！
+Author: udevs
+Name: DockX-Roothide
+
 Package: github.poqw312.fuckthermal
 Version: 1.2-38
 Architecture: iphoneos-arm64e
@@ -1101,6 +1198,138 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
 Name: iCleaner Pro系统清理-Roothide
 
+Package: github.poqw312.lastlook
+Version: 4.2.2
+Architecture: iphoneos-arm64e
+Maintainer: AnthoPak
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, github.poqw312.anthocrack2
+Filename: debs/LastLook息屏特效_4.2.2_Roothide.deb
+Size: 462772
+MD5sum: 93d9fa73625a2297ef0dcae961962d1b
+SHA1: 60eb5345dcbe36d7cc344b1de5a023e0d1dc9cbc
+SHA256: 6f0847df125cb33001f59c4b7ed07217620f51ede2d2006b49cb5f6ab9358c12
+Section: 美化插件
+Description: 一款AOD调整方案（自定义日期显示）调整功能，拥有无限可能！
+Author: AnthoPak
+Name: LastLook息屏特效-Roothide
+
+Package: github.poqw312.limneos
+Version: 3.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Limneos破解补丁_3.1_.deb
+Size: 5396
+MD5sum: 9faaf04f17524f9ddd51a65089dcb6cb
+SHA1: 8e5646fd45e77ded1c33062354445beb3cd8e9cb
+SHA256: 03c34817895ccccfa1396dedde2dc439d587ab85cc01479c0e12983d39373dfd
+Section: Tweaks
+Description: Limneos系列插件破解补丁，安装官方源插件再安装本破解补丁即可。http://limneos.net/repo/
+Author: CBZ
+Name: Limneos破解补丁-Roothide
+
+Package: github.poqw312.movenotification16
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/Movenotification16移动通知_1.0_Roothide.deb
+Size: 16764
+MD5sum: dea6e7939a835e5f240dac6edd393f67
+SHA1: d2b5108a31a2916a297ae76438e531ec93e1bad2
+SHA256: 7bf0001ab214c50aea6bcdc85b4932c0ad3af24a29e0e2c73b18ed9c3daeea45
+Section: Tweaks
+Description: 在iOS16上自定义锁屏通知消息上下位置。
+Author: JunesiPhone
+Name: MoveNotification16移动通知-Roothide
+
+Package: github.poqw312.settingsrevamp
+Version: 3.0.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
+Filename: debs/Settingsrevamp设置归类_3.0.1_Roothide.deb
+Size: 217364
+MD5sum: 54be0b5b1ef3be38fc24ea67967047d5
+SHA1: 627995539be8c9bcd736c52dc31c1a2ea815547c
+SHA256: 23595f9eacb36e4d600934271a66d0d57d69d9db4e844f2d703c87315e34e280
+Section: Tweaks
+Description: 自定义iOS设置页面。插件功能总开关在灵动岛下面。
+Author: SOPPPra
+Name: SettingsRevamp设置归类-Roothide
+
+Package: github.poqw312.showmytouches
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/showmytouches录制轨迹_1.1.2_Roothide.deb
+Size: 52648
+MD5sum: 21b1f9c37812d490a0edd69a57685c97
+SHA1: 7374e325334bc88552e2cff3b7b030fd870e1749
+SHA256: 80583af2cd3e76f4eeb304f267230d515727acbdd8de8c40145913fb531fa9e9
+Section: Tweaks
+Description: 屏幕录制时显示触摸轨迹。
+Author: dvntm
+Name: ShowMyTouches触摸轨迹-Roothide
+
+Package: github.poqw312.sneakycam
+Version: 2.2.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: debs/SneakyCam_2.2.2_Roothide.deb
+Size: 109148
+MD5sum: 06d45d7db73c78a4d1239587860cc2ec
+SHA1: f46ce394e6e5ba5355a2ad5f96fbf351ee8b1ff8
+SHA256: e86592f8ad76a9d00256bdc3625b80a7212e6de22af405efe7d31bfcae63bd21
+Section: Tweaks
+Description: 在锁屏状态下或者在任意界面可以通过双击音量键来调用相机的视频录制和拍照。如果视频录制过程中有来电和微信CallKit呼叫或者其他音视频播放，该录制将会立即停止。需要安装本源中的"Xinam1ne AIO"依赖插件来修复设置项，温馨提示：VolumeMixer音量控制插件可以让播放音视频的同时开启后台录制。
+Author: Spark
+Name: SneakyCam隐私相机-Roothide
+
+Package: github.poqw312.teleport
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Teleport虚拟定位_1.1_Roothide.deb
+Size: 7386296
+MD5sum: 35fe1184e3a8c0d57ccbf975d9d8fd18
+SHA1: 2b6c73d7997528794ac090e69a2c36dc56cf7496
+SHA256: 24a1030e701c604dcc43d6c6a8b2d4e349dbd97ea47da56c5f85575db177387d
+Section: Tweaks
+Description: Spoof GPS location一款免费的虚拟定位插件，已完整汉化！第一次打开没有加载网络数据请安装3DNetworkFixer插件给它网络权限，可以配合应用商店"地图定位大师"App来获得经纬度数据来修改定位。
+Author: SGWC
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/teleport.png
+Name: Teleport虚拟定位-Roothide
+
+Package: github.poqw312.xinam1ne
+Version: 2.6-8
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 15.0), com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
+Replaces: emt.paisseon.xinamine
+Provides: emt.paisseon.xinamine (= 99)
+Filename: debs/SneakyCam依赖_2.6-8_Roothide.deb
+Size: 1946380
+MD5sum: 21f5210b04bc028adc9170b81a8df190
+SHA1: 42acf12259c5f5087173eb101fd73e50ca8ad831
+SHA256: 310d4a2e8bb475138ad9f7929465248c62ea4bc0d8a3aa5946579fb32eed0e60
+Section: 依赖插件
+Description: SneakyCam隐私相机依赖插件。安装本源SneakyCam插件后需要安装该依赖插件来修复设置项，安装后即可卸载。
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+Name: Xinam1ne AIO
+
 Package: github.poqw312.zhezhao
 Version: 1.2
 Architecture: iphoneos-arm64e
@@ -1118,20 +1347,19 @@ Author: Acreson
 Name: 29款图标遮罩合集-Roothide
 
 Package: jp.uzra.aerial
-Version: 4.0K
+Version: 4.0
 Architecture: iphoneos-arm64e
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: debs/Aerial应用分屏_4.0K_Roothide.deb
-Size: 21065232
-MD5sum: f987ebe38c03dfde28a5f61d0c7ade8b
-SHA1: 00ab4e5b151935c3159e51a0e43617150a47ad8f
-SHA256: df3346c42a2c771861f30c0f3bbcd33b5ae4f68ce61f52d2bcdce856c76f7887
+Filename: debs/Aerial应用分屏_4.0_Roothide.deb
+Size: 21074644
+MD5sum: c233bc3596618d63614fa6316395d293
+SHA1: dc4c0cf207d1a7985cb235ccde18d613b448d533
+SHA256: e8ee77b0f579bf288e5422fc2e64397cfae9d9ca302621d34b72940d061f5829
 Section: Tweaks
 Description: 应用分屏插件。主屏幕长按应用在弹出菜单中选择"Open Aerial"选项即可开启分屏模式。
 Author: uz.ra
-Icon: https://repo.cypwn.xyz/packages/Aerial-Rootless/icon.png
 Name: Aerial应用分屏-Roothide
 
 Package: libgdbm6
@@ -1174,14 +1402,14 @@ Version: 5.1-12
 Architecture: iphoneos-arm64e
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 6136
-Depends: mobilesubstrate, preferenceloader, xyz.cypwn.limneos, net.limneos.simpleactivationactions-roothide, firmware(>=15.0)
+Depends: mobilesubstrate, preferenceloader, github.poqw312.limneos, net.limneos.simpleactivationactions-roothide, firmware(>=15.0)
 Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
 Filename: debs/AudioRecorderXS_5.1-12_Roothide.deb
-Size: 1199812
-MD5sum: 7dbeb8d27104caf9f49db91063da2224
-SHA1: 9868ca70eb2832a3dc8eec5fb6ec325093f338bf
-SHA256: 12b96bf3a0c9a9fb97717697f39a0b8dac3f37d573e5a9c6790b8bb2094abfb5
+Size: 1199780
+MD5sum: bd30b2a1a7da3ddf218c36e5ead8abb9
+SHA1: 426b8945e28d4dca378721c4d82fbd22086be4ce
+SHA256: 920780879e77160ea6bb562ccaa97f5b506740ab9c85aa628ec2567b959be548
 Section: Tweaks
 Description: 史上最先进的iOS通话录音器！已完整汉化版，支持iOS15-iOS17。
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -1194,12 +1422,12 @@ Architecture: iphoneos-arm64e
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 784
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, xyz.cypwn.limneos, preferenceloader
-Filename: debs/AutoAnswerXS自动接听_2.0-2_Roothide.deb
-Size: 148168
-MD5sum: 93a021fcef9f5ef0cfca3bacd564b0a7
-SHA1: 7ece80ee736b5469b7b31552aa0b26743946450f
-SHA256: 52b19370882089071c6946a4aa4646e1a362bb60a14135ec3fcd34882579487c
+Depends: mobilesubstrate, github.poqw312.limneos, preferenceloader
+Filename: debs/AutoAnswerx_2.0-2_Roothide.deb
+Size: 148164
+MD5sum: 2aebcceb4a51d0a4988cac00eb194cd7
+SHA1: 631ba75d0399c87b64ab0f265d523e65d1210f25
+SHA256: c1cd702a40f15eb381d64989a02441557826f0cea5cbdf22b51a062ae2a0ffe0
 Section: Tweaks
 Description: 自动接听任何电话！本插件为官方完整汉化版。
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -1214,13 +1442,13 @@ Architecture: iphoneos-arm64e
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 2328
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, xyz.cypwn.limneos
+Depends: mobilesubstrate, preferenceloader, github.poqw312.limneos
 Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Filename: debs/BioprotectXS_4.7-4_Roothide.deb
-Size: 582388
-MD5sum: 5baa142ea12aca9243d78da580516977
-SHA1: 86ecf87ff34f856747337ce6c1028948e67b29a2
-SHA256: dd3f62a742f943e9f4fb368c74ec213702e00dfddf9838520aaa042e40f80f04
+Size: 582348
+MD5sum: 784ddca92a3c182b53e7d29e6b68572c
+SHA1: ec76d9a93afadae75f870de27416699943fcbf96
+SHA256: 1b0b35e2c24bfb2ab28e7dc6b429d857581e4a256964cd710930f365238fc140
 Section: Tweaks
 Description: 使用指纹触控和面容ID加密应用程序。已完整汉化！支持iOS14-iOS18。
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -1233,12 +1461,12 @@ Version: 0.6-6
 Architecture: iphoneos-arm64e
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 1008
-Depends: mobilesubstrate, xyz.cypwn.limneos, preferenceloader, firmware ( >= 12)
+Depends: mobilesubstrate, github.poqw312.limneos, preferenceloader, firmware ( >= 12)
 Filename: debs/Glow息屏特效_0.6-6_Roothide.deb
-Size: 224768
-MD5sum: 4ae5673ae5885227ef00045c43e7c3f6
-SHA1: f415f0a0f70ea1f9db3bbd08a9c1301b95eac205
-SHA256: eaa4cc2e2c008c2dbef59697240029f40c955e29af2d6583c232b71db1b2b2a2
+Size: 224836
+MD5sum: 1cde8ce491f3727796a3a0b9c4a6181b
+SHA1: bcff90a8dea84e64c34d9a7ac6bc88a44a6ba366
+SHA256: 4dfa31e10beadf6cfe5d56957a4bb89bf0d15e8d7a38b495496e718a4d47744a
 Section: 美化插件
 Description: 让你的锁屏发光吧！本插件为官方正版，已加入完整汉化。
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -1405,41 +1633,6 @@ Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
-Package: xyz.cypwn.anthocrack2
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Anthocrack2破解依赖_1.0.0_Roothide.deb
-Size: 3880
-MD5sum: 8e29507c9e38a9c03d8a91110cb8c74d
-SHA1: 95d2164bc56d7fba105d18c7c7269adc2c9da0bd
-SHA256: 0b7eb2c6e2f8282a4349e51222c942f403851fa10cea19852e8ffc2473be2ffb
-Section: 依赖插件
-Description: 禁用AnthoPak系列插件的警告提示。這個是給95%的盜版者的。
-Author: CBZ
-Name: AnthoCrack2
-
-Package: xyz.cypwn.appsyncunified
-Version: 116.0
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (<< 1.1)
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: debs/AppsyncUnified_116.0_Roothide.deb
-Size: 32428
-MD5sum: 7a9f80f8ceb5a4a11e89087cdc85a66b
-SHA1: 4bf250e9905cd7bbf2796bdea9f4b71d69bd4d65
-SHA256: d834504849d1334a4f9c1290f7f60242eaf5d767cdccf58a129935cdbc7f8622
-Section: Tweaks
-Description: 允许在越狱版Filza中安装未签名iOS应用程序。
-Author: Karen/あけみ, Linus Yang
-Name: AppSync Unified-Roothide
-
 Package: xyz.cypwn.backgrounderaction15
 Version: 0.1.0-1
 Architecture: iphoneos-arm64e
@@ -1493,24 +1686,6 @@ Author: Domo
 Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
 Name: CocoaTop64-Roothide
 
-Package: xyz.cypwn.dockx
-Version: 2.6.2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Installed-Size: 2036
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
-Conflicts: com.restiveconch.actionbar
-Filename: debs/DockX_2.6.2_Roothide.deb
-Size: 412532
-MD5sum: 8017419ab7108cd7f7515d5cf6786602
-SHA1: 4585d7894fd4d4379833c766f84b9d36afd7b7e8
-SHA256: 6e2a8efa81a4a47ea91906195705839b12b58958b544f337e459a5c3886b1bda
-Section: Tweaks
-Description: 键盘栏上的剪贴板快捷方式！键盘底部增加：全选、复制、剪切、粘贴、撤销功能等按钮！
-Author: udevs
-Name: DockX-Roothide
-
 Package: xyz.cypwn.killapps-rootless
 Version: 1.2-2
 Architecture: iphoneos-arm64e
@@ -1526,196 +1701,6 @@ Section: Tweaks
 Description: 一键关闭所有后台应用程序。支持清理白名单，支持向上滑动黑名单
 Author: Netskao
 Name: KillApps关闭后台-Roothide
-
-Package: xyz.cypwn.lastlook
-Version: 4.2.2k
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
-Filename: debs/Lastlook_4.2.2k_息屏特效.deb
-Size: 462112
-MD5sum: 3114a9094021e16761d7d93f4d66bf42
-SHA1: 6639115b7671d9834a3ece0b86792d7a93daae58
-SHA256: 9410083494d789a6d259c402b403a5c4469ad20b11d339119d72135248b59428
-Section: 美化插件
-Description: 一款AOD调整方案（自定义日期显示）调整功能，拥有无限可能！
-Author: AnthoPak
-Name: LastLook息屏特效-Roothide
-
-Package: xyz.cypwn.lastlook
-Version: 4.2.2k
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
-Filename: debs/LastLook息屏特效_4.2.2k_Roothide.deb
-Size: 462520
-MD5sum: 4fd59ae99222bf5ea99c76435c8134ac
-SHA1: 035f296792066a20b072f1b80d255a05f68c0134
-SHA256: cf66c220cb8f6a4251370be17773f76d25527752b24c38ac14aab80c80f4675c
-Section: Tweaks
-Description: 一款AOD调整方案（自定义日期显示）调整功能，拥有无限可能！
-Author: AnthoPak
-Depiction: https://repo.cypwn.xyz/depiction/3113
-Icon: https://repo.cypwn.xyz/packages/LastLook-Rootless/icon.png
-Name: LastLook息屏特效-Roothide
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3113
-
-Package: xyz.cypwn.limneos
-Version: 3.1
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Limneos破解补丁_3.1_Roothide.deb
-Size: 5396
-MD5sum: 03927029b38be0163826aa8790bd986f
-SHA1: 411723dbc8bf10fe31b149f1b356c949259cd1cd
-SHA256: f75e4c80137cdeca5e94a3b117885a39b6fb748b3b8a9e7033d2f8b8f6ddd6e4
-Section: Tweaks
-Description: Limneos系列插件破解补丁，安装官方源插件再安装本破解补丁即可。http://limneos.net/repo/
-Author: CBZ
-Name: Limneos破解补丁-Roothide
-
-Package: xyz.cypwn.movenotification16
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/MovenotifiCation16_1.0_Roothide.deb
-Size: 16808
-MD5sum: b3e0c1b3916a450e7938813eb84c3ba9
-SHA1: d78ec99f189ae924e6a25382e8471d9e84890d92
-SHA256: 49dca5a285c7824cc904cc6965ecd687acd8df6951ec172ff39ac6ed66480727
-Section: Tweaks
-Description: 在iOS16上自定义锁屏通知消息上下位置。
-Author: JunesiPhone
-Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
-Name: MoveNotification16移动通知-Roothide
-
-Package: xyz.cypwn.settingsrevamp
-Version: 3.0.1
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
-Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
-Filename: debs/SettingsRevamp设置归类_3.0.1_Roothide.deb
-Size: 217720
-MD5sum: 8a832335659803a97e58f0cea2fa7ab7
-SHA1: 951a0ba93ecf4d85965617d3a3377748c3a70f6a
-SHA256: bb3bbea2bc13f68be9a9b18dba36c896e7c3a6325b8afa83e48475605318ef86
-Section: Tweaks
-Description: 自定义iOS设置页面。插件功能总开关在灵动岛下面。
-Author: SOPPPra
-Icon: https://repo.cypwn.xyz/packages/SettingsRevamp-Rootless/icon.png
-Name: SettingsRevamp设置归类-Roothide
-
-Package: xyz.cypwn.showmytouches
-Version: 1.1.2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/ShowmyTouches_1.1.2_Roothide.deb
-Size: 52664
-MD5sum: 96b07891f7e8d92b499de0e0ddb0c671
-SHA1: 6d8fa535445c76c6cb4d4f299417197678b6f826
-SHA256: 52316c56cba72bb3226fbf9399bf82b280f38a8d37fedbe4601d2660e913445f
-Section: Tweaks
-Description: 屏幕录制时显示触摸轨迹。
-Author: dvntm
-Icon: https://repo.cypwn.xyz/packages/ShowMyTouches-Rootless/icon.png
-Name: ShowMyTouches触摸轨迹-Roothide
-
-Package: xyz.cypwn.smartbatteryios15
-Version: 1.6
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: ws.hbang.common
-Conflicts: com.idevicelover.smartbattery2
-Filename: debs/SmartBattery_1.6_Roothide.deb
-Size: 699024
-MD5sum: 3647731a264fbd54d1485cc2deebd5ac
-SHA1: 5ad1001720d96447c79bcf74689e7d938eeec31b
-SHA256: a4f224f60ec959ec909bed5e22555b145c7125519195eeb61bb60bd2b4ab2230
-Section: Tweaks
-Description: 用于监控、保存和优化电池性能的终极优化插件。
-Author: elias
-Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
-Name: SmartBattery省电优化-Roothide
-
-Package: xyz.cypwn.sneakycam
-Version: 2.2.2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, oldabi
-Filename: debs/SneakyCam_2.2.2_Roothide.deb
-Size: 109200
-MD5sum: 8041018b604e1850e65df8424d59b5b2
-SHA1: 6b8c52e7dc6ebc541b3c47322400cfadcc5ba022
-SHA256: 520dab8d501e4b1ae729928bb568c8c2af5fa0cb4976f4d3b337a47e99a8d840
-Section: Tweaks
-Description: 在锁屏状态下或者在任意界面可以通过双击音量键来调用相机的视频录制和拍照。如果视频录制过程中有来电和微信CallKit呼叫或者其他音视频播放，该录制将会立即停止。需要安装本源中的"Xinam1ne AIO"依赖插件来修复设置项，温馨提示：VolumeMixer音量控制插件可以让播放音视频的同时开启后台录制。
-Author: Spark
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
-Name: SneakyCam隐私相机-Roothide
-
-Package: xyz.cypwn.teleport
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Teleport虚拟定位_1.1_Roothide.deb
-Size: 7386288
-MD5sum: 996d0f8ad45b1ee138dec77115af1bd2
-SHA1: 7d02631e54234f241016022b1a289a92f1f1d07a
-SHA256: 4cde129454e7bc238098802e8267cf7c2874deb670cd5e5d9fbf93446d12a6a6
-Section: Tweaks
-Description: Spoof GPS location一款免费的虚拟定位插件，已完整汉化！第一次打开没有加载网络数据请安装3DNetworkFixer插件给它网络权限，可以配合应用商店"地图定位大师"App来获得经纬度数据来修改定位。
-Author: SGWC
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/teleport.png
-Name: Teleport虚拟定位-Roothide
-
-Package: xyz.cypwn.tinge
-Version: 1.2.2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
-Filename: debs/Tinge_1.2.2_Roothide.deb
-Size: 40456
-MD5sum: aaff022498be4f601499933e12064605
-SHA1: 44cc6a7c77bca1b11fb1e3becae57044cbb813f6
-SHA256: 0567011fb76b664e1884c55ac844f4542f9ebc579a200cf788149a65c4f7cf46
-Section: Tweaks
-Description: 通知角标颜色。跟随应用图标颜色自适应变色！
-Author: P2KDev
-Icon: https://repo.cypwn.xyz/packages/Tinge-Rootless/icon.png
-Name: Tinge角标颜色-Roothide
-
-Package: xyz.cypwn.xinam1ne
-Version: 2.6-8
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Depends: mobilesubstrate, firmware (>= 15.0), com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
-Replaces: emt.paisseon.xinamine
-Provides: emt.paisseon.xinamine (= 99)
-Filename: debs/SneakyCam依赖_2.6-8_Roothide.deb
-Size: 1946452
-MD5sum: 0fbd8d59d709b169e7a8244be74de484
-SHA1: 15ee4a80c9eb1725a145c8c248fad6a7ae835f1c
-SHA256: 6ca7591d15262670487cfde489c63a08da376208692e53e549e1f1cdd571210c
-Section: 依赖插件
-Description: 安装本源隐私相机SneakyCam后需要安装该依赖插件来修复设置开关项，安装后即可卸载。
-Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
-Name: Xinam1ne AIO
 
 Package: z.weifeng
 Version: 1.5

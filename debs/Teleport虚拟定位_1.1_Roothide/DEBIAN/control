@@ -1,0 +1,13 @@
+Package: github.poqw312.teleport
+Maintainer: CyPwn
+Depiction: 
+SileoDepiction: 
+Name: Teleport虚拟定位-Roothide
+Depends: mobilesubstrate
+Description: Spoof GPS location一款免费的虚拟定位插件，已完整汉化！第一次打开没有加载网络数据请安装3DNetworkFixer插件给它网络权限，可以配合应用商店"地图定位大师"App来获得经纬度数据来修改定位。
+Author: SGWC
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/teleport.png
+Pre-Depends: rootless-compat(>= 0.9)
