@@ -37,6 +37,24 @@ Description: 微信增强插件，本次更新加入密友功能。
 Author: Mikoto
 Name: MikotoHelper微信插件-Roothide
 
+Package: apt.llld.flex3beta
+Version: 1:3~Beta98
+Architecture: iphoneos-arm64e
+Maintainer: John Coates
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, oldabi, firmware (>=15.0) | org.swift.libswift (>=5.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, apt.llld.Flex3beta, Flex2Blackpackagebeta, com.llld.flexrootless, apt.llld.flex3beta1, cn.llld.flex3beta, com.johncoates.Flex3, Flex3FeatureCatalog, byg.iosios.net.flex3, byg.iosios.net.flex3beta, byg.iosios.net.flex3.xiufu, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/Flex3Beta98_Roothide.deb
+Size: 12546228
+MD5sum: 278a11608ec0b745017670442774ab12
+SHA1: 65b6a3981c0cde0591acf4535f65753c456584e5
+SHA256: 491229fc9db24803b7b0969b8836749d9963509e730e9878f3ff98e458e6ee20
+Section: 系统增强
+Description: 一款强大的App去广告和系统补丁增强神器。本插件由威锋大佬“来了老弟”修复适配多巴胺环境，此版本无法解析，系统补丁和应用补丁功能正常使用，需要科学上网才能使用云端搜索功能(国行设备需要在无线局域网和蜂窝数据中打开Flex3网络开关)，在路径/Library/MobileSubstrate/DynamicLibraries打开Flex.plist文件添加你想要生效的应用Bundle(Appdata插件上滑桌面应用图标就能看到)
+Author: John Coates
+Name: Flex3 Beta-Roothide
+
 Package: com.0xkuj.nopastealerts16
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -1508,6 +1526,22 @@ Section: Tweaks
 Description: 一键关闭所有后台应用程序。支持清理白名单，支持向上滑动黑名单
 Author: Netskao
 Name: KillApps关闭后台-Roothide
+
+Package: xyz.cypwn.lastlook
+Version: 4.2.2k
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: debs/Lastlook_4.2.2k_息屏特效.deb
+Size: 462112
+MD5sum: 3114a9094021e16761d7d93f4d66bf42
+SHA1: 6639115b7671d9834a3ece0b86792d7a93daae58
+SHA256: 9410083494d789a6d259c402b403a5c4469ad20b11d339119d72135248b59428
+Section: 美化插件
+Description: 一款AOD调整方案（自定义日期显示）调整功能，拥有无限可能！
+Author: AnthoPak
+Name: LastLook息屏特效-Roothide
 
 Package: xyz.cypwn.lastlook
 Version: 4.2.2k
