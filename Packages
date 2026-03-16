@@ -1102,18 +1102,18 @@ Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
 Name: iCleaner Pro系统清理-Roothide
 
 Package: github.poqw312.zhezhao
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm64e
 Maintainer: Acreson
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), com.spark.snowboard.masks, com.spark.snowboard.effects, com.spark.snowboard
-Filename: debs/29款图标遮罩_1.1_Roothide.deb
-Size: 3688804
-MD5sum: aa7c720b386ae3be6e5ced086ec8ed7e
-SHA1: 3e7e08aa34899e8ee5b313abf4ffd2072f05aec2
-SHA256: 9527eb3840c88eb8738883ad0f0e8e0db9c727e294b1744b99991ed5082a96ea
+Depends: mobilesubstrate (>= 0.9.5000), com.spark.snowboard.masks, com.spark.snowboard.dock, com.spark.snowboard.effects, com.spark.snowboard
+Filename: debs/29款图标遮罩_1.2_Roothide.deb
+Size: 3688904
+MD5sum: 4c33810c0e40ae4abe31c213e0190218
+SHA1: f2daa5ccd30ff9dbc2d532de747baab8c0cba291
+SHA256: 670f97a17d1338fea49d90cbf06609e579f018d73b646f163b74d002919a5e13
 Section: 美化插件
-Description: 29种款式图标遮罩合集，需要用到SnowBoard主题插件、SnowBoard Icon Effects拓展和SnowBoard icon Masks拓展模块插件才能生效。
+Description: 29种款式图标遮罩合集，需要用到SnowBoard主题插件、SnowBoard Dock栏拓展、SnowBoard Icon Effects拓展和SnowBoard icon Masks拓展模块插件才能生效。
 Author: Acreson
 Name: 29款图标遮罩合集-Roothide
 
