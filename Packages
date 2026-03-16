@@ -1213,6 +1213,22 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
 Name: iCleaner Pro系统清理-Roothide
 
+Package: github.poqw312.killapps
+Version: 1.2-2
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/KillApps_1.2-2_Roothide.deb
+Size: 934872
+MD5sum: d98ef400b34f82f63d0d369e9e30612e
+SHA1: 98bd8ef85c05b5e7bfedf1ec242f50a08a75e96a
+SHA256: d96a7e103d12a9944339fb07ab3cd3304952b9701ac37fd73e218adf7d6cabd3
+Section: 系统增强
+Description: 一键关闭所有后台应用程序。支持清理白名单，支持向上滑动黑名单
+Author: Netskao
+Name: KillApps关闭后台-Roothide
+
 Package: github.poqw312.lastlook
 Version: 4.2.2
 Architecture: iphoneos-arm64e
@@ -1700,22 +1716,6 @@ Description: iOS进程查看器。
 Author: Domo
 Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
 Name: CocoaTop64-Roothide
-
-Package: xyz.cypwn.killapps-rootless
-Version: 1.2-2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/KillApps_1.2-2_Roothide.deb
-Size: 934712
-MD5sum: 793729947744a4cb7941a34521352ddf
-SHA1: ee1f995bf9988feea29ddb6ae71f5d30a882c46a
-SHA256: 098291e7e3035622beef6582d420d9bc7bd0adbbb4d5fa4e095867bda0789680
-Section: Tweaks
-Description: 一键关闭所有后台应用程序。支持清理白名单，支持向上滑动黑名单
-Author: Netskao
-Name: KillApps关闭后台-Roothide
 
 Package: z.weifeng
 Version: 1.5
