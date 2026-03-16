@@ -74,6 +74,23 @@ Description: 一款强大的App去广告和系统补丁增强神器。本插件�
 Author: John Coates
 Name: Flex3 Beta-Roothide
 
+Package: com.0xkuj.backgrounderaction15autostate
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: jp.akusio.backgrounderaction15, com.opa334.altlist
+Filename: debs/BackGrounderAction15AutoState_1.0.3_Roothide.deb
+Size: 28004
+MD5sum: d7d24c06ee1bb46f5c57315bdeaac6f8
+SHA1: 82b835ee938e17a579c3f3002582759d2204c781
+SHA256: 0284c8ab92b6c516efd70a3143c47461cedd7e47f352ccd2d281c0994042df2d
+Section: 系统增强
+Description: 一款真正可以让应用程序后台运行的插件。搭配同款控制中心后台运行插件BackgrounderAction15CCSupport效果更佳！这两款插件同时安装不冲突。
+Author: 0xkuj
+Name: BackgrounderAction15AutoState后台运行-Roothide
+
 Package: com.0xkuj.nopastealerts16
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -1158,6 +1175,40 @@ Description: LastLook的依赖插件。禁用AnthoPak系列插件的警告提示
 Author: CBZ
 Name: AnthoCrack2
 
+Package: github.poqw312.cocoatop64
+Version: 2.2.4
+Architecture: iphoneos-arm64e
+Maintainer: Korboy
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: debs/cocoatop64进程_2.2.4_Roothide.deb
+Size: 155092
+MD5sum: de945eebf02474a0a8255ce3b8829f6c
+SHA1: a876238ca2e36b5364b3f77b6650360134e483ea
+SHA256: 7c8fa27c7a8b3347648f68dbcd3f64a34ad86dc9a373743701f78cb9d379a413
+Section: 系统增强
+Description: iOS进程查看器。
+Author: Domo
+Name: CocoaTop64-Roothide
+
+Package: github.poqw312.cocoatop64
+Version: 2.4-1
+Architecture: iphoneos-arm64e
+Maintainer: Korboy
+Installed-Size: 564
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Filename: debs/cocoatop64进程_2.4-1_Roothide.deb
+Size: 183964
+MD5sum: 872acc3f429d8b6d75ce8bd24a3c5eba
+SHA1: 373a7753a2646cc9b921f5ba6a7074b39f97921c
+SHA256: d63af469deda796d4e9331b99160bf54b233dbf0c83277779cff0a67dfcf1071
+Section: 系统增强
+Description: iOS GUI进程查看器、新功能和错误修复。
+Author: Domo, Korboy
+Name: CocoaTop64
+
 Package: github.poqw312.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64e
@@ -1376,6 +1427,21 @@ Section: 美化插件
 Description: 29种款式图标遮罩合集，需要用到SnowBoard主题插件、SnowBoard Dock栏拓展、SnowBoard Icon Effects拓展和SnowBoard icon Masks拓展模块插件才能生效。
 Author: Acreson
 Name: 29款图标遮罩合集-Roothide
+
+Package: jp.akusio.backgrounderaction15
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: @akusio_RR
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/Backgrounderaction15_0.1.0_Roothide.deb
+Size: 9264
+MD5sum: 2fc11ce05b14a760da61ce06512c8342
+SHA1: 3968e17ab768f247a7c3390392077d90165fcfaf
+SHA256: 65492ea56f453874c6ebf9fc5acb853930add0afb1d4b922b289d97080574ad6
+Section: 系统增强
+Description: BackgrounderAction15 CCSupport将在控制中心添加一个对当前应用程序“后台运行”模块。
+Author: @akusio_RR
+Name: BackgrounderAction15后台运行-Roothide
 
 Package: jp.uzra.aerial
 Version: 4.0
@@ -1663,59 +1729,6 @@ Depiction: https://chariz.com/get/cephei
 Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
-
-Package: xyz.cypwn.backgrounderaction15
-Version: 0.1.0-1
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, com.opa334.ccsupport
-Conflicts: jp.akusio.backgrounderaction15
-Replaces: jp.akusio.backgrounderaction15
-Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
-Filename: debs/BackgrounderAction15_0.1.0-1_Roothide.deb
-Size: 11484
-MD5sum: 2b986b4dd4113b54df26904851273b22
-SHA1: dd86bcbb7f34b205ffdf5f42326d348e809fbe0d
-SHA256: 669ee0f96e1b71420add46003892f0ff765030cc5b9a69df9ecd242fef888db9
-Section: Tweaks
-Description: Action CCSupport Action会在“控制中心”添加一个对当前应用“后台运行”的便捷按钮。
-Author: @akusio_RR
-Name: Action CCSupport Action后台运行-Roothide
-
-Package: xyz.cypwn.backgrounderaction15autostate
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.opa334.altlist
-Filename: debs/BackgGrounderaAction15_1.0.3_Roothide.deb
-Size: 25336
-MD5sum: 2257de188465f239c546289c5cef9adb
-SHA1: 42528f1cee26b5ea3c02b15a1b5d9ce11aa98770
-SHA256: f78342243807675ce0f0ca40196bdb91467ba5e9a6520c0df5f6cce35348cc0b
-Section: Tweaks
-Description: 一款真正可以让应用程序后台运行的插件。搭配同款控制中心后台运行插件BackgrounderAction15CCSupport效果更佳！这两款插件同时安装不冲突。
-Author: 0xkuj
-Name: BackgrounderAction后台运行-Roothide
-
-Package: xyz.cypwn.cocoatop64
-Version: 2.2.4
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0)
-Conflicts: ru.domo.cocoatop
-Filename: debs/CoCoaTop64进程_2.2.4_Roothide.deb
-Size: 155472
-MD5sum: f170f4c9e035af872e0f8ab9f2a19ee2
-SHA1: ba5dd30a590a24c58ce567803f6f03d25f081cac
-SHA256: a83e05743cede54c8c771f0ab9ec3149fb83a637939dd018d735424eb552c090
-Section: Tweaks
-Description: iOS进程查看器。
-Author: Domo
-Icon: https://repo.cypwn.xyz/packages/CocoaTop64-Rootless/icon.png
-Name: CocoaTop64-Roothide
 
 Package: z.weifeng
 Version: 1.5
