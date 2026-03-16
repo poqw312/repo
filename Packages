@@ -395,6 +395,21 @@ Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插�
 Author: DXcool223
 Name: Flex3应用解析-Roothide
 
+Package: com.huami.WCPulse
+Version: 1.5-3
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.5-3_Roothide.deb
+Size: 19643868
+MD5sum: 0c5711b6efe2fa3d8851bff11804e27d
+SHA1: 63b40e7d85e64799483e1c83b83d9a4eaa2bc7da
+SHA256: ab7da7984ad9db0b0aed52471c136ee0dc8cc6898a288cbca1405d66eb013d3b
+Section: 微信插件
+Description: WCPulse
+Author: huami
+Name: WCPulse微信插件-Roothide
+
 Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64e
