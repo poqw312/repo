@@ -916,14 +916,14 @@ Maintainer: fiore & p2kdev & SINI
 Installed-Size: 968
 Depends: mobilesubstrate, firmware (>= 16.0)
 Filename: debs/CCBorder_1.1.2-37_Roothide.deb
-Size: 195816
-MD5sum: 8ac5b60075a3670d80ebcaee7d614ed1
-SHA1: 44d50f350d6a8fb66b46709e6c78bbe47b34a4f2
-SHA256: 283fd71038426d36e255df4e2059d6f6cec6520172e55b615ec3d8cd01fbfbbd
-Section: 控制中心
+Size: 195716
+MD5sum: be8fe4bfee37a535c6fb79707cc97f10
+SHA1: d4e1f7ad875b8b9375ea5df15bd2f84926d7a11f
+SHA256: 7af693c4a9e9c5b7924fa2e4f64abbb7c5b048a19a68b1e7e94c3c87490b573f
+Section: 美化插件
 Description: 仿iOS18控制中心美化，可调整控制中心模块形状。基于开源修改编译，移除AlderisColorPicker依赖。
 Author: fiore & p2kdev & SINI
-Name: CCBorder(Roothide)
+Name: CCBorder控制中心-Roothide
 
 Package: com.skypain.flexloader
 Version: 5.25.19-1
