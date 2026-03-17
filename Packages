@@ -1449,12 +1449,12 @@ Version: 3.5.1
 Architecture: iphoneos-arm64e
 Maintainer: CyPwn
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.ui, com.spark.snowboard.effects, com.spark.snowboard,masks, com.spark.snowboard.settingsicons
+Depends: firmware (>= 15.0), mobilesubstrate, com.spark.snowboard, com.spark.snowboard.dock, com.spark.snowboard.ui, com.spark.snowboard.effects, com.spark.snowboard.masks, com.spark.snowboard.settingsicons
 Filename: debs/VisionOS主题_3.5.1_Roothide.deb
-Size: 9913768
-MD5sum: 6643790dd8512e84ab6225698746315f
-SHA1: b23584cbcd9c593f081b1a5eda3f538f87f0f2d4
-SHA256: cad536dcefbc2eb22f9b621df08bec74ad6c24950ca1f8de000ead9e800b6f68
+Size: 9913488
+MD5sum: a68360795e57d042982ee91ab280da2c
+SHA1: 3fe62d505ec5ff0bd7f35928b04e9ea7a504b0c2
+SHA256: d66aa75df883c7ee300b4a8efb4ed22e2a974fd1b86ad1a5ce8a58003cd501c6
 Section: 美化插件
 Description: 仿iOS26主题，内置1080个图标和5个拓展，第三方图标不多，需要安装SnowBoard主题插件和拓展模块插件加载。
 Author: Billie
