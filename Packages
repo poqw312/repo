@@ -603,6 +603,23 @@ Description: Flex3广告抓图辅助工具。目前在iOS16无效，仅兼容于
 Author: Netskao
 Name: FlexList-Roothide
 
+Package: com.netskao.pullclearnc
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/Pullclearnc清理通知_1.1-8_Roothide.deb
+Size: 7784
+MD5sum: d68c34a88edaa783a5f53bebe578a05b
+SHA1: 4dd779c6b19bbda57c0f276d5ece2c20bd7bfcae
+SHA256: 8a15adfd08d13cff4e7d2ca8fd0dc8584555ba3c2a9803e4ad9ac74ce7305882
+Section: Netskao-Tweaks
+Description: 通知页面下拉，清理所有通知。无图标无设置，安装后默认生效。
+Author: Netskao
+Name: PullClearNC清理通知-Roothide
+
 Package: com.netskao.smallbanners
 Version: 1.2-8
 Architecture: iphoneos-arm64e
@@ -1275,6 +1292,24 @@ Section: Tweaks
 Description: 键盘栏上的剪贴板快捷方式！键盘底部增加：全选、复制、剪切、粘贴、撤销功能等按钮！
 Author: udevs
 Name: DockX-Roothide
+
+Package: github.poqw312.evanesco
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 852
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: debs/Evanesco_1.3_Roothide.deb
+Size: 113876
+MD5sum: 2c0f730237a7947c9d6bf32176a3088d
+SHA1: 125b884ae68c2fad9796ef4ea90b425142e79006
+SHA256: 224175eee6ba90e04fe59892d746f8e608c2a6b23368d0b6f245ca8919a5aadb
+Section: 美化插件
+Description: 主屏幕无操作后自动隐藏所有App图标。目前是英文版，就3个设置项，坐等大佬汉化。
+Author: CP Digital Darkroom, Randy420
+Name: Evanesco-Roothide
 
 Package: github.poqw312.fuckthermal
 Version: 1.2-38
