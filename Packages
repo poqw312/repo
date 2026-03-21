@@ -463,25 +463,6 @@ Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64e
 Maintainer: huami
-Installed-Size: 2136
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音魔术师DYYY_2.2-9_1642_Roothide.deb
-Size: 461032
-MD5sum: 244a58d84986002af7651e858543b7af
-SHA1: 922b160dc4beec2c002e6fe06f0cad171a1b233f
-SHA256: d6535ca03a7757ee74d18d1ca1a140b42fce6500354024b3ce58cbb67368697d
-Section: 抖音插件
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.3.14更新1642
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY抖音魔术师-Roothide
-
-Package: com.huami.dyyy
-Version: 2.2-9
-Architecture: iphoneos-arm64e
-Maintainer: huami
 Installed-Size: 2184
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/抖音魔术师DYYY_2.2-9_1652_Roothide.deb
