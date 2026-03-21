@@ -166,7 +166,7 @@ Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: debs/微信归类wcplugins_0.1-3_Roothide.deb
+Filename: debs/微信插件管理wcplugins_0.1-3_Roothide.deb
 Size: 19196
 MD5sum: 53a5382ff4c37813d7febbe37d6bfdd7
 SHA1: 66281c6b4adeab005c107c8425b2a9dd89404ba0
@@ -177,6 +177,23 @@ Description: 微信插件合集收纳归类。
 Author: Mao
 Name: 微信插件管理-Roothide
 Sponsor: admin@25mao.com
+
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信插件管理wcplugins_0.1-6_Roothide.deb
+Size: 14064
+MD5sum: 2feff988cd09eca0bf2a5af466955f50
+SHA1: bc2c26b1b28692498cd594170bb57437e0339059
+SHA256: 4c6c1d685a9599bd1acb2b00ad0978808bf1c5ee5dd9a8b9f84c53379ea6f84e
+Section: 微信插件
+Priority: optional
+Description: 微信插件合集收纳归类。
+Author: Mao
+Name: 微信插件管理-Roothide
 
 Package: com.82flex.singlevpn
 Version: 2.0
@@ -457,6 +474,25 @@ Section: 抖音插件
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
 Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.3.14更新1642
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY抖音魔术师-Roothide
+
+Package: com.huami.dyyy
+Version: 2.2-9
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2184
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音魔术师DYYY_2.2-9_1652_Roothide.deb
+Size: 457528
+MD5sum: b4cba487459893af6e66eb5468758d2f
+SHA1: cd81d0690258dca15a2b4a886dbee9b8d11ee7f8
+SHA256: d76b849927d751ca8f5017a95942cf8e88a0d2ff85e01ad908b5cd1950dfdbb5
+Section: 抖音插件
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.3.21更新1652
 Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY抖音魔术师-Roothide
@@ -937,6 +973,22 @@ Size: 195716
 MD5sum: be8fe4bfee37a535c6fb79707cc97f10
 SHA1: d4e1f7ad875b8b9375ea5df15bd2f84926d7a11f
 SHA256: 7af693c4a9e9c5b7924fa2e4f64abbb7c5b048a19a68b1e7e94c3c87490b573f
+Section: 美化插件
+Description: 仿iOS18控制中心美化，可调整控制中心模块形状。基于开源修改编译，移除AlderisColorPicker依赖。
+Author: fiore & p2kdev & SINI
+Name: CCBorder控制中心-Roothide
+
+Package: com.sini921.ccborder
+Version: 1.1.2-38
+Architecture: iphoneos-arm64e
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 972
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/CCBorder_1.1.2-38_Roothide.deb
+Size: 199176
+MD5sum: b9fb1e3e120e5d1a00ad72f9a6a8b14a
+SHA1: 1fe082d79440670812895cfb9285dc26932820f9
+SHA256: a749a2ff2f9f1bb1125b92b47e3adf1c2d34e91936aedc864f52e9d698ac81bf
 Section: 美化插件
 Description: 仿iOS18控制中心美化，可调整控制中心模块形状。基于开源修改编译，移除AlderisColorPicker依赖。
 Author: fiore & p2kdev & SINI
