@@ -348,13 +348,12 @@ Maintainer: curtinlv@126.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
 Filename: debs/微信PKC_0.9-4_Roothide.deb
-Size: 983768
-MD5sum: ef0984987e99b097d57cad59ffda730c
-SHA1: 893854f1e5447d41faa4609425dce7a4807cfa4e
-SHA256: c2db1971943c7c1945f4e7869739668f28bf719efa62ed0af708eace4fbdba2f
+Size: 983760
+MD5sum: 6f8aa45b490647a826aa0c9fbb0bdefc
+SHA1: 5f2fcdc087b6bc2cf099c23af3fb9da3b6be2e42
+SHA256: d30d51261ab56420dc63474ee9d3b11be4c24f04308d78a9acad4fcc45c68470
 Section: 微信插件
 Priority: optional
-Homepage: https://github.com/curtinlv
 Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等。
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
@@ -394,6 +393,23 @@ Author: DumpApp
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Name: 锤子助手-Roothide
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/dumpapp/js.json
+
+Package: com.dumpapp.wechat-rootless
+Version: 2.4.0
+Architecture: iphoneos-arm64e
+Maintainer: WeChat
+Installed-Size: 14436
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.4.0_Roothide.deb
+Size: 11244368
+MD5sum: b9a3871e4303199ba8e7cdb21a271e25
+SHA1: 4d49311200c8ea1df2a89126a65ebd225efce8af
+SHA256: 6ace421d7337c27c8b91b9cea5e33c8c1c76bffe99de5802c2504379eaf8f7b7
+Section: 微信插件
+Description: 锤子助手插件，微信净化平替版。
+Author: DumpApp
+Name: 锤子助手-Roothide
 
 Package: com.flex2areo.apptools15rootless
 Version: 1.1.8
