@@ -231,6 +231,23 @@ Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Roothide
 
+Package: com.HBWechatHelper.ailun
+Version: 2.0.6
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/黄白助手_2.0.6_Roothide.deb
+Size: 26716044
+MD5sum: b1f35dc795399af6308d4745cd97dd95
+SHA1: 4a7bdf5012873059ce1817e98c4b9783cc637088
+SHA256: acbb77e63f71a1fd2d7138242932ce0eee3b60ec138e79037a0f350887f6a7d3
+Section: 微信插件
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
+Author: HuangBai
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Name: 黄白助手-Roothide
+
 Package: com.amywhile.aemulo
 Version: 1.2.5
 Architecture: iphoneos-arm64e
@@ -477,6 +494,21 @@ Section: 微信插件
 Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
 Author: huami
 Name: WCPulse微信插件-Roothide
+
+Package: com.huami.WCPulse
+Version: 1.5-5
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.5-5_Roothide.deb
+Size: 7473188
+MD5sum: 6b20829f3f9dd93883a28f4ef089748d
+SHA1: 6aca24fd9d9c11e7a0d898b7fd568512e1b4d38f
+SHA256: 89a847f20a958a2dba7e83997c9c8332c877b5cfe3a0bd21c98f1cb4e9038cb8
+Section: 微信插件
+Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
+Author: huami
+Name: WCPulse(微信插件)-Roothide
 
 Package: com.huami.dyyy
 Version: 2.2-9
@@ -961,39 +993,6 @@ Author: ren7995 & SINI
 Name: Atria桌面布局-Roothide
 
 Package: com.sini921.ccborder
-Version: 1.1.2-36
-Architecture: iphoneos-arm64e
-Maintainer: fiore & p2kdev & SINI
-Installed-Size: 968
-Depends: mobilesubstrate, firmware (>= 16.0)
-Filename: debs/CCBorder_1.1.2-36_Roothide.deb
-Size: 194812
-MD5sum: 10408b8dc411ce130b361d772ae37f50
-SHA1: 70120d408865afc4a6876949d52d9fceceac71e9
-SHA256: d7d2b3b318b9431f352afe0378cb93747979dd0953c5db20771c0d129128544a
-Section: 美化插件
-Description: 仿iOS18控制中心美化，可调整控制中心模块形状，基于开源修改编译，去掉了AlderisColorPicker依赖
-Author: fiore & p2kdev & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
-Name: CCBorder-Roothide
-
-Package: com.sini921.ccborder
-Version: 1.1.2-37
-Architecture: iphoneos-arm64e
-Maintainer: fiore & p2kdev & SINI
-Installed-Size: 968
-Depends: mobilesubstrate, firmware (>= 16.0)
-Filename: debs/CCBorder_1.1.2-37_Roothide.deb
-Size: 195716
-MD5sum: be8fe4bfee37a535c6fb79707cc97f10
-SHA1: d4e1f7ad875b8b9375ea5df15bd2f84926d7a11f
-SHA256: 7af693c4a9e9c5b7924fa2e4f64abbb7c5b048a19a68b1e7e94c3c87490b573f
-Section: 美化插件
-Description: 仿iOS18控制中心美化，可调整控制中心模块形状。基于开源修改编译，移除AlderisColorPicker依赖。
-Author: fiore & p2kdev & SINI
-Name: CCBorder控制中心-Roothide
-
-Package: com.sini921.ccborder
 Version: 1.1.2-38
 Architecture: iphoneos-arm64e
 Maintainer: fiore & p2kdev & SINI
@@ -1008,6 +1007,22 @@ Section: 美化插件
 Description: 仿iOS18控制中心美化，可调整控制中心模块形状。基于开源修改编译，移除AlderisColorPicker依赖。
 Author: fiore & p2kdev & SINI
 Name: CCBorder控制中心-Roothide
+
+Package: com.sini921.ccborder
+Version: 1.1.2-39
+Architecture: iphoneos-arm64e
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 972
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/CCBorder_1.1.2-39_Roothide.deb
+Size: 198668
+MD5sum: 4cfd39c3335f0e2a5c48ce7f91590d62
+SHA1: a21cc6cc15b25ccc23a8ca65d127a9458e61efd8
+SHA256: 5f78ea00daa60749b294afc67aeb017bc8bfaf480624c1d4efc8f0f61b1e9345
+Section: 美化插件
+Description: 仿iOS18控制中心美化，可调整控制中心模块形状。基于开源修改编译，移除AlderisColorPicker依赖。
+Author: fiore & p2kdev & SINI
+Name: CCBorder-Roothide
 
 Package: com.skypain.flexloader
 Version: 5.25.19-1
