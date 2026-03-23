@@ -37,6 +37,27 @@ Description: 微信增强插件，本次更新加入密友功能。
 Author: Mikoto
 Name: MikotoHelper微信插件-Roothide
 
+Package: MikotoHelper
+Version: 1.3.6.9
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: Mikoto
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: MikotoHelper
+Replaces: MikotoHelper
+Provides: MikotoHelper
+Filename: debs/微信MikotoHelper_体验版V9_Roothide.deb
+Size: 39730540
+MD5sum: b319a2c0dab62821515779577efb6958
+SHA1: ee15ef8a7fb30feca91d79ac89f3edd06121e297
+SHA256: 7899c20381361274fadd7ffe910ed781661037f28b43dc0ca9aab5a5c530a091
+Section: 微信插件
+Priority: optional
+Description: 微信增强插件。加入密友功能。
+Author: Mikoto
+Name: MikotoHelper(体验版V9)-Roothide
+
 Package: ai.akemi.appsyncunified
 Version: 116.0
 Architecture: iphoneos-arm64e
@@ -158,24 +179,6 @@ Priority: optional
 Description: 微信助手-Roothide版
 Author: Mao
 Name: 微信助手-Roothide
-Sponsor: admin@25mao.com
-
-Package: com.25mao.wcplugins.rootless
-Version: 0.1-3
-Architecture: iphoneos-arm64e
-Maintainer: admin@25mao.com
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0)
-Filename: debs/微信插件管理wcplugins_0.1-3_Roothide.deb
-Size: 19196
-MD5sum: 53a5382ff4c37813d7febbe37d6bfdd7
-SHA1: 66281c6b4adeab005c107c8425b2a9dd89404ba0
-SHA256: 5454c947c14b7b17f786a3259c1287161b2a3bb0b01cc73637f22be226d6e5a1
-Section: 微信插件
-Priority: optional
-Description: 微信插件合集收纳归类。
-Author: Mao
-Name: 微信插件管理-Roothide
 Sponsor: admin@25mao.com
 
 Package: com.25mao.wcplugins.rootless
