@@ -760,6 +760,21 @@ Description: 通知角标颜色。跟随应用图标颜色自适应变色！
 Author: P2KDev
 Name: Tinge角标颜色-Roothide
 
+Package: com.pingfan.wechat
+Version: 2.2-5
+Architecture: iphoneos-arm64e
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/虚拟视频_2.2-5_Roothide.deb
+Size: 1655836
+MD5sum: 548eedad50cbcd2df9fe6bab5aaac423
+SHA1: 3e227b36e1b2411c39b5a16a27314c07702c4933
+SHA256: 764e4474a7843d270091dedd45a23c0552ecba368ba11c26348e64d5c703f8a4
+Section: 微信插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
+Author: 平凡
+Name: 虚拟视频(微信插件)-Roothide
+
 Package: com.ps.batteryhealthenabler
 Version: 1.0.0
 Architecture: iphoneos-arm64e
