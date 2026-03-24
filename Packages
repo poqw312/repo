@@ -248,6 +248,22 @@ Author: HuangBai
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Name: 黄白助手-Roothide
 
+Package: com.HBWechatHelper.ailun
+Version: 2.0.7
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/黄白助手_2.0.7_Roothide.deb
+Size: 26855576
+MD5sum: 2a22c21c6fe8a027674501f977d59003
+SHA1: d76dc57f0dc9df6aab3d79a064b9916416fb311b
+SHA256: 5422717559f3320ff0d059c2bc41134cf950a39e85e8232ba8f98bdb1798d692
+Section: 微信插件
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Roothide
+
 Package: com.amywhile.aemulo
 Version: 1.2.5
 Architecture: iphoneos-arm64e
