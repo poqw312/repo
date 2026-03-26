@@ -589,12 +589,12 @@ Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 2892
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
 Conflicts: com.lenglengyu.agmjpro, com.lenglengyu.amjpro, com.lenglengyu.hjsppro, com.lenglengyu.huashutv, com.lenglengyu.xngyspro, com.lenglengyu.qqyspro, com.lenglengyu.rrsphook, com.lenglengyu.wzdypro, com.lenglengyu.wlyspro, com.lenglengyu.xamjpro, com.lenglengyu.ylyspro, com.lenglengyu.bilibilipro, com.lenglengyu.boxsqhook, com.lenglengyu.hanjutv
-Filename: debs/冷雨影视工具_2.8.0_Roothide.deb
-Size: 868796
-MD5sum: a125e1adca8c35d953ab1843f42f9274
-SHA1: 36802d92ec3b598bd139bdb02ba282219bb57b85
-SHA256: 3c5b01d45a87c972010f315c5f01ad5f8e2a0614432ce982a0a45d942ac71ff1
-Section: Fugu15
+Filename: debs/冷雨影视助手_2.8.0_Roothide.deb
+Size: 868128
+MD5sum: 2049c36c816596d21c722d23226b9b28
+SHA1: 6c9a3353055b94403d415549a25b08fcc960c192
+SHA256: bd16ad76710c40266834f269486b3f621b81ebbbc25645b92369c87ac6e29676
+Section: Tweaks
 Description: 各种影视APP破解工具，目前有芒果TV、韩小圈、咪咕视频、风行视频、乐刷短剧、梦想短剧、繁花剧场、人人剧场、人人视频、西红柿短剧、蜜桃小短剧、抖音小剧场等视频工具。该插件是付费插件，需要购买激活码才能使用。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/videohelper.html
@@ -610,11 +610,11 @@ Installed-Size: 3500
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
 Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
 Filename: debs/冷雨VPN助手_3.1.2_Roothide.deb
-Size: 1131228
-MD5sum: 7b5a4e0612bf8ff8480e8d99413b0f98
-SHA1: 9abda717c01636913074c89365cd9e07361d2d1f
-SHA256: 1a7aafbd8b998520c3dc83f409e2b60a5d71e175baaf6ef289954d09415464fd
-Section: Fugu15
+Size: 1131964
+MD5sum: e2f49f455c062f85f99478d4c2c0cc93
+SHA1: 17ab574ffb7f243e0b15d0569f170ad3a81d6e92
+SHA256: 0dbea86917f41bbc2352704896419c3b2f507dab2e91511c430e95b92d0e6060
+Section: Tweaks
 Description: 各种梯子破解工具。该插件是付费插件，需要购买激活码才能使用。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
@@ -1354,12 +1354,12 @@ Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 8108
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
 Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
-Filename: debs/冷雨Supervip_4.3.9_Roothide.deb
-Size: 2658628
-MD5sum: c54b26d9577cfb59678841645d376712
-SHA1: 6a34d848db34d3482d464bd2816cbebb680614a7
-SHA256: d34220a862d247b0adf17a5bfa9604fef1617a5368168bd2bf19d7a63a00c03f
-Section: Fugu15
+Filename: debs/冷雨SuperVIP_4.3.9_Roothide.deb
+Size: 2659760
+MD5sum: e40b1233a060e7ad7416620d8ae780a2
+SHA1: ee4ea239f21088e76d40fb004f7a91e078ebf7eb
+SHA256: 10183f1b52e5f5e4b6f613a0f0b888addd6799f884cc04ac30ef98b781f78287
+Section: Tweaks
 Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
