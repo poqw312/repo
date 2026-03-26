@@ -582,6 +582,46 @@ Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3
 Name: ExactTime通知时间-Roothide
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
 
+Package: com.lenglengyu.videohelper-rootless
+Version: 2.8.0
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 2892
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.agmjpro, com.lenglengyu.amjpro, com.lenglengyu.hjsppro, com.lenglengyu.huashutv, com.lenglengyu.xngyspro, com.lenglengyu.qqyspro, com.lenglengyu.rrsphook, com.lenglengyu.wzdypro, com.lenglengyu.wlyspro, com.lenglengyu.xamjpro, com.lenglengyu.ylyspro, com.lenglengyu.bilibilipro, com.lenglengyu.boxsqhook, com.lenglengyu.hanjutv
+Filename: debs/冷雨影视工具_2.8.0_Roothide.deb
+Size: 868796
+MD5sum: a125e1adca8c35d953ab1843f42f9274
+SHA1: 36802d92ec3b598bd139bdb02ba282219bb57b85
+SHA256: 3c5b01d45a87c972010f315c5f01ad5f8e2a0614432ce982a0a45d942ac71ff1
+Section: Fugu15
+Description: 各种影视APP破解工具，目前有芒果TV、韩小圈、咪咕视频、风行视频、乐刷短剧、梦想短剧、繁花剧场、人人剧场、人人视频、西红柿短剧、蜜桃小短剧、抖音小剧场等视频工具。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/videohelper.html
+Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
+Name: 影视助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
+
+Package: com.lenglengyu.vpnplus-rootless
+Version: 3.1.2
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3500
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
+Filename: debs/冷雨VPN助手_3.1.2_Roothide.deb
+Size: 1131228
+MD5sum: 7b5a4e0612bf8ff8480e8d99413b0f98
+SHA1: 9abda717c01636913074c89365cd9e07361d2d1f
+SHA256: 1a7aafbd8b998520c3dc83f409e2b60a5d71e175baaf6ef289954d09415464fd
+Section: Fugu15
+Description: 各种梯子破解工具。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
+Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
+Name: VPN助手-RootHide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
+
 Package: com.mrgcgamer.libgcuniversal
 Version: 1.7.0
 Architecture: iphoneos-arm64e
@@ -1306,6 +1346,26 @@ Homepage: https://tc.uddz.cc/xuuz
 Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
 Author: XUUᶻ
 Name: 抖音助手-Roothide
+
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.3.9
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 8108
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨Supervip_4.3.9_Roothide.deb
+Size: 2658628
+MD5sum: c54b26d9577cfb59678841645d376712
+SHA1: 6a34d848db34d3482d464bd2816cbebb680614a7
+SHA256: d34220a862d247b0adf17a5bfa9604fef1617a5368168bd2bf19d7a63a00c03f
+Section: Fugu15
+Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
 
 Package: dev.traurige.eneko
 Version: 1.4.2
