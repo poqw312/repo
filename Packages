@@ -642,6 +642,24 @@ Author: MrGcGamer
 Name: LibGcUniversal
 
 Package: com.netskao.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 13548
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/AppData_1.4.4_Roothide.deb
+Size: 5046552
+MD5sum: 6c82a207a0a753dcf8b9669de6cb3398
+SHA1: 5b112d2dd9a724efbdc6311ffcecde07d576e011
+SHA256: 36cf954cd6a1a1946d70d57ab65f4fa9b17b22848906af13a81b0d83fafb3b5b
+Section: Netskao-Tweaks
+Description: 查看和管理应用程序数据。
+Author: Fouad Raheb
+Name: AppData应用数据-Roothide
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
+
+Package: com.netskao.appdata
 Version: 1.4.6
 Architecture: iphoneos-arm64e
 Maintainer: Netskao
@@ -852,15 +870,16 @@ Author: P2KDev
 Name: Tinge角标颜色-Roothide
 
 Package: com.pingfan.wechat
-Version: 2.2-5
+Version: 2.2-8
 Architecture: iphoneos-arm64e
 Maintainer: 平凡
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/虚拟视频_2.2-5_Roothide.deb
-Size: 1655836
-MD5sum: 548eedad50cbcd2df9fe6bab5aaac423
-SHA1: 3e227b36e1b2411c39b5a16a27314c07702c4933
-SHA256: 764e4474a7843d270091dedd45a23c0552ecba368ba11c26348e64d5c703f8a4
+Filename: debs/微信虚拟视频_2.2-8_Roothide.deb
+Size: 5756874
+MD5sum: 2ecc30e102ee4facd3be84bc0f776d58
+SHA1: 2b127cf7f4d5b11d70e64f6a4cd3b99be47497bc
+SHA256: 4cad6daf5666159792c86fabfbd283e14273ccd575c25468b1815dcc50a40855
 Section: 微信插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
 Author: 平凡
