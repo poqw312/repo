@@ -1037,6 +1037,25 @@ Dev: 君临
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
 Name: WCRefine(微信插件)-Roothide
 
+Package: com.qimiao.WCRefine
+Version: 1.4-0
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/微信WCRefine_1.4-0_Roothide.deb
+Size: 4757108
+MD5sum: a1f2d6d34061cd7cf047f77f42fc5e63
+SHA1: aa50055e7e91e54ee91b738c64c7eb1bb7e9db6e
+SHA256: c23d90e1dbda68801521ec4f052b992e924baab14570b00005ae71b2f1c35e18
+Section: 微信插件
+Priority: optional
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Author: 热心网友
+Dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+Name: WCRefine(微信插件)-Roothide
+
 Package: com.rpetrich.powercuff
 Version: 1.4
 Architecture: iphoneos-arm64e
@@ -1408,6 +1427,25 @@ Description: 此插件用于屏蔽隐藏设备更换第三方电池和其它非�
 Author: 苏苏
 Icon: https://www.susubaby.top/images/Preferences.png
 Name: NoPreferencesTips隐藏未知部件提示-Roothide
+
+Package: com.vita.yuki
+Version: 0.1-0
+Architecture: iphoneos-arm64e
+Maintainer: vita
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音消息助手yuki_0.1-0_Roothide.deb
+Size: 131700
+MD5sum: acc261a721657c57dc77fe50a142b309
+SHA1: c0acaefb59a67326de10353fe083b86ea5c35af5
+SHA256: 5bfbcae29d65662cc9729ddde9dd5d99b654d20d9e132151ea702ccc346da15a
+Section: 抖音插件
+Priority: optional
+Homepage: https://github.com/wtrwx
+Description: 消息防撤回、语音转发，语音转文字、骰子猜拳作弊、屏蔽输入状态、禁用上传在线状态、自定义气泡主题、显示作品发布时间、显示消息时间等功能。。
+Author: vita
+Icon: https://Mieing.Github.io/icon/TikTok.png
+Name: Yuki抖音消息助手-Roothide
 
 Package: com.wechat.enhance
 Version: 1.6-5
