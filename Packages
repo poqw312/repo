@@ -216,23 +216,6 @@ Author: 82Flex <82flex@gmail.com>
 Name: Single VPN-Roothide
 
 Package: com.HBWechatHelper.ailun
-Version: 2.0.6
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.0.6_Roothide.deb
-Size: 26716044
-MD5sum: b1f35dc795399af6308d4745cd97dd95
-SHA1: 4a7bdf5012873059ce1817e98c4b9783cc637088
-SHA256: acbb77e63f71a1fd2d7138242932ce0eee3b60ec138e79037a0f350887f6a7d3
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai
-Icon: https://axs66.github.io/pro/icon/wechat.png
-Name: 黄白助手-Roothide
-
-Package: com.HBWechatHelper.ailun
 Version: 2.0.7
 Architecture: iphoneos-arm64e
 Maintainer: HuangBai <QQ:1343309363@qq.com>
@@ -377,6 +360,25 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle设置归类-Roothide
 
+Package: com.cureux.cc26
+Version: 0.4.9.9b
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 220
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: com.dvntm.cc18
+Provides: com.cureux.cc26
+Filename: debs/CC26控制中心_0.4.9.9b_Roothide.deb
+Size: 24644
+MD5sum: de58403477002ea8435efc076a658507
+SHA1: 4dc66db42fb02dd12352fe8d619ae53575cb3332
+SHA256: 81b3ae07f2c5331c16663ecb9d46fb3841615f96ecbac088b8400f7b5d6d105d
+Section: 美化插件
+Description: 仿iOS26控制中心。安装默认生效，无图标无设置。
+Author: therealhoodboy
+Name: CC26控制中心-Roothide
+
 Package: com.curtin.pkc.rootless
 Version: 0.9-4
 Architecture: iphoneos-arm64e
@@ -432,24 +434,6 @@ Author: 妖刀
 Name: CCLess++控制中心(RootHide)
 
 Package: com.dumpapp.wechat-rootless
-Version: 2.3.0
-Architecture: iphoneos-arm64e
-Maintainer: DumpApp
-Installed-Size: 14436
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手_2.3.0_Roothide.deb
-Size: 5622044
-MD5sum: 95f4eafed3d9f446a3115b52a2574fd8
-SHA1: 66ec65773626ebe708b7c91ea72e9700630bfe47
-SHA256: 70ce1769065733ee4483f0e7a1b3586b6c881e4c712d79ea288ad14ef4ff5133
-Section: 微信插件
-Description: 微信增强插件。
-Author: DumpApp
-Icon: https://axs66.github.io/pro/icon/wechat.png
-Name: 锤子助手-Roothide
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/dumpapp/js.json
-
-Package: com.dumpapp.wechat-rootless
 Version: 2.4.0
 Architecture: iphoneos-arm64e
 Maintainer: WeChat
@@ -499,36 +483,6 @@ Section: Tweaks
 Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插件可以独立对砸壳后的iPA软件包进行解析，点击"Select File"选择你要解析的iPA包(自行砸壳)，然后点击"Execute"即可开始解析，解析成功后会提示解析文件的存放路径。
 Author: DXcool223
 Name: Flex3应用解析-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.5-3
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.5-3_Roothide.deb
-Size: 19643868
-MD5sum: 0c5711b6efe2fa3d8851bff11804e27d
-SHA1: 63b40e7d85e64799483e1c83b83d9a4eaa2bc7da
-SHA256: ab7da7984ad9db0b0aed52471c136ee0dc8cc6898a288cbca1405d66eb013d3b
-Section: 微信插件
-Description: WCPulse
-Author: huami
-Name: WCPulse微信插件-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.5-4
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.5-4_Roothide.deb
-Size: 19771176
-MD5sum: 3c52da83f122a6596fec7a85a02a68e9
-SHA1: 27bf68a88de0071f8f098be39dc8fb749a3d3a8e
-SHA256: 2014e16affcf7ab20c991698f7dc663012a9d3c5461c36912a734096f2ac0d55
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse微信插件-Roothide
 
 Package: com.huami.WCPulse
 Version: 1.5-5
@@ -747,6 +701,24 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
 
+Package: com.netskao.appdata
+Version: 1.9.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.appdata,  cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_1.9.1_Roothide.deb
+Size: 178912
+MD5sum: 462c2f89ccc4eee2d6b8ef7e35eb6da9
+SHA1: 0aad1818c5bafc065dfe55eb78390a275ee65ccd
+SHA256: 4954cac454e6686e4a1dbb39004c837dca5c17a2441d3c8d0c2b4c4add82825e
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据。
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.netskao.ccsim
 Version: 1.1-9
 Architecture: iphoneos-arm64e
@@ -922,6 +894,23 @@ Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: opa334
+Name: libSandy
+
+Package: com.opa334.libsandy
+Version: 1.1.6-4
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 468
+Filename: debs/依赖Libsandy_1.1.6-4_Roothide.deb
+Size: 20392
+MD5sum: d6ac83851a0e4b067ff1916c132ba73b
+SHA1: aa14210bddaf627f6eb95720b6929915dc56ed8c
+SHA256: f0163420b827a281e322009e3ec174a80a025d3f400a84c5c546c95bf39e2ca9
+Section: 依赖插件
+Description: 隐根越狱依赖插件。安全地扩展系统进程和用户应用程序的沙盒。
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Name: libSandy
 
 Package: com.p2kdev.tinge
@@ -1527,23 +1516,6 @@ Section: 依赖插件
 Description: LastLook的依赖插件。禁用AnthoPak系列插件的警告提示。
 Author: CBZ
 Name: AnthoCrack2
-
-Package: github.poqw312.cocoatop64
-Version: 2.2.4
-Architecture: iphoneos-arm64e
-Maintainer: Korboy
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0)
-Conflicts: ru.domo.cocoatop
-Filename: debs/cocoatop64进程_2.2.4_Roothide.deb
-Size: 155092
-MD5sum: de945eebf02474a0a8255ce3b8829f6c
-SHA1: a876238ca2e36b5364b3f77b6650360134e483ea
-SHA256: 7c8fa27c7a8b3347648f68dbcd3f64a34ad86dc9a373743701f78cb9d379a413
-Section: 系统增强
-Description: iOS进程查看器。
-Author: Domo
-Name: CocoaTop64-Roothide
 
 Package: github.poqw312.cocoatop64
 Version: 2.4-1
