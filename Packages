@@ -683,42 +683,6 @@ Description: 从主屏幕查看和管理应用程序数据。v1.4.6修复iOS15�
 Author: Fouad Raheb
 Name: AppData应用数据-Roothide
 
-Package: com.netskao.appdata
-Version: 1.8.9
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas,  cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_1.8.9_Roothide.deb
-Size: 176640
-MD5sum: fe90e59740b8ca311471c9ab8be92c36
-SHA1: c4b69c77cad4e280164015a2bacb0cc469fd937b
-SHA256: 45d2961046e607ee11b6222f88c714e62ba15a826276de1c9056a1f66de000f6
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.netskao.appdata
-Version: 1.9.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.appdata,  cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_1.9.1_Roothide.deb
-Size: 178912
-MD5sum: 462c2f89ccc4eee2d6b8ef7e35eb6da9
-SHA1: 0aad1818c5bafc065dfe55eb78390a275ee65ccd
-SHA256: 4954cac454e6686e4a1dbb39004c837dca5c17a2441d3c8d0c2b4c4add82825e
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据。
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
 Package: com.netskao.ccsim
 Version: 1.1-9
 Architecture: iphoneos-arm64e
