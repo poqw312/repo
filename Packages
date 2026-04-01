@@ -485,21 +485,6 @@ Author: DXcool223
 Name: Flex3应用解析-Roothide
 
 Package: com.huami.WCPulse
-Version: 1.5-5
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.5-5_Roothide.deb
-Size: 7473188
-MD5sum: 6b20829f3f9dd93883a28f4ef089748d
-SHA1: 6aca24fd9d9c11e7a0d898b7fd568512e1b4d38f
-SHA256: 89a847f20a958a2dba7e83997c9c8332c877b5cfe3a0bd21c98f1cb4e9038cb8
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
 Version: 1.5-7
 Architecture: iphoneos-arm64e
 Maintainer: huami
@@ -509,6 +494,21 @@ Size: 7884152
 MD5sum: fd2fd9b3bccff2fdaa06acbd84b0c4c3
 SHA1: e4674e98e48ec2f7d632fc372996cab49a466432
 SHA256: cc4de0c41ea2c1d74920a2b37b07663e374719ca7784e85298e6734dbaf10501
+Section: 微信插件
+Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
+Author: huami
+Name: WCPulse(微信插件)-Roothide
+
+Package: com.huami.WCPulse
+Version: 1.5-8
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.5-8_Roothide.deb
+Size: 8604796
+MD5sum: afbc22eaefb5126ac7271a713a7db5ea
+SHA1: 7a0e9c0a61fcc53a5fb24cc2290d38a496a2ba9d
+SHA256: 9719002e13837a06a0ef34c5427c14fd5c0e199b84484dbee359bbaec74454af
 Section: 微信插件
 Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
 Author: huami
@@ -999,24 +999,6 @@ Section: Tweaks
 Description: 在iOS相机应用程序中暂停/恢复视频录制。
 Author: PoomSmart
 Name: RecordPause暂停录制-Roothide
-
-Package: com.qimiao.WCRefine
-Version: 1.3-6
-Architecture: iphoneos-arm64e
-Maintainer: 热心网友
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/微信WCRefine_1.3-6_Roothide.deb
-Size: 2418104
-MD5sum: 9fdabbb6acf6d1a956ae886e87628e27
-SHA1: 81be9b00a97487ebd0127c581054858724a873ed
-SHA256: edbff72d3e49f334db2531d557322c34664883b351fb52f9d9ae5432c18e53e4
-Section: 微信插件
-Priority: optional
-Description: 微信优化的重制版本，WCRefine基于微信8.0.64+版本制作。
-Author: 热心网友
-Dev: 君临
-Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
-Name: WCRefine微信插件-Roothide
 
 Package: com.qimiao.WCRefine
 Version: 1.3-9
