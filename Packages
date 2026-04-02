@@ -181,6 +181,23 @@ Author: Mao
 Name: 微信助手-Roothide
 Sponsor: admin@25mao.com
 
+Package: com.25mao.miyou.rootless
+Version: 3.9-5
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信助手_3.9-5_Roothide.deb
+Size: 10129512
+MD5sum: b8c34158f78749624f26f699ee595e85
+SHA1: e50801ffd5d7eca7278f6fe9c0321820a7f12773
+SHA256: d3f11328d5683bc3c7dcb13c6852e812912858e5e22fd37bfc48aedbed25e4db
+Section: 微信插件
+Priority: optional
+Description: 微信助手-Roothide版
+Author: Mao
+Name: 微信助手-Roothide
+
 Package: com.25mao.wcplugins.rootless
 Version: 0.1-6
 Architecture: iphoneos-arm64e
