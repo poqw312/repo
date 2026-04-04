@@ -1035,6 +1035,22 @@ Dev: 君临
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
 Name: WCRefine(微信插件)-Roothide
 
+Package: com.roothide.lockdown
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/LockDown_1.0.2_Roothide.deb
+Size: 5248
+MD5sum: 1e6c85d7cc94def5634b88861497fa31
+SHA1: b285d90666cfd603390972101602fc3d8c269f9f
+SHA256: 63ece26cde2e2b8422aeed5975627374c570925dea5274f5915b4316e4ed11b0
+Section: Tweaks
+Description: 该插件的作用是保护你的设备免受DarkSword/Coruna的攻击。WebContent流程的JSC安全强化。配置JavaScriptCore选项，以消除漏洞原语(addrof/fakeobj、JIT类型混淆、GC UAF)。三个安全级别：平衡、严格、最大。
+Author: roothide
+Name: LockDown-Roothide
+
 Package: com.rpetrich.powercuff
 Version: 1.4
 Architecture: iphoneos-arm64e
