@@ -734,6 +734,24 @@ Description: 从主屏幕查看和管理应用程序数据。v1.4.6修复iOS15�
 Author: Fouad Raheb
 Name: AppData应用数据-Roothide
 
+Package: com.netskao.appdata
+Version: 1.9.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_1.9.2_Roothide.deb
+Size: 175156
+MD5sum: 5f00cde83db59818bdc075e591ea46de
+SHA1: ad7a43de86cf5e604d6c131f49fd64eafc215aa0
+SHA256: 268ddc2ea962afa3016a8494e81c550073d78d36aa1ea89f46b743845ec8d460
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据。
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.netskao.ccsim
 Version: 1.1-9
 Architecture: iphoneos-arm64e
@@ -1054,20 +1072,20 @@ Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c1
 Name: WCRefine(微信插件)-Roothide
 
 Package: com.roothide.lockdown
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm64e
 Maintainer: roothide
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/LockDown_1.0.2_Roothide.deb
-Size: 5248
-MD5sum: 1e6c85d7cc94def5634b88861497fa31
-SHA1: b285d90666cfd603390972101602fc3d8c269f9f
-SHA256: 63ece26cde2e2b8422aeed5975627374c570925dea5274f5915b4316e4ed11b0
+Filename: debs/Lockdown_1.0.3_Roothide.deb
+Size: 5212
+MD5sum: dde7404a425aa4be52ca690eff61f713
+SHA1: b2905517585ae26bfbec1ec477043f939c3652ad
+SHA256: 41d2c802f70ab5bc72da4279e411c09309d730f18683b226e62c99e4f61a2f58
 Section: Tweaks
-Description: 该插件的作用是保护你的设备免受DarkSword/Coruna的攻击。WebContent流程的JSC安全强化。配置JavaScriptCore选项，以消除漏洞原语(addrof/fakeobj、JIT类型混淆、GC UAF)。三个安全级别：平衡、严格、最大。
+Description: 让你的设备免受DarkSword/Coruna漏洞攻击。WebContent流程的JSC安全强化。配置JavaScriptCore选项，以消除漏洞原语（addrof/fakeobj、JIT类型混淆、GC UAF）。默认启用！
 Author: roothide
-Name: LockDown-Roothide
+Name: Lockdown-Roothide
 
 Package: com.rpetrich.powercuff
 Version: 1.4
