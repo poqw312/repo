@@ -334,6 +334,24 @@ Description: NoLowPowerMode30SecAutoLock可以在低电量模式下自由设置�
 Author: Brend0n <brendonjkding@126.com>
 Name: 解除低电量30秒锁屏-Roothide
 
+Package: com.brend0n.qqmusicdesktoplyrics
+Version: 0.3.9~b1
+Architecture: iphoneos-arm64e
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 2540
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (>= 15.0), preferenceloader
+Filename: debs/desktoplyrics_0.3.9~b1_Roothide.deb
+Size: 575044
+MD5sum: e23e60d11d61b09a1f03a8090c3af961
+SHA1: 73582911405a2cdd27e0cd1db1a7ea12209a5de7
+SHA256: fe65e7bea3ead52b82924e905979adfc1dd63af371a811ed05c547113b2f144a
+Section: Tweaks
+Description: 在任何地方(桌面和锁屏)显示歌词。
+Author: Brend0n <brendonjkding@126.com>
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.qqmusicdesktoplyrics
+Name: DesktopLyrics桌面歌词-Roothide
+Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusicdesktoplyrics/depiction.json
+
 Package: com.brend0n.volumemixer
 Version: 0.0.7~beta3
 Architecture: iphoneos-arm64e
