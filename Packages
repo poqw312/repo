@@ -17,27 +17,6 @@ Author: John Coates
 Name: Flex3 Beta解析版-Roothide
 
 Package: MikotoHelper
-Version: 1.3.6.8
-Architecture: iphoneos-arm64e
-Essential: no
-Maintainer: Mikoto
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Conflicts: MikotoHelper
-Replaces: MikotoHelper
-Provides: MikotoHelper
-Filename: debs/微信MikotoHelper_体验版V8_Roothide.deb
-Size: 39705596
-MD5sum: 633dcdd0afb40f5d8584f1f6d85cdb34
-SHA1: efa966dc7bd10557d41b241d986942c99c1c6503
-SHA256: 2597e5e9c70046dc473e2364ef9871e68cae35a654d72313d503f34696cb66bd
-Section: 微信插件
-Priority: optional
-Description: 微信增强插件，本次更新加入密友功能。
-Author: Mikoto
-Name: MikotoHelper微信插件-Roothide
-
-Package: MikotoHelper
 Version: 1.3.6.9
 Architecture: iphoneos-arm64e
 Essential: no
@@ -231,22 +210,6 @@ Section: Tweaks
 Description: 将VPN状态和无线状态合并为一个图标。
 Author: 82Flex <82flex@gmail.com>
 Name: Single VPN-Roothide
-
-Package: com.HBWechatHelper.ailun
-Version: 2.0.7
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.0.7_Roothide.deb
-Size: 26855576
-MD5sum: 2a22c21c6fe8a027674501f977d59003
-SHA1: d76dc57f0dc9df6aab3d79a064b9916416fb311b
-SHA256: 5422717559f3320ff0d059c2bc41134cf950a39e85e8232ba8f98bdb1798d692
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
 
 Package: com.HBWechatHelper.ailun
 Version: 2.0.8
@@ -764,6 +727,24 @@ Size: 175156
 MD5sum: 5f00cde83db59818bdc075e591ea46de
 SHA1: ad7a43de86cf5e604d6c131f49fd64eafc215aa0
 SHA256: 268ddc2ea962afa3016a8494e81c550073d78d36aa1ea89f46b743845ec8d460
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据。
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
+Package: com.netskao.appdata
+Version: 1.9.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.appdatas, com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_1.9.3_Roothide.deb
+Size: 201320
+MD5sum: 7bf79f45a34eca96e6742346b392c096
+SHA1: 23e0cba626e4443e025199cd3321aa3916ce9aa0
+SHA256: 88700be17176cd771eb49e22096aadc017dfc3adaeab0ca4a772aa7d8d1ca1f8
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据。
 Author: Fouad Raheb
@@ -1533,26 +1514,6 @@ Author: XUUᶻ
 Name: 抖音助手-Roothide
 
 Package: com.yourepo.llyy.supervip-rootless
-Version: 4.3.9
-Architecture: iphoneos-arm64e
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 8108
-Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
-Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
-Filename: debs/冷雨SuperVIP_4.3.9_Roothide.deb
-Size: 2659760
-MD5sum: e40b1233a060e7ad7416620d8ae780a2
-SHA1: ee4ea239f21088e76d40fb004f7a91e078ebf7eb
-SHA256: 10183f1b52e5f5e4b6f613a0f0b888addd6799f884cc04ac30ef98b781f78287
-Section: Tweaks
-Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
-Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
-Name: SuperVIP-Roothide
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
-
-Package: com.yourepo.llyy.supervip-rootless
 Version: 4.4.0
 Architecture: iphoneos-arm64e
 Maintainer: lenglengyu <lenglengyu@126.com>
@@ -1565,6 +1526,26 @@ MD5sum: 9a19ea34494487b8117216c6d5863373
 SHA1: 45f329d4a2593727f6ebddc845fd5cbabf29486e
 SHA256: a1410f5cc3020b914d5116c1cc3ee8d82eadace9ee734f22936bcf24266d0c49
 Section: Tweaks
+Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.4.2
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7908
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨SuperVIP_4.4.2_Roothide.deb
+Size: 2663280
+MD5sum: 1252bb9f2af563ecf6043722ec7164c4
+SHA1: 232ec4c3a356a0296aefe5a6c276446e2015608e
+SHA256: 8d2f4c3e7ba28b3fd2f72a6db270c20cf2146b84fccfe4672fa618c904395b42
+Section: Fugu15
 Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
@@ -1939,6 +1920,27 @@ SHA256: 1af24baaf09785cb64b4e1d84eea4a39c6304ef5a11f204a46eb54718891d039
 Section: 依赖插件
 Priority: optional
 Description: 隐根越狱依赖插件。
+
+Package: mikotohelper
+Version: 1.3.6.10
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: Misaka <MustangYM@yeah.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: mikotohelper
+Replaces: mikotohelper
+Provides: mikotohelper
+Filename: debs/微信mikotohelper_体验版V10_Roothide.deb
+Size: 20072664
+MD5sum: d4ff744c71a966856a63588d90f1449a
+SHA1: bc7030084a98dee97e11d4c6c42aedcd168a6dd2
+SHA256: 5d16e04e539a79b1dba4dc6c93897fe2a77aa10d36a10fa857a612b4a313a727
+Section: 微信插件
+Priority: optional
+Description: Mikoto体验版v10：1.密友功能支持添加群聊2.消息屏蔽功能优化和修复一些问题3.彻底移除小丑功能4.新增签名用户加好友防F机制(默认开启，不需要的用户可在"禁用功能"里面关闭即可)
+Author: Misaka
+Name: MikotoHelper(微信插件)-Roothide
 
 Package: net.limneos.audiorecorderxs
 Version: 5.1-12
