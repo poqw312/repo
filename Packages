@@ -621,6 +621,25 @@ Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3
 Name: ExactTime通知时间-Roothide
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
 
+Package: com.lenglengyu.shortvideodl-rootless
+Version: 2.1.8
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3752
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
+Filename: debs/冷雨短视频_2.1.8_Roothide.deb
+Size: 984380
+MD5sum: a171c33ff1937e702af69b1cf5557e0f
+SHA1: 289019eeb9373af349f4eb6aab216912e43b61d0
+SHA256: 8a8d71f6a03891361421431d391e7da98020c589b7968cee767fd330543e3258
+Section: Tweaks
+Description: 支持快手、贴吧、知乎、抖音、TikTok、Twitter、Instagram、微视、微博、秒拍、淘宝、拼多多、轻视频、小红书、皮皮虾、趣头条、度小视、阿里巴巴、皮皮搞笑、今日头条、微博国际版、微博极速版等无水印下载。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
+Name: 短视频助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
+
 Package: com.lenglengyu.videohelper-rootless
 Version: 2.8.0
 Architecture: iphoneos-arm64e
@@ -1541,11 +1560,11 @@ Installed-Size: 7908
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
 Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
 Filename: debs/冷雨SuperVIP_4.4.2_Roothide.deb
-Size: 2663280
-MD5sum: 1252bb9f2af563ecf6043722ec7164c4
-SHA1: 232ec4c3a356a0296aefe5a6c276446e2015608e
-SHA256: 8d2f4c3e7ba28b3fd2f72a6db270c20cf2146b84fccfe4672fa618c904395b42
-Section: Fugu15
+Size: 2661276
+MD5sum: 2c884ea693e3822bf25511d102eee494
+SHA1: 2919f6305499f2497299ea1d8b923aec4b2201e5
+SHA256: 07711c81a89828aaca0c5a78648ae5bf5c3111e4b502166ad976b74116f61973
+Section: Tweaks
 Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
