@@ -243,6 +243,22 @@ Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Roothide
 
+Package: com.HBWechatHelper.ailun
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/黄白助手_2.1.1_Roothide.deb
+Size: 13969764
+MD5sum: dd952965dfcc508e12bd849139179657
+SHA1: 30d2069fb0fee5d055491ed8f8b0a75532874aa1
+SHA256: 0c9bbaa271d6b1a043d879cb46f01c23a80d5c01e8b5712f9a4c0a47e8de6d6f
+Section: 微信插件
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手-Roothide
+
 Package: com.amywhile.aemulo
 Version: 1.2.5
 Architecture: iphoneos-arm64e
@@ -546,6 +562,21 @@ Description: 微信脉冲助手，好用的分组、首页圆角、消息直达�
 Author: huami
 Name: WCPulse(微信插件)-Roothide
 
+Package: com.huami.WCPulse
+Version: 1.5-9
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.5-9_Roothide.deb
+Size: 8744780
+MD5sum: e01f07867705fa3e0bb7e07873d56f67
+SHA1: caccabe9089d8d7d851856d87e09e80c8af31601
+SHA256: 36000af5fc59117dbe33fe569b5fde6005549242396a9f26a7c811144dd16a69
+Section: 微信插件
+Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
+Author: huami
+Name: WCPulse(微信插件)-Roothide
+
 Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64e
@@ -766,6 +797,24 @@ SHA1: 23e0cba626e4443e025199cd3321aa3916ce9aa0
 SHA256: 88700be17176cd771eb49e22096aadc017dfc3adaeab0ca4a772aa7d8d1ca1f8
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据。
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
+Package: com.netskao.appdata
+Version: 1.9.6
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.appdatas, com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_1.9.6_Roothide.deb
+Size: 206384
+MD5sum: 5fe53ad3e178da5bcf79f7d2ff999241
+SHA1: e18cb2bd369cda66efa55a0d9e749641a962ca16
+SHA256: e888a94d7f184d8c874a76483024d9765fba0614385e15b26fc828297d3e36fd
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据。应用降级等功能。
 Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
@@ -1100,6 +1149,22 @@ Size: 5212
 MD5sum: dde7404a425aa4be52ca690eff61f713
 SHA1: b2905517585ae26bfbec1ec477043f939c3652ad
 SHA256: 41d2c802f70ab5bc72da4279e411c09309d730f18683b226e62c99e4f61a2f58
+Section: Tweaks
+Description: 让你的设备免受DarkSword/Coruna漏洞攻击。WebContent流程的JSC安全强化。配置JavaScriptCore选项，以消除漏洞原语（addrof/fakeobj、JIT类型混淆、GC UAF）。默认启用！
+Author: roothide
+Name: Lockdown-Roothide
+
+Package: com.roothide.lockdown
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Lockdown_2.0_Roothide.deb
+Size: 5412
+MD5sum: 7a947eb00eeb7522ddf166627ac63fc8
+SHA1: 4ab8a00cc2e11a8e4f35858ea0f910b79a5f97ec
+SHA256: 2aeb212e6ac09e14c269126966442031903074de5d7e55c6f37e21d2d084151b
 Section: Tweaks
 Description: 让你的设备免受DarkSword/Coruna漏洞攻击。WebContent流程的JSC安全强化。配置JavaScriptCore选项，以消除漏洞原语（addrof/fakeobj、JIT类型混淆、GC UAF）。默认启用！
 Author: roothide
@@ -1525,6 +1590,25 @@ Size: 13530560
 MD5sum: 9c3956d90c81afeec6095f448e8076fa
 SHA1: a0c5685879ac067fd8b5bee055577f1cee615670
 SHA256: 7bcd65c2294d26fde36485752dd0c9f8fc26d855094c3e36133b60a1e4d6d3a6
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
+Package: com.xuuz.douyinhelper
+Version: 2.1-6
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17476
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.1-6_Roothide.deb
+Size: 6778876
+MD5sum: 23dd35ee62c44829a543f821624e63a7
+SHA1: 2c92e641414777655c1a1fe7fb31fdb377123c7f
+SHA256: 9efcd5ca0e9030df4ad705c452db01db61d986f4888b3925838d31dcd231b66a
 Section: 抖音插件
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
