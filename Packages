@@ -1138,6 +1138,25 @@ Dev: 君临
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
 Name: WCRefine(微信插件)-Roothide
 
+Package: com.qimiao.WCRefine
+Version: 1.4-2
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/微信WCRefine_1.4-2_Roothide.deb
+Size: 2929084
+MD5sum: 4c9c99097a00a576136655e53583b2e6
+SHA1: 79fdc2f6430a33083066a4e822eefaec9b847cb8
+SHA256: fb5b8c8970fffd3bce4f065b3ce92426ec963869c90a5417ac5730c2d121480b
+Section: 微信插件
+Priority: optional
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Author: 热心网友
+Dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+Name: WCRefine(微信插件)-Roothide
+
 Package: com.roothide.lockdown
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -1542,6 +1561,23 @@ Author: 苏苏
 Icon: https://www.susubaby.top/images/Preferences.png
 Name: NoPreferencesTips隐藏未知部件提示-Roothide
 
+Package: com.tombstonepro.tweak
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: colorBlack
+Installed-Size: 596
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/后台保活_1.0.4_Roothide.deb
+Size: 38344
+MD5sum: c8dfc7b31dc9e68e5831e9e9776c2495
+SHA1: 9c4fd29b9b8353213347ac06017af0d9e14353d0
+SHA256: 6e57c14ceec59f1d97da8771288c18fb2335877e8ddfc014dbef3497ff552454
+Section: Tweaks
+Description: 增强iOS原生墓碑机制。通过Jetsam优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。
+Author: colorBlack
+Name: Necromancy-Roothide
+
 Package: com.vita.yuki
 Version: 0.1-0
 Architecture: iphoneos-arm64e
@@ -1655,37 +1691,6 @@ Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Name: SuperVIP-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
-
-Package: com.yourname.backgroundkeepalive
-Version: 1.0.0-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: YourName <your.email@example.com>
-Installed-Size: 504
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Suggests: libhooker | substitute
-Conflicts: com.rpetrich.backgrounder, com.jevinskie.backgroundmanager
-Filename: debs/提高应用留存率_1.0.0-1_Roothide.deb
-Size: 40752
-MD5sum: 1c8695e26c0b4739e6732e92ffc66e6c
-SHA1: 33e919bb83c829b3e5ce833f4387739a03176f48
-SHA256: 05c4333bdf9eef91e6a5dea23635a395217eed8dea73308bd67b4def1ecbefa4
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/yourname/backgroundkeepalive
-Description: 基于iOS墓碑机制的后台保活插件
- 这是一个专为Dopamine越狱环境设计的后台保活插件，通过Hook iOS系统的墓碑机制来提高应用的后台留存率。
- 主要功能：
- • 拦截应用挂起和终止操作
- • 智能内存管理和优化
- • 自动监控和重启机制
- • 适配RootHide隐根越狱环境
- • 长时间稳定运行，自动故障恢复
-Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17
-Author: YourName <your.email@example.com>
-Depiction: https://yourrepo.com/depictions/backgroundkeepalive
-Name: BackgroundKeepAlive-Roothide
-Sileodepiction: https://yourrepo.com/sileo/backgroundkeepalive
 
 Package: dev.traurige.eneko
 Version: 1.4.2
