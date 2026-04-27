@@ -1330,6 +1330,23 @@ Description: 仿iOS18控制中心美化，可调整控制中心模块形状。�
 Author: fiore & p2kdev & SINI
 Name: CCBorder-Roothide
 
+Package: com.sini921.disabledwarning
+Version: 0.0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/屏蔽黑名单弹窗_0.0.1-2_Roothide.deb
+Size: 3528
+MD5sum: 73dc2fd6fbde12a4d1a7c019c2390101
+SHA1: 10291c52e169ab77a654f63199f4146bdba68963
+SHA256: 4ec34cdd7bbcdfe2eed9dd4590853e54894dbff8bf56fb7703653298d8f30aad
+Section: 越狱插件
+Description: RootHide(黑名单)与RootHideInject(白名单)每次打开都让我卸载openssh，卸载是不可能卸载的，所以去掉这个警告弹窗
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/disabledwarning.png
+Name: DisabledWarning(Roothide)
+
 Package: com.skypain.flexloader
 Version: 5.25.19-1
 Architecture: iphoneos-arm64e
