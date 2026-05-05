@@ -2239,6 +2239,24 @@ Description: 隐根越狱依赖插件。
 Author: Evelyn
 Name: Legacy arm64e Support
 
+Package: poqw312.github.insulation
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 484
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/解除温控insulation_0.0.3_Roothide.deb
+Size: 60360
+MD5sum: f5ef6bd0455acb747291b86334adb402
+SHA1: b0b953d55b74938845123132236bcd64e04a6fba
+SHA256: a8219b7e8756354bfc6f607395654f0b1d3110e8052fcbad07ca19f57b9ff41a
+Section: 系统增强
+Description: 解除温控。貌似边快充边游戏不降频，测试温度41度。
+Author: be-huge
+Name: Insulation解除温控-Roothide
+Sponsor: be-huge
+
 Package: python3
 Version: 3.9.9-2
 Architecture: iphoneos-arm64e
