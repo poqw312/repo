@@ -819,6 +819,24 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
 
+Package: com.netskao.appdata
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.appdatas, com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/Appdata_2.0.1_Roothide.deb
+Size: 220512
+MD5sum: 472a8c71b436056c616896f21f63f1a9
+SHA1: 8d0d7658cace550a0f4c863692b787e31ce8584f
+SHA256: 242e1d7719e4ef195be9fba227b1df8bad91aa33a37ad2eb2ee3bad47a792c62
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据。
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.netskao.ccsim
 Version: 1.1-9
 Architecture: iphoneos-arm64e
@@ -1680,6 +1698,25 @@ MD5sum: 23dd35ee62c44829a543f821624e63a7
 SHA1: 2c92e641414777655c1a1fe7fb31fdb377123c7f
 SHA256: 9efcd5ca0e9030df4ad705c452db01db61d986f4888b3925838d31dcd231b66a
 Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
+Package: com.xuuz.douyinhelper
+Version: 2.2-0
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17476
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.2-0_Roothide.deb
+Size: 6787956
+MD5sum: 4b6173db6f012bff9a10c4fb66771337
+SHA1: 143ee01fb99216fcc217e8c3c93bff476ef32833
+SHA256: 62964d6cdab9eef3a9f9e8a72c471c1b05540dda144f78aefed915a843640f12
+Section: Tweaks
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
 Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
