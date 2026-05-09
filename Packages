@@ -632,6 +632,24 @@ Description: 用于监控、保存和优化电池性能的终极优化插件。
 Author: elias
 Name: SmartBattery省电优化-Roothide
 
+Package: com.iosdump.appdata
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.0.1_Roothide.deb
+Size: 220480
+MD5sum: 5ac6db04e237cf5a0dcf730d496e01f6
+SHA1: 24cb70b085e231515761c1dded7971eb2f013ffe
+SHA256: 562c88f6d0b58dca5501eae3374cf6d79edeb21805a566a145cde344bf0e3e2e
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.lclrc.exacttime
 Version: 2.0.4
 Architecture: iphoneos-arm64e
@@ -766,75 +784,22 @@ Author: Fouad Raheb
 Name: AppData应用数据-Roothide
 
 Package: com.netskao.appdata
-Version: 1.9.2
+Version: 1.4.7
 Architecture: iphoneos-arm64e
-Maintainer: iosdump
+Maintainer: Netskao
+Installed-Size: 5156
 Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_1.9.2_Roothide.deb
-Size: 175156
-MD5sum: 5f00cde83db59818bdc075e591ea46de
-SHA1: ad7a43de86cf5e604d6c131f49fd64eafc215aa0
-SHA256: 268ddc2ea962afa3016a8494e81c550073d78d36aa1ea89f46b743845ec8d460
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据。
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.netskao.appdata
-Version: 1.9.3
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.iosdump.appdatas, com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_1.9.3_Roothide.deb
-Size: 201320
-MD5sum: 7bf79f45a34eca96e6742346b392c096
-SHA1: 23e0cba626e4443e025199cd3321aa3916ce9aa0
-SHA256: 88700be17176cd771eb49e22096aadc017dfc3adaeab0ca4a772aa7d8d1ca1f8
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据。
+Filename: debs/AppData_1.4.7_Roothide.deb
+Size: 1500308
+MD5sum: b5b1e4c9ff8407023c0b0a495776506d
+SHA1: 4dbcbaeb1e7a1af2aca50b1fd7f3c1e70ce91ddb
+SHA256: 5ea566e0811b5437aef1c012baa67aeabd65e45b1e2f0b569a35f7497cbf6c0b
+Section: Netskao-Tweaks
+Description: 在主屏幕查看和管理应用程序数据。v1.4.7:修复应用程序无法降级问题。
 Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.netskao.appdata
-Version: 1.9.6
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.appdatas, com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_1.9.6_Roothide.deb
-Size: 206384
-MD5sum: 5fe53ad3e178da5bcf79f7d2ff999241
-SHA1: e18cb2bd369cda66efa55a0d9e749641a962ca16
-SHA256: e888a94d7f184d8c874a76483024d9765fba0614385e15b26fc828297d3e36fd
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据。应用降级等功能。
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.netskao.appdata
-Version: 2.0.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.appdatas, com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/Appdata_2.0.1_Roothide.deb
-Size: 220512
-MD5sum: 472a8c71b436056c616896f21f63f1a9
-SHA1: 8d0d7658cace550a0f4c863692b787e31ce8584f
-SHA256: 242e1d7719e4ef195be9fba227b1df8bad91aa33a37ad2eb2ee3bad47a792c62
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据。
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Markdowndescription: 在主屏幕查看和管理应用程序数据。v1.4.7:修复应用程序无法降级问题。
 Name: AppData应用数据-Roothide
 
 Package: com.netskao.ccsim
