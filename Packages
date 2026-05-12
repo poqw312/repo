@@ -1595,6 +1595,23 @@ Description: 增强iOS原生墓碑机制。通过Jetsam优先级与内存阈值�
 Author: colorBlack
 Name: Necromancy-Roothide
 
+Package: com.tombstonepro.tweak
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: colorBlack
+Installed-Size: 664
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/后台保活_1.0.8_Roothide.deb
+Size: 53672
+MD5sum: ef897e9478882a51b6d2e068a66adaab
+SHA1: 4b07c5c85a4243a42e9f591c17622909b1b82ef6
+SHA256: f4dc12860959a73f18e8f5205aa3170519d072bab69b15761192074ba0670a0f
+Section: Tweaks
+Description: 增强iOS原生墓碑机制。通过Jetsam优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。
+Author: colorBlack
+Name: Necromancy-Roothide
+
 Package: com.vita.yuki
 Version: 0.1-0
 Architecture: iphoneos-arm64e
