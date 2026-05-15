@@ -463,6 +463,23 @@ Description: 超级控制中心模块集合：注销、定位、锁屏、截屏�
 Author: 妖刀
 Name: CCLess++控制中心(RootHide)
 
+Package: com.dao.milkywayreborn
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: MilkyWay Reborn
+Installed-Size: 308
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.milkyway.reborn
+Filename: debs/Milkywayreborn_1.2_Roothide.deb
+Size: 47312
+MD5sum: 26977d16cc2a83c8135ad86ee7acf9ab
+SHA1: ea32caa2922f262bed1384daa37ba902e9a360eb
+SHA256: 0a54df26ad12c99cd0a158e9098a0d5407ddfa2c4cc3cfc12aa1ca99c05f844e
+Section: Tweaks
+Description: 窗口化多任务，也就是分屏；无设置，后台界面按住应用程序卡片2秒或者长按App图标选择窗口分屏，即可将此应用程序窗口化/分屏；按住顶部右侧箭头按钮滑动可以对窗口进行缩放调节，由 akusio 基于 MilkyWay2现代化重写；34306优化适用于iOS17–18和26。
+Author: MilkyWay Reborn
+Name: MilkyWayReborn-Roothide
+
 Package: com.dumpapp.wechat-rootless
 Version: 2.4.0
 Architecture: iphoneos-arm64e
@@ -649,6 +666,22 @@ Description: 从主屏幕查看和管理应用数据以及应用降级等功能�
 Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
+
+Package: com.iosdump.customcallbg
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/Customcallbg来电视频_0.0.5_Roothide.deb
+Size: 39820
+MD5sum: 8920af68a1b9752a7355e17630794204
+SHA1: 1a0c4319730fef9adbd39163aec2cc24526c350e
+SHA256: 5348b623da025994a20ba843cfb2057e770e0095249bd4fd0cf0d16a4ad62ed5
+Section: Tweaks
+Description: iOS14-17自定义来去电视频插件。
+Author: iosdump
+Name: CustomCallBg来电视频-Roothide
 
 Package: com.lclrc.exacttime
 Version: 2.0.4
@@ -1744,6 +1777,24 @@ Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Name: SuperVIP-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
+Package: dev.theos.orion14
+Version: 1.0.1-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 1220
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.1-3+debug)
+Filename: debs/依赖orion14_1.0.1-3_Roothide.deb
+Size: 162444
+MD5sum: d711073211360ee749fac68eb5ef11af
+SHA1: e36a80f8476e73e617e46c4bb2413ba6c48144d5
+SHA256: f3f65804a25589e8b3dd138d77a476781ac17e7f8b072f96c1bb20d997c72529
+Section: 依赖插件
+Description: 隐根越狱依赖插件。
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (iOS 14-17)
 
 Package: dev.traurige.eneko
 Version: 1.4.2
