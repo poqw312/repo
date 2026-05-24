@@ -481,6 +481,27 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC(微信插件)-Roothide
 
+Package: com.cydiageek.doubletaptolock
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 601
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Filename: debs/DoubletaptoLock双击锁屏_1.0.3_Roothide.deb
+Size: 68524
+MD5sum: 0f717056cfedc84a76b7d6e644c49c00
+SHA1: bef32b3ba40d5bbc302e7766c92c11214deb864a
+SHA256: a3c377a9c898dccb7ba466e056d7261d2663a7f2601e0944c2e3d119382c0b00
+Section: Tweaks
+Priority: optional
+Description: 双击锁屏，可在主屏/锁屏/状态栏双击锁定设备！
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Dev: lucaluca86
+Name: DoubleTapToLock双击锁屏-Roothide
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.dao.ccless
 Version: 2.1.0.1
 Architecture: iphoneos-arm64e
