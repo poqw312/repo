@@ -754,6 +754,22 @@ Description: iOS14-17自定义来去电视频插件。
 Author: iosdump
 Name: CustomCallBg来电视频-Roothide
 
+Package: com.iosdump.customcallbg
+Version: 0.0.6
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/CustomCallbg来电视频_0.0.6_Roothide.deb
+Size: 68232
+MD5sum: a07cd187a141e32d1880f5c29bee7c7d
+SHA1: ea1ab62ed73b07d667d8568819d06e4d30ba34d6
+SHA256: f548d1998e8c3a04663c354a4189c0727bdffa599c0c299c7993f9a963fec4dd
+Section: Tweaks
+Description: iOS14-17自定义来去电视频插件。
+Author: iosdump
+Name: CustomCallBg来电视频-Roothide
+
 Package: com.lclrc.exacttime
 Version: 2.0.4
 Architecture: iphoneos-arm64e
@@ -813,6 +829,26 @@ Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
 Name: 影视助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
 
+Package: com.lenglengyu.videohelper-rootless
+Version: 2.8.2
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 2856
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.agmjpro, com.lenglengyu.amjpro, com.lenglengyu.hjsppro, com.lenglengyu.huashutv, com.lenglengyu.xngyspro, com.lenglengyu.qqyspro, com.lenglengyu.rrsphook, com.lenglengyu.wzdypro, com.lenglengyu.wlyspro, com.lenglengyu.xamjpro, com.lenglengyu.ylyspro, com.lenglengyu.bilibilipro, com.lenglengyu.boxsqhook, com.lenglengyu.hanjutv
+Filename: debs/冷雨影视助手_2.8.2_Roothide.deb
+Size: 863688
+MD5sum: e36f48590e3a9530ea7a83c2d5c78940
+SHA1: 0ea9feb525ea08c339d0801cbef4240ca8131cc2
+SHA256: 1fea6990536001766c620434fd2af009833376836643e90475c663339ecab81a
+Section: Tweaks
+Description: 各种影视APP破解工具，目前有芒果TV、韩小圈、咪咕视频、风行视频、乐刷短剧、梦想短剧、繁花剧场、人人剧场、人人视频、西红柿短剧、蜜桃小短剧、抖音小剧场等视频工具。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/videohelper.html
+Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
+Name: 影视助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
+
 Package: com.lenglengyu.vpnplus-rootless
 Version: 3.1.2
 Architecture: iphoneos-arm64e
@@ -832,6 +868,24 @@ Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Name: VPN助手-RootHide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
+
+Package: com.lxcloud.WCEhance
+Version: 2.0-6
+Architecture: iphoneos-arm64e
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/微信WCEhance_2.0-6_Roothide.deb
+Size: 2641908
+MD5sum: 3f93ec8cfb22ae9597e1cd84d270ea43
+SHA1: b02dc212a7bec8b16e51b8276e60b4794535e9cf
+SHA256: 1a8c27aad987b54cb4f649c504983263c783e337be2b97b233971a322882e90e
+Section: 微信插件
+Priority: optional
+Description: 微信增强,用于优化一些反人类设计和增强功能。
+Author: huami&Lxcloud
+Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Name: 微信增强-Roothide
+Sileodepiction: https://qaq.040207.xyz/sileo.json
 
 Package: com.mrgcgamer.libgcuniversal
 Version: 1.7.0
@@ -1826,26 +1880,6 @@ Author: XUUᶻ
 Name: 抖音助手-Roothide
 
 Package: com.yourepo.llyy.supervip-rootless
-Version: 4.4.0
-Architecture: iphoneos-arm64e
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 7908
-Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
-Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
-Filename: debs/冷雨SuperVIP_4.4.0_Roothide.deb
-Size: 2664896
-MD5sum: 9a19ea34494487b8117216c6d5863373
-SHA1: 45f329d4a2593727f6ebddc845fd5cbabf29486e
-SHA256: a1410f5cc3020b914d5116c1cc3ee8d82eadace9ee734f22936bcf24266d0c49
-Section: Tweaks
-Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
-Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
-Name: SuperVIP-Roothide
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
-
-Package: com.yourepo.llyy.supervip-rootless
 Version: 4.4.2
 Architecture: iphoneos-arm64e
 Maintainer: lenglengyu <lenglengyu@126.com>
@@ -1857,6 +1891,26 @@ Size: 2661276
 MD5sum: 2c884ea693e3822bf25511d102eee494
 SHA1: 2919f6305499f2497299ea1d8b923aec4b2201e5
 SHA256: 07711c81a89828aaca0c5a78648ae5bf5c3111e4b502166ad976b74116f61973
+Section: Tweaks
+Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.4.7
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7324
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨Supervip_4.4.7_Roothide.deb
+Size: 2567388
+MD5sum: 066415dad0db2a3e295026f926841fca
+SHA1: a248bb1ddcfc2ae52124766684ded55c6e5cea54
+SHA256: cdd76a82a132fbd90f57a589d77df5aa496dfe62980e797cffd9019f2cd1f73f
 Section: Tweaks
 Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
 Author: lenglengyu
