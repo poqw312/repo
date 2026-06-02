@@ -1330,28 +1330,6 @@ Description: 让你的设备免受DarkSword/Coruna漏洞攻击。WebContent流�
 Author: roothide
 Name: Lockdown-Roothide
 
-Package: com.rpetrich.powercuff
-Version: 1.4
-Architecture: iphoneos-arm64e
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 188
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Filename: debs/Powercuff_1.4_Roothide.deb
-Size: 13124
-MD5sum: ca06b352d699868cbec1f9ed1d473fa8
-SHA1: 5082f37e621e9c7985ee05c67c64659ed9cf244b
-SHA256: 9868abe95820401727ad6986d39a52e715ab16140eec19b12c13ffa6dad749e0
-Section: Tweaks
-Homepage: http://rpetri.ch/cydia/powercuff/
-Description: 从其他低功耗设备状态中选择
-Tag: purpose::extension
-Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
-Depiction: http://rpetri.ch/cydia/powercuff/
-Dev: rpetrich
-Name: Powercuff省电节流-Roothide
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.ryannair05.cask3
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -2022,24 +2000,6 @@ Description: 主屏幕无操作后自动隐藏所有App图标。目前是英文�
 Author: CP Digital Darkroom, Randy420
 Name: Evanesco-Roothide
 
-Package: github.poqw312.fuckthermal
-Version: 1.2-38
-Architecture: iphoneos-arm64e
-Maintainer: Shadow
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
-Conflicts: com.shadow.fuckthermal
-Filename: debs/FuckThermal_1.2-38_Roothide.deb
-Size: 213748
-MD5sum: 0e965cbe585cc0a5daf5e6700d4154a4
-SHA1: 5585b8777285e987cd7a44566dad7ce6ab1cc8d3
-SHA256: b886e287fb757ee997ce2f6c9bc3379113dd4597e7a319289ddde27579796aef
-Section: 系统增强
-Description: 解除设备在充电或使用过程中因发烫导致设备CPU频率降频卡顿、屏幕亮度变暗等问题。在这基础上可以安装Powercuff插件来屏蔽设备高温发烫导致温度计弹窗，安装后没有效果的用户请注销SpringBoard或者重启用户空间！打开低电量模式后，CPU频率能稳定保持不降频就表示插件生效。测试支持iOS15-iOS16
-Author: Shadow
-Name: FuckThermal解除温控-Roothide
-Sponsor: Shadow
-
 Package: github.poqw312.icleanerpro
 Version: 7.10.0k
 Architecture: iphoneos-arm64e
@@ -2457,7 +2417,7 @@ Maintainer: be-huge
 Installed-Size: 484
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/解除温控insulation_0.0.3_Roothide.deb
+Filename: debs/insulation解除温控_0.0.3_Roothide.deb
 Size: 60360
 MD5sum: f5ef6bd0455acb747291b86334adb402
 SHA1: b0b953d55b74938845123132236bcd64e04a6fba
@@ -2467,6 +2427,22 @@ Description: 解除温控。貌似边快充边游戏不降频，测试温度41�
 Author: be-huge
 Name: Insulation解除温控-Roothide
 Sponsor: be-huge
+
+Package: poqw312.github.insulation
+Version: 0.1.20
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 844
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/insulation解除温控_0.1.20_Roothide.deb
+Size: 110316
+MD5sum: 511e6de5b675f8f975862303d323d964
+SHA1: 6e40f1fd29b740f679410087c0f509fabcae7dbb
+SHA256: 4a5308e76dfc97106ae318d30ce925b67319b996bf430c98f4267766c8e704ae
+Section: Tweaks
+Description: 解除温控。代码来自开源项目：https://github.com/be-huge/insulation
+Author: be-huge & doimty
+Name: insulation解除温控-Roothide
 
 Package: python3
 Version: 3.9.9-2
