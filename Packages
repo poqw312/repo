@@ -977,6 +977,23 @@ Description: 对于双SIM卡设备，在控制中心添加一个快捷关闭或�
 Author: Netskao
 Name: CCSIM-Roothide
 
+Package: com.netskao.disablebottombarlrswipe
+Version: 1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/禁用底部横条切换_1.1-2_Roothide.deb
+Size: 5940
+MD5sum: aae4fb443942df4f855531429dd7f14b
+SHA1: 513c3f9e976019b6f68f73dccf52749f81a7f6f2
+SHA256: a60d563d4c979e15ca912e2685f053777742b0c3b2342ab0a66e5c682b945d38
+Section: Netskao-Tweaks
+Description: 禁用底部横条向左/向右滑动切换应用。
+Author: Netskao
+Name: DisableBottomBarLRSwipe-Roothide
+
 Package: com.netskao.dumpdecrypter
 Version: 1.5-1
 Architecture: iphoneos-arm64e
@@ -1696,6 +1713,27 @@ Description: 此插件用于屏蔽隐藏设备更换第三方电池和其它非�
 Author: 苏苏
 Icon: https://www.susubaby.top/images/Preferences.png
 Name: NoPreferencesTips隐藏未知部件提示-Roothide
+
+Package: com.tomaszpoliszuk.applibrarydisabler
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, cy+model.iphone | cy+model.ipod | firmware (>= 15.0)
+Conflicts: com.tomaszpoliszuk.applibraryenabler
+Filename: debs/禁用App资源库_1.1.1_Roothide.deb
+Size: 3256
+MD5sum: 3bc4f78aa2f3eb24442f1df72b4747c0
+SHA1: 3a9b5926e6c1e46d4457e5005623819d55b5abbc
+SHA256: 59a315e9ac021553e8ec18868189612b53c9e3def16d3f91a881b301f142fede
+Section: Tweaks
+Description: 禁用主屏幕最后一页App资源库。安装后默认生效！无图标无设置。
+Tag: purpose::extension
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Dev: tomaszpoliszuk
+Name: App Library Disabler-Roothide
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.tombstonepro.tweak
 Version: 1.0.4
