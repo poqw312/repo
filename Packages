@@ -2106,6 +2106,25 @@ Description: 显示视频时长进度条，显示作品日期时间归属地，�
 Author: XUUᶻ
 Name: 抖音助手-Roothide
 
+Package: com.xuuz.douyinhelper
+Version: 2.2-1
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17508
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.2-1_Roothide.deb
+Size: 6782644
+MD5sum: 27510b9f1c95793bed9daff67de35977
+SHA1: 85acf08751ba8a3ef77bdaa1387b1123481feafe
+SHA256: a930eba84f78bf21a53a37ce6f9464c4ea3fb6240838a652cd0bc3b227556ced
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
 Package: com.yourepo.llyy.supervip-rootless
 Version: 4.4.2
 Architecture: iphoneos-arm64e
@@ -2690,6 +2709,22 @@ SHA1: 6e40f1fd29b740f679410087c0f509fabcae7dbb
 SHA256: 4a5308e76dfc97106ae318d30ce925b67319b996bf430c98f4267766c8e704ae
 Section: Tweaks
 Description: 解除温控。代码来自开源项目：https://github.com/be-huge/insulation
+Author: be-huge & doimty
+Name: insulation解除温控-Roothide
+
+Package: poqw312.github.insulation
+Version: 0.1.21
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 844
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/insulation解除温控_0.1.21_Roothide.deb
+Size: 110240
+MD5sum: 4a7571c401bfc8ad4e1c45ea13ab2fda
+SHA1: 6039dc534cbe880ff389d58c73ef78febf0b06e2
+SHA256: 731415800f2fb62633587598fb9337005b96113c2684cba7f9aebd93ee49a2f3
+Section: Tweaks
+Description: 经暴力测试在户外大太阳环境下暴晒，设备温度45度左右CPU依然能保持高频，显示屏不降亮度，不显示温度计弹窗。代码来自开源项目：https://github.com/be-huge/insulation
 Author: be-huge & doimty
 Name: insulation解除温控-Roothide
 
