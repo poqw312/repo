@@ -481,6 +481,25 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC(微信插件)-Roothide
 
+Package: com.curtin.pkc.rootless
+Version: 0.9-7
+Architecture: iphoneos-arm64e
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信PKC_0.9-7_Roothide.deb
+Size: 1342728
+MD5sum: c900f9c402d29872bee79106824f89e1
+SHA1: d35ccc153ae4fca6304d030879e42e37b8979edc
+SHA256: 6c85ef48b33026114ee1282e37ed77120f58aa52b14e8c4474fecdcaffa5a2d5
+Section: 微信插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等。
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(微信插件)-Roothide
+
 Package: com.cydiageek.doubletaptolock
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -787,6 +806,22 @@ Section: Tweaks
 Description: iOS14-17自定义来去电视频插件。
 Author: iosdump
 Name: CustomCallBg来电视频-Roothide
+
+Package: com.iosdump.zone
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 976
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: debs/zone视频壁纸_1.3.0_Roothide.deb
+Size: 166684
+MD5sum: 4a658002cd67456ebb0cf8b9c03b63ff
+SHA1: 69ad8347b4ac6b5f743a0babac3902b66c6f1c4e
+SHA256: 660175098d965e5551d75de0c5f64b60432c7abc3791da064fd8bbf992bf7a69
+Section: 美化插件
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone视频壁纸-Roothide
 
 Package: com.lclrc.exacttime
 Version: 2.0.4
@@ -2725,6 +2760,22 @@ SHA1: 6039dc534cbe880ff389d58c73ef78febf0b06e2
 SHA256: 731415800f2fb62633587598fb9337005b96113c2684cba7f9aebd93ee49a2f3
 Section: Tweaks
 Description: 经暴力测试在户外大太阳环境下暴晒，设备温度45度左右CPU依然能保持高频，显示屏不降亮度，不显示温度计弹窗。代码来自开源项目：https://github.com/be-huge/insulation
+Author: be-huge & doimty
+Name: insulation解除温控-Roothide
+
+Package: poqw312.github.insulation
+Version: 0.1.35
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 612
+Depends: firmware (>= 15.0)
+Filename: debs/insulation解除温控_0.1.35_Roothide.deb
+Size: 49236
+MD5sum: dc53366878da18431cfdfe3fcabce88e
+SHA1: a327d5e46b1b9eb0e7289cacc75771df7f48a69e
+SHA256: 55a3ec450fc3620d2ec669bf204604af81232adcadd86771acaee1f94ec630f0
+Section: Tweaks
+Description: 解除温控，经暴力测试在户外大太阳环境下暴晒，设备温度45度左右CPU依然能保持高频，显示屏不降亮度，不显示温度计弹窗。代码来自开源项目：https://github.com/be-huge/insulation
 Author: be-huge & doimty
 Name: insulation解除温控-Roothide
 
