@@ -81,10 +81,10 @@ Maintainer: 577FKJ
 Installed-Size: 4632
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: debs/watchfix手表配对_2.0.1_Roothide.deb
-Size: 607456
-MD5sum: fb1b27872630c6fa1dc53f712244c60b
-SHA1: 7490ec5347a8104d33a5b92cf141b90f8251cc3b
-SHA256: 1d75f756cce713ee133478a6ff7031480ecd1d32976d0c04ccfa544ee21be4c2
+Size: 607892
+MD5sum: e29fcdf932ac9cb225c87bf1251f9083
+SHA1: bf191837fb1ead89769118797efa0feb6bbc2105
+SHA256: 780ed49bb065b57cc489a7c23391b4f9c875dcffefce48a457b00bf15e41375a
 Section: Tweaks
 Description: 修复Apple Watch和老系统设备配对连接问题。
 Author: 577FKJ
@@ -2561,24 +2561,14 @@ Installed-Size: 1520
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0),  preferenceloader
 Filename: debs/fakeperm虚拟权限_8.6.0_Roothide.deb
-Size: 348486
-MD5sum: f7b587b5786bf830deb0dc39e30a24d0
-SHA1: 99a2802bdc495d5306c76f1691b4e7b0aa5b9c91
-SHA256: e1524b17aa94de4cc2799436b5a89daa0e639f8a0a1095eb7eb07077b001e44c
-Section: Roothide
-Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
-  .
-  支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
-  .
-  已测试设备:
- iPhone 14 Pro - iOS 16.3
- iPhone 12 - iOS 16.1.1
- iPhone SE 1st - iOS 15.8.5
- iPad 9 - iOS 15.4.1
-  .
-  其他设备请自行测试
+Size: 269604
+MD5sum: 82c1c07fab67d895506f6076513a8cf7
+SHA1: 80af8d308f193a2d930557db59fee34679332537
+SHA256: 0b1b5f1ab8b4ade97dbea1d0da4e5d20bc67fc6b0e59dd35927f66c517a7db9b
+Section: Tweaks
+Description: 针对任意App单独配置虚拟权限，防止隐私被过度索要。支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
 Author: Junhong
-Name: 虚拟权限 · Fake Permission (Roothide)
+Name: Fake Permission虚拟权限(Roothide)
 
 Package: jp.akusio.backgrounderaction15
 Version: 0.1.0
