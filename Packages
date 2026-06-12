@@ -764,12 +764,12 @@ Maintainer: iosdump
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: debs/Airdrop隔空投送_0.0.1_Roothide.deb
-Size: 3440
-MD5sum: 99e59cd577fd2bc4c6e960f02df9b75b
-SHA1: 5bbe0b658b45897dd8cd76f44fc9edd3b4f3d0c5
-SHA256: ca3ca349719f9d415eb0cc78b78a83784935d55e89b9c7540659b2a8056b3b6e
+Size: 3436
+MD5sum: 31f880aac7cc8a2a975b720abd35b184
+SHA1: 07473e3fa162d87b928ba5e70eed879cfb46ec88
+SHA256: dcd8cc4a21cfa93ba68650de7f0c4bf70a66f355d097a0195a6e0bf59b347390
 Section: Tweaks
-Description: 解除隔空十分钟限制，安装后默认生效，无图标无设置。
+Description: 解除隔空十分钟限制，安装后无图标无设置。设置-通用-隔空投送
 Author: iosdump
 Name: AirDrop隔空投送-Roothide
 
