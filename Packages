@@ -757,6 +757,22 @@ Description: 用于监控、保存和优化电池性能的终极优化插件。
 Author: elias
 Name: SmartBattery省电优化-Roothide
 
+Package: com.iosdump.airdrop
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/Airdrop隔空投送_0.0.1_Roothide.deb
+Size: 3440
+MD5sum: 99e59cd577fd2bc4c6e960f02df9b75b
+SHA1: 5bbe0b658b45897dd8cd76f44fc9edd3b4f3d0c5
+SHA256: ca3ca349719f9d415eb0cc78b78a83784935d55e89b9c7540659b2a8056b3b6e
+Section: Tweaks
+Description: 解除隔空十分钟限制，安装后默认生效，无图标无设置。
+Author: iosdump
+Name: AirDrop隔空投送-Roothide
+
 Package: com.iosdump.appdata
 Version: 2.0.1
 Architecture: iphoneos-arm64e
@@ -1553,6 +1569,25 @@ Size: 2929084
 MD5sum: 4c9c99097a00a576136655e53583b2e6
 SHA1: 79fdc2f6430a33083066a4e822eefaec9b847cb8
 SHA256: fb5b8c8970fffd3bce4f065b3ce92426ec963869c90a5417ac5730c2d121480b
+Section: 微信插件
+Priority: optional
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Author: 热心网友
+Dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+Name: WCRefine(微信插件)-Roothide
+
+Package: com.qimiao.WCRefine
+Version: 1.4-6
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/微信WCRefine_1.4-6_Roothide.deb
+Size: 7280044
+MD5sum: f56c76d45e0e970bc69fc8ece224b82a
+SHA1: 2751c1bb1496130abb3ddf9b9d23ed62c50cbc9d
+SHA256: aff8eae5660261c6c15aab8f5af51463820ecd13ba133117a6eb9aa8e0438219
 Section: 微信插件
 Priority: optional
 Description: 微信优化的重制版，基于微信8.0.64+版本制作。
