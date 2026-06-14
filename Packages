@@ -807,6 +807,24 @@ Author: Fouad Raheb
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
 
+Package: com.iosdump.appdata
+Version: 2.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.1.0_Roothide.deb
+Size: 225876
+MD5sum: 6d7ab0a32d559a858906e2aa63b7b29c
+SHA1: a318895b8c427ffcd590b48c0bad25f4b5879089
+SHA256: ab8f0b5db9e3da671e0a93263ee98c54f7edf18fd4203f410b593c042efe0864
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
+Author: Fouad Raheb
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.iosdump.customcallbg
 Version: 0.0.5
 Architecture: iphoneos-arm64e
@@ -1769,12 +1787,12 @@ Architecture: iphoneos-arm64e
 Maintainer: SINI
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/屏蔽黑名单弹窗_0.0.1-2_Roothide.deb
-Size: 3528
-MD5sum: 73dc2fd6fbde12a4d1a7c019c2390101
-SHA1: 10291c52e169ab77a654f63199f4146bdba68963
-SHA256: 4ec34cdd7bbcdfe2eed9dd4590853e54894dbff8bf56fb7703653298d8f30aad
-Section: 越狱插件
+Filename: debs/Disabledwarning_0.0.1-2_Roothide.deb
+Size: 3520
+MD5sum: 01d5c3cbf9261ab698dcfe8cc2e7c68f
+SHA1: e40508c074cf282f4d92aca14d5bd486a2bfdeaa
+SHA256: c36fa503b03eefb595b5a9f8575a50738a5d6e036ce52d3a5a19007415183489
+Section: Tweaks
 Description: RootHide(黑名单)与RootHideInject(白名单)每次打开都让我卸载openssh，卸载是不可能卸载的，所以去掉这个警告弹窗
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/disabledwarning.png
