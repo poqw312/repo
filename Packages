@@ -718,6 +718,21 @@ Description: 微信脉冲助手，好用的分组、首页圆角、消息直达�
 Author: huami
 Name: WCPulse(微信插件)-Roothide
 
+Package: com.huami.WCPulse
+Version: 1.6-3
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.6-3_Roothide.deb
+Size: 4302340
+MD5sum: 4d1bd80712e9c0c072e28548c0921a99
+SHA1: fbb1c26032ee69a298138fb7fbbdb1fdb24ec408
+SHA256: 8ae3accd5b4213de80ee552606c10735a6296e99d3509e35cbd4040460454060
+Section: 微信插件
+Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
+Author: huami
+Name: WCPulse(微信插件)-Roothide
+
 Package: com.huami.dyyy
 Version: 2.2-9
 Architecture: iphoneos-arm64e
@@ -752,6 +767,24 @@ Section: 抖音插件
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
 Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.3.27更新1653
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY抖音魔术师-Roothide
+
+Package: com.huami.dyyy
+Version: 2.2-9-1675
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2360
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音魔术师DYYY_2.2-9_1675_Roothide.deb
+Size: 500148
+MD5sum: 0c664f567df7934c11d68d4d97b04064
+SHA1: f7b93777f4469f6fa49a0ebde2edd493d30f0c7b
+SHA256: 12db1f193143450a1343360526489dc11dffdc4cf1b2cdeab08d30ad37a105a2
+Section: 抖音插件
+Priority: optional
+Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
 Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY抖音魔术师-Roothide
@@ -869,6 +902,22 @@ MD5sum: 4a658002cd67456ebb0cf8b9c03b63ff
 SHA1: 69ad8347b4ac6b5f743a0babac3902b66c6f1c4e
 SHA256: 660175098d965e5551d75de0c5f64b60432c7abc3791da064fd8bbf992bf7a69
 Section: 美化插件
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone视频壁纸-Roothide
+
+Package: com.iosdump.zone
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 1144
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: debs/zone视频壁纸_2.0.0_Roothide.deb
+Size: 206772
+MD5sum: b79a5ec3f25444cafbb97299805312f2
+SHA1: 63c674927889c4b2eda70b85d59ca5e355ec350d
+SHA256: af1607ff370349c88b736dd6cfafdc3229896803a547faffd8d555e4708dc4b9
+Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
 Name: Zone视频壁纸-Roothide
@@ -2228,6 +2277,41 @@ Homepage: https://tc.uddz.cc/xuuz
 Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
 Author: XUUᶻ
 Name: 抖音助手-Roothide
+
+Package: com.xuuz.douyinhelper
+Version: 2.2-2
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17544
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.2-2_Roothide.deb
+Size: 6790368
+MD5sum: b775a0c9639dc2007f71cbb719d2b95c
+SHA1: 1f3efc5fe1f701c610e8d95ba5959abb0e4d9958
+SHA256: fee8c2bbf2f382108c83f8ed2303a578c710839ff1b9dc65e130bd0596994bce
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
+Package: com.xyzl.bannerstay
+Version: 1.1.0-7
+Architecture: iphoneos-arm64e
+Maintainer: xyzl
+Installed-Size: 360
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/微信视频_1.1.0-7_Roothide.deb
+Size: 16388
+MD5sum: bebde61374e8fa7cafd98ec70faee7cb
+SHA1: 694911e9a095d89e929bc72dc1e6a0bc5e3149bf
+SHA256: 391d978f67b15aea58cd38225e93477d438170b27d93c7d6efd2f0f46064490a
+Section: Tweaks
+Description: 让微信视频来电通知横幅常驻不自动消失, 含设置开关。
+Author: xyzl
+Name: 微信视频通话Pro-Roothide
 
 Package: com.yourepo.llyy.supervip-rootless
 Version: 4.4.2
