@@ -193,6 +193,24 @@ Description: 微信助手-Roothide版
 Author: Mao
 Name: 微信助手-Roothide
 
+Package: com.25mao.msgfilt.rootless
+Version: 1.0-7
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/微信消息屏蔽助手_1.0-7_Roothide.deb
+Size: 143016
+MD5sum: 8e2ee97c7c762dbcee16e5244dfee526
+SHA1: cc8c7bce6b2dba4f2e1896c2504ceb53a22b8857
+SHA256: 0113cdb958f77eb24f0d1d30f3b62500e8e139ef5636e06e3831ab71c6b002f4
+Section: 微信插件
+Priority: optional
+Description: 消息屏蔽助手
+Author: Mao
+Name: 消息屏蔽助手-Roothide
+Sponsor: admin@25mao.com
+
 Package: com.25mao.wcplugins.rootless
 Version: 0.1-6
 Architecture: iphoneos-arm64e
@@ -2296,22 +2314,6 @@ Homepage: https://tc.uddz.cc/xuuz
 Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
 Author: XUUᶻ
 Name: 抖音助手-Roothide
-
-Package: com.xyzl.bannerstay
-Version: 1.1.0-7
-Architecture: iphoneos-arm64e
-Maintainer: xyzl
-Installed-Size: 360
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: debs/微信视频_1.1.0-7_Roothide.deb
-Size: 16388
-MD5sum: bebde61374e8fa7cafd98ec70faee7cb
-SHA1: 694911e9a095d89e929bc72dc1e6a0bc5e3149bf
-SHA256: 391d978f67b15aea58cd38225e93477d438170b27d93c7d6efd2f0f46064490a
-Section: Tweaks
-Description: 让微信视频来电通知横幅常驻不自动消失, 含设置开关。
-Author: xyzl
-Name: 微信视频通话Pro-Roothide
 
 Package: com.yourepo.llyy.supervip-rootless
 Version: 4.4.2
