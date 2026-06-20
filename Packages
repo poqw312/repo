@@ -2371,6 +2371,26 @@ Description: 使用自定义视频设置锁屏与桌面壁纸，基于开源重�
 Author: Traurige & SINI
 Name: Eneko视频壁纸-Roothide
 
+Package: ellekit
+Version: 1.1.3-4~beta1
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/依赖ellekit_1.1.3-4_Roothide.deb
+Size: 143864
+MD5sum: 498efc8326870f9cae7ddc320f4c7b06
+SHA1: 4010c51cf261ff41d3d53d14a67aef7c18e5e089
+SHA256: 3bf37f8571ab7d4b2c8ab10b848b18ecd17c114104d8ddf82a67cb38a38ce52f
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: github.poqw312.anthocrack2
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -2865,6 +2885,22 @@ SHA256: b8e176fcafe0693ef11e374d8747ce628afa5989ccb624ce86c1bb8a9a71e94e
 Section: 依赖插件
 Description: 隐根越狱依赖插件。
 Author: Evelyn
+Name: Legacy arm64e Support
+
+Package: oldabi
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/依赖oldabi_2.0_Roothide.deb
+Size: 3360
+MD5sum: f5b11fd7d98d19653a44bb3fa1f472b8
+SHA1: 727bbbe3b023eae9a40141a9ceef52522b53def0
+SHA256: 8725c0b0a602b63ef1b09ea150989825646a95a7d0b02701425a011c6d10e613
+Section: 依赖插件
+Description: 隐根越狱依赖插件。在iOS 15.0+中支持传统arm64e ABI
+Author: Nightwind
 Name: Legacy arm64e Support
 
 Package: poqw312.github.insulation
