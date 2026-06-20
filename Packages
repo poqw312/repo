@@ -771,56 +771,19 @@ Author: huami
 Name: WCPulse(微信插件)-Roothide
 
 Package: com.huami.dyyy
-Version: 2.2-9
+Version: 2.2-9-1684
 Architecture: iphoneos-arm64e
 Maintainer: huami
-Installed-Size: 2184
+Installed-Size: 2460
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音魔术师DYYY_2.2-9_1652_Roothide.deb
-Size: 457528
-MD5sum: b4cba487459893af6e66eb5468758d2f
-SHA1: cd81d0690258dca15a2b4a886dbee9b8d11ee7f8
-SHA256: d76b849927d751ca8f5017a95942cf8e88a0d2ff85e01ad908b5cd1950dfdbb5
+Filename: debs/抖音魔术师dyyy_2.2-9-1684_Roothide.deb
+Size: 524780
+MD5sum: 5c624e6cfcecc8b261ec6d552675dde6
+SHA1: 574010275dc5c7f6f53a6e91898d1076ca1c7970
+SHA256: d723368877a20d101cbc5e22bc03331e2ece7ecdaf6fe2c798de9a53a753faac
 Section: 抖音插件
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
-Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.3.21更新1652
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY抖音魔术师-Roothide
-
-Package: com.huami.dyyy
-Version: 2.2-9-1653
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 2184
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音魔术师DYYY_2.2-9-1653_Roothide.deb
-Size: 460652
-MD5sum: 5482334e4dc17eede5ed98ea5d95d501
-SHA1: a06e2d780ac7021ecc12a07e0c3a8d5c09b7323e
-SHA256: a3d50dd58176707db84c3ab9380ab774411f15ec391db5ebc6cb19db32616cab
-Section: 抖音插件
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。2026.3.27更新1653
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY抖音魔术师-Roothide
-
-Package: com.huami.dyyy
-Version: 2.2-9-1675
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 2360
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音魔术师DYYY_2.2-9_1675_Roothide.deb
-Size: 500148
-MD5sum: 0c664f567df7934c11d68d4d97b04064
-SHA1: f7b93777f4469f6fa49a0ebde2edd493d30f0c7b
-SHA256: 12db1f193143450a1343360526489dc11dffdc4cf1b2cdeab08d30ad37a105a2
-Section: 抖音插件
-Priority: optional
 Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
 Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
