@@ -963,6 +963,24 @@ Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
 
+Package: com.iosdump.appdata
+Version: 2.5.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.5.1_Roothide.deb
+Size: 1553136
+MD5sum: 2f035ff84cb9549eb74f67fb1e2d6524
+SHA1: 649ff2cff2fee5a2c5346dce8f54adebe6c5776c
+SHA256: 090419f4912323a1e4543d7e7b08d640509bd693ad12d71906ddc45490271a6b
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.iosdump.customcallbg
 Version: 0.0.5
 Architecture: iphoneos-arm64e
@@ -1210,60 +1228,6 @@ Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: MrGcGamer
 Name: LibGcUniversal
-
-Package: com.netskao.appdata
-Version: 1.4.4
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 13548
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/AppData_1.4.4_Roothide.deb
-Size: 5046552
-MD5sum: 6c82a207a0a753dcf8b9669de6cb3398
-SHA1: 5b112d2dd9a724efbdc6311ffcecde07d576e011
-SHA256: 36cf954cd6a1a1946d70d57ab65f4fa9b17b22848906af13a81b0d83fafb3b5b
-Section: Netskao-Tweaks
-Description: 查看和管理应用程序数据。
-Author: Fouad Raheb
-Name: AppData应用数据-Roothide
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
-
-Package: com.netskao.appdata
-Version: 1.4.6
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 5140
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/AppData_1.4.6_Roothide.deb
-Size: 1503340
-MD5sum: 88c5799021ef32122bcfe76e2dd49bce
-SHA1: 07efb1abd1cf1e7403344b12dfb1eda63ecdb01d
-SHA256: 4c7cff9ec45bea03e7135d4855eac99ffedd01e123a349c43a628be8214efc47
-Section: Netskao-Tweaks
-Description: 从主屏幕查看和管理应用程序数据。v1.4.6修复iOS15系统崩溃问题v1.4.5修改获取应用程序降级版本号的API接口。
-Author: Fouad Raheb
-Name: AppData应用数据-Roothide
-
-Package: com.netskao.appdata
-Version: 1.4.7
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 5156
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.appdatas, com.iosdump.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_1.4.7_Roothide.deb
-Size: 1500308
-MD5sum: b5b1e4c9ff8407023c0b0a495776506d
-SHA1: 4dbcbaeb1e7a1af2aca50b1fd7f3c1e70ce91ddb
-SHA256: 5ea566e0811b5437aef1c012baa67aeabd65e45b1e2f0b569a35f7497cbf6c0b
-Section: Netskao-Tweaks
-Description: 在主屏幕查看和管理应用程序数据。v1.4.7:修复应用程序无法降级问题。
-Author: Fouad Raheb
-Markdowndescription: 在主屏幕查看和管理应用程序数据。v1.4.7:修复应用程序无法降级问题。
-Name: AppData应用数据-Roothide
 
 Package: com.netskao.ccsim
 Version: 1.1-9
