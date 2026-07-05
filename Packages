@@ -858,6 +858,24 @@ Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY抖音魔术师-Roothide
 
+Package: com.huayuarc.cputhermal
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1248
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cpu温控_1.2.1_Roothide.deb
+Size: 102456
+MD5sum: 8ad90f14c7bbbffd91eebbb2b7e43481
+SHA1: 78be40cecacf026fb05ee85f26d1f5142b6152ec
+SHA256: b329ccaa73f7fd8514f9bbfe59c7b22ea38450d5d4b5550d003a550329f82b0b
+Section: 系统增强
+Description: 注入 thermalmonitord的iOS温控管理插件。双防护层架构：OKit层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「防温控」减少降频/降亮度，「低功耗」限制 CPU 最高2016MHz兼顾省电与性能。可独立开关CPU性能保护、屏幕亮度保护、高温通知屏蔽、HID温度事件、热状态封锁。内置65°C硬性安全阀，超温或读温失败自动放行系统保护。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU防温控-Roothide
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.idevicelover.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
