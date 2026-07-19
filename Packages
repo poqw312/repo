@@ -945,6 +945,23 @@ Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU防温控-Roothide
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.huayuarc.cputhermal
+Version: 1.2.6
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 820
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cputhermal解除温控_1.2.6_Roothide.deb
+Size: 67144
+MD5sum: 22185e0c3e0ad7fac2ccdd45b3e100d8
+SHA1: 1856a895d91e39cd58a969587f7219fad6c75d89
+SHA256: 820d3561329e148da5f0aaa0e76814fb4e51e85dee598bdc31fe84a0532b5a27
+Section: 系统增强
+Description: 注入Thermalmonitord的iOS温控管理插件。性能优先版默认防温控，尽量保持CPU/GPU满性能和高帧率；支持低功耗模式限制 CPU 最高 2016MHz，并保留CPU性能保护、屏幕亮度保护、高温通知、禁用口袋高温和锁定阳光暴晒开关。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU解除温控-Roothide
+
 Package: com.idevicelover.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
@@ -1062,6 +1079,24 @@ Size: 1553136
 MD5sum: 2f035ff84cb9549eb74f67fb1e2d6524
 SHA1: 649ff2cff2fee5a2c5346dce8f54adebe6c5776c
 SHA256: 090419f4912323a1e4543d7e7b08d640509bd693ad12d71906ddc45490271a6b
+Section: Tweaks
+Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
+Package: com.iosdump.appdata
+Version: 2.5.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.5.3_Roothide.deb
+Size: 1576688
+MD5sum: 44c6a3e196a1297669920af2e2d5595c
+SHA1: 8e52ac0912cecd5f05674f98a86d8584aeeb1fe9
+SHA256: 5f2bd288de84fb10b32f6ff19b8aa06fa62c15110f5f27c9c578501cc95958c0
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
 Author: iosdump
