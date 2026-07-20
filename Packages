@@ -962,6 +962,24 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU解除温控-Roothide
 
+Package: com.huayuarc.cputhermal
+Version: 1.2.7
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1044
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.opa334.ccsupport
+Filename: debs/cpu温控_1.2.7_Roothide.deb
+Size: 89620
+MD5sum: 0c20a26e994ed7d50c32eae848c7360d
+SHA1: 53b898e43f338eccc3232a230af2c268cfc62983
+SHA256: 6e25b70ad9cfaa28cd9176eb4dffd1e591e6703bc1947a63c3a3300c95a78fb7
+Section: Tweaks
+Description: 注入Thermalmonitord的iOS温控管理插件。性能优先版默认防温控，尽量保持CPU/GPU满性能和高帧率；支持设置页与控制中心模块切换低功耗/防温控模式，低功耗模式限制CPU最高2016MHz，并保留CPU性能保护、屏幕亮度保护、高温通知、禁用口袋高温和锁定阳光暴晒开关。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU解除温控-Roothide
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.idevicelover.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
