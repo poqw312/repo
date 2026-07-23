@@ -325,6 +325,22 @@ Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Roothide
 
+Package: com.HBWechatHelper.ailun
+Version: 2.1.4
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/黄白助手_2.1.4_Roothide.deb
+Size: 10441324
+MD5sum: 9d11fbc40c84cda45fb49a7d8d83c7f0
+SHA1: e7b2246c07e05d66f6e7f0105fa0cf7c6b008e6a
+SHA256: 7267adfb87acf8cf44ed829e095ba0de3bc28e037b6e5cf380205f1288e6b482
+Section: 微信插件
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴等诸多功能。
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Roothide
+
 Package: com.amywhile.aemulo
 Version: 1.2.5
 Architecture: iphoneos-arm64e
@@ -674,6 +690,23 @@ Author: MilkyWay Reborn
 Name: MilkyWayReborn分屏-Roothide
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
 
+Package: com.dao.picobanner
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: daodao
+Installed-Size: 820
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.liddell, dev.traurige.liddell
+Filename: debs/PicoBanner多彩横幅_1.1_Roothide.deb
+Size: 127428
+MD5sum: 8fc9186a9117833226e2b8361e65efa7
+SHA1: 28a75d8aaeca9a3104323817c5e73f67f4547ba6
+SHA256: 5907f45ddb38c6d8b973d662783e1ee014d8ae6015e69f7bcef541964476ee86
+Section: Tweaks
+Description: 样式丰富多彩的小巧通知横幅。
+Author: daodao
+Name: PicoBanner多彩横幅-Roothide
+
 Package: com.doimty.promotion
 Version: 1.0.6
 Architecture: iphoneos-arm64e
@@ -915,7 +948,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 1248
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/CPU防温控_1.2.1_Roothide.deb
+Filename: debs/cpu温控_1.2.1_Roothide.deb
 Size: 102456
 MD5sum: 8ad90f14c7bbbffd91eebbb2b7e43481
 SHA1: 78be40cecacf026fb05ee85f26d1f5142b6152ec
@@ -933,7 +966,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 816
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/CPU温控_1.2.3_Roothide.deb
+Filename: debs/cpu温控_1.2.3_Roothide.deb
 Size: 69152
 MD5sum: 60a037a84a8fb8d0f4e6bda4473940c0
 SHA1: 22eb2e914680e3b6c2e96208ba8b68e1abb060fa
@@ -951,7 +984,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 820
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/cputhermal解除温控_1.2.6_Roothide.deb
+Filename: debs/cpu温控_1.2.6_Roothide.deb
 Size: 67144
 MD5sum: 22185e0c3e0ad7fac2ccdd45b3e100d8
 SHA1: 1856a895d91e39cd58a969587f7219fad6c75d89
@@ -975,6 +1008,24 @@ SHA1: 53b898e43f338eccc3232a230af2c268cfc62983
 SHA256: 6e25b70ad9cfaa28cd9176eb4dffd1e591e6703bc1947a63c3a3300c95a78fb7
 Section: Tweaks
 Description: 注入Thermalmonitord的iOS温控管理插件。性能优先版默认防温控，尽量保持CPU/GPU满性能和高帧率；支持设置页与控制中心模块切换低功耗/防温控模式，低功耗模式限制CPU最高2016MHz，并保留CPU性能保护、屏幕亮度保护、高温通知、禁用口袋高温和锁定阳光暴晒开关。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU解除温控-Roothide
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1036
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cpu温控_1.3.0_Roothide.deb
+Size: 79964
+MD5sum: 84e6ad93b56ca60283870052baa81e22
+SHA1: 9d009ef6e5b86c437cade676da219314729bf1f3
+SHA256: c120c135f492ae55afe148a30ce7e430633bcb944a08d8242e83e54a415a9e11
+Section: 系统增强
+Description: 注入Thermalmonitord的iOS温控管理插件。性能优先版默认防温控，尽量保持CPU/GPU满性能和高帧率；支持低功耗模式限制CPU最高2016MHz，并保留CPU性能保护、屏幕亮度保护、高温通知、禁用口袋高温和锁定阳光暴晒开关。
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU解除温控-Roothide
@@ -2607,6 +2658,26 @@ SHA1: a248bb1ddcfc2ae52124766684ded55c6e5cea54
 SHA256: cdd76a82a132fbd90f57a589d77df5aa496dfe62980e797cffd9019f2cd1f73f
 Section: Tweaks
 Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.4.8
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7416
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨supervip_4.4.8_Roothide.deb
+Size: 2572144
+MD5sum: 113aa03446a7c76b01f4292665111c56
+SHA1: 4fd715cadb76765c1079760efb8386fb00374c3e
+SHA256: 416650cdcd07f731764c747b7a0341a3c39041376e10c9b14a42108e789ca663
+Section: Tweaks
+Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
