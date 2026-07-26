@@ -708,6 +708,23 @@ Author: daodao
 Name: PicoBanner多彩横幅-Roothide
 
 Package: com.doimty.promotion
+Version: 1.0.11
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/120高刷Promotion_1.0.11_Roothide.deb
+Size: 16776
+MD5sum: 0f56ea59bbc39a62c60bcf28dc317bff
+SHA1: 1bd57bb7d08cd78c18e4c29ce2d84a4db60fc9c5
+SHA256: 174e28ce6e9194ae94f8975f64a71f404ab0701488fbc6ada79efa1878a8fa37
+Section: Tweaks
+Description: 强制全局120Hz高刷新率，绕过80Hz 系统上限。仅限iPhone 13 Pro及更高设备。安装后默认生效，无图标无设置。
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz(Roothide)
+
+Package: com.doimty.promotion
 Version: 1.0.6
 Architecture: iphoneos-arm64e
 Maintainer: doimty
