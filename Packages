@@ -1592,6 +1592,24 @@ Description: 高级插件配置器，可单独为每个程序启用/禁用插件
 Author: opa334 <opa334@protonmail.com>
 Name: Choicy屏蔽越狱-Roothide
 
+Package: com.opa334.crane
+Version: 1.3.17
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 3252
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/crane_1.3.17_Roothide.deb
+Size: 603996
+MD5sum: ef2045e4e38234f83d100adbd95cfdf5
+SHA1: 09de5386f212eed15d744977dccc29e9aceb1736
+SHA256: bd3af56e812e8954e7e42b2018778e37cbcbac4f284499bc480568f79377ccdf
+Section: Tweaks
+Description: 应用程序账号分身插件。该插件功能是在一个指定应用程序上可以登入多个账号分身，并不是生成多个分身应用图标。
+Author: opa334
+Name: Crane账号分身-Roothide
+
 Package: com.opa334.libsandy
 Version: 1.1.6
 Architecture: iphoneos-arm64e
@@ -1647,6 +1665,22 @@ Tag: role::developer
 Author: opa334
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Name: libSandy
+
+Package: com.opa334.libundirect
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 168
+Filename: debs/依赖Libundirect_1.1.6_Roothide.deb
+Size: 6620
+MD5sum: 4c65b99633847cee3d5accfc0c9b8907
+SHA1: ee9c86773f40f80755e5b8a6102718861966bd41
+SHA256: a23c034af09538bb987bf7cb81de82d662b81095c296488db872b27b413169f7
+Section: 依赖插件
+Description: 隐根越狱依赖插件。
+Tag: role::developer
+Author: opa334
+Name: libundirect
 
 Package: com.p2kdev.tinge
 Version: 1.2.2
@@ -2743,11 +2777,31 @@ Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mo
 Breaks: com.opa334.libsandy (<= 1.1.6-3)
 Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Filename: debs/依赖ellekit_1.1.3-4_Roothide.deb
+Filename: debs/依赖ellekit_1.1.3-4b1_Roothide.deb
 Size: 143864
 MD5sum: 498efc8326870f9cae7ddc320f4c7b06
 SHA1: 4010c51cf261ff41d3d53d14a67aef7c18e5e089
 SHA256: 3bf37f8571ab7d4b2c8ab10b848b18ecd17c114104d8ddf82a67cb38a38ce52f
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 1.1.3-4~beta2
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/依赖ellekit_1.1.3-4b2_Roothide.deb
+Size: 142900
+MD5sum: ec38529b72dd74a509b0e9a247f19eaf
+SHA1: bb501c6e29794d855b62dbe5119540ad9f71b36e
+SHA256: 42659f6e6cf40e0066bd726bc6b50c1d4daa24189cf3f610a23f16df9dd386f3
 Section: 依赖插件
 Priority: optional
 Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器
