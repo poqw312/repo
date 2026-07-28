@@ -1048,6 +1048,25 @@ Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU解除温控-Roothide
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.huayuarc.cputhermal
+Version: 1.3.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 864
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, xyz.cypwn.powercuff, byg.iosios.net.powercuff, cn.zqbb.holdcpu
+Filename: debs/CPU温控_1.3.3_Roothide.deb
+Size: 66372
+MD5sum: 668292dfe36b12e69a4f4765f8392da4
+SHA1: 678cf9a5a512ea5d81612a1e195b1d652cf1c4ce
+SHA256: 4ebf872d81dd534530d78dad3a47d8f2066e30fe3bc6e8619d0420946d75ccbf
+Section: 系统增强
+Description: 注入ThermalMonitord的iOS温控管理插件。双防护层架构：IOKit层拦截传感器温度读取CPMS功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将CPU频率锁定在2016MHz兼顾省电与性能。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU解除温控-Roothide
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.idevicelover.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
