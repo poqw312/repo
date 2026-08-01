@@ -3520,3 +3520,381 @@ Description: 威锋7.0.8去广告
 Author: z
 Name: 威锋去广告-Roothide
 
+Package: zhuti.poqw312.32AA
+Version: 3.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.masks
+Filename: debs/zhuti.poqw312.32AA_3.0_iphoneos-arm64e.deb
+Size: 4768996
+MD5sum: 6693c33fad3fc7ae0a4d931b54d0c1ca
+SHA1: 11af219c97440dfad301fc404b610ee0eeb01041
+SHA256: 8749ac6696acdd318d58883e64cc231bd47ff55ff1b2d9a30ed0771df1a49ba2
+Section: 主题插件
+Description: 美丽的主题包含565个图标和一些美学添加！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: unknown
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 32AA主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.Ango
+Version: 4.5
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.masks
+Filename: debs/zhuti.poqw312.Ango_4.5_iphoneos-arm64e.deb
+Size: 57967704
+MD5sum: 0c88c89731eff5ee0b524170d610536a
+SHA1: b41a7998e603dd337e7b0bd49de18f7a6fa120b7
+SHA256: 2799b4ce090f3403c9dfa2a88231bf8359f65c3538cd4d9b991cf47209d887c2
+Section: 主题插件
+Description: 美丽的主题包含6270个图标和一些美学添加！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: maxpatchs
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Ango Full主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.ColorfulPlaid
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.masks
+Filename: debs/zhuti.poqw312.ColorfulPlaid_1.0_iphoneos-arm64e.deb
+Size: 10483728
+MD5sum: 527a3c382783112ac2d63d42b00c7026
+SHA1: 7ddd2623881e43c5f35a4ef764b43ef92732e0f3
+SHA256: 3e2dee63ecc3a8cbc1854dc4e38add37c93c3d43c95b2734b8de0c900c52e301
+Section: 主题插件
+Description: 本套主题有943个图标，非常的清新好看！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: Buwesam
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Colorful Plaid主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.Crayon
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.Crayon_1.2_iphoneos-arm64e.deb
+Size: 6754700
+MD5sum: f07ae76bdadeacd0c01f845214940271
+SHA1: 77e08de5463e9fdffa6f22ca3fc3ea02629d8232
+SHA256: ffc582bd160ab0a40fe1f72af1255cb2761dac8debf72b587d1814f9c2768e84
+Section: 主题插件
+Description: 一款非常好看的蜡笔小新主题：蜡笔图标与卡通主题和美丽的柔和色彩。每个图标都是真正的杰作，旨在创造完美而纯粹的独特体验。这使得数字时代的外观截然不同！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: justnewdesigns
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Crayon蜡笔小新主题❷-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.CrayonAdaptive
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.CrayonAdaptive_1.0_iphoneos-arm64e.deb
+Size: 20455484
+MD5sum: 7a50d1039fc05f8009714eec1c83ac4c
+SHA1: b1ac6e1e809fba6fd24fa923fdff1741db9f4275
+SHA256: ffa78e5edfb6127a37e3783fa086cd97a838c25a71a203b80b1ee5480148f3da
+Section: 主题插件
+Description: 介绍蜡笔自适应图标，每个图标都是杰作，旨在提供独特美丽和卡通主题的体验。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: justnewdesigns
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: CrayonAdaptive蜡笔小新主题❶-Roothide
+Sponsor: 搬运工
+
+Package: zhuti.poqw312.Morningandevening
+Version: 3.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.Morningandevening_3.0_iphoneos-arm64e.deb
+Size: 10407004
+MD5sum: a3bbdeae07c87337e07e696793281889
+SHA1: 07b0717905af97c2e7decca91aaa0adb1621e24e
+SHA256: dcb7d1526803420187a44f670b6c68d320c894e2059761494a4fe1c36ccaca4c
+Section: 主题插件
+Description: 一款很不错的另类清新主题，喜欢这种主题的人一定很可爱吧！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Morning and evening主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.Tango
+Version: 1.27
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.Tango_1.27_iphoneos-arm64e.deb
+Size: 33263772
+MD5sum: fcc448e91b08f88712d5245052c88982
+SHA1: 9fa0aee55efa13316cefecdeccafda9e1dd227f6
+SHA256: 50261696cc5ecaa322c9df7012ab8dcc226672101c9c8d3bc4fb738b9ea05059
+Section: 主题插件
+Description: 原价18元的主题，由主题源免费分享试用！看起来还不错，感谢捐赠的兄弟们。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: WildHeart
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Tango主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.anzhuo
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.anzhuo_1.0_iphoneos-arm64e.deb
+Size: 27174168
+MD5sum: c1343f015727b01ad6d43522b1b19c28
+SHA1: 8b46ef223919c462926fa7f5bfcc90c16da36d16
+SHA256: a9728ea8f601102efd250de2f80ca139e2d39e79d5ac4718d9225dd5618f8bfa
+Section: 主题插件
+Description: 感谢威锋论坛锋友won69der补全并分享此主题，魅族主题也是出自他手！安卓主题包《补全计划》分享。图标量3800(算上重复的图标)。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: won69der
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 安卓主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.bingkuai
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.bingkuai_1.0_iphoneos-arm64e.deb
+Size: 2728864
+MD5sum: 67ed6a8eaee803b0f0afad94f1a20d3a
+SHA1: 72e465ed994bfb669352ac0dea6bc5f8da1b9a01
+SHA256: 08b8c801fe27968f66c437649126d4eefaa94425338f12779266517657cace3b
+Section: 主题插件
+Description: 主题名称：麻豆时光，此套主题总共736个图标覆盖了自带的APP及一些第三方，主题整体统一性还不错。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 麻豆时光透明主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.echoes
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.masks
+Filename: debs/zhuti.poqw312.echoes_2.0_iphoneos-arm64e.deb
+Size: 47266296
+MD5sum: 1728bfc6f0d20469373cb5c0d5e34fbf
+SHA1: 1e709bbebc25e4c09f61e6c7e388798b2608b8a2
+SHA256: bf09e711e38b69809ecbb39952a560f93c63f69d48baaf4c79904d2e2ddc2319
+Section: 主题插件
+Description: 一款非常好看的主题，有563个图标！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: timeloop
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Echoes主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.fennisi
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.fennisi_1.0_iphoneos-arm64e.deb
+Size: 1755256
+MD5sum: dea33287233de8563e15e5343ffe0ebc
+SHA1: ea0b842314c064b886320674f3e2d370836fed06
+SHA256: 2aaba7e948ee01ed8e44c5b5c6beacf3ca9f088445c8d7be5d9f51cca8a7e6d3
+Section: 插件主题
+Description: 今天分享的是一款非常现代化的主题，非常的有个性，非常好看。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 芬尼斯主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.hizhui
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.hizhui_1.0_iphoneos-arm64e.deb
+Size: 1999708
+MD5sum: 0e65ea826653dbbdc37f30ec77d270bd
+SHA1: 14b1bc98a4373111a8a2e9c2ff80c082ab1b51fb
+SHA256: 8247cf558f9362173cc9e154c5efa059d0a0b3b60e678712f16473b24801fa7a
+Section: 主题插件
+Description: 一款扁平主题，看起来还不错，非常好看。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Chillout扁平主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.hong
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.hong_1.0_iphoneos-arm64e.deb
+Size: 8948216
+MD5sum: 8a8ef4e1631af9ca82bc6e73e6f7e65e
+SHA1: e292264e7e7859e6f88d26a830f24ce77980956d
+SHA256: 7073997bceb2ad8b1e9438b143aadb24da1e636d5b5f97e7bded871749a42d48
+Section: 主题插件
+Description: 群友分享，此套主题总共900+个图标覆盖了自带的APP及一些第三方，主题整体统一性还不错。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Hong小清新主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.kazhi
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.kazhi_1.0_iphoneos-arm64e.deb
+Size: 8620420
+MD5sum: f3972b207aea7a443a5c481a6b8d59cf
+SHA1: f8e53296073a9d6db977d14ba5f97dfe2b334db0
+SHA256: 30bca1b79862a3b2bacba1ccfd677fb3037ab1384e2d37ef50a7d9ebaaecc19f
+Section: 主题插件
+Description: 一款非常好看的小清新主题。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 卡纸主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.meizu
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.masks
+Filename: debs/zhuti.poqw312.meizu_1.1_iphoneos-arm64e.deb
+Size: 28060908
+MD5sum: 69d3493705bebf90f90ea2bf8c2b4e5c
+SHA1: 4b03d85cd01699d1145cf9f29607e2fa4c04071e
+SHA256: a94045c3316c4bf2708e627a57ef154bae3e03544d0c4cdc07f3b2cce6621e07
+Section: 主题插件
+Description: 威锋论坛锋友won69der适配分享！一款非常好看的魅族立体主题！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: won69der
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 魅族立体主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.pink
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.pink_1.0_iphoneos-arm64e.deb
+Size: 6456444
+MD5sum: 1b243e3ab310d796eb54c93067d467c9
+SHA1: 7d0535adbd66b2e3a855aa5b1eb2184465155611
+SHA256: f9ca6b4db448cb30ff345f6a5f6edc945b5230fd60d2318bae57458af21798cf
+Section: 主题插件
+Description: 感谢锋友晚風吹行舟分享此主题！一款粉红色系列的主题，很俏皮可爱的嘞，是个萌妹纸都喜欢的吧。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 粉红色的回忆-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.shiguanlun
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.settingsicons
+Filename: debs/zhuti.poqw312.shiguanlun_1.0_iphoneos-arm64e.deb
+Size: 16312576
+MD5sum: eebb933eb2229c862b91a294edbb4c90
+SHA1: 35cdd0b250c373eb882e34fd3766a0c1387e54d2
+SHA256: a7a56e3a18be2dcc37b93b8fb61287cf158c808ba6ed249ec6b3651437771546
+Section: 主题插件
+Description: 由威锋网论坛好友初识l制作免费分享，夏日蝉鸣设置ui+时光轮新主题，非常的好看，有个性，喜欢的小伙伴们可以免费下载啦！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 初识
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 时光轮主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.shouhui
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.masks
+Filename: debs/zhuti.poqw312.shouhui_1.0_iphoneos-arm64e.deb
+Size: 5285860
+MD5sum: 3cbef476c232cb302bbf25a8ea9b9492
+SHA1: 32a043bfbbac2b60a1ab11a86958fe870e8c9256
+SHA256: 9ab41e283659e5877afb49307c4ab42e19b81207e005cd217fae4e6197d36de8
+Section: 主题插件
+Description: 一套修改版的miuilive全局主题，这套全局主题来自网络，整合了动漫风格的拨号界面，ui界面，把图标倒影也整合进去了，还有个玻璃四角投影遮罩，图标是miuilive的，整体上手效果非常好。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 手绘风主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.xiaoqinxin
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.xiaoqinxin_1.0_iphoneos-arm64e.deb
+Size: 2452796
+MD5sum: 04789a17bd9ca26bab9ef562c80f1422
+SHA1: 5e53b23271043e9d8cfb345e1710c02b30bcd1ee
+SHA256: 0344fd189d3e2e0baaea50f88977ec9107da2aaa310a326db291c339afe807ce
+Section: 主题插件
+Description: 由 @大鹏修改的一套主题，名称：小清新。此套主题总共288个图标基本覆盖了系统APP，主题整体统一性还不错，除了主题还为大家搭配了一套设置列表的图标，大家可以根据自己的需要进行加载。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 大鹏
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 小清新主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.xiari
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.xiari_1.0_iphoneos-arm64e.deb
+Size: 6857504
+MD5sum: 3f9ac2cd49ce72ea0823ca3197f4d2c7
+SHA1: 44472c2ba6e6d4c406e2c05d01ed5a4fb05313f2
+SHA256: 4890e9b50d882c35aa674f879484656815ab8e7aa782f714a7772f8ad53de52f
+Section: 主题插件
+Description: 一款非常好看的主题，非常的有个性，很小清新。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。喜欢更多主题的可以关注微信公众号：月初美化
+Author: 月初
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: Summer夏日风主题-Roothide
+Sponsor: 百度主题源
+
+Package: zhuti.poqw312.xuwo
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Filename: debs/zhuti.poqw312.xuwo_1.0_iphoneos-arm64e.deb
+Size: 1858428
+MD5sum: e767a1f4c8d9a89edd7cb9a03e9a8dad
+SHA1: 8da741f0d4ec5f99ba11d36993bec122fb8027f0
+SHA256: 59ff85c458bb682bb71b536209db5b6667299b4ef36b56d88e3abc9896c48278
+Section: 主题插件
+Description: 一款非常现代化的主题，非常的有个性，非常好看。由网友月初提供分享，非常感谢！该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
+Author: 月初
+Icon: https://chinesebuilding.club/pic/sileo.png
+Name: 许我主题-Roothide
+Sponsor: 百度主题源
+
