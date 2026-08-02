@@ -3707,11 +3707,11 @@ Maintainer: 百度主题源
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.spark.snowboard, com.spark.snowboard.ui
 Filename: debs/zhuti.poqw312.fennisi_1.0_iphoneos-arm64e.deb
-Size: 1755256
-MD5sum: dea33287233de8563e15e5343ffe0ebc
-SHA1: ea0b842314c064b886320674f3e2d370836fed06
-SHA256: 2aaba7e948ee01ed8e44c5b5c6beacf3ca9f088445c8d7be5d9f51cca8a7e6d3
-Section: 插件主题
+Size: 1755236
+MD5sum: d090271d9feeb033e0f7fd8e7c568044
+SHA1: 1eb1489cab4a1a5e66cfac52f3fec2312487b410
+SHA256: 8ba43c2569ef6aafe31e5c41809f8bd6b42dc984a1ac3200dea680509a0fa4cd
+Section: 主题插件
 Description: 今天分享的是一款非常现代化的主题，非常的有个性，非常好看。该主题需要安装滑雪板主题插件以及其他拓展模块才能完全展示效果。
 Author: 百度主题源
 Icon: https://chinesebuilding.club/pic/sileo.png
