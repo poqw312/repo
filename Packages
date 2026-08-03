@@ -982,7 +982,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 1248
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/cpu温控_1.2.1_Roothide.deb
+Filename: debs/CPU温控_1.2.1_Roothide.deb
 Size: 102456
 MD5sum: 8ad90f14c7bbbffd91eebbb2b7e43481
 SHA1: 78be40cecacf026fb05ee85f26d1f5142b6152ec
@@ -1000,7 +1000,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 816
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/cpu温控_1.2.3_Roothide.deb
+Filename: debs/CPU温控_1.2.3_Roothide.deb
 Size: 69152
 MD5sum: 60a037a84a8fb8d0f4e6bda4473940c0
 SHA1: 22eb2e914680e3b6c2e96208ba8b68e1abb060fa
@@ -1018,7 +1018,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 820
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/cpu温控_1.2.6_Roothide.deb
+Filename: debs/CPU温控_1.2.6_Roothide.deb
 Size: 67144
 MD5sum: 22185e0c3e0ad7fac2ccdd45b3e100d8
 SHA1: 1856a895d91e39cd58a969587f7219fad6c75d89
@@ -1035,7 +1035,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 1044
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.opa334.ccsupport
-Filename: debs/cpu温控_1.2.7_Roothide.deb
+Filename: debs/CPU温控_1.2.7_Roothide.deb
 Size: 89620
 MD5sum: 0c20a26e994ed7d50c32eae848c7360d
 SHA1: 53b898e43f338eccc3232a230af2c268cfc62983
@@ -1053,7 +1053,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 1036
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/cpu温控_1.3.0_Roothide.deb
+Filename: debs/CPU温控_1.3.0_Roothide.deb
 Size: 79964
 MD5sum: 84e6ad93b56ca60283870052baa81e22
 SHA1: 9d009ef6e5b86c437cade676da219314729bf1f3
@@ -1079,6 +1079,24 @@ SHA1: 678cf9a5a512ea5d81612a1e195b1d652cf1c4ce
 SHA256: 4ebf872d81dd534530d78dad3a47d8f2066e30fe3bc6e8619d0420946d75ccbf
 Section: 系统增强
 Description: 注入ThermalMonitord的iOS温控管理插件。双防护层架构：IOKit层拦截传感器温度读取CPMS功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将CPU频率锁定在2016MHz兼顾省电与性能。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU解除温控-Roothide
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermal
+Version: 1.5.5
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 836
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/CPU温控_1.5.5_Roothide.deb
+Size: 62540
+MD5sum: a9ec212c43f1eef50d37d0b99a80113c
+SHA1: 8722cc286fdf45fc920788091acf5cca11245bc5
+SHA256: 12be0a1ec241f3b16f0b6f53495f55a3ec8bf16216587b8276b297ca2ef8f571
+Section: 系统增强
+Description: 注入Thermalmonitord的iOS温控管理插件。双防护层架构：IOKit层拦截传感器温度读取CPMS功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将CPU频率锁定在2016MHz兼顾省电与性能。
 Author: Huayuarc
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU解除温控-Roothide
@@ -2879,6 +2897,26 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
+Package: ellekit
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/依赖ellekit_1.2_Roothide.deb
+Size: 142836
+MD5sum: 465e330456aa6ce2b758fcf35da65f81
+SHA1: afc60182604d7e1e50a4df3284c4d26831e6a7fc
+SHA256: 671d7613444b19aa48fc192d89f3532d4fb61e0467a30f9b88d6e7a964c814ba
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器。
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: github.poqw312.anthocrack2
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -3420,6 +3458,22 @@ SHA256: dd75e3085b0aa10fd1a17f3f38ac96bd4cfeafa3a69e77a7171637b79b3c9102
 Section: 依赖插件
 Priority: optional
 Description: 隐根越狱依赖插件。
+
+Package: rootless-compat
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 284
+Depends: com.roothide.patchloader(>= 0.0.4)
+Filename: debs/依赖rootless-compat_2.0_Roothide.deb
+Size: 39928
+MD5sum: ac4548c352af2ddd45488dbfa94d408f
+SHA1: 3251470126aeabedcf14f3d496fa938c91aee52a
+SHA256: 0c1d5b3614006ee7c39c91940947ef34e55fa48c084e593bd77278917408bebb
+Section: 依赖插件
+Description: 隐根越狱依赖插件。无根调整的兼容层。
+Author: roothide
+Name: rootless-compat
 
 Package: se.geometric.graphite
 Version: 2.0
