@@ -976,6 +976,25 @@ Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY抖音魔术师-Roothide
 
+Package: com.huami.dyyy
+Version: 2.3-0
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 3112
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音DYYY_2.3-0_Roothide.deb
+Size: 679092
+MD5sum: 5fe8e6fcd1635594fad7ec4f5283db67
+SHA1: a76f0e70e5d827f64edc3b2769c023c3938f8a83
+SHA256: 148723c547e8d86ba39c97f9ffe81dd1f636da2b5a43535ac859c1d093c9ea01
+Section: 抖音插件
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY抖音魔术师-Roothide
+
 Package: com.huayuarc.cputhermal
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -2524,6 +2543,22 @@ Description: 此插件用于屏蔽隐藏设备更换第三方电池和其它非�
 Author: 苏苏
 Icon: https://www.susubaby.top/images/Preferences.png
 Name: NoPreferencesTips隐藏未知部件提示-Roothide
+
+Package: com.tencent.themebox
+Version: 3.0.2
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信主题盒子_3.0.2_Roothide.deb
+Size: 8761940
+MD5sum: 2cebbf519d420b7645b307b915ba9f00
+SHA1: 9791d5b52bf224349b27fbfa0b89bf50eeef563f
+SHA256: ca6d559a88125f1aa7435dd25ab65b28a24a77174d9c91cc256dfcc093a40f18
+Section: 微信插件
+Description: 微信主题盒子
+Author: Mao
+Name: 主题盒子-Roothide
 
 Package: com.tomaszpoliszuk.applibrarydisabler
 Version: 1.1.1
