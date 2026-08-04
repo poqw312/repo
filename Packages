@@ -463,6 +463,23 @@ Author: Brend0n <brendonjkding@126.com>
 Icon: file:///Library/PreferenceBundles/volumemixer.bundle/icon@2x.png
 Name: VolumeMixer音量控制-Roothide
 
+Package: com.c1d3r.pulloverpro
+Version: 2.2.2
+Architecture: iphoneos-arm64e
+Maintainer: c1d3r, toufu
+Installed-Size: 584
+Depends: firmware (>= 15.0), firmware (<< 17.4), mobilesubstrate, preferenceloader
+Filename: debs/Pulloverpro_2.2.2_Roothide.deb
+Size: 83952
+MD5sum: 8778488094ffe21a56a81a06a8e69983
+SHA1: 2edc655f404be4422a78ae53ae8223e432b3df38
+SHA256: ee4a90da650a0707362d1b2abe9df8328c0d723445ab873b1cd2d92976ac357c
+Section: Tweaks
+Priority: optional
+Description: 由toufu适配Roothide上的iOS17应用程序分屏多任务处理。
+Author: c1d3r, toufu
+Name: PullOver Pro应用分屏-Roothide
+
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
 Architecture: iphoneos-arm64e
@@ -2087,6 +2104,25 @@ Description: 让你的设备免受DarkSword/Coruna漏洞攻击。WebContent流�
 Author: roothide
 Name: Lockdown-Roothide
 
+Package: com.roothide.patcher
+Version: 2.1.5
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 2476
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Filename: debs/Patcher_2.1.5_Roothide.deb
+Size: 894784
+MD5sum: d36526f6aba8ca1856759b43005154d5
+SHA1: e0222b2e499d8bf11caf6eb4acf6ef3e4131b5fd
+SHA256: a5dde39210be3bbcf6c96298d2b0a42da520b6b646de3d9c3c3517ee288cc760
+Section: 依赖插件
+Description: 将无根插件包转换成隐根(Roothide)，但并不是所有无根插件包都能转换成功。
+Author: roothide
+Depiction: https://github.com/roothide/RootHidePatcher
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Name: RootHide Patcher
+Support: https://github.com/roothide/RootHidePatcher
+
 Package: com.ryannair05.cask3
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -2469,6 +2505,23 @@ Section: 微信插件
 Description: 微信主题盒子
 Author: Mao
 Name: 主题盒子-Roothide
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4~roothide
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: debs/Filza_4.0.1-4_Roothide.deb
+Size: 6973160
+MD5sum: 46485dcdf17bcbdce2b6e7394deba668
+SHA1: 5f3ac5f0d3d13166416d7cc9f322840f24f51090
+SHA256: e009c50e0b687478236a4ac0d3d8de66a617c2b340114cad0c956fa9b2eecf30
+Section: Tweaks
+Description: 适用于iPhone、iPad、iPod Touch的文件管理器。此版本是隐根专用版。
+Author: TIGI Software
+Name: Filza文件管理器-Roothide
 
 Package: com.tomaszpoliszuk.applibrarydisabler
 Version: 1.1.1
