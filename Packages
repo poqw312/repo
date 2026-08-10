@@ -980,6 +980,40 @@ Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU解除温控-Roothide
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.huayuarc.cputhermal
+Version: 1.5.8
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 988
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/CPU温控_1.5.8_Roothide.deb
+Size: 68596
+MD5sum: 5a5dfc5ba8308627c65410cb4cf8102d
+SHA1: 0548e5216b7184f53577cb1d029e913eb6f4be08
+SHA256: deffcf8632999dcf1934e877f38f8332620edccd8a9f78baed5139d67019d967
+Section: Tweaks
+Description: 注入ThermalMonitord的iOS温控管理插件。双防护层架构：IOKit层拦截传感器温度读取CPMS功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU解除温控-Roothide
+
+Package: com.huayuarc.cputhermal
+Version: 1.5.8-1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1004
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/CPU温控_1.5.8-1_Roothide.deb
+Size: 69292
+MD5sum: e1a835d36fba7a3cbdba6a31c7f68ea5
+SHA1: e0c2cf56bfd9439811a37c69b29473cffcc0b551
+SHA256: c26f4efe747ee68561b3ed0ff454670312fa71365c671c52dcf0e5bc3080a3db
+Section: Tweaks
+Description: 注入ThermalMonitord的iOS温控管理插件。双防护层架构：IOKit层拦截传感器温度读取CPMS功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU解除温控-Roothide
+
 Package: com.idevicelover.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
@@ -1164,22 +1198,6 @@ Author: iosdump
 Name: TrollCM触摸轨迹-Roothide
 
 Package: com.iosdump.zone
-Version: 1.3.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 976
-Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Filename: debs/zone视频壁纸_1.3.0_Roothide.deb
-Size: 166684
-MD5sum: 4a658002cd67456ebb0cf8b9c03b63ff
-SHA1: 69ad8347b4ac6b5f743a0babac3902b66c6f1c4e
-SHA256: 660175098d965e5551d75de0c5f64b60432c7abc3791da064fd8bbf992bf7a69
-Section: 美化插件
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Author: iosdump
-Name: Zone视频壁纸-Roothide
-
-Package: com.iosdump.zone
 Version: 2.0.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -1214,6 +1232,25 @@ Author: gilshahar7, SquidForce
 Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
 Name: ExactTime通知时间-Roothide
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
+
+Package: com.lenglengyu.libsupervipp-rootless
+Version: 3.0.5
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 284
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/冷雨会员依赖_3.0.5_Roothide.deb
+Size: 63288
+MD5sum: 1fa21813dc8555b0c5627259305164f1
+SHA1: b8627879a0cd3e8bbb9a75b66dcf500af9870420
+SHA256: f5755af438430333f08ffbb0502ed6dd02eb34711e905feba2fc4bd348f41a53
+Section: 依赖插件
+Description: 冷冷雨会员依赖插件。
+Author: lenglengyu
+Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
+Name: libllylly-Roothide
+Sileodepiction: https://apt.167025.cn/packageInfo/libsupervipsileo
 
 Package: com.lenglengyu.shortvideodl-rootless
 Version: 2.1.8
@@ -2026,22 +2063,6 @@ Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c1
 Name: WCRefine(微信插件)-Roothide
 
 Package: com.roothide.lockdown
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: roothide
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Lockdown_1.0.3_Roothide.deb
-Size: 5212
-MD5sum: dde7404a425aa4be52ca690eff61f713
-SHA1: b2905517585ae26bfbec1ec477043f939c3652ad
-SHA256: 41d2c802f70ab5bc72da4279e411c09309d730f18683b226e62c99e4f61a2f58
-Section: Tweaks
-Description: 让你的设备免受DarkSword/Coruna漏洞攻击。WebContent流程的JSC安全强化。配置JavaScriptCore选项，以消除漏洞原语（addrof/fakeobj、JIT类型混淆、GC UAF）。默认启用！
-Author: roothide
-Name: Lockdown-Roothide
-
-Package: com.roothide.lockdown
 Version: 2.0
 Architecture: iphoneos-arm64e
 Maintainer: roothide
@@ -2500,16 +2521,16 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate, cy+model.iphone | cy+model.ipod | firmware (>= 15.0)
 Conflicts: com.tomaszpoliszuk.applibraryenabler
 Filename: debs/禁用App资源库_1.1.1_Roothide.deb
-Size: 3256
-MD5sum: 3bc4f78aa2f3eb24442f1df72b4747c0
-SHA1: 3a9b5926e6c1e46d4457e5005623819d55b5abbc
-SHA256: 59a315e9ac021553e8ec18868189612b53c9e3def16d3f91a881b301f142fede
+Size: 3260
+MD5sum: c85c1035d014ad740470715a69bbd248
+SHA1: 137a50c82daa2a68dc2a0dd7e36beddb5672d9c5
+SHA256: 768942f02ddcaa8e8ed00714399d202d2debd4de5aee156a145023df4f9ba0b6
 Section: Tweaks
-Description: 禁用主屏幕最后一页App资源库。安装后默认生效！无图标无设置。
+Description: App Library Disabler禁用主屏幕最后一页App资源库。安装后默认生效！无图标无设置。
 Tag: purpose::extension
 Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
 Dev: tomaszpoliszuk
-Name: App Library Disabler-Roothide
+Name: 禁用App资源库-Roothide
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.tombstonepro.tweak
@@ -2822,6 +2843,25 @@ Section: 依赖插件
 Description: LastLook的依赖插件。禁用AnthoPak系列插件的警告提示。
 Author: CBZ
 Name: AnthoCrack2
+
+Package: github.poqw312.carbridge13
+Version: 2.0.14
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 7344
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: debs/Carbridge13_2.0.14_Roothide.deb
+Size: 431440
+MD5sum: 37f1ec12f995ed54460b617ef383a6af
+SHA1: 95a2fdbb0c7bd4acb1a0565a3f63b1fb1b06d5b8
+SHA256: 56b9185c0e3b470011e633abd0968d9d6a9ed063686a908f279bf44326dc5961
+Section: Tweaks
+Description: 在CarPlay车载中打开任何应用！
+Author: leftyfl1p <carbridge@havoc.app>
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Name: CarBridge车机互联-Roothide
 
 Package: github.poqw312.cocoatop64
 Version: 2.4-1
