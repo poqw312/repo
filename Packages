@@ -75,20 +75,20 @@ Author: John Coates
 Name: Flex3 Beta-Roothide
 
 Package: cn.fkj233.watchfix
-Version: 2.0.1
+Version: 2.0.2
 Architecture: iphoneos-arm64e
 Maintainer: 577FKJ
 Installed-Size: 4632
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/watchfix手表配对_2.0.1_Roothide.deb
-Size: 607892
-MD5sum: e29fcdf932ac9cb225c87bf1251f9083
-SHA1: bf191837fb1ead89769118797efa0feb6bbc2105
-SHA256: 780ed49bb065b57cc489a7c23391b4f9c875dcffefce48a457b00bf15e41375a
+Filename: debs/WatchFix手表配对_2.0.2_Roothide.deb
+Size: 611536
+MD5sum: 934e2ade7a0b3628d9fd6ad845a45513
+SHA1: f2880d365bcf2593fed777418954d7bc7ca0f0f5
+SHA256: 158e611b719cefdb23e7e32a7fd1a0f4073e47452df65c229526f9d055b59e55
 Section: Tweaks
 Description: 修复Apple Watch和老系统设备配对连接问题。
 Author: 577FKJ
-Name: WatchFix-Roothide
+Name: WatchFix手表配对-Roothide
 
 Package: com.0xkuj.backgrounderaction15autostate
 Version: 1.0.3
@@ -217,7 +217,7 @@ Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 5.0)
-Filename: debs/微信插件管理wcplugins_0.1-6_Roothide.deb
+Filename: debs/微信插件管理_0.1-6_Roothide.deb
 Size: 14064
 MD5sum: 2feff988cd09eca0bf2a5af466955f50
 SHA1: bc2c26b1b28692498cd594170bb57437e0339059
@@ -244,54 +244,6 @@ Section: Tweaks
 Description: 将VPN状态和无线状态合并为一个图标。
 Author: 82Flex <82flex@gmail.com>
 Name: Single VPN-Roothide
-
-Package: com.HBWechatHelper.ailun
-Version: 2.0.8
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.0.8_Roothide.deb
-Size: 27926916
-MD5sum: 3f0a6545165657c1ab333415415cd9aa
-SHA1: ea42daec277a37a1c91f1f2f2bb7904e2d8a3587
-SHA256: 85a9997c4bc12ddbf2cb613fd870c3e5e499c3526e47581569bfb9eb81b823c7
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，视频通话美颜等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
-
-Package: com.HBWechatHelper.ailun
-Version: 2.0.9
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.0.9_Roothide.deb
-Size: 27697620
-MD5sum: dae06a41eb9fad2049bc427b6bcc4ce5
-SHA1: ef08e0f12afa5ab7f8df1fe3823c949bc469b0a2
-SHA256: b8b3b7c317de64032f5c4caa2641047792111992f7bb6b68ce05055435ed7783
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
-
-Package: com.HBWechatHelper.ailun
-Version: 2.1.1
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.1.1_Roothide.deb
-Size: 13969764
-MD5sum: dd952965dfcc508e12bd849139179657
-SHA1: 30d2069fb0fee5d055491ed8f8b0a75532874aa1
-SHA256: 0c9bbaa271d6b1a043d879cb46f01c23a80d5c01e8b5712f9a4c0a47e8de6d6f
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手-Roothide
 
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
@@ -955,43 +907,22 @@ Description: 微信脉冲助手，好用的分组、首页圆角、消息直达�
 Author: huami
 Name: WCPulse(微信插件)-Roothide
 
-Package: com.huami.dyyy
-Version: 2.2-9-1684
+Package: com.huami.WCallRecorder
+Version: 1.0-8
 Architecture: iphoneos-arm64e
 Maintainer: huami
-Installed-Size: 2460
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音DYYY_2.2-9-1684_Roothide.deb
-Size: 524780
-MD5sum: 5c624e6cfcecc8b261ec6d552675dde6
-SHA1: 574010275dc5c7f6f53a6e91898d1076ca1c7970
-SHA256: d723368877a20d101cbc5e22bc03331e2ece7ecdaf6fe2c798de9a53a753faac
-Section: 抖音插件
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
+Installed-Size: 11948
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信通话录音_1.0-8_Roothide.deb
+Size: 3268464
+MD5sum: 7c28dcf5f0c85efbda1a06eefa91502d
+SHA1: 308379bb7ade0a47fb5e4c1bdb33a7ec2c3e463b
+SHA256: 6b5ea583354759429ca2b4db855f6123b84fd7d0720dd203b90cf1ad4c58c3c5
+Section: 微信插件
+Description: Standalone WeChat Call Recorder独立的微信通话录音机。
 Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY抖音魔术师-Roothide
-
-Package: com.huami.dyyy
-Version: 2.2-9-1686
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 2556
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音DYYY_2.2-9-1686_Roothide.deb
-Size: 546592
-MD5sum: 717e3dbcd8f4dfc7851128cca00d5d81
-SHA1: 9647dfb018cd291ef91f5642f8365cd56e1e7188
-SHA256: d49795ce5bb12081584f695b96420a57cad26bb5ef526358231a3d0a76123a93
-Section: 抖音插件
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY抖音魔术师-Roothide
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Name: WCallRecorder微信录音-Roothide
 
 Package: com.huami.dyyy
 Version: 2.3-0
@@ -1011,6 +942,25 @@ Description: 基于DYYY定制，显示视频进度条时长、发布时间归属
 Author: huami
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY抖音魔术师-Roothide
+
+Package: com.huami.dyyy
+Version: 2.3-0-19
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 3208
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音DYYY_2.3-0-19_Roothide.deb
+Size: 707004
+MD5sum: d0dec99de1301933bd0cfad77f2442c6
+SHA1: a7ed3d2b38ef735a3506be9ff1471bc68f3c1f37
+SHA256: b7e93114e9e79c5ff08cc4d2498d361ce7f9db5ce1a350af7ed3fdc79e5c52d6
+Section: 抖音插件
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Name: DYYY抖音增强-Roothide
 
 Package: com.huayuarc.cputhermal
 Version: 1.5.6
@@ -1080,96 +1030,6 @@ Author: iosdump
 Name: AirDrop隔空投送-Roothide
 
 Package: com.iosdump.appdata
-Version: 2.0.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_2.0.1_Roothide.deb
-Size: 220480
-MD5sum: 5ac6db04e237cf5a0dcf730d496e01f6
-SHA1: 24cb70b085e231515761c1dded7971eb2f013ffe
-SHA256: 562c88f6d0b58dca5501eae3374cf6d79edeb21805a566a145cde344bf0e3e2e
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.iosdump.appdata
-Version: 2.1.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_2.1.0_Roothide.deb
-Size: 225876
-MD5sum: 6d7ab0a32d559a858906e2aa63b7b29c
-SHA1: a318895b8c427ffcd590b48c0bad25f4b5879089
-SHA256: ab8f0b5db9e3da671e0a93263ee98c54f7edf18fd4203f410b593c042efe0864
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.iosdump.appdata
-Version: 2.3.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_2.3.0_Roothide.deb
-Size: 273756
-MD5sum: ab96d346d18e82bcbc895cfd72833c35
-SHA1: 4a1ae0328dea2d5249cf67240519a905fa86577d
-SHA256: 92186a33c6af165417b87c48f02a9866b6e564282d9d010ddae80b550c77bb4b
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据以及应用降级。
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.iosdump.appdata
-Version: 2.4.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/Appdata_2.4.0_Roothide.deb
-Size: 1039108
-MD5sum: cdcb04d856960915b7cf0f7570e71576
-SHA1: f8f7e7f1dc02d529bf24ef72065b8010f5faaf73
-SHA256: 74874a18e4e0a442c6906c717b9b154fed0c182c5ef4fce1dad1a64da958b2ab
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.iosdump.appdata
-Version: 2.5.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_2.5.1_Roothide.deb
-Size: 1553136
-MD5sum: 2f035ff84cb9549eb74f67fb1e2d6524
-SHA1: 649ff2cff2fee5a2c5346dce8f54adebe6c5776c
-SHA256: 090419f4912323a1e4543d7e7b08d640509bd693ad12d71906ddc45490271a6b
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
-
-Package: com.iosdump.appdata
 Version: 2.5.3
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -1201,6 +1061,24 @@ SHA1: 950ce159236958eb3dc2829eb19499b155b67e3a
 SHA256: c776760722d2de30a919f903a9a889a40d9b792c04d5a93fafae1e79adcd0891
 Section: Tweaks
 Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
+Package: com.iosdump.appdata
+Version: 2.6.7
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.6.7_Roothide.deb
+Size: 1692040
+MD5sum: 1581649e625a47ddf730541550a4bfdb
+SHA1: 25c3051c518c23bb7d0f8df20d23b85ae9a70956
+SHA256: 0cd7664945aac3d5bc59533540c7e0dba27386f8bbebfaf60eb4242e5e17f055
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用以及应用降级等功能。
 Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
@@ -1396,6 +1274,26 @@ Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
 Name: 影视助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
 
+Package: com.lenglengyu.videohelper-rootless
+Version: 2.8.3
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 2872
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.agmjpro, com.lenglengyu.amjpro, com.lenglengyu.hjsppro, com.lenglengyu.huashutv, com.lenglengyu.xngyspro, com.lenglengyu.qqyspro, com.lenglengyu.rrsphook, com.lenglengyu.wzdypro, com.lenglengyu.wlyspro, com.lenglengyu.xamjpro, com.lenglengyu.ylyspro, com.lenglengyu.bilibilipro, com.lenglengyu.boxsqhook, com.lenglengyu.hanjutv
+Filename: debs/冷雨影视助手_2.8.3_Roothide.deb
+Size: 862196
+MD5sum: c1485a3ef9ef889b80cd6e17f4d68636
+SHA1: aafa14356b2f75f5828fe1de6b17a420f53c5ff0
+SHA256: 30c6fa622895cb185bfe2364bfed4f221d0daa16ad9f75bbdb061e97f282b6fb
+Section: Tweaks
+Description: 各种影视APP破解工具，目前有芒果TV、韩小圈、咪咕视频、风行视频、乐刷短剧、梦想短剧、繁花剧场、人人剧场、人人视频、西红柿短剧、蜜桃小短剧、抖音小剧场等视频工具。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/videohelper.html
+Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
+Name: 影视助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
+
 Package: com.lenglengyu.vpnplus-rootless
 Version: 3.1.2
 Architecture: iphoneos-arm64e
@@ -1414,6 +1312,26 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Name: VPN助手-RootHide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
+
+Package: com.lenglengyu.vpnplus-rootless
+Version: 3.1.3
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3500
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
+Filename: debs/冷雨VPN助手_3.1.3_Roothide.deb
+Size: 1130740
+MD5sum: 4bdc80c4fcb031b397e62a5d5dbb54f8
+SHA1: 912cec0e27d89b5eb290a654119519679103d295
+SHA256: 26911b4730b288e9687f5ad6e1b38fdcd5500ec8480bc011183a68528177a261
+Section: Tweaks
+Description: 各种梯子破解工具，该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
+Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
+Name: VPN助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
 
 Package: com.lxcloud.WCEhance
@@ -1715,6 +1633,22 @@ Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: opa334
 Name: libundirect
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 556
+Depends: ldid
+Filename: debs/TrollStoreLite_2.1.1_Roothide.deb
+Size: 212212
+MD5sum: 5ccfa7fc0c48e2d55aa2a94480bef70d
+SHA1: 4be1b9b27191917ddb25218965d00cd344e34bbd
+SHA256: 389a1b90d8461a0e241a8afc2fa5b9e69d235d338bf384970b89e8bc63be30d5
+Section: Tweaks
+Description: 隐根越狱版TrollStore。适用于iOS17.0-17.3.1设备版本。
+Author: opa334
+Name: TrollStore Lite(Roothide)
 
 Package: com.p2kdev.tinge
 Version: 1.2.2
@@ -2064,6 +1998,25 @@ Size: 7280044
 MD5sum: f56c76d45e0e970bc69fc8ece224b82a
 SHA1: 2751c1bb1496130abb3ddf9b9d23ed62c50cbc9d
 SHA256: aff8eae5660261c6c15aab8f5af51463820ecd13ba133117a6eb9aa8e0438219
+Section: 微信插件
+Priority: optional
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Author: 热心网友
+Dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+Name: WCRefine(微信插件)-Roothide
+
+Package: com.qimiao.WCRefine
+Version: 2.0-3
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/微信WCRefine_2.0-3_Roothide.deb
+Size: 8471184
+MD5sum: 1ec2016690544a55981846701c54d315
+SHA1: 69f408c2bc2467a0afe0091814f8ec95f13b1052
+SHA256: 3b307adc9efc802226e1f354e810e106240325cd8518de9419f91a6aa485cac1
 Section: 微信插件
 Priority: optional
 Description: 微信优化的重制版，基于微信8.0.64+版本制作。
@@ -2506,6 +2459,21 @@ Description: 微信主题盒子
 Author: Mao
 Name: 主题盒子-Roothide
 
+Package: com.tencent.themebox
+Version: 3.0.3
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信主题盒子_3.0.3_Roothide.deb
+Size: 9178016
+MD5sum: 11ae4235d7a3b74b709050967cf46136
+SHA1: 0733a3f5e9206b0885f34087b77f7d47c3998435
+SHA256: 19b720e3f27dc52a879c2d3ebaca229891cf3f96ff45aaa729643e3ec737c6a4
+Section: 微信插件
+Description: 微信主题盒子
+Author: Mao
+Name: 主题盒子-Roothide
+
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4~roothide
 Architecture: iphoneos-arm64e
@@ -2648,82 +2616,6 @@ Author: 茶 愫
 Name: WeChatEnhance(微信插件)-Roothide
 
 Package: com.xuuz.douyinhelper
-Version: 2.1-5
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17444
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.1-5_Roothide.deb
-Size: 13530560
-MD5sum: 9c3956d90c81afeec6095f448e8076fa
-SHA1: a0c5685879ac067fd8b5bee055577f1cee615670
-SHA256: 7bcd65c2294d26fde36485752dd0c9f8fc26d855094c3e36133b60a1e4d6d3a6
-Section: 抖音插件
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
-
-Package: com.xuuz.douyinhelper
-Version: 2.1-6
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.1-6_Roothide.deb
-Size: 6778876
-MD5sum: 23dd35ee62c44829a543f821624e63a7
-SHA1: 2c92e641414777655c1a1fe7fb31fdb377123c7f
-SHA256: 9efcd5ca0e9030df4ad705c452db01db61d986f4888b3925838d31dcd231b66a
-Section: 抖音插件
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-0
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17476
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.2-0_Roothide.deb
-Size: 6787956
-MD5sum: 4b6173db6f012bff9a10c4fb66771337
-SHA1: 143ee01fb99216fcc217e8c3c93bff476ef32833
-SHA256: 62964d6cdab9eef3a9f9e8a72c471c1b05540dda144f78aefed915a843640f12
-Section: Tweaks
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-1
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17508
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.2-1_Roothide.deb
-Size: 6782644
-MD5sum: 27510b9f1c95793bed9daff67de35977
-SHA1: 85acf08751ba8a3ef77bdaa1387b1123481feafe
-SHA256: a930eba84f78bf21a53a37ce6f9464c4ea3fb6240838a652cd0bc3b227556ced
-Section: 抖音插件
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
-
-Package: com.xuuz.douyinhelper
 Version: 2.2-2
 Architecture: iphoneos-arm64e
 Maintainer: XUUᶻ
@@ -2760,26 +2652,6 @@ Homepage: https://tc.uddz.cc/xuuz
 Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
 Author: XUUᶻ
 Name: 抖音助手-Roothide
-
-Package: com.yourepo.llyy.supervip-rootless
-Version: 4.4.2
-Architecture: iphoneos-arm64e
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 7908
-Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
-Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
-Filename: debs/冷雨SuperVIP_4.4.2_Roothide.deb
-Size: 2661276
-MD5sum: 2c884ea693e3822bf25511d102eee494
-SHA1: 2919f6305499f2497299ea1d8b923aec4b2201e5
-SHA256: 07711c81a89828aaca0c5a78648ae5bf5c3111e4b502166ad976b74116f61973
-Section: Tweaks
-Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
-Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
-Name: SuperVIP-Roothide
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
 
 Package: com.yourepo.llyy.supervip-rootless
 Version: 4.4.7
@@ -2819,6 +2691,26 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Name: SuperVIP-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.4.9
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7320
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨SuperVIP_4.4.9_Roothide.deb
+Size: 2573696
+MD5sum: e46ef685e2c143592b689200e8c72ddc
+SHA1: c860832b1b36ae42459d72421bd762c407794eda
+SHA256: a04ff5d0acb5fa74047c1f1ce15db10b0a3801e9d11bae8a429583e02080027a
+Section: Tweaks
+Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP看片助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
 
 Package: dev.theos.orion14
