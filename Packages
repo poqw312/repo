@@ -245,6 +245,22 @@ Description: 将VPN状态和无线状态合并为一个图标。
 Author: 82Flex <82flex@gmail.com>
 Name: Single VPN-Roothide
 
+Package: com.82flex.singlevpn
+Version: 2.1-2
+Architecture: iphoneos-arm64e
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 420
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/SingleVPN上色_2.1-2_Roothide.deb
+Size: 35264
+MD5sum: 7bf82d98625e8c5d4ce664d932883e4d
+SHA1: 853911844a755c6117479efc80217251caed4586
+SHA256: e4c06d034dd2043ab59981e145c9cf20df2e9f709ae780c1990076873e9239e7
+Section: Tweaks
+Description: 将VPN状态和无线状态合并到一个图标中。
+Author: 82Flex <82flex@gmail.com>
+Name: Single VPN上色-Roothide
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Architecture: iphoneos-arm64e
@@ -1008,6 +1024,23 @@ Size: 69292
 MD5sum: e1a835d36fba7a3cbdba6a31c7f68ea5
 SHA1: e0c2cf56bfd9439811a37c69b29473cffcc0b551
 SHA256: c26f4efe747ee68561b3ed0ff454670312fa71365c671c52dcf0e5bc3080a3db
+Section: Tweaks
+Description: 注入ThermalMonitord的iOS温控管理插件。双防护层架构：IOKit层拦截传感器温度读取CPMS功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU解除温控-Roothide
+
+Package: com.huayuarc.cputhermal
+Version: 1.5.8-2
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1004
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/CPU温控_1.5.8-2_Roothide.deb
+Size: 69984
+MD5sum: f830fb711900aece7aae13ace9fbe03e
+SHA1: 7dc50d0386a7519c0bef6c221009d53a2a9bac36
+SHA256: b286688c9a1fadf47fde8c65cf9d7d5b140d9d5f02f331c299fadfd2a4129608
 Section: Tweaks
 Description: 注入ThermalMonitord的iOS温控管理插件。双防护层架构：IOKit层拦截传感器温度读取CPMS功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
 Author: Huayuarc

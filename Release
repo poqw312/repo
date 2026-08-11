@@ -1,6 +1,6 @@
-Origin: poqw312-repo
-Label: poqw312-repo
-Description: poqw312-repo
+Origin: poqw312
+Label: poqw312
+Description: poqw312
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm64 iphoneos-arm64e
