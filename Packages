@@ -1470,6 +1470,23 @@ Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Name: VPN助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
 
+Package: com.local.carbridge17
+Version: 0.7.2
+Architecture: iphoneos-arm64e
+Maintainer: Local Test
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 17.0)
+Conflicts: github.poqw312.carbridge13, com.wkk.carbridge13, xyz.cypwn.carbridge13, com.dao.carbridge13
+Filename: debs/CarBridge17_0.7.2_Roothide.deb
+Size: 444252
+MD5sum: 76fde5ee69f3765775b9c5cc1800e8dd
+SHA1: 1a4d980e5a4481108009ace149d9b77f43ab6c58
+SHA256: 16645672d68920284209a82087e8480731ed03212a2ca38d1bf2f9ee7fd31737
+Section: Tweaks
+Description: 该版本是由AI编译并适配兼容iOS17，威锋锋友"appleid9l886x6"提供分享。
+Author: Local Test
+Name: CarBridge汽车互联-Roothide
+
 Package: com.lxcloud.WCEhance
 Version: 2.0-6
 Architecture: iphoneos-arm64e
