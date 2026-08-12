@@ -2971,16 +2971,16 @@ Installed-Size: 7344
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: debs/Carbridge13_2.0.14_Roothide.deb
-Size: 431440
-MD5sum: 37f1ec12f995ed54460b617ef383a6af
-SHA1: 95a2fdbb0c7bd4acb1a0565a3f63b1fb1b06d5b8
-SHA256: 56b9185c0e3b470011e633abd0968d9d6a9ed063686a908f279bf44326dc5961
+Filename: debs/CarBridge13_2.0.14_Roothide.deb
+Size: 431372
+MD5sum: 3d58169fb09faa30fee51fcc2c77ef2a
+SHA1: f967758328ef437834b498a6b6ab1c8fc19457cf
+SHA256: 41aef8cc9fdf2f1fa373de80ee48ef1ebe2a89e84ed3aed09ddf5955e0038190
 Section: Tweaks
-Description: 在CarPlay车载中打开任何应用！
+Description: 在CarPlay车载中可以自定义添加应用！
 Author: leftyfl1p <carbridge@havoc.app>
 Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
-Name: CarBridge车机互联-Roothide
+Name: CarBridge汽车互联-Roothide
 
 Package: github.poqw312.cocoatop64
 Version: 2.4-1
