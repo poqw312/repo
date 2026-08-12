@@ -90,6 +90,22 @@ Description: 修复Apple Watch和老系统设备配对连接问题。
 Author: 577FKJ
 Name: WatchFix手表配对-Roothide
 
+Package: cn.fkj233.watchfix
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: 577FKJ
+Installed-Size: 4620
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/WatchFix手表配对_2.0.3_Roothide.deb
+Size: 596748
+MD5sum: 14e88b61b97e891ae315c98b2aa1a0ce
+SHA1: 0032aebe808a543f151c325306d2b485c88f6331
+SHA256: 34dc894c80bb1fa54a03f71d56148b65c9ba1c616a8446d9965490fe053ee8e4
+Section: Tweaks
+Description: 修复Apple Watch和老系统设备配对连接问题。
+Author: 577FKJ
+Name: WatchFix手表配对-Roothide
+
 Package: com.0xkuj.backgrounderaction15autostate
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -141,22 +157,22 @@ Description: 微信斗图助手
 Author: Mao
 Name: 斗图助手-Roothide
 
-Package: com.25mao.leftpan.rootless
-Version: 1.0-6
+Package: com.25mao.leftpan
+Version: 2.0-1
 Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
-Filename: debs/左滑返回_1.0-6_Roothide.deb
-Size: 46120
-MD5sum: 224957dfe01788af4954d856dcbd9788
-SHA1: 16a4537d2e921153fe72f54135edc7a3032e5c8d
-SHA256: f0dbc2ba49fb82bd6f20222686be4b14074c5f6ee95b038443b04a3535ed5e22
+Installed-Size: 376
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: debs/左滑返回_2.0-1_Roothide.deb
+Size: 32864
+MD5sum: 5d55459cb4dca762b5c32d5c57218aa0
+SHA1: c3010675d3e6ca84f52079a94d7755c77bd761a9
+SHA256: d5c219ae9d552f3052bdbc541efe4a474e55fc8b825fc4d13c834c23958f7953
 Section: Tweaks
-Priority: optional
-Description: 左滑返回上一页面
+Description: 左滑返回上一页面。
 Author: Mao
 Name: 左滑返回-Roothide
+Sponsor: admin@25mao.com
 
 Package: com.25mao.miyou.rootless
 Version: 3.9-4
@@ -1150,6 +1166,24 @@ Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
 
+Package: com.iosdump.appdata
+Version: 2.6.9
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.6.9_Roothide.deb
+Size: 1701152
+MD5sum: b0cd4c13a5dfd5caddf63e60b4775e38
+SHA1: dd4fdbf1de64dbd14fabb88311a63c9e5bdfd56a
+SHA256: 034a59156ad31a618af212cc4841c8fb2ea302a906fabe04b5fcc9018f15c94a
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用以及应用降级等功能。
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.iosdump.customcallbg
 Version: 0.0.5
 Architecture: iphoneos-arm64e
@@ -1230,6 +1264,22 @@ Description: 屏幕显示触摸轨迹，支持iOS14-17所有越狱。
 Author: iosdump
 Name: TrollCM触摸轨迹-Roothide
 
+Package: com.iosdump.trollcmtweak
+Version: 1.1.7
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/Trollcm触摸轨迹_1.1.7_Roothide.deb
+Size: 56648
+MD5sum: d3d1af3982167dc07f07b9e2b64312d6
+SHA1: 455ca5327497f6ed03db804205a254acbd8af9ab
+SHA256: 075b6ea0b767c906ec5f59e9efc20ef1c97169008083859a09cb711823fd8cb3
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱。
+Author: iosdump
+Name: TrollCM触摸轨迹-Roothide
+
 Package: com.iosdump.zone
 Version: 2.0.0
 Architecture: iphoneos-arm64e
@@ -1243,6 +1293,22 @@ SHA1: 63c674927889c4b2eda70b85d59ca5e355ec350d
 SHA256: af1607ff370349c88b736dd6cfafdc3229896803a547faffd8d555e4708dc4b9
 Section: Tweaks
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Author: iosdump
+Name: Zone视频壁纸-Roothide
+
+Package: com.iosdump.zone
+Version: 2.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 1160
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: debs/Zone视频壁纸_2.1.0_Roothide.deb
+Size: 208424
+MD5sum: 8a691158994e4c7aa38fe5f681d2bed1
+SHA1: 6eb51109d8dfc1ca90b3799a5aa50a775892371d
+SHA256: 79d13f99b916bb90c0971627886db1579083f6d422f441519100ce291fe0aaaa
+Section: 美化插件
+Description: Zone插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
 Name: Zone视频壁纸-Roothide
 
@@ -2759,6 +2825,26 @@ Size: 2573696
 MD5sum: e46ef685e2c143592b689200e8c72ddc
 SHA1: c860832b1b36ae42459d72421bd762c407794eda
 SHA256: a04ff5d0acb5fa74047c1f1ce15db10b0a3801e9d11bae8a429583e02080027a
+Section: Tweaks
+Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP看片助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.5.0
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7316
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨SuperVIP_4.5.0_Roothide.deb
+Size: 2575828
+MD5sum: 8b056b802f7d8ff9acea7e8d749a214b
+SHA1: 79c2e417247ea4289def2558088184db45547635
+SHA256: adc8981b8877383b89ebdc940c0ba0feaf40d1667c2cb3fdaf7b1a4ba0ac6a90
 Section: Tweaks
 Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
 Author: lenglengyu
