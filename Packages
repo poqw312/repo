@@ -829,6 +829,24 @@ Description: 微信多功能插件，微信净化平替版。
 Author: DumpApp
 Name: 锤子助手-Roothide
 
+Package: com.dumpapp.wechat-rootless
+Version: 2.6.2
+Architecture: iphoneos-arm64e
+Maintainer: WeChat
+Installed-Size: 15100
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.6.2_Roothide.deb
+Size: 5792600
+MD5sum: 74bda96046380dd6456c2e370687d955
+SHA1: e52f85f9c3b8bdb098403daed29eb5e026317c79
+SHA256: a4d688eb449ec367adc692d6e366ea1211594796d0836bc6dd319969479d8ebc
+Section: 微信插件
+Description: 锤子助手微信插件
+ 微信增强 Tweak，提供聊天、语音和界面等可配置功能。
+Author: DumpApp
+Name: 锤子助手-Roothide
+
 Package: com.dvntm.ytlite
 Version: 5.2.1
 Architecture: iphoneos-arm64e
@@ -1504,6 +1522,24 @@ Author: huami&Lxcloud
 Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
 Name: 微信增强-Roothide
 Sileodepiction: https://qaq.040207.xyz/sileo.json
+
+Package: com.m4fn3.k2gecamen
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: mafu
+Installed-Size: 8928
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/K2geCamen隐私相机_1.1.0_Roothide.deb
+Size: 2987192
+MD5sum: ae47d8238e5d6a8cfc40029445e37cbf
+SHA1: d47af7b6d8c3a72ae8a4a2990177a76534af59fb
+SHA256: 3c41f72d7a744cc5a30e8b889efe67698ce0782cf479ad819fc41f29697c1318
+Section: Tweaks
+Description: 新版隐私相机，该插件是付费插件，需要购买激活码才能使用。貌似5.99刀可激活两台设备。
+Author: mafu
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Name: K2gecamen隐私相机-Roothide
 
 Package: com.mrgcgamer.libgcuniversal
 Version: 1.7.0
