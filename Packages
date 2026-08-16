@@ -725,40 +725,6 @@ Tag: supports::roothide
 Author: doimty
 Name: ProMotion 120Hz(Roothide)
 
-Package: com.doimty.promotion
-Version: 1.0.6
-Architecture: iphoneos-arm64e
-Maintainer: doimty
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/120高刷promotion_1.0.6_Roothide.deb
-Size: 24772
-MD5sum: 01ba76f209b1b3ff21f114315ad22b2a
-SHA1: d0b014f8e8ac82322b5154d91e10645a1aafff95
-SHA256: 0b839ced7dbec800cdde68fb570e6be440ca5b3e4e72d46fff060c1d2a48b086
-Section: Tweaks
-Description: 强制开启全局120Hz刷新率，解除系统80Hz限制。安装后默认生效，无图标无设置。仅支持iPhone 13 Pro及以上设备。
-Tag: supports::roothide
-Author: doimty
-Name: ProMotion 120Hz(Roothide)
-
-Package: com.doimty.promotion
-Version: 1.0.8
-Architecture: iphoneos-arm64e
-Maintainer: doimty
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/120高刷ProMotion_1.0.8_Roothide.deb
-Size: 26068
-MD5sum: 760846f4306bda466f3e462211b16d2b
-SHA1: b31a76e6502b9f72e32ff8cf1fbbe97df15e80d4
-SHA256: 2bf9e3c064df17ac973c57710f2b293b10b6509e970ac9d8daaa20ea20ebfbe7
-Section: Tweaks
-Description: 强制全局开启120Hz高刷新率，安装后默认生效，无图标无设置，仅限iPhone 13 Pro及更高设备版本。
-Tag: supports::roothide
-Author: doimty
-Name: ProMotion 120Hz-Roothide
-
 Package: com.dumpapp.wechat-rootless
 Version: 2.4.0
 Architecture: iphoneos-arm64e
@@ -1030,22 +996,6 @@ Author: elias
 Name: SmartBattery省电优化-Roothide
 
 Package: com.iosdump.airdrop
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/AirDrop隔空投送_0.0.1_Roothide.deb
-Size: 3436
-MD5sum: 31f880aac7cc8a2a975b720abd35b184
-SHA1: 07473e3fa162d87b928ba5e70eed879cfb46ec88
-SHA256: dcd8cc4a21cfa93ba68650de7f0c4bf70a66f355d097a0195a6e0bf59b347390
-Section: Tweaks
-Description: 解除隔空十分钟限制，安装后无图标无设置。设置-通用-隔空投送
-Author: iosdump
-Name: AirDrop隔空投送-Roothide
-
-Package: com.iosdump.airdrop
 Version: 0.0.2
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -1060,24 +1010,6 @@ Section: Tweaks
 Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16+
 Author: iosdump
 Name: AirDrop隔空投送-Roothide
-
-Package: com.iosdump.appdata
-Version: 2.5.3
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/AppData_2.5.3_Roothide.deb
-Size: 1576688
-MD5sum: 44c6a3e196a1297669920af2e2d5595c
-SHA1: 8e52ac0912cecd5f05674f98a86d8584aeeb1fe9
-SHA256: 5f2bd288de84fb10b32f6ff19b8aa06fa62c15110f5f27c9c578501cc95958c0
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据以及应用降级等功能。
-Author: iosdump
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData应用数据-Roothide
 
 Package: com.iosdump.appdata
 Version: 2.6.1
@@ -1289,15 +1221,15 @@ Installed-Size: 284
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: debs/冷雨会员依赖_3.0.5_Roothide.deb
-Size: 63288
-MD5sum: 1fa21813dc8555b0c5627259305164f1
-SHA1: b8627879a0cd3e8bbb9a75b66dcf500af9870420
-SHA256: f5755af438430333f08ffbb0502ed6dd02eb34711e905feba2fc4bd348f41a53
+Size: 63352
+MD5sum: 8770778faca656ca89de52d63cc121f2
+SHA1: c507399284e2610b44479b88271d38408c351958
+SHA256: 15e2682f2f74eae698ba6eb6261c1b802d0bb429711dd6d13a4dec03bb485764
 Section: 依赖插件
 Description: 冷冷雨会员依赖插件。
 Author: lenglengyu
 Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
-Name: libllylly-Roothide
+Name: libllylly
 Sileodepiction: https://apt.167025.cn/packageInfo/libsupervipsileo
 
 Package: com.lenglengyu.shortvideodl-rootless
@@ -2758,66 +2690,6 @@ Author: XUUᶻ
 Name: 抖音助手-Roothide
 
 Package: com.yourepo.llyy.supervip-rootless
-Version: 4.4.7
-Architecture: iphoneos-arm64e
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 7324
-Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
-Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
-Filename: debs/冷雨Supervip_4.4.7_Roothide.deb
-Size: 2567388
-MD5sum: 066415dad0db2a3e295026f926841fca
-SHA1: a248bb1ddcfc2ae52124766684ded55c6e5cea54
-SHA256: cdd76a82a132fbd90f57a589d77df5aa496dfe62980e797cffd9019f2cd1f73f
-Section: Tweaks
-Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
-Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
-Name: SuperVIP-Roothide
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
-
-Package: com.yourepo.llyy.supervip-rootless
-Version: 4.4.8
-Architecture: iphoneos-arm64e
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 7416
-Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
-Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
-Filename: debs/冷雨supervip_4.4.8_Roothide.deb
-Size: 2572144
-MD5sum: 113aa03446a7c76b01f4292665111c56
-SHA1: 4fd715cadb76765c1079760efb8386fb00374c3e
-SHA256: 416650cdcd07f731764c747b7a0341a3c39041376e10c9b14a42108e789ca663
-Section: Tweaks
-Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
-Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
-Name: SuperVIP-Roothide
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
-
-Package: com.yourepo.llyy.supervip-rootless
-Version: 4.4.9
-Architecture: iphoneos-arm64e
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 7320
-Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
-Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
-Filename: debs/冷雨SuperVIP_4.4.9_Roothide.deb
-Size: 2573696
-MD5sum: e46ef685e2c143592b689200e8c72ddc
-SHA1: c860832b1b36ae42459d72421bd762c407794eda
-SHA256: a04ff5d0acb5fa74047c1f1ce15db10b0a3801e9d11bae8a429583e02080027a
-Section: Tweaks
-Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
-Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
-Name: SuperVIP看片助手-Roothide
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
-
-Package: com.yourepo.llyy.supervip-rootless
 Version: 4.5.0
 Architecture: iphoneos-arm64e
 Maintainer: lenglengyu <lenglengyu@126.com>
@@ -3405,14 +3277,14 @@ Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 152
 Depends: mobilesubstrate
 Filename: debs/AudioRecorder依赖_0.1-1_Roothide.deb
-Size: 7060
-MD5sum: 54349eb7a911765c0b3f9acb0ae4b16a
-SHA1: 1ef7ebb3ea9690d7926ccc759b366b0d44ec6767
-SHA256: 29788b6bacc026a13d4ea6afc4d83d44251c6980fd2027137c030fd590a30e6d
+Size: 7056
+MD5sum: d31ac85a2f18413bc9415c5f1992abfa
+SHA1: 7bf6c87fc6703f291412ee680cdb7b4f77dd3c30
+SHA256: b9a8ce6b29d61323bb07fb2ef3ca3b4ab29dbe95c4581df1b4183e534f003313
 Section: 依赖插件
 Description: AudioRecorder通话录音依赖插件，调整状态栏手势激活操作。
 Author: Elias Limneos <limneoselias@gmail.com>
-Name: SimpleActivationActions-Roothide
+Name: SimpleActivationActions
 
 Package: netskao.3dnetworkfixer-rootless
 Version: 1.1-8
