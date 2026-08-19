@@ -2928,6 +2928,23 @@ Description: 主屏幕无操作后自动隐藏所有App图标。目前是英文�
 Author: CP Digital Darkroom, Randy420
 Name: Evanesco-Roothide
 
+Package: github.poqw312.griddy
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Griddy_1.0.5_Roothide.deb
+Size: 19624
+MD5sum: f026b746d939e9c53386caa9764ec463
+SHA1: e638eb132d1ba1c1791f34dcb05ae328d1730f7a
+SHA256: b1b599393bfa12be21dc84748f2b9e088f8343911382f977e46470f722de6e72
+Section: Tweaks
+Description: 可以让你的图标随意摆放到任意位置。安装后默认生效，无图标无设置。
+Author: mikifp
+Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
+Name: Griddy图标随意摆-Roothide
+
 Package: github.poqw312.icleanerpro
 Version: 7.10.0k
 Architecture: iphoneos-arm64e
