@@ -1060,6 +1060,23 @@ Author: Huayuarc,Spark
 Icon: https://huayuarc.github.io/icon/SneakyCam.png
 Name: SneakyCam隐私相机-Roothide
 
+Package: com.huayuarc.sneakycam
+Version: 2.1.3-8
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 628
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/SneakyCam_2.1.3-8_Roothide.deb
+Size: 108400
+MD5sum: 25b3a9f4ed152e58e56c4a5f9e6c65b2
+SHA1: 50c49fc05cf536a88fdbe76ade9e8f71e97295d8
+SHA256: a7f83f99c3062a82bb4c96769d23abfeec8d64f3fdbd0600935831aee532aef5
+Section: Tweaks
+Description: 一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心添加一键启用/关闭模块。视频或者照片默认保存路径：/var/mobile/Downloads
+Author: Spark
+Icon: https://huayuarc.github.io/icon/SneakyCam.png
+Name: SneakyCam隐私相机-Roothide
+
 Package: com.idevicelover.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
@@ -1341,6 +1358,24 @@ Section: 美化插件
 Description: Zone插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Author: iosdump
 Name: Zone视频壁纸-Roothide
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Filename: debs/Snapper3_1.2.1_Roothide.deb
+Size: 1225116
+MD5sum: 86da8ba76d47f675f3e87d1c17a5afce
+SHA1: fadaef090527cba174b0141114b4743afdda00ef
+SHA256: ba6a01c7dba30bca85e2a0342af18a8cf95e2afb16f71ccc55ae5de043ff8e26
+Section: Tweaks
+Description: 截图增强插件。
+Author: Jonathan Winger-lang
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Name: Snapper 3智能截图-Roothide
 
 Package: com.lclrc.exacttime
 Version: 2.0.4
@@ -2304,6 +2339,24 @@ Author: 热心网友
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Name: WCRefine(微信插件)-Roothide
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/WCRefine/js.json
+
+Package: com.qimiao.WCRefine
+Version: 2.1-2
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/微信WCRefine_2.1-2_Roothide.deb
+Size: 9755868
+MD5sum: c9582eaa80cf595dc828d74c796cd3dd
+SHA1: fcb0ea489dbbba11d9e623c65e35667c7758daef
+SHA256: 2021f5a573b6fabf8c2adfe70b1f596b7455174a40937a1c7c6b86952e32a472
+Section: 微信插件
+Priority: optional
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Author: 热心网友
+Dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+Name: WCRefine(微信插件)-Roothide
 
 Package: com.roothide.lockdown
 Version: 2.0
@@ -3294,22 +3347,6 @@ Description: 屏幕录制时显示触摸轨迹。
 Author: dvntm
 Name: ShowMyTouches触摸轨迹-Roothide
 
-Package: github.poqw312.sneakycam
-Version: 2.2.2
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, oldabi
-Filename: debs/SneakyCam_2.2.2_Roothide.deb
-Size: 106536
-MD5sum: addee3cd93a624fae32bdb233ef09d13
-SHA1: 271483e0ac939d79ba6cba8fc50555c61100029c
-SHA256: 69c46cc6ce478ec0753dc4712fba34f70914319d35b5623e78b7b710c961612b
-Section: Tweaks
-Description: 在锁屏状态下或者在任意界面可以通过双击音量键来调用相机的视频录制和拍照。如果视频录制过程中有来电和微信CallKit呼叫或者其他音视频播放，该录制将会立即停止。需要安装本源中的"Xinam1ne AIO"依赖插件来修复设置项，温馨提示：VolumeMixer音量控制插件和PleaseDontStopTheMusic插件都可以让播放音视频的同时开启录制。
-Author: Spark
-Name: SneakyCam隐私相机-Roothide
-
 Package: github.poqw312.teleport
 Version: 1.1
 Architecture: iphoneos-arm64e
@@ -3342,23 +3379,6 @@ Section: 美化插件
 Description: 仿iOS26主题，内置1080个图标和5个拓展，第三方图标不多，需要安装SnowBoard主题插件和拓展模块插件加载。
 Author: Billie
 Name: VisionOS26主题-Roothide
-
-Package: github.poqw312.xinam1ne
-Version: 2.6-8
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Depends: mobilesubstrate, firmware (>= 15.0), com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
-Replaces: emt.paisseon.xinamine
-Provides: emt.paisseon.xinamine (= 99)
-Filename: debs/SneakyCam依赖_2.6-8_Roothide.deb
-Size: 1946380
-MD5sum: 21f5210b04bc028adc9170b81a8df190
-SHA1: 42acf12259c5f5087173eb101fd73e50ca8ad831
-SHA256: 310d4a2e8bb475138ad9f7929465248c62ea4bc0d8a3aa5946579fb32eed0e60
-Section: 依赖插件
-Description: SneakyCam隐私相机依赖插件。安装本源SneakyCam插件后需要安装该依赖插件来修复设置项，安装后即可卸载。
-Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
-Name: Xinam1ne AIO
 
 Package: github.poqw312.zhezhao
 Version: 1.2
