@@ -293,6 +293,24 @@ Description: 屏蔽屏幕截图检测和录屏检测。
 Author: 82flex
 Name: Unseen屏蔽截图检测-Roothide
 
+Package: com.Axs.afn
+Version: 3.5.9
+Architecture: iphoneos-arm64e
+Maintainer: AFN Team
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/微信AFN_3.5.9_Roothide.deb
+Size: 2653488
+MD5sum: 69993e52239400c9864731bcf585dd7e
+SHA1: 803b083afa7c5035b4e839bbe7107b90664fea17
+SHA256: a23ae145167c8b2fc15829aca194cbc6ace93744ca04d19c629b108e5b17d713
+Section: 微信插件
+Description: AFN是一个微信插件功能集合体。装完该插件其他微信插件基本可以卸载了。
+Author: AFN Team
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Name: AFN(微信插件)-Roothide
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/afn/js.json
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Architecture: iphoneos-arm64e
@@ -1211,6 +1229,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图等
 Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
+Package: com.iosdump.shellx
+Version: 2.3.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 6476
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Shellx_2.3.1_Roothide.deb
+Size: 2832452
+MD5sum: 8cfd94f43a6413e41f90c17340c686c3
+SHA1: 3680ba6e3732dedbdba7548596190d6225811557
+SHA256: 269fe0802b552435f1cc2429df8efff84c26530549753fce5f3d1d07487c2657
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
 Package: com.iosdump.trollcmtweak
 Version: 1.1.5
 Architecture: iphoneos-arm64e
@@ -1465,22 +1500,23 @@ Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Name: VPN助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
 
-Package: com.local.carbridge17
-Version: 0.7.2
+Package: com.lenglengyu.vpnplus-rootless
+Version: 3.1.6
 Architecture: iphoneos-arm64e
-Maintainer: Local Test
-Installed-Size: 204
-Depends: mobilesubstrate, firmware (>= 17.0)
-Conflicts: github.poqw312.carbridge13, com.wkk.carbridge13, xyz.cypwn.carbridge13, com.dao.carbridge13
-Filename: debs/CarBridge17_0.7.2_Roothide.deb
-Size: 444252
-MD5sum: 76fde5ee69f3765775b9c5cc1800e8dd
-SHA1: 1a4d980e5a4481108009ace149d9b77f43ab6c58
-SHA256: 16645672d68920284209a82087e8480731ed03212a2ca38d1bf2f9ee7fd31737
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3504
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
+Filename: debs/冷雨VPN助手_3.1.6_Roothide.deb
+Size: 1132684
+MD5sum: 15bea3c6be13be809193beebf8c52c4e
+SHA1: 5b81eb81019f30d289d3e8f76b487f33ad4f7ef0
+SHA256: 8627b52a938522d1fc10cabfb0919484363cfe136ac06283019e2c0db06f1c3f
 Section: Tweaks
-Description: 该版本是由AI编译并适配兼容iOS17，威锋锋友"appleid9l886x6"提供分享。
-Author: Local Test
-Name: CarBridge汽车互联-Roothide
+Description: 各种梯子破解工具，该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
+Name: VPN助手-Roothide
 
 Package: com.lxcloud.WCEhance
 Version: 2.0-6
@@ -2250,6 +2286,25 @@ Dev: 君临
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
 Name: WCRefine(微信插件)-Roothide
 
+Package: com.qimiao.WCRefine
+Version: 2.1-1
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/微信WCRefine_2.1-1_Roothide.deb
+Size: 9627476
+MD5sum: f4d4cc8a82465a52c75b5fb4b0e5713b
+SHA1: 5d8fec53f9d8a93a9815f8ecc2588bf822fcab02
+SHA256: e50058b3d9f65f2f8d31bcdb985ddadea89ffb8a0fbd1dd08a7a5b5717cb8e74
+Section: 微信插件
+Priority: optional
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Author: 热心网友
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Name: WCRefine(微信插件)-Roothide
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/WCRefine/js.json
+
 Package: com.roothide.lockdown
 Version: 2.0
 Architecture: iphoneos-arm64e
@@ -2882,6 +2937,26 @@ Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Name: SuperVIP看片助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
 
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.5.3
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7420
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨SuperVIP_4.5.3_Roothide.deb
+Size: 2583996
+MD5sum: fc79d22af59cdd753838f986efc49295
+SHA1: fbdac1170d2988ee8a43f854a5fc6cfae36487c0
+SHA256: c530f6fee4773709dbcd5a1f1603080a19b40b17b0b5910bd8d2b57bfd02d7ce
+Section: Tweaks
+Description: 超级影视助手，AV无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP看片助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
 Package: dev.theos.orion14
 Version: 1.0.1-3+debug
 Architecture: iphoneos-arm64e
@@ -2993,21 +3068,42 @@ Author: CBZ
 Name: AnthoCrack2
 
 Package: github.poqw312.carbridge13
-Version: 2.0.14
+Version: 2.0.15
 Architecture: iphoneos-arm64e
-Maintainer: CyPwn
+Maintainer: leftyfl1p
 Installed-Size: 7344
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: debs/CarBridge13_2.0.14_Roothide.deb
-Size: 431372
-MD5sum: 3d58169fb09faa30fee51fcc2c77ef2a
-SHA1: f967758328ef437834b498a6b6ab1c8fc19457cf
-SHA256: 41aef8cc9fdf2f1fa373de80ee48ef1ebe2a89e84ed3aed09ddf5955e0038190
+Filename: debs/Carbridge13_2.0.15_Roothide.deb
+Size: 431480
+MD5sum: 144d0d1e1c684aa2983a2fba43be810d
+SHA1: 145c182e3890a44898dc05f7138c1c2dc9f45517
+SHA256: e7131d11cda0c67d4da1bfe98aa75ba29a8f0031c3dc4b094836671f53656f3f
 Section: Tweaks
-Description: 在CarPlay车载中可以自定义添加应用！
+Description: 在CarPlay车载中可以自定义添加任意应用程序！
 Author: leftyfl1p <carbridge@havoc.app>
+Depiction: https://havoc.app/package/carbridge
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Name: CarBridge汽车互联-Roothide
+
+Package: github.poqw312.carbridge17
+Version: 2.0.15
+Architecture: iphoneos-arm64e
+Maintainer: leftyfl1p
+Installed-Size: 7344
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: debs/Carbridge17_2.0.15_Roothide.deb
+Size: 445032
+MD5sum: 13e7f1007f69e7c181a66e7780f03bdd
+SHA1: 0eb1e78d7d38be3544e5f93d46fce95caa4fbd0d
+SHA256: f18b50264c2a2e49eff48ab5028ceff6d6776b64c21fbbc675442d67569b9f78
+Section: Tweaks
+Description: 在CarPlay车载中可以自定义添加任意应用程序！该版本是由AI编译并适配兼容iOS17，威锋锋友"appleid9l886x6"提供分享。
+Author: leftyfl1p <carbridge@havoc.app>
+Depiction: https://havoc.app/package/carbridge
 Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
 Name: CarBridge汽车互联-Roothide
 
