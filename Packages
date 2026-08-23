@@ -897,6 +897,24 @@ Author: DumpApp
 Icon: file:///Applications/Cydia.app/Sections/Messaging.png
 Name: 锤子助手-Roothide
 
+Package: com.dumpapp.wechat-rootless
+Version: 2.6.6
+Architecture: iphoneos-arm64e
+Maintainer: DumpApp
+Installed-Size: 15348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.6.6_Roothide.deb
+Size: 5860112
+MD5sum: 60de4a43dde71e574cba13d2927f6d78
+SHA1: f5f8ad66a70413ab83a2bc4e5591d935d262a677
+SHA256: 552e31a005742cd976ba909ecfc6e1cabdbf2a65b3986e3dc4c0fafafc57d102
+Section: 微信插件
+Description: 微信多功能插件，微信净化平替版。
+Author: DumpApp
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
+Name: 锤子助手-Roothide
+
 Package: com.dvntm.ytlite
 Version: 5.2.1
 Architecture: iphoneos-arm64e
