@@ -1040,6 +1040,21 @@ Description: 微信脉冲助手，好用的分组、首页圆角、消息直达�
 Author: huami
 Name: WCPulse(微信插件)-Roothide
 
+Package: com.huami.WCPulse
+Version: 1.7-2
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.7-2_Roothide.deb
+Size: 3561736
+MD5sum: 7088dc2d85670dc26d1f5a09ecf5689b
+SHA1: dd60ff47b18d62bb0683a01ac4bec328904d7b0e
+SHA256: cdcf1d0eb93c0d0ed536fabd622b67973799a97754c96c26ed824a485dcf91a0
+Section: 微信插件
+Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
+Author: huami
+Name: WCPulse(微信插件)-Roothide
+
 Package: com.huami.WCallRecorder
 Version: 1.0-8
 Architecture: iphoneos-arm64e
@@ -1055,6 +1070,22 @@ Section: 微信插件
 Description: Standalone WeChat Call Recorder独立的微信通话录音机。
 Author: huami
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Name: WCallRecorder微信录音-Roothide
+
+Package: com.huami.WCallRecorder
+Version: 1.0-9
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 11948
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信通话录音_1.0-9_Roothide.deb
+Size: 3280556
+MD5sum: c6e97ca0a71433d8bc3bad798674f9ec
+SHA1: 328d8447f8cefeb83f337b37f8d8fb9f9d880493
+SHA256: 74df2e3041945265a441544fafe3195b723f5c8d97d7689828d0490b167e3869
+Section: 微信插件
+Description: 独立的微信通话录音机。
+Author: huami
 Name: WCallRecorder微信录音-Roothide
 
 Package: com.huami.dyyy
@@ -3022,6 +3053,25 @@ Description: 显示视频时长进度条，显示作品日期时间归属地，�
 Author: XUUᶻ
 Name: 抖音助手-Roothide
 
+Package: com.xuuz.douyinhelper
+Version: 2.2-5
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17608
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.2-5_Roothide.deb
+Size: 6814724
+MD5sum: 2fd3db6b17dbec82d3e25a66a0ef1fa3
+SHA1: 4e5f8c2a991ba1ec530468605113d3c58dc3ab38
+SHA256: 1a059fbfcaffa1c162bbae825c1183f2aefce02b588fc743be0c5b17ffc4ad95
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
 Package: com.yourepo.llyy.supervip-rootless
 Version: 4.5.0
 Architecture: iphoneos-arm64e
@@ -3201,10 +3251,10 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
 Filename: debs/Carbridge17_2.0.15_Roothide.deb
-Size: 445032
-MD5sum: 13e7f1007f69e7c181a66e7780f03bdd
-SHA1: 0eb1e78d7d38be3544e5f93d46fce95caa4fbd0d
-SHA256: f18b50264c2a2e49eff48ab5028ceff6d6776b64c21fbbc675442d67569b9f78
+Size: 444356
+MD5sum: a031a64325c0a304f867a55e1c9d69d4
+SHA1: b0b2f40078ef8211f1841b222ab8ef5afcc3b7fc
+SHA256: 77bb217a6b1e0d44b42ba55c45cfb8eb07af8bfa7100c7aa04a970df8e81d76e
 Section: Tweaks
 Description: 在CarPlay车载中可以自定义添加任意应用程序！该版本是由AI编译并适配兼容iOS17，威锋锋友"appleid9l886x6"提供分享。
 Author: leftyfl1p <carbridge@havoc.app>
