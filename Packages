@@ -1689,6 +1689,23 @@ Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Name: VPN助手-Roothide
 
+Package: com.local.carbridge17
+Version: 0.7.2
+Architecture: iphoneos-arm64e
+Maintainer: Local Test
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 17.0)
+Conflicts: github.poqw312.carbridge13, com.wkk.carbridge13, xyz.cypwn.carbridge13, com.dao.carbridge13
+Filename: debs/CarBridge17_0.7.2_Roothide.deb
+Size: 444252
+MD5sum: 76fde5ee69f3765775b9c5cc1800e8dd
+SHA1: 1a4d980e5a4481108009ace149d9b77f43ab6c58
+SHA256: 16645672d68920284209a82087e8480731ed03212a2ca38d1bf2f9ee7fd31737
+Section: Tweaks
+Description: 该版本是由AI编译并适配兼容iOS17，威锋锋友"appleid9l886x6"提供分享。
+Author: Local Test
+Name: CarBridge汽车互联-Roothide
+
 Package: com.lxcloud.WCEhance
 Version: 2.0-6
 Architecture: iphoneos-arm64e
@@ -3290,26 +3307,6 @@ SHA1: 145c182e3890a44898dc05f7138c1c2dc9f45517
 SHA256: e7131d11cda0c67d4da1bfe98aa75ba29a8f0031c3dc4b094836671f53656f3f
 Section: Tweaks
 Description: 在CarPlay车载中可以自定义添加任意应用程序！
-Author: leftyfl1p <carbridge@havoc.app>
-Depiction: https://havoc.app/package/carbridge
-Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
-Name: CarBridge汽车互联-Roothide
-
-Package: github.poqw312.carbridge17
-Version: 2.0.15
-Architecture: iphoneos-arm64e
-Maintainer: leftyfl1p
-Installed-Size: 7344
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
-Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: debs/Carbridge17_2.0.15_Roothide.deb
-Size: 444356
-MD5sum: a031a64325c0a304f867a55e1c9d69d4
-SHA1: b0b2f40078ef8211f1841b222ab8ef5afcc3b7fc
-SHA256: 77bb217a6b1e0d44b42ba55c45cfb8eb07af8bfa7100c7aa04a970df8e81d76e
-Section: Tweaks
-Description: 在CarPlay车载中可以自定义添加任意应用程序！该版本是由AI编译并适配兼容iOS17，威锋锋友"appleid9l886x6"提供分享。
 Author: leftyfl1p <carbridge@havoc.app>
 Depiction: https://havoc.app/package/carbridge
 Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
