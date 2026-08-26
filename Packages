@@ -1247,6 +1247,42 @@ Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
 
+Package: com.iosdump.appdata
+Version: 2.7.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.7.0_Roothide.deb
+Size: 1707732
+MD5sum: af3078e4ef114db11ba91137f36ac357
+SHA1: b187c4f0e00627cd7d738cb4a15990e97e28728f
+SHA256: e9905fca2ed6b7b147cad862416b9f4bdb53e803eba33ce695c3510df4ced11d
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用以及应用降级等功能。
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
+Package: com.iosdump.appdata
+Version: 2.7.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.7.1_Roothide.deb
+Size: 1707816
+MD5sum: d52c0530f52e50de153233a6e685a88c
+SHA1: fc9ac6d00519e3222dfa9c00da1d80492ab4fdca
+SHA256: 35d446b86047be0c67b6ba936ff2ba88063cf7075174e7d7305b69daff7c4517
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用以及应用降等功能。
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.iosdump.customcallbg
 Version: 0.0.5
 Architecture: iphoneos-arm64e
@@ -1343,6 +1379,23 @@ SHA1: 3680ba6e3732dedbdba7548596190d6225811557
 SHA256: 269fe0802b552435f1cc2429df8efff84c26530549753fce5f3d1d07487c2657
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
+Version: 2.5.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 6920
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Shellx_2.5.1_Roothide.deb
+Size: 3086832
+MD5sum: d5aea4bdc2b58ce0837218b51c73a068
+SHA1: 6f8495099ed2fc8f80dd7dce998680a02edf2ada
+SHA256: f7d6811dd323419bbaab8a900e5afedd9889aebcaadddbc3f7a00aa79607ea24
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
 Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
@@ -3529,6 +3582,26 @@ Section: 系统增强
 Description: BackgrounderAction15 CCSupport将在控制中心添加一个对当前应用程序“后台运行”模块。
 Author: @akusio_RR
 Name: BackgrounderAction15后台运行-Roothide
+
+Package: jp.dcsyhi.zetsu
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11004
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: debs/Zetsu_1.5_Roothide.deb
+Size: 9654868
+MD5sum: 4e9f5fe4d7a1cf8a9edad722becd5c3e
+SHA1: f29f3229ae27a3ee3283e92f5642a2cd42020df2
+SHA256: 7e0ec1d2652eb90faed8342a0423067fbd357ca5fae7f62a0b3621e8a6975b49
+Section: Tweaks
+Description: iOS15-iOS16上的多任务处理。
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu应用分屏-Roothide
 
 Package: jp.uzra.aerial
 Version: 4.0
