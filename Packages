@@ -3142,6 +3142,25 @@ Description: 显示视频时长进度条，显示作品日期时间归属地，�
 Author: XUUᶻ
 Name: 抖音助手-Roothide
 
+Package: com.xuuz.douyinhelper
+Version: 2.2-6
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17640
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.2-6_Roothide.deb
+Size: 6822064
+MD5sum: 4256eaa0ae30f09a6492fb0eaaa91bc9
+SHA1: 723d704009f2d32b232026c1500b3b8c7991a1f1
+SHA256: f6d3da8beff2276dd2d2c838d2bf530effbe47617689362aa3b6d287bb920701
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
 Package: com.yourepo.llyy.supervip-rootless
 Version: 4.5.0
 Architecture: iphoneos-arm64e
