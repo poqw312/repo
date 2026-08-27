@@ -1160,6 +1160,23 @@ Author: Spark
 Icon: https://huayuarc.github.io/icon/SneakyCam.png
 Name: SneakyCam隐私相机-Roothide
 
+Package: com.huayuarc.sneakycam
+Version: 2.2.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/SneakyCam_2.2.3_Roothide.deb
+Size: 122132
+MD5sum: 639e22d0a1b2d062606da6fc5d46b0b3
+SHA1: 3ad411d2d7edb1e875da4b944ef868bca755e86f
+SHA256: fa74d7301840e99cc3e61cd382a54d6dc247aa1d075ccba2c900ce89566e8750
+Section: Tweaks
+Description: 一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心增加一键启用/关闭模块。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Author: Spark
+Icon: https://huayuarc.github.io/icon/SneakyCam.png
+Name: SneakyCam隐私相机-Roothide
+
 Package: com.idevicelover.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
@@ -3200,6 +3217,23 @@ Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Name: SuperVIP看片助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
+Package: com.zooah.debrecords
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: zooah212
+Installed-Size: 800
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/DebRecords_1.0.3_Roothide.deb
+Size: 83124
+MD5sum: df639bfaf5bff6a8df3b3cdd29e3d675
+SHA1: ce8abb8ae305f3894578efa9167fff4df3c285f2
+SHA256: 40d61691a2f38082904be6328d53f6dbef981ad3253ab7773ca0ac64705fdcd0
+Section: Tweaks
+Description: 记录插件安装、升级、卸载，以及 SpringBoard重启、安全模式和设备重启。
+Author: zooah212
+Name: DebRecords-Roothide
 
 Package: dev.theos.orion14
 Version: 1.0.1-3+debug
