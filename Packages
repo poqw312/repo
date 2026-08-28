@@ -1416,6 +1416,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图等
 Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
+Package: com.iosdump.shellx
+Version: 2.6.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 7524
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Shellx_2.6.1_Roothide.deb
+Size: 3227628
+MD5sum: 751d703353fed9d4719c8e805631bbf3
+SHA1: 55ca9172fc5df899a5c9b76be1caf620d685db5a
+SHA256: f52ff4e155dcf749315318d317bc78fdfb8c5fdc98653397000ecdd1ae62cf7d
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
 Package: com.iosdump.trollcmtweak
 Version: 1.1.5
 Architecture: iphoneos-arm64e
@@ -3232,6 +3249,23 @@ SHA1: ce8abb8ae305f3894578efa9167fff4df3c285f2
 SHA256: 40d61691a2f38082904be6328d53f6dbef981ad3253ab7773ca0ac64705fdcd0
 Section: Tweaks
 Description: 记录插件安装、升级、卸载，以及 SpringBoard重启、安全模式和设备重启。
+Author: zooah212
+Name: DebRecords-Roothide
+
+Package: com.zooah.debrecords
+Version: 1.0.9
+Architecture: iphoneos-arm64e
+Maintainer: zooah212
+Installed-Size: 880
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/DebRecords_1.0.9_Roothide.deb
+Size: 99620
+MD5sum: 4270039703f35b4fe39a3b73dfe34652
+SHA1: 96b858f6e4a0ab4376b0ae32c33d24038ba120e8
+SHA256: 4bc70c4ed87f2da501045743ee6b43398d924789135fc91dc5c804485d23483c
+Section: Tweaks
+Description: 记录插件调整安装、升级、卸载和备份，以及SpringBoard重启、安全模式进入和设备重启。
 Author: zooah212
 Name: DebRecords-Roothide
 
