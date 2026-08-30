@@ -1433,6 +1433,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图等
 Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
+Package: com.iosdump.shellx
+Version: 2.6.4
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 7928
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Shellx_2.6.4_Roothide.deb
+Size: 3342692
+MD5sum: 34a43919362a9d2b75e797231259a129
+SHA1: 5bf9ff09ca6b0d888ef41ce4407198c49761669f
+SHA256: 4c4a4a2973c5813d1d2a303c678d9b32c6c9391e390eb687df39f2930a283639
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
 Package: com.iosdump.trollcmtweak
 Version: 1.1.5
 Architecture: iphoneos-arm64e
@@ -3634,23 +3651,6 @@ Section: 美化插件
 Description: 29种款式图标遮罩合集，需要用到SnowBoard主题插件、SnowBoard Dock栏拓展、SnowBoard Icon Effects拓展和SnowBoard icon Masks拓展模块插件才能生效。
 Author: Acreson
 Name: 29款图标遮罩合集-Roothide
-
-Package: im.mjh.fakeperm.roothide
-Version: 8.6.0
-Architecture: iphoneos-arm64e
-Maintainer: Junhong
-Installed-Size: 1520
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0),  preferenceloader
-Filename: debs/fakeperm虚拟权限_8.6.0_Roothide.deb
-Size: 269604
-MD5sum: 82c1c07fab67d895506f6076513a8cf7
-SHA1: 80af8d308f193a2d930557db59fee34679332537
-SHA256: 0b1b5f1ab8b4ade97dbea1d0da4e5d20bc67fc6b0e59dd35927f66c517a7db9b
-Section: Tweaks
-Description: 针对任意App单独配置虚拟权限，防止隐私被过度索要。支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
-Author: Junhong
-Name: Fake Permission虚拟权限(Roothide)
 
 Package: jp.akusio.backgrounderaction15
 Version: 0.1.0
