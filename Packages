@@ -1852,6 +1852,26 @@ Dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 Name: PullOver X应用分屏-Roothide
 
+Package: com.mlgm.pulloverx
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/PulloverX_1.5_Roothide.deb
+Size: 310920
+MD5sum: 2d191cbfc8d981e21edd1319a0563d38
+SHA1: 245e1b1a2b329bc205b132e2c9ca326976d82811
+SHA256: 17bdeeee14368796a166f1c79c6d171577eddaad518a1037e17a6f8881d0f687
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于Pullover Pro进行修改。
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X应用分屏-Roothide
+
 Package: com.mrgcgamer.libgcuniversal
 Version: 1.7.0
 Architecture: iphoneos-arm64e
@@ -2008,6 +2028,22 @@ Section: 微信插件
 Description: 微信消息推送显示头像通知，无图标无设置，安装后立即生效。
 Author: Netskao
 Name: WeChatNotiAvatar微信头像-Roothide
+
+Package: com.ngkhoi.26home
+Version: 1.1.7
+Architecture: iphoneos-arm64e
+Maintainer: ngkhoi
+Installed-Size: 28608
+Depends: mobilesubstrate
+Filename: debs/26home_1.1.7_Roothide.deb
+Size: 20392428
+MD5sum: 498a71833acae29ff1d21dd6d55d49c5
+SHA1: 5b166974f563dd44b579d3ff838358ea9749c6d7
+SHA256: 3ffc18e278455f334410260e18b7e441aa072221ae80c58519b376977440fc25
+Section: 美化插件
+Description: iOS26主屏幕图标玻璃效果自定义。安装该插件可能需要卸载或者屏蔽已安装的其他图标主题效果插件。
+Author: ngkhoi
+Name: 26Home主屏图标-Roothide
 
 Package: com.opa334.choicy
 Version: 1.5.3-3
