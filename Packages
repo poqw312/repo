@@ -1957,6 +1957,27 @@ Dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 Name: PullOver X应用分屏-Roothide
 
+Package: com.mlgm.pulloverx
+Version: 1.6
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/PulloverX_1.6_Roothide.deb
+Size: 312948
+MD5sum: 9835e2b25048134eb489cc74b2bbd75c
+SHA1: 99f4b079ea422c512cee88489951042c80f6a88c
+SHA256: da1de4ccf20282a7f8836c4f11df7e88e1243a6dfe1fadbb1b38072f1cab3242
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于Pullover Pro进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X应用分屏-Roothide
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
 Package: com.mrgcgamer.libgcuniversal
 Version: 1.7.0
 Architecture: iphoneos-arm64e
@@ -2148,6 +2169,56 @@ Section: 美化插件
 Description: iOS26主屏幕图标玻璃效果自定义。安装该插件可能需要卸载或者屏蔽已安装的其他图标主题效果插件。
 Author: ngkhoi
 Name: 26Home主屏图标-Roothide
+
+Package: com.niceios.nicebarx16-roothide
+Version: 1.0.1.8-17
+Architecture: iphoneos-arm64e
+Maintainer: niceios
+Installed-Size: 9452
+Depends: mobilesubstrate,com.niceios.nicehelper-roothide(>=6.9),preferenceloader
+Filename: debs/NiceBarX16_1.0.1.8-17_Roothide.deb
+Size: 2401972
+MD5sum: e4a96be6f13ff4d81524a1fe7af41868
+SHA1: 9245412c7049c6f479f6b002e7e300ea624ba3ba
+SHA256: 3bf6b7e4e0b3a1cca7f09480f41c53065687575f05ad3399950729239abbecd3
+Section: Tweaks
+Description: 一款多元化状态栏美化插件.支持自定义状态栏时间、天气、电池、网速以及集成了众多其他功能插件。该插件是付费插件，需要购买激活码才能使用。
+Author: niceios
+Name: NiceBarX(iOS16)-Roothide
+Sponsor: niceios
+
+Package: com.niceios.nicecaller16-roothide
+Version: 1.0.1.7-3
+Architecture: iphoneos-arm64e
+Maintainer: NiceiOS
+Installed-Size: 14916
+Depends: mobilesubstrate,com.niceios.nicehelper-roothide(>=6.9),preferenceloader
+Filename: debs/NiceCaller16_1.0.1.7-3_Roothide.deb
+Size: 3974320
+MD5sum: 1b2e47c9ace6a1735e79513207d3b1bd
+SHA1: 3eede9da58fa313b3891944646d6fcb7aefdf54b
+SHA256: 9587c348eacb2b4c6119d45d21c9ff0beee11ed125c1f0071eabf64af4c7d2e8
+Section: Tweaks
+Description: 一款电话助手增强插件，支持通话录音,变声器,通话背景声音,来电自动应答,T9拼音快捷拨号,骚扰拦截,窗口电话(Callbar),归属地显示等众多功能。该插件是付费插件，需要购买激活码才能使用。
+Author: NiceiOS
+Name: NiceCaller(iOS16)-Roothide
+Sponsor: NiceiOS
+
+Package: com.niceios.nicehelper-roothide
+Version: 6.9-9
+Architecture: iphoneos-arm64e
+Maintainer: niceios
+Installed-Size: 2540
+Filename: debs/依赖NiceHelper_6.9-9_Roothide.deb
+Size: 735148
+MD5sum: fd9d73afde7a6d3e54959aaa6a409125
+SHA1: fd8736e6aac1315922ef42f0e1cff33f4905a58b
+SHA256: 1b1c285c4403d8bfdb4324d222a1bc255486bb7191cd8f587fdcb228b379e87e
+Section: 依赖插件
+Description: Nice插件依赖组件.
+Author: niceios
+Name: NiceHelper
+Sponsor: niceios
 
 Package: com.opa334.choicy
 Version: 1.5.3-3
@@ -3535,6 +3606,26 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
+Package: ellekit
+Version: 1.2-1
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/依赖ellekit_1.2-1_Roothide.deb
+Size: 143096
+MD5sum: ccec9a71c4d18e02a3a89ae6c076e29f
+SHA1: 37e210630f609ac29be1f41363786b3998f903d1
+SHA256: e43c17412e63c2cc20e0edeb1e693d919182faca2957c81bb8ec2e42d3e9855b
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器。
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: github.poqw312.anthocrack2
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -4036,6 +4127,22 @@ Section: 依赖插件
 Description: 隐根越狱依赖插件。在iOS 15.0+中支持传统arm64e ABI
 Author: Nightwind
 Name: Legacy arm64e Support
+
+Package: preferenceloader
+Version: 2.2.8
+Architecture: iphoneos-arm64e
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: debs/依赖PreferenceLoader_2.2.8_Roothide.deb
+Size: 15924
+MD5sum: 716f0e6f94aa76fe4629a8cf967b5bd7
+SHA1: a7cbd728377e238bbc8b0f33ba3bc8b751c81f1f
+SHA256: 79896886b9437b7d05a488c82b6398f865b92181a254c2bc04c927bf8165c003
+Section: 依赖插件
+Description: 隐根越狱依赖插件。
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
 
 Package: python3
 Version: 3.9.9-2
