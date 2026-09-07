@@ -244,6 +244,22 @@ Description: 微信插件合集收纳归类。
 Author: Mao
 Name: 微信插件管理-Roothide
 
+Package: com.25mao.wcplugins.rootless
+Version: 0.1-7
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/微信插件管理_0.1-7_Roothide.deb
+Size: 15120
+MD5sum: 0be4fd205bf7309a865194c10c79cd8d
+SHA1: 0b0db4427acbe7b8135b2f78bf697967ce62ce03
+SHA256: 6f04919d5ac5519331da953b44192fe1d2466614b215c5cf8c8b87352b8f848e
+Section: 微信插件
+Priority: optional
+Description: 微信插件收纳管理。
+Author: Mao
+Name: 微信插件管理-Roothide
+
 Package: com.82flex.singlevpn
 Version: 2.0
 Architecture: iphoneos-arm64e
@@ -1177,6 +1193,23 @@ Author: Spark
 Icon: https://huayuarc.github.io/icon/SneakyCam.png
 Name: SneakyCam隐私相机-Roothide
 
+Package: com.huayuarc.sneakycam
+Version: 2.2.5
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/SneakyCam_2.2.5_Roothide.deb
+Size: 124708
+MD5sum: badc8b8e431be1e8c03ee0bdab23a6ad
+SHA1: b0a427246fab952011017fb3c34b00208538db4d
+SHA256: 42af9731a305044ab85da14a85d276fe08128a7b7ae09889ac3f997c2341e929
+Section: Tweaks
+Description: 一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心增加一键启用/关闭模块。视频或者照片默认保存路径：/var/mobile/Media/Camera。
+Author: Spark
+Icon: https://huayuarc.github.io/icon/SneakyCam.png
+Name: SneakyCam隐私相机-Roothide
+
 Package: com.idevicelover.smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64e
@@ -1447,6 +1480,40 @@ SHA1: 5bf9ff09ca6b0d888ef41ce4407198c49761669f
 SHA256: 4c4a4a2973c5813d1d2a303c678d9b32c6c9391e390eb687df39f2930a283639
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
+Version: 2.9.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 10984
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Shellx_2.9.0_Roothide.deb
+Size: 3690424
+MD5sum: fc4c11b7d9477fb4687d3847a6dd7fb3
+SHA1: f9cf21f8a208b2f3c411b2f5ec4a6d9c8a0d03d8
+SHA256: 1a9d05c7ccaf0684a9306647ea9db3c42010bb574e0ae0222a712bd88d87f77f
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
+Version: 3.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 13476
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Shellx_3.0.1_Roothide.deb
+Size: 2951568
+MD5sum: d1b7ab8ae881274eafead891c4e7e2ef
+SHA1: fcd483a28e847ccb8c4ec3f6907726bc45836049
+SHA256: b1ad97e65ac688e8a75aff16d54145781723056679a0e4788cc1a7648cb37a28
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
 Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
@@ -1813,6 +1880,24 @@ Depiction: https://chariz.com/get/pleasedontstopmusic
 Icon: https://img.chariz.cloud/icon/pleasedontstopmusic/icon@3x.png
 Name: PleaseDontStopTheMusic-Roothide
 
+Package: com.mikifp.griddy
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: mikifp
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.dao.griddy, xyz.cypwn.griddy
+Filename: debs/Griddy_1.2.1_Roothide.deb
+Size: 26440
+MD5sum: 3e9540e4884b150b81da9c13fdf3a5a6
+SHA1: 4cb57fd8203d81af00a6717a75348d1fd0224f87
+SHA256: 413306b09acdb0625bd878908da7e1877e250744339ae58736d6403ce00bb657
+Section: Tweaks
+Description: 让你的应用图标在桌面随意摆放。安装后默认生效，无图标无设置。
+Author: mikifp
+Icon: https://huayuarc.github.io/icon/Griddy.jpg
+Name: Griddy图标随意摆-Roothide
+
 Package: com.mlgm.kayoko
 Version: 4.8.1
 Architecture: iphoneos-arm64e
@@ -1890,6 +1975,25 @@ Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: MrGcGamer
 Name: LibGcUniversal
+
+Package: com.mtac.vitreux
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Installed-Size: 7028
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/Vitreux液态玻璃_1.3_Roothide.deb
+Size: 5922436
+MD5sum: 0801cac1cf22e7940eaa625ebc19f2ad
+SHA1: 3155f74c2fb1016ae0df5e5cdb3cb226c7ac3aef
+SHA256: 872838b8697ba8003c3c43127a85479083763536849fef70e22d3009de7972ba
+Section: Tweaks
+Description: 仿iOS26液体玻璃效果。
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
+Name: Vitreux液态玻璃-Roothide
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
 
 Package: com.netskao.ccsim
 Version: 1.1-9
@@ -2174,17 +2278,17 @@ Package: com.opa334.trollstorelite
 Version: 2.1.1
 Architecture: iphoneos-arm64e
 Maintainer: opa334
-Installed-Size: 556
+Installed-Size: 8140
 Depends: ldid
-Filename: debs/TrollStoreLite_2.1.1_Roothide.deb
-Size: 212212
-MD5sum: 5ccfa7fc0c48e2d55aa2a94480bef70d
-SHA1: 4be1b9b27191917ddb25218965d00cd344e34bbd
-SHA256: 389a1b90d8461a0e241a8afc2fa5b9e69d235d338bf384970b89e8bc63be30d5
+Filename: debs/TrollStoreLite增强版_2.1.1_Roothide.deb
+Size: 2217920
+MD5sum: 95c82d6476df89cc41b01fc9096ad6d0
+SHA1: 53555696ab70791bc8d0d237e5c0818f374fc60c
+SHA256: 6ffddfe4228f8f51d55ea524c584afe8ec76d7c55d0d27d09a16693a5d3244ad
 Section: Tweaks
-Description: 隐根越狱版TrollStore。适用于iOS17.0-17.3.1设备版本。
+Description: 将TrollStore增强版功能全部转移到TrollStore Lite。
 Author: opa334
-Name: TrollStore Lite(Roothide)
+Name: TrollStore Lite(RootHide)
 
 Package: com.p2kdev.tinge
 Version: 1.2.2
@@ -3031,6 +3135,21 @@ Description: 微信主题盒子
 Author: Mao
 Name: 主题盒子-Roothide
 
+Package: com.tencent.themebox
+Version: 3.0.5
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信主题盒子_3.0.5_Roothide.deb
+Size: 9402760
+MD5sum: ac4b8c74ec53532cf23030a8bc07c340
+SHA1: c46d4ebc8b433892b376ed4abc93a3539539a0c0
+SHA256: 3416b4a16199c8b34afaa7c854dceb3c2a2d4954bceee9fa3d867660ed168253
+Section: 微信插件
+Description: 微信主题盒子
+Author: Mao
+Name: 主题盒子-Roothide
+
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4~roothide
 Architecture: iphoneos-arm64e
@@ -3504,23 +3623,6 @@ Section: 美化插件
 Description: 主屏幕无操作后自动隐藏所有App图标。目前是英文版，就3个设置项，坐等大佬汉化。
 Author: CP Digital Darkroom, Randy420
 Name: Evanesco-Roothide
-
-Package: github.poqw312.griddy
-Version: 1.0.5
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Griddy_1.0.5_Roothide.deb
-Size: 19624
-MD5sum: f026b746d939e9c53386caa9764ec463
-SHA1: e638eb132d1ba1c1791f34dcb05ae328d1730f7a
-SHA256: b1b599393bfa12be21dc84748f2b9e088f8343911382f977e46470f722de6e72
-Section: Tweaks
-Description: 可以让你的图标随意摆放到任意位置。安装后默认生效，无图标无设置。
-Author: mikifp
-Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
-Name: Griddy图标随意摆-Roothide
 
 Package: github.poqw312.icleanerpro
 Version: 7.10.0k
