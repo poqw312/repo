@@ -3932,6 +3932,24 @@ Description: 应用分屏插件。主屏幕长按应用在弹出菜单中选择"
 Author: uz.ra
 Name: Aerial应用分屏-Roothide
 
+Package: libflex
+Version: 4.7.1
+Architecture: iphoneos-arm64e
+Maintainer: Tanner Bennett <tannerbennett@me.com>
+Installed-Size: 5412
+Pre-Depends: firmware (>= 9.0)
+Filename: debs/依赖libflex_4.7.1_Roothidee.deb
+Size: 1316392
+MD5sum: fef858e96335c8787d278c4aaddf1e9a
+SHA1: 9867ee0e26bbfa199808d128d530e59953b5b423
+SHA256: 280624bc67507c3879cf6210747843f591425cc5db2edeeb8728f71ac5d197ce
+Section: 依赖插件
+Description: 隐根越狱依赖插件。
+Author: Tanner Bennett <tannerbennett@me.com>
+Depiction: https://nscake.github.io/package.html?package=libflex
+Name: libFLEX
+Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
+
 Package: libgdbm6
 Version: 1.19
 Architecture: iphoneos-arm64e
@@ -4125,6 +4143,22 @@ SHA1: 727bbbe3b023eae9a40141a9ceef52522b53def0
 SHA256: 8725c0b0a602b63ef1b09ea150989825646a95a7d0b02701425a011c6d10e613
 Section: 依赖插件
 Description: 隐根越狱依赖插件。在iOS 15.0+中支持传统arm64e ABI
+Author: Nightwind
+Name: Legacy arm64e Support
+
+Package: oldabi
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/依赖oldabi_2.0.1_Roothide.deb
+Size: 3372
+MD5sum: c7635cefc80977bf15145d23df74225b
+SHA1: 7be228f4d24744b6354e63955fef5d59fa7f9222
+SHA256: a49d13c84acb651848ca9a9bc50c8bee5ca54bf9a98fc42eacbb5e741b105e29
+Section: 依赖插件
+Description: 隐根越狱依赖插件。支持iOS15.0及以上版本中的旧版arm64e ABI。
 Author: Nightwind
 Name: Legacy arm64e Support
 
