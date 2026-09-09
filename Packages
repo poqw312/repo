@@ -955,11 +955,12 @@ Installed-Size: 15364
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 12.0)
 Filename: debs/锤子助手_2.6.9_Roothide.deb
-Size: 5862644
-MD5sum: 7257a34b5843f4906aef238a9674c8f0
-SHA1: 4eb774869e86042297984d48533072666a29c47d
-SHA256: 492058c171944d6db92d22d5a3b3ecdbb86c9d973a25bbc677f15b0ee68fad83
+Size: 5863076
+MD5sum: 3c06316e4b0bb1258ce7bae3ac88a457
+SHA1: 306ad6018852db64e1c936793051dac83d348f7a
+SHA256: 7b9d69c3e76a1952662c758e9b75866f4b5a8e5a121cf3c3a5f3c19214f45e3c
 Section: 微信插件
+Description: 微信多功能插件，微信净化平替版。
 Author: DumpApp
 Icon: file:///Applications/Cydia.app/Sections/Messaging.png
 Name: 锤子助手-Roothide
