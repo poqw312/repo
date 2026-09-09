@@ -931,6 +931,23 @@ Author: DumpApp
 Icon: file:///Applications/Cydia.app/Sections/Messaging.png
 Name: 锤子助手-Roothide
 
+Package: com.dumpapp.wechat-rootless
+Version: 2.6.9
+Architecture: iphoneos-arm64e
+Maintainer: DumpApp
+Installed-Size: 15364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.6.9_Roothide.deb
+Size: 5862644
+MD5sum: 7257a34b5843f4906aef238a9674c8f0
+SHA1: 4eb774869e86042297984d48533072666a29c47d
+SHA256: 492058c171944d6db92d22d5a3b3ecdbb86c9d973a25bbc677f15b0ee68fad83
+Section: 微信插件
+Author: DumpApp
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
+Name: 锤子助手-Roothide
+
 Package: com.dvntm.ytlite
 Version: 5.2.1
 Architecture: iphoneos-arm64e
@@ -1066,6 +1083,21 @@ Size: 3561736
 MD5sum: 7088dc2d85670dc26d1f5a09ecf5689b
 SHA1: dd60ff47b18d62bb0683a01ac4bec328904d7b0e
 SHA256: cdcf1d0eb93c0d0ed536fabd622b67973799a97754c96c26ed824a485dcf91a0
+Section: 微信插件
+Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
+Author: huami
+Name: WCPulse(微信插件)-Roothide
+
+Package: com.huami.WCPulse
+Version: 1.7-3
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.7-3_Roothide.deb
+Size: 3553732
+MD5sum: b58e91741b12e4af995438769262dff2
+SHA1: fd5b01bcb3420f0c1c93d0957d140bcb81f663bd
+SHA256: e9165ce5eab9fc80181dc8a50830c1ed89546279a84b536d9acc6a385bd90ee1
 Section: 微信插件
 Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
 Author: huami
