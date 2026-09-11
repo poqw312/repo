@@ -1382,6 +1382,24 @@ Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
 
+Package: com.iosdump.appdata
+Version: 2.7.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.7.3_Roothide.deb
+Size: 1700296
+MD5sum: dd55651be6d9d625e725ee78a5523036
+SHA1: d47cb01ef603ecba79993222ba29f8f0ad7c3f0d
+SHA256: da496ea4b30ea10f663a4d67d60fef82b26d7cc194cbf24f5c0c289cc7ff14f8
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用以及应用降级等功能。
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.iosdump.customcallbg
 Version: 0.0.5
 Architecture: iphoneos-arm64e
