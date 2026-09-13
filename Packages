@@ -1000,6 +1000,23 @@ Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插�
 Author: DXcool223
 Name: Flex3应用解析-Roothide
 
+Package: com.hang.zzzj
+Version: 0.0.1-8
+Architecture: iphoneos-arm64e
+Maintainer: hang
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/转转找机_0.0.1-8_Roothide.deb
+Size: 33344
+MD5sum: 05b0f452ffd7b5ecdce1950312de67ca
+SHA1: a207b776b554f6e061a9f480457164aeb90137f1
+SHA256: e15d5f927ae1e3d84fcf3fca7298f30221f608e5aca9040cc63b8a9657223206
+Section: Tweaks
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接。温馨提示：直装版Deb安装后要是没有显示悬浮窗就说明插件没有生效，请卸载后改用巨魔注入。
+Author: hang
+Name: 转转找机-Roothide
+
 Package: com.huami.WCPulse
 Version: 1.5-7
 Architecture: iphoneos-arm64e
@@ -1579,6 +1596,23 @@ Size: 2951568
 MD5sum: d1b7ab8ae881274eafead891c4e7e2ef
 SHA1: fcd483a28e847ccb8c4ec3f6907726bc45836049
 SHA256: b1ad97e65ac688e8a75aff16d54145781723056679a0e4788cc1a7648cb37a28
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
+Version: 3.1.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 13896
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/Shellx_3.1.1_Roothide.deb
+Size: 3073724
+MD5sum: 1984c1760bd5d091f999d0591160b42d
+SHA1: c4f17a47913696cca65da44a9fbea1938a0955b9
+SHA256: 60b469312ddd35294596f9e7655cb0f9ee8cf570f4e707a3ba2a2b19777af77b
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
 Author: iosdump
