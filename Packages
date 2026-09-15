@@ -806,6 +806,23 @@ Description: 样式丰富多彩的小巧通知横幅。
 Author: daodao
 Name: PicoBanner多彩横幅-Roothide
 
+Package: com.den.locktouchx
+Version: 1.3-18+debug
+Architecture: iphoneos-arm64e
+Maintainer: MrDeNsor
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Locktouchx_1.3-18_Roothide.deb
+Size: 21744
+MD5sum: d0f8c19d5d388d9a46502f1d5ba91606
+SHA1: fb845570e6eaae680193952b869452b2821518dc
+SHA256: 199a5824d1dafe38aebafd8fe334a28c4bd9d3dad2eb7148452c39143e29d2c3
+Section: Tweaks
+Description: 为应用程序添加触控ID身份验证，就像iOS18中的安全功能一样。安装后无图标无设置，需要通过3D Touch按压手势对要加密的App选择"Enable Face ID"开启面容锁或者选择"Disable Face ID"关闭面容锁。
+Author: MrDeNsor
+Name: LockTouchX应用锁-Roothide
+
 Package: com.doimty.promotion
 Version: 1.0.11
 Architecture: iphoneos-arm64e
@@ -2288,6 +2305,23 @@ Author: niceios
 Name: NiceBarX(iOS16)-Roothide
 Sponsor: niceios
 
+Package: com.niceios.nicebarx16-roothide
+Version: 1.0.1.8-34
+Architecture: iphoneos-arm64e
+Maintainer: niceios
+Installed-Size: 14956
+Depends: mobilesubstrate,com.niceios.nicehelper-roothide(>=6.9),preferenceloader
+Filename: debs/NicebarX16_1.0.1.8-34_Roothide.deb
+Size: 4278824
+MD5sum: b4e071993cfa3741299079054c777d01
+SHA1: a862841001fb58bb27cee7e8ab6240198a9953e8
+SHA256: 4c479c1ec7a8f58b0092fece35fd5b351f3aaaf8867d0eaf81bd234fbadf48a8
+Section: Tweaks
+Description: 一款多元化状态栏美化插件.支持自定义状态栏时间、天气、电池、网速以及集成了众多其他功能插件。该插件是付费插件，需要购买激活码才能使用。
+Author: niceios
+Name: NiceBarX(iOS16)-Roothide
+Sponsor: niceios
+
 Package: com.niceios.nicecaller16-roothide
 Version: 1.0.1.7-3
 Architecture: iphoneos-arm64e
@@ -3596,6 +3630,26 @@ Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Name: SuperVIP看片助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
 
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.5.5
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7404
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨SuperVIP_4.5.5_Roothide.deb
+Size: 2595652
+MD5sum: 7a81dcdeeda468393526752792d3ad13
+SHA1: 700e58a3c575476196d3368b59033bee6e3c69fd
+SHA256: 04915afe27ba920f5be8343dab22f8d7099b63e94f173aa39191d524c7d0d4ea
+Section: Tweaks
+Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP看片助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
 Package: com.zooah.debrecords
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -4277,6 +4331,22 @@ SHA1: 7be228f4d24744b6354e63955fef5d59fa7f9222
 SHA256: a49d13c84acb651848ca9a9bc50c8bee5ca54bf9a98fc42eacbb5e741b105e29
 Section: 依赖插件
 Description: 隐根越狱依赖插件。支持iOS15.0及以上版本中的旧版arm64e ABI。
+Author: Nightwind
+Name: Legacy arm64e Support
+
+Package: oldabi
+Version: 2.0.1+roothide-1
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/依赖oldabi_2.0.1+roothide-1_Roothide.deb
+Size: 3404
+MD5sum: 5e489ae1e764bc4af3ed8f8582915910
+SHA1: 3f84b5ffe9bcb96788f064b6b4a1a0e1fc2fa7d9
+SHA256: 3cb34b57625d319c63601ff583457a1987b2a0cb8dc79096e9a1d12141e29d61
+Section: 依赖插件
+Description: 隐根越狱依赖。支持iOS15.0及以上版本中的旧版arm64e ABI。
 Author: Nightwind
 Name: Legacy arm64e Support
 
