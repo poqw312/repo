@@ -106,6 +106,22 @@ Description: 修复Apple Watch和老系统设备配对连接问题。
 Author: 577FKJ
 Name: WatchFix手表配对-Roothide
 
+Package: cn.fkj233.watchfix
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: 577FKJ
+Installed-Size: 4632
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/WatchFix手表配对_2.0.4_Roothide.deb
+Size: 617272
+MD5sum: 6674c016417b2d8480b585a3b34261f8
+SHA1: 4590ed8af43f105ac3019590bbe6a54f8e57d618
+SHA256: 19f47b2973c02f2c02b8fbb06e89939d24717a4bef64535479f622fa5e023a0e
+Section: Tweaks
+Description: 修复Apple Watch和老系统设备配对连接问题。
+Author: 577FKJ
+Name: WatchFix手表配对-Roothide
+
 Package: com.0xkuj.backgrounderaction15autostate
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -1632,6 +1648,23 @@ SHA1: c4f17a47913696cca65da44a9fbea1938a0955b9
 SHA256: 60b469312ddd35294596f9e7655cb0f9ee8cf570f4e707a3ba2a2b19777af77b
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
+Version: 3.2.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 14436
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/ShellX_3.2.1_Roothide.deb
+Size: 3206228
+MD5sum: 2e753e7da574b063ec42ad33280dc638
+SHA1: 047ef94baa6493f91aa218cf4f44c3428baa7cb5
+SHA256: c35b680ac8b3094a8635615eefb4edbe9a2989f043e0e9cdc37b66ea5ef16712
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
 Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
@@ -3684,6 +3717,22 @@ Description: 记录插件调整安装、升级、卸载和备份，以及SpringB
 Author: zooah212
 Name: DebRecords-Roothide
 
+Package: com.zooah.debrecords
+Version: 1.1.7
+Architecture: iphoneos-arm64e
+Maintainer: zooah212
+Installed-Size: 1016
+Depends: firmware (>= 15.0), dpkg-repack, preferenceloader
+Filename: debs/Debrecords_1.1.7_Roothide.deb
+Size: 147004
+MD5sum: 8f98960f34ca7509e134a5797db4bc25
+SHA1: 3a4df83598d3605b470cae72dfc165f6e0e53286
+SHA256: b68ea026c4dd372e2635920400dd012ac35d4856389c9cac4e0d45d31a7cc9ef
+Section: Tweaks
+Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
+Author: zooah212
+Name: DebRecords-Roothide
+
 Package: dev.theos.orion14
 Version: 1.0.1-3+debug
 Architecture: iphoneos-arm64e
@@ -3717,6 +3766,22 @@ Section: 美化插件
 Description: 使用自定义视频设置锁屏与桌面壁纸，基于开源重新编译，去除LibGcUniversal依赖，编译适配Roothide。
 Author: Traurige & SINI
 Name: Eneko视频壁纸-Roothide
+
+Package: dpkg-repack
+Version: 1.52
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Installed-Size: 40
+Depends: roothide (>= 0.0.9), perl, libdpkg-perl
+Suggests: fakeroot
+Filename: debs/依赖dpkg-repack_1.52_Roothide.deb
+Size: 15352
+MD5sum: b052524b5324d7140ee2eb1d166c0176
+SHA1: f048605641dca676a55f35967911d7e907dad989
+SHA256: ddb5694cd4fb7943914561b632a834c5326aca615f285012049b9de9ea3a2d50
+Section: 依赖插件
+Priority: standard
+Description: 隐根越狱依赖插件。
 
 Package: ellekit
 Version: 1.1.3-4~beta1
