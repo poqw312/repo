@@ -1668,6 +1668,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
+Package: com.iosdump.shellx
+Version: 6.0.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 14628
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/ShellX_6.0.0_Roothide.deb
+Size: 3248552
+MD5sum: 4b5bd8dc644075a16a88cdc1334a0142
+SHA1: 4dd956c17ed334292f09913c3dcb32db47fe7489
+SHA256: 392f09867c08ca99d1864642f7429463785c026a7050e97ed139136ed7e5a6c4
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
 Package: com.iosdump.trollcmtweak
 Version: 1.1.5
 Architecture: iphoneos-arm64e
