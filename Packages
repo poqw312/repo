@@ -856,6 +856,23 @@ Tag: supports::roothide
 Author: doimty
 Name: ProMotion 120Hz(Roothide)
 
+Package: com.doimty.promotion
+Version: 1.0.13
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/Promotion_1.0.13_Roothide.deb
+Size: 16940
+MD5sum: 131b4f8335e502c849b426ae9eea1c74
+SHA1: daacdb6e4b5c1b54f455aaa860c0e65a4301dc30
+SHA256: 49e6c72236955d2180d75709d60689e478c770b84b4c80a734cbad7c8558ec88
+Section: Tweaks
+Description: 全局显示120Hz高刷新率。安装后默认生效，无图标无设置。
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz-Roothide
+
 Package: com.dumpapp.wechat-rootless
 Version: 2.4.0
 Architecture: iphoneos-arm64e
