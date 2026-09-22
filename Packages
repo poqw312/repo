@@ -578,6 +578,27 @@ Description: 由toufu适配Roothide上的iOS17应用程序分屏多任务处理�
 Author: c1d3r, toufu
 Name: PullOver Pro应用分屏-Roothide
 
+Package: com.chloe.physpringboard
+Version: 1.9.23
+Architecture: iphoneos-arm64e
+Maintainer: Chloe
+Installed-Size: 584
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.chloe.gravitation17
+Replaces: com.chloe.gravitation17
+Provides: com.chloe.gravitation17
+Filename: debs/PhySpringBoard_1.9.23_Roothide.deb
+Size: 84200
+MD5sum: dbe249e3bf435eb01c45262b0ed4bb87
+SHA1: 90ec8f9a38cc0aa63915827c34925574e43a7573
+SHA256: 0250205e80cb5d50e258e6fc5ec987a3dbe1dcd5b6cb2ccb2b7f6b9ba42f26d6
+Section: Tweaks
+Description: 通过可配置的物理效果让SpringBoard图标自由晃动。
+Author: Chloe
+Icon: file:///var/jb/Library/PreferenceBundles/PhyspringboardPrefs.bundle/icon.png
+Name: Physpringboard图标失重-Roothide
+
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
 Architecture: iphoneos-arm64e
@@ -1187,6 +1208,21 @@ Description: 微信脉冲助手，好用的分组、首页圆角、消息直达�
 Author: huami
 Name: WCPulse(微信插件)-Roothide
 
+Package: com.huami.WCPulse
+Version: 1.7-4
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.7-4_Roothide.deb
+Size: 3558660
+MD5sum: 894d8069e6cb4eba04a9078708100733
+SHA1: af562c26c20bc7ef377298bf43e88a8db50e5438
+SHA256: b87331c2961b7804add0bbaa4de6449f5069e5aa634a18434061471b27da475b
+Section: 微信插件
+Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
+Author: huami
+Name: WCPulse(微信插件)-Roothide
+
 Package: com.huami.WCallRecorder
 Version: 1.0-8
 Architecture: iphoneos-arm64e
@@ -1514,6 +1550,23 @@ Section: Tweaks
 Description: 后台一键清理，无图标无设置，激活卡片后台会出现清理图标，点击即可一键清除全部后台程序，可下拉应用锁定清理白名单。支持iOS14-17
 Author: iosdump
 Name: 后台一键清理-Roothide
+
+Package: com.iosdump.shellx
+Version: 10.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 19492
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/ShellX_10.1.0_Roothide.deb
+Size: 4289792
+MD5sum: c85586bbf71b23a7bf8f13b899174008
+SHA1: 1212c27388f57baca7733549bfb46780a905f2ef
+SHA256: 851080d3c770eac8aba544bdc13611cac77a374d45145a290d7af10cf30dc3cb
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
 
 Package: com.iosdump.shellx
 Version: 2.1.1
