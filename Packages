@@ -1621,125 +1621,6 @@ Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
 Package: com.iosdump.shellx
-Version: 2.1.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 2788
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_2.1.1_Roothide.deb
-Size: 878616
-MD5sum: 872769a5bdcfe52746047be04e47afa7
-SHA1: 7e880f50925025b0c2397d58272fffcf612e4310
-SHA256: 86207b82fca1eb6b6efe41fd3d98cef68fd1a5f57a907ee11815ee9d4e252f06
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 2.2.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 4180
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_2.2.1_Roothide.deb
-Size: 981244
-MD5sum: ba75b0dae1ef4c5279386b94f9caa2d3
-SHA1: a18c97bb751b43c95370ef6c64c64afaab3d2eff
-SHA256: db4d863b8c610dc2cffd189b67489f2734d45792f61141125d760fe8fb82b954
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 2.3.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 6476
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_2.3.1_Roothide.deb
-Size: 2832452
-MD5sum: 8cfd94f43a6413e41f90c17340c686c3
-SHA1: 3680ba6e3732dedbdba7548596190d6225811557
-SHA256: 269fe0802b552435f1cc2429df8efff84c26530549753fce5f3d1d07487c2657
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 2.5.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 6920
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_2.5.1_Roothide.deb
-Size: 3086832
-MD5sum: d5aea4bdc2b58ce0837218b51c73a068
-SHA1: 6f8495099ed2fc8f80dd7dce998680a02edf2ada
-SHA256: f7d6811dd323419bbaab8a900e5afedd9889aebcaadddbc3f7a00aa79607ea24
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 2.6.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 7524
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_2.6.1_Roothide.deb
-Size: 3227628
-MD5sum: 751d703353fed9d4719c8e805631bbf3
-SHA1: 55ca9172fc5df899a5c9b76be1caf620d685db5a
-SHA256: f52ff4e155dcf749315318d317bc78fdfb8c5fdc98653397000ecdd1ae62cf7d
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 2.6.4
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 7928
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_2.6.4_Roothide.deb
-Size: 3342692
-MD5sum: 34a43919362a9d2b75e797231259a129
-SHA1: 5bf9ff09ca6b0d888ef41ce4407198c49761669f
-SHA256: 4c4a4a2973c5813d1d2a303c678d9b32c6c9391e390eb687df39f2930a283639
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 2.9.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 10984
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_2.9.0_Roothide.deb
-Size: 3690424
-MD5sum: fc4c11b7d9477fb4687d3847a6dd7fb3
-SHA1: f9cf21f8a208b2f3c411b2f5ec4a6d9c8a0d03d8
-SHA256: 1a9d05c7ccaf0684a9306647ea9db3c42010bb574e0ae0222a712bd88d87f77f
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
 Version: 3.0.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -1903,6 +1784,24 @@ Description: Zone插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14
 Author: iosdump
 Name: Zone视频壁纸-Roothide
 
+Package: com.iosign.camera
+Version: 0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: iOSign
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.netskao.disableshuttersound
+Filename: debs/Camera_0.1-2_Roothide.deb
+Size: 3104
+MD5sum: 12bfeec463aad5c53f24247a9ea1e1ac
+SHA1: 440a4a27866a905a327e45fb962867b53903dc1f
+SHA256: b6720b9f727eea739bc89c8e73fde32d0f836ef89953342303d9a883109fec0a
+Section: Tweaks
+Description: 相机开启全屏拍照，禁用拍照快门声音。安装后默认生效，无图标无设置。
+Author: iOSign
+Name: 全屏相机-Roothide
+
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -1940,6 +1839,25 @@ Author: gilshahar7, SquidForce
 Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
 Name: ExactTime通知时间-Roothide
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
+
+Package: com.lenglengyu.ghallownetwork-rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/冷雨AllowNetwork_0.0.1_Roothide.deb
+Size: 8044
+MD5sum: dc0ceb338b336559819fa2d8a619dfcc
+SHA1: d7f7d77ba33b3f0d7a0a0eb1a42589e025910ef7
+SHA256: 2ce5a44ac1202aadf81aeeea0fb3a25b1cef3e30e54f7bf08ecba771dc444ec8
+Section: Tweaks
+Description: 国行手机自动允许使用无线局域网和蜂窝网络。非国行手机不要安装，该插件安装后默认生效，无图标无设置。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/ghallownetwork.html
+Name: Allow Network-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/ghallownetworksileo
 
 Package: com.lenglengyu.libsupervipp-rootless
 Version: 3.0.5
@@ -2339,6 +2257,24 @@ Section: Netskao-Tweaks
 Description: 禁用底部横条向左/向右滑动切换应用。
 Author: Netskao
 Name: DisableBottomBarLRSwipe-Roothide
+
+Package: com.netskao.disableshuttersound
+Version: 1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 149
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.iosign.camera
+Filename: debs/DisableShutterSound_1.1-2_Roothide.deb
+Size: 3248
+MD5sum: 409feb083b13b9f685a1cca8fb57f767
+SHA1: 2486cfa81b612c16fc665d64b18e9984022474f8
+SHA256: 5c30ae38f8e5613df2dcc3f90deae2a08c445e5dda58e53d71077e25732611c2
+Section: Netskao-Tweaks
+Description: 禁用拍照快门声音。安装后默认生效，无图标无设置。
+Author: Netskao
+Name: 禁用拍照快门声音-Roothide
 
 Package: com.netskao.dumpdecrypter
 Version: 1.5-1
@@ -2771,26 +2707,6 @@ Section: Tweaks
 Description: 在iOS相机应用程序中暂停/恢复视频录制。
 Author: PoomSmart
 Name: RecordPause暂停录制-Roothide
-
-Package: com.ps.yougroupsettings
-Version: 1.0.10
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart <unicorn03.glimmer@icloud.com>
-Installed-Size: 114
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: debs/YouTube.yougroupsettings_1.0.10_Roothide.deb
-Size: 5404
-MD5sum: cd8fd3778b9c160bd9073868c1610c8f
-SHA1: 9d7543b5ac638ecb7a67b6f1925b5115dfdd8636
-SHA256: 804bdb5e9cf754408c175a4b14d70b024ea879ea3fa57ffb5c4284fd508c50b9
-Section: YouTube
-Description: 允许在iOS YouTube应用程序中分组和显示调整设置。
-Tag: compatible_min::ios11.0
-Author: PoomSmart <unicorn03.glimmer@icloud.com>
-Depiction: https://chariz.com/get/yougroupsettings
-Icon: https://img.chariz.cloud/icon/yougroupsettings/icon@3x.png
-Name: YouGroupSettings-Roothide
 
 Package: com.ps.youmute
 Version: 1.4.1
@@ -3939,46 +3855,6 @@ SHA256: ddb5694cd4fb7943914561b632a834c5326aca615f285012049b9de9ea3a2d50
 Section: 依赖插件
 Priority: standard
 Description: 隐根越狱依赖插件。
-
-Package: ellekit
-Version: 1.1.3-4~beta1
-Architecture: iphoneos-arm64e
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
-Breaks: com.opa334.libsandy (<= 1.1.6-3)
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Filename: debs/依赖ellekit_1.1.3-4b1_Roothide.deb
-Size: 143864
-MD5sum: 498efc8326870f9cae7ddc320f4c7b06
-SHA1: 4010c51cf261ff41d3d53d14a67aef7c18e5e089
-SHA256: 3bf37f8571ab7d4b2c8ab10b848b18ecd17c114104d8ddf82a67cb38a38ce52f
-Section: 依赖插件
-Priority: optional
-Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
-Name: ElleKit
-
-Package: ellekit
-Version: 1.1.3-4~beta2
-Architecture: iphoneos-arm64e
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
-Breaks: com.opa334.libsandy (<= 1.1.6-3)
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Filename: debs/依赖ellekit_1.1.3-4b2_Roothide.deb
-Size: 142900
-MD5sum: ec38529b72dd74a509b0e9a247f19eaf
-SHA1: bb501c6e29794d855b62dbe5119540ad9f71b36e
-SHA256: 42659f6e6cf40e0066bd726bc6b50c1d4daa24189cf3f610a23f16df9dd386f3
-Section: 依赖插件
-Priority: optional
-Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
-Name: ElleKit
 
 Package: ellekit
 Version: 1.2
