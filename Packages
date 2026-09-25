@@ -139,6 +139,23 @@ Description: 一款真正可以让应用程序后台运行的插件。搭配同�
 Author: 0xkuj
 Name: BackgrounderAction15AutoState后台运行-Roothide
 
+Package: com.0xkuj.ccbackgrounder17
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Installed-Size: 568
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport, com.opa334.altlist, firmware (>= 17.0)
+Filename: debs/CCBackGrounder17_1.0.0_Roothide.deb
+Size: 36032
+MD5sum: 11c9067cf10d6701059662e6258833d5
+SHA1: 62669bccde6ff0fb971e9a07a93e630cc935edbc
+SHA256: 98ce73c19b6dcdf26094054af74d4f6c06442095e5f5c23561653542d4e42a2a
+Section: Tweaks
+Description: 将“真后台模式”添加到控制中心，并为所选应用程序提供可选的自动切换。
+Author: 0xkuj
+Name: CCBackgrounder17后台运行-Roothide
+
 Package: com.0xkuj.nopastealerts16
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -1503,6 +1520,24 @@ Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData应用数据-Roothide
 
+Package: com.iosdump.appdata
+Version: 2.7.5
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/AppData_2.7.5_Roothide.deb
+Size: 1707912
+MD5sum: e9897daca359f350f4a6592b8ef15d88
+SHA1: 380697da27fcc480216cd72bfbf75a7771bd3a2d
+SHA256: 980811ee2892600f9278ab074722f3a507c71df2882d6776f38d3007a90ab111
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用以及应用降级等功能。
+Author: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData应用数据-Roothide
+
 Package: com.iosdump.customcallbg
 Version: 0.0.5
 Architecture: iphoneos-arm64e
@@ -1563,6 +1598,23 @@ Size: 4289792
 MD5sum: c85586bbf71b23a7bf8f13b899174008
 SHA1: 1212c27388f57baca7733549bfb46780a905f2ef
 SHA256: 851080d3c770eac8aba544bdc13611cac77a374d45145a290d7af10cf30dc3cb
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
+Version: 10.2.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 19916
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/ShellX_10.2.0_Roothide.deb
+Size: 4387900
+MD5sum: 438053f34547b2f86fcc25bea9d6400f
+SHA1: bc5fe9f464e4a4bcb06457bd569307c7da01a0f5
+SHA256: 138806067a98ed818bfba30240d2cbc70f4fbe683cc1f47fdc07c414619d415b
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
 Author: iosdump
@@ -3037,6 +3089,24 @@ Size: 9755868
 MD5sum: c9582eaa80cf595dc828d74c796cd3dd
 SHA1: fcb0ea489dbbba11d9e623c65e35667c7758daef
 SHA256: 2021f5a573b6fabf8c2adfe70b1f596b7455174a40937a1c7c6b86952e32a472
+Section: 微信插件
+Priority: optional
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Author: 热心网友
+Dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+Name: WCRefine(微信插件)-Roothide
+
+Package: com.qimiao.WCRefine
+Version: 2.1-7
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/微信WCRefine_2.1-7_Roothide.deb
+Size: 10618612
+MD5sum: de41d29c8141a2489ffd51045384e35b
+SHA1: b1713d4e5d4018f54ee3b4734f44ec893d09a9e8
+SHA256: 318595e6f8822da24a500f8c7b6c0fe892e26898a8d9512ac86475f27bc0e1b6
 Section: 微信插件
 Priority: optional
 Description: 微信优化的重制版，基于微信8.0.64+版本制作。
