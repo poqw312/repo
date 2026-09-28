@@ -1088,23 +1088,6 @@ Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插�
 Author: DXcool223
 Name: Flex3应用解析-Roothide
 
-Package: com.hang.zzzj
-Version: 0.0.1-8
-Architecture: iphoneos-arm64e
-Maintainer: hang
-Installed-Size: 180
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/转转找机_0.0.1-8_Roothide.deb
-Size: 33344
-MD5sum: 05b0f452ffd7b5ecdce1950312de67ca
-SHA1: a207b776b554f6e061a9f480457164aeb90137f1
-SHA256: e15d5f927ae1e3d84fcf3fca7298f30221f608e5aca9040cc63b8a9657223206
-Section: Tweaks
-Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接。温馨提示：直装版Deb安装后要是没有显示悬浮窗就说明插件没有生效，请卸载后改用巨魔注入。
-Author: hang
-Name: 转转找机-Roothide
-
 Package: com.huami.WCPulse
 Version: 1.5-7
 Architecture: iphoneos-arm64e
@@ -3695,6 +3678,23 @@ Homepage: https://tc.uddz.cc/xuuz
 Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
 Author: XUUᶻ
 Name: 抖音助手-Roothide
+
+Package: com.yourepo.axs.zzfilter
+Version: 5.2.0-8
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/转转找机_5.2.0-8_Roothide.deb
+Size: 62368
+MD5sum: e8bf0633af9803ff9e934a34326b7db1
+SHA1: 45c27834fee3f7e11ea30699feb15db383b52dea
+SHA256: 841481ed5c060b97e2e7521994c1c1d5742bfa98294a6322cab39710ea2e7287
+Section: System (Axs-Tweaks)
+Description: 转转筛选助手：1.先输入需要搜索的商品名称，进入页面后长按悬浮球自动抓取数据。2.按机型/电池/系统版本/成色/内存筛选。3.支持单条复制链接、单条打开详情页和一键复制所有链接。
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Name: ZZFilter转转找机-Roothide
 
 Package: com.yourepo.llyy.supervip-rootless
 Version: 4.5.0
