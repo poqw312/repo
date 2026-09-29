@@ -1604,6 +1604,23 @@ Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
 Package: com.iosdump.shellx
+Version: 11.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 20244
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/ShellX_11.0_Roothide.deb
+Size: 4477652
+MD5sum: e43445f0969df2b30c650d0515f37ec5
+SHA1: 6dc290e5e5ed9cf5f8ef6b97204c8efdd572b386
+SHA256: ed4e9a72bab91a1af1c69028909922f376015dda0137c397a5fd90fb64629432
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
 Version: 3.0.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -3756,6 +3773,26 @@ Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Name: SuperVIP看片助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
 
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.5.6
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7432
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨SuperVIP_4.5.6_Roothide.deb
+Size: 2610984
+MD5sum: 8bc9583b8957d840b525b684a98edbe8
+SHA1: 6ac379e9ba23e88c5d4c876316a1c6cc02d7676b
+SHA256: f3ba8b299a1fb029e1294d70fa3b6dc65b45ef491014f3139131cff3cb4afb91
+Section: Tweaks
+Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP看片助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
 Package: com.zooah.debrecords
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -3911,6 +3948,24 @@ Section: 依赖插件
 Description: LastLook的依赖插件。禁用AnthoPak系列插件的警告提示。
 Author: CBZ
 Name: AnthoCrack2
+
+Package: github.poqw312.apphide
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 788
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 17.4), mobilesubstrate, preferenceloader
+Filename: debs/AppHide_1.0_Roothide.deb
+Size: 95668
+MD5sum: 86506b70c2509ecc56dbac17ce4fed3a
+SHA1: e8a7ca4fe1ed5eeb3508edb254949ad538a0d7ba
+SHA256: c9f28cd1c7fa0eb6d0926147ef51c95f3e178139082ee241cc4d0f850bb7d950
+Section: Tweaks
+Description: 完全隐藏和密码保护您的应用程序。首次打开插件会有密码弹窗验证，需要输入4-8位数密码，请谨慎输入密码。
+Author: Jailbreak Tweaker
+Icon: https://repo.cypwn.xyz/packages/AppHide-Rootless/icon.png
+Name: AppHide隐藏应用-Roothide
 
 Package: github.poqw312.carbridge13
 Version: 2.0.15
