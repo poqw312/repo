@@ -447,10 +447,10 @@ Maintainer: HuangBai <QQ:1343309363@qq.com>
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: debs/黄白助手_2.1.7_Roothide.deb
-Size: 5794012
-MD5sum: b6db8524ebe11193f9ac980a7272cf3f
-SHA1: d25273b33960d3b824284e86f60a4b6d4a7ea9c7
-SHA256: f36cc08c72c6cdec288d5d0c857afce597f481d6744b2cdc40ab603d8f8799cb
+Size: 5867864
+MD5sum: 8adf7f9315786450eee4671909c2c731
+SHA1: 63781d4678d5afa47e9f87223448c3e64d3041f2
+SHA256: f9069ce0ee3db229138585b8b47dc2dd4eaf250721a819773727d0d2aeab5565
 Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
 Author: HuangBai <QQ:1343309363@qq.com>
