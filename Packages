@@ -342,24 +342,6 @@ Description: 屏蔽屏幕截图检测和录屏检测。
 Author: 82flex
 Name: Unseen屏蔽截图检测-Roothide
 
-Package: com.Axs.afn
-Version: 3.5.9
-Architecture: iphoneos-arm64e
-Maintainer: AFN Team
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/微信AFN_3.5.9_Roothide.deb
-Size: 2653488
-MD5sum: 69993e52239400c9864731bcf585dd7e
-SHA1: 803b083afa7c5035b4e839bbe7107b90664fea17
-SHA256: a23ae145167c8b2fc15829aca194cbc6ace93744ca04d19c629b108e5b17d713
-Section: 微信插件
-Description: AFN是一个微信插件功能集合体。装完该插件其他微信插件基本可以卸载了。
-Author: AFN Team
-Icon: https://axs66.github.io/pro/icon/wechat.png
-Name: AFN(微信插件)-Roothide
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/afn/js.json
-
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Architecture: iphoneos-arm64e
@@ -455,6 +437,24 @@ Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Roothide
+
+Package: com.afn
+Version: 3.6.0-8
+Architecture: iphoneos-arm64e
+Maintainer: AFN Team
+Installed-Size: 7936
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.tencent.xin.dkhelper, com.dkjone.dkhelper, com.afn.helper, com.xiaoxin.helper
+Filename: debs/微信AFN_3.6.0-8_Roothide.deb
+Size: 2704356
+MD5sum: 8f5cec8db7c8304e1dbe3b97b6f7e0c2
+SHA1: 2dc3c885a7b6faa30c9e143877c9978f8f93b76e
+SHA256: 4307b849587c728407cd138fc1c662c72584e9f9ee5f3c1ed6094e0274453fad
+Section: 微信插件
+Description: 微信插件集合体。
+Author: AFN Team
+Name: AFN(微信插件)-Roothide
 
 Package: com.amywhile.aemulo
 Version: 1.2.5
