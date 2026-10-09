@@ -122,6 +122,24 @@ Description: 修复Apple Watch和老系统设备配对连接问题。
 Author: 577FKJ
 Name: WatchFix手表配对-Roothide
 
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm64e
+Maintainer: 刀哥
+Installed-Size: 6762
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/SquidgesturePro_2.7.6-1_Roothide.deb
+Size: 1797364
+MD5sum: d612ba8e77d81acc908f06aa323d0759
+SHA1: 2fd1345c855e04cc29549777a0b1a1e6095caa62
+SHA256: 5f1dbd7a7b3e3f0fcf19ec04da13095fd2fcc039f66106726492c477f35b536e
+Section: Tweaks
+Description: SquidGesturePro2.7.6-1的本地设备绑定许可证恢复。不需要激活服务器。此版本为破解版。有问题请直接卸载！
+Author: 刀哥
+Name: SquidGesturePro手势增强-Roothide
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: com.0xkuj.backgrounderaction15autostate
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -438,6 +456,22 @@ Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Roothide
 
+Package: com.HBWechatHelper.ailun
+Version: 2.1.8
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/黄白助手_2.1.8_Roothide.deb
+Size: 6005744
+MD5sum: efd29d4c4ace3a50c23d1a2a61f7f486
+SHA1: aef8fa050d0ae412de612696a5c46fd89223558e
+SHA256: 87d83a9ae2787b2fbbe327dd5c34a5745ee696185e802275bdb1c926ada22a28
+Section: 微信插件
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Roothide
+
 Package: com.afn
 Version: 3.6.0-8
 Architecture: iphoneos-arm64e
@@ -493,6 +527,23 @@ Section: 微信插件
 Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!
 Author: Apple
 Name: 微信广告净化助手-Roothide
+
+Package: com.axs.ahsfilter
+Version: 5.2.0-3
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/爱回收助手_5.2.0-3_Roothide.deb
+Size: 124128
+MD5sum: c20be0c047bf5428b5310fe8879d5ce6
+SHA1: 961c3133b3960e3b4d9b3ad43d5e88fe1359eb24
+SHA256: 2ea2a693793d377ce867b30d936b2b1c6ed7592f5889e1956aa09ab1f3fd29f8
+Section: Tweaks
+Description: 爱回收找机筛选助手。可按照/设备类型/系统版本/电池效率/充电次数/内存/成色/区间筛选。
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ahsfilter.png
+Name: AhsFilter爱回收助手-Roothide
 
 Package: com.be-huge.insulation
 Version: 0.1.36
@@ -631,6 +682,23 @@ Description: 通过可配置的物理效果让SpringBoard图标自由晃动。
 Author: Chloe
 Icon: file:///var/jb/Library/PreferenceBundles/PhyspringboardPrefs.bundle/icon.png
 Name: Physpringboard图标失重-Roothide
+
+Package: com.crctdd.memtrim
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/Memtrim_0.0.2_Roothide.deb
+Size: 51544
+MD5sum: ea75517111645c38a5c3170be530ad27
+SHA1: abd671da6556c10a03f2fee822fff4a2afccc759
+SHA256: 8178d04e0d41e1ea5c0383b149bbb1226bbca3e66a7e357ed4f74cafda62a8a0
+Section: Tweaks
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Author: crctdd
+Name: MemTrim运存优化-Roothide
 
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
@@ -793,7 +861,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 601
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
-Filename: debs/DoubletaptoLock双击锁屏_1.0.3_Roothide.deb
+Filename: debs/DoubletaptoLock_1.0.3_Roothide.deb
 Size: 68524
 MD5sum: 0f717056cfedc84a76b7d6e644c49c00
 SHA1: bef32b3ba40d5bbc302e7766c92c11214deb864a
@@ -804,6 +872,30 @@ Description: 双击锁屏，可在主屏/锁屏/状态栏双击锁定设备！
 Tag: purpose::extension
 Author: CydiaGeek <lucaluca86@aol.com>
 Dev: lucaluca86
+Name: DoubleTapToLock双击锁屏-Roothide
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.cydiageek.doubletaptolock
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 666
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Filename: debs/DoubleTapToLock_1.0.4_Roothide.deb
+Size: 76428
+MD5sum: e951836c0e2ca9f8ef818c9869fca131
+SHA1: ea7cf01c81e656403218f47d2460b7ae1fba8d24
+SHA256: f4e705acc59eb0c86d0414a0021d015cb88131f57e7e93a54337b224bb8e318f
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=doubletaptolockDp
+Description: 通过双击锁屏/主屏/状态栏三种模式来锁定设备！
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=doubletaptolockDp
+Dev: lucaluca86
+Icon: file:///var/jb/Library/PreferenceBundles/DoubleTapToLock.bundle/DoubleTapToLock@2x.png
 Name: DoubleTapToLock双击锁屏-Roothide
 Sponsor: thebigboss.org <http://thebigboss.org>
 
@@ -1668,6 +1760,23 @@ Author: iosdump
 Name: SHELLX套壳截图-Roothide
 
 Package: com.iosdump.shellx
+Version: 11.2
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 12292
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/ShellX_11.2_Roothide.deb
+Size: 2721664
+MD5sum: eb2f9ea930d769775782670dd5c62a87
+SHA1: d71c28799f96ec7ccaa097acff1caa9bb5fc36d5
+SHA256: 8484a92964a6edd9dc3ad45fa2d83b59b68076605644beeb45f8cf06abc169c7
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
 Version: 3.0.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -2004,6 +2113,26 @@ Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
 Name: 影视助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
 
+Package: com.lenglengyu.videohelper-rootless
+Version: 2.8.5
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 2968
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.agmjpro, com.lenglengyu.amjpro, com.lenglengyu.hjsppro, com.lenglengyu.huashutv, com.lenglengyu.xngyspro, com.lenglengyu.qqyspro, com.lenglengyu.rrsphook, com.lenglengyu.wzdypro, com.lenglengyu.wlyspro, com.lenglengyu.xamjpro, com.lenglengyu.ylyspro, com.lenglengyu.bilibilipro, com.lenglengyu.boxsqhook, com.lenglengyu.hanjutv
+Filename: debs/冷雨影视助手_2.8.5_Roothide.deb
+Size: 907448
+MD5sum: 8df922e053bf9b83c2955561115098c9
+SHA1: bbe9571d0a78f8b07ccb85378bf039ae55cf9ecf
+SHA256: f30a5c0372570b3918646c7ceaed5a6e63995c4bdaefc38371a10d85421be290
+Section: Tweaks
+Description: 各种影视APP破解工具，目前有芒果TV、韩小圈、风行视频、大鱼短剧、乐刷短剧、梦想短剧、繁花剧场、人人剧场、人人视频、西红柿短剧、蜜桃小短剧、抖音小剧场等视频工具。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/videohelper.html
+Icon: file:///Library/PreferenceBundles/videohelper.bundle/icon@2x.png
+Name: 影视助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/videohelpersileo
+
 Package: com.lenglengyu.vpnplus-rootless
 Version: 3.1.2
 Architecture: iphoneos-arm64e
@@ -2061,6 +2190,26 @@ Description: 各种梯子破解工具，该插件是付费插件，需要购买�
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Name: VPN助手-Roothide
+
+Package: com.lenglengyu.vpnplus-rootless
+Version: 3.2.0
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3772
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
+Filename: debs/VPN助手_3.2.0_Roothide.deb
+Size: 1230500
+MD5sum: cc74a54b03f98159614519e41d4e8846
+SHA1: 7fc4e0dfbbb4a500152807471734af9a9b4341bc
+SHA256: 7c4eb6ac409f0488a7ff63c31dd78507fc0edd34b7e6b766f0fcd139066709c3
+Section: Tweaks
+Description: 各种梯子破解工具，仅供会员使用。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
+Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
+Name: VPN助手-Roothide
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
 
 Package: com.local.carbridge17
 Version: 0.7.2
@@ -2172,6 +2321,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko剪切板-Roothide
 
+Package: com.mlgm.kayoko
+Version: 5.0.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/Kayoko_5.0.1_Roothide.deb
+Size: 745260
+MD5sum: 318ca53ea357f3fa89949172cf0334eb
+SHA1: cf0fb05ff8f272fac01b9e261e295fbd0ed716a1
+SHA256: 0d259d908b133e5f062c72901316f49e9a2bed9dc33119a9ed6fa9d6c9aff440
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改。
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko剪切板-Roothide
+
 Package: com.mlgm.pulloverx
 Version: 1.4
 Architecture: iphoneos-arm64e
@@ -2231,6 +2399,27 @@ Author: mlgm
 Dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 Name: PullOver X应用分屏-Roothide
+Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+
+Package: com.mlgm.pulloverx
+Version: 1.7
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/PulloverX_1.7_Roothide.deb
+Size: 321928
+MD5sum: 38b68cc4a680c5e44c347bea30bfa1c8
+SHA1: 2590f509eb6a200bc1cebe4f8429ca2cf891c058
+SHA256: 9a0e861e288dc02f5ef9a156b83aafc75f505382ba449725b6303a604adcb1ae
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于Pullover Pro进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X悬浮窗口-Roothide
 Sileodepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
 
 Package: com.mrgcgamer.libgcuniversal
@@ -2658,7 +2847,7 @@ Architecture: iphoneos-arm64e
 Maintainer: opa334
 Installed-Size: 8140
 Depends: ldid
-Filename: debs/TrollStoreLite增强版_2.1.1_Roothide.deb
+Filename: debs/TrollStoreLite_2.1.1_Roothide.deb
 Size: 2217920
 MD5sum: 95c82d6476df89cc41b01fc9096ad6d0
 SHA1: 53555696ab70791bc8d0d237e5c0818f374fc60c
@@ -2666,6 +2855,21 @@ SHA256: 6ffddfe4228f8f51d55ea524c584afe8ec76d7c55d0d27d09a16693a5d3244ad
 Section: Tweaks
 Description: 将TrollStore增强版功能全部转移到TrollStore Lite。
 Author: opa334
+Name: TrollStore Lite(RootHide)
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/TrollStoreLite_2.1.1-2_Roothide.deb
+Size: 3678564
+MD5sum: da01b6e179d8e3d418bb59c65826843d
+SHA1: 6f2b5feec2f583c1286a51930239897d427b6a36
+SHA256: 7147d877b462a475a584cf2980e78a013a291f9a1ddb97bbc31a003d9b7ce313
+Section: Tweaks
+Description: 由iosdump为iOS修改的越狱版巨魔。
+Author: opa334&iosdump
 Name: TrollStore Lite(RootHide)
 
 Package: com.p2kdev.tinge
@@ -3923,6 +4127,39 @@ Section: Tweaks
 Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
 Author: zooah212
 Name: DebRecords-Roothide
+
+Package: com.zooah.debrecords
+Version: 1.1.8
+Architecture: iphoneos-arm64e
+Maintainer: zooah212
+Installed-Size: 1588
+Depends: firmware (>= 15.0), com.zooah.swipedeck, preferenceloader
+Filename: debs/DebRecords_1.1.8_Roothide.deb
+Size: 299716
+MD5sum: f3dda3c699384bb028ee0df7ac6e379c
+SHA1: 3f8127e92a2a6f38be3e662d83b02654238a53dd
+SHA256: 7c99149adad8c7c8140ad605155983a30bbac8ea2c0515b10b0cd1ca5deb4913
+Section: Tweaks
+Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
+Author: zooah212
+Name: DebRecords-Roothide
+
+Package: com.zooah.swipedeck
+Version: 0.3.6-17
+Architecture: iphoneos-arm64e
+Maintainer: zooah212
+Installed-Size: 5364
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/SwipeDeck_0.3.6-17_Roothide.deb
+Size: 1924992
+MD5sum: 37452e24e21e39acdb584a7d378d6a16
+SHA1: 21500837bb785773bc6e577db7d29353cb634d7e
+SHA256: 62d29106c2cb748407881c2479d85c6202ca1f20959c06bb298ae3d47b80f00a
+Section: Tweaks
+Description: 从右下角向上滑动即可访问快速操作面板。Resping、微信支付、支付宝、锁屏、计算器等的可定制按钮。温馨提示：该插件是付费插件！
+Author: zooah212
+Name: SwipeDeck快捷助手-Roothide
 
 Package: dev.theos.orion14
 Version: 1.0.1-3+debug
