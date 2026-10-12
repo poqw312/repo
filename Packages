@@ -490,6 +490,24 @@ Description: 微信插件集合体。
 Author: AFN Team
 Name: AFN(微信插件)-Roothide
 
+Package: com.afn
+Version: 3.6.1
+Architecture: iphoneos-arm64e
+Maintainer: AFN Team
+Installed-Size: 7968
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.tencent.xin.dkhelper, com.dkjone.dkhelper, com.afn.helper, com.xiaoxin.helper
+Filename: debs/微信AFN_3.6.1_Roothide.deb
+Size: 2724364
+MD5sum: cbef34e98a947a3daacc23bf3ff2ae30
+SHA1: a1addaffe33ebcbbd9747d17f549c21e61f7378e
+SHA256: 8c4df08e92e7a5f9de3007917c31cbb83a7610e6ea34e4d8e09748177e1806f0
+Section: 微信插件
+Description: AFN是一个微信插件功能集合体。装完该插件其他微信插件基本可以卸载了。
+Author: AFN Team
+Name: AFN(微信插件)-Roothide
+
 Package: com.amywhile.aemulo
 Version: 1.2.5
 Architecture: iphoneos-arm64e
@@ -2664,6 +2682,23 @@ Section: Tweaks
 Description: 一款多元化状态栏美化插件.支持自定义状态栏时间、天气、电池、网速以及集成了众多其他功能插件。该插件是付费插件，需要购买激活码才能使用。
 Author: niceios
 Name: NiceBarX(iOS16)-Roothide
+Sponsor: niceios
+
+Package: com.niceios.nicebarx16-roothide
+Version: 1.0.1.9-23
+Architecture: iphoneos-arm64e
+Maintainer: niceios
+Installed-Size: 15228
+Depends: mobilesubstrate,com.niceios.nicehelper-roothide(>=6.9),preferenceloader
+Filename: debs/NiceBarX16_1.0.1.9-23_Roothide.deb
+Size: 4347912
+MD5sum: 627c3fe6704ee7b2193f737f33bf2238
+SHA1: 93366f74236875cb848aea2b431eb64d91c5b2ae
+SHA256: ab586f00392f9e42a1cdd310d55103175f739d6515cbcf7f3164b2978618c00d
+Section: Tweaks
+Description: 一款多元化状态栏美化插件.支持自定义修改状态栏时间、天气、电池、网速，以及集成了众多小插件功能。该插件是付费插件，需要购买激活码才能使用。
+Author: niceios
+Name: NiceBarX(iOS16)【Roothide】
 Sponsor: niceios
 
 Package: com.niceios.nicecaller16-roothide
