@@ -759,25 +759,6 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle设置归类-Roothide
 
-Package: com.cureux.cc26
-Version: 0.4.9.9b
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Installed-Size: 220
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0)
-Conflicts: com.dvntm.cc18
-Provides: com.cureux.cc26
-Filename: debs/CC26控制中心_0.4.9.9b_Roothide.deb
-Size: 24644
-MD5sum: de58403477002ea8435efc076a658507
-SHA1: 4dc66db42fb02dd12352fe8d619ae53575cb3332
-SHA256: 81b3ae07f2c5331c16663ecb9d46fb3841615f96ecbac088b8400f7b5d6d105d
-Section: 美化插件
-Description: 仿iOS26控制中心。安装默认生效，无图标无设置。
-Author: therealhoodboy
-Name: CC26控制中心-Roothide
-
 Package: com.curtin.pkc.rootless
 Version: 0.9-4
 Architecture: iphoneos-arm64e
@@ -1179,24 +1160,6 @@ Author: DumpApp
 Icon: file:///Applications/Cydia.app/Sections/Messaging.png
 Name: 锤子助手-Roothide
 
-Package: com.dvntm.ytlite
-Version: 5.2.1
-Architecture: iphoneos-arm64e
-Maintainer: dvntm
-Installed-Size: 20356
-Depends: mobilesubstrate
-Filename: debs/YouTube.ytlite_5.2.1_Roothide.deb
-Size: 7318820
-MD5sum: 313c8fb7b73ecdd9b11ca06b31575ca4
-SHA1: c052c0857e7ea1e9d54393626844323f2fbbdf25
-SHA256: b54d4851b87e2dc85eaaf7c3ed63d78286e5d8e965cce666d7413683ea58985f
-Section: YouTube
-Description: 轻量级YouTube增强器。
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
-Name: YTLite-Roothide
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
-
 Package: com.flex3.processor
 Version: 1.0-4+debug
 Architecture: iphoneos-arm64e
@@ -1359,6 +1322,21 @@ Size: 3572392
 MD5sum: 6bd570122d7ee252432b0b820e8c129c
 SHA1: 5e62a925bffef3441de29e3ad432c7bad1e7bcfc
 SHA256: 7f4df1bda64e7357f7750df44a8bf374996b32cfe69b43bc950fe1ec2791a7cc
+Section: 微信插件
+Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
+Author: huami
+Name: WCPulse(微信插件)-Roothide
+
+Package: com.huami.WCPulse
+Version: 1.7-6
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信WCPulse_1.7-6_Roothide.deb
+Size: 3583308
+MD5sum: 29205c5938070f29d03c998229af52a7
+SHA1: 116c178eefced5876d31e31ae374297e8cf5461d
+SHA256: a3c1e7751bd875a135a9ed8f27d62399ee3a9d20df7100e76e9a0cbe634009ca
 Section: 微信插件
 Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
 Author: huami
@@ -1535,6 +1513,23 @@ Section: Tweaks
 Description: 用于监控、保存和优化电池性能的终极优化插件。
 Author: elias
 Name: SmartBattery省电优化-Roothide
+
+Package: com.ins.pogr
+Version: 0.5.5~prerelease3
+Architecture: iphoneos-arm64e
+Maintainer: Ruphane
+Installed-Size: 484
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AirPods Grant_0.5.5_Roothide.deb
+Size: 76988
+MD5sum: 498ab2d29e456dced21555e930cf07ca
+SHA1: e109ffcddd556f0f078fea4d5857c5c53dcc5492
+SHA256: a7325ecc483002662333b1d9ccb71a3056a20fb4320191e7c49983ec6f879c65
+Section: Tweaks
+Description: 调整以改善旧设备上的AirPods兼容性，不会再提示低版本连接，支持最新版AirPods5
+Author: Ruphane
+Name: AirPods Grant耳机弹窗-Roothide
 
 Package: com.iosdump.airdrop
 Version: 0.0.2
@@ -2340,23 +2335,24 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko剪切板-Roothide
 
 Package: com.mlgm.kayoko
-Version: 5.0.1
+Version: 5.0.2
 Architecture: iphoneos-arm64e
 Maintainer: mlgm
-Installed-Size: 3500
+Installed-Size: 3516
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: debs/Kayoko_5.0.1_Roothide.deb
-Size: 745260
-MD5sum: 318ca53ea357f3fa89949172cf0334eb
-SHA1: cf0fb05ff8f272fac01b9e261e295fbd0ed716a1
-SHA256: 0d259d908b133e5f062c72901316f49e9a2bed9dc33119a9ed6fa9d6c9aff440
+Filename: debs/Kayoko_5.0.2_Roothide.deb
+Size: 733920
+MD5sum: b26e7065ecbb3e4b6887df103f9b66a4
+SHA1: 2c87a5034d9bce56332b0ba8b9b5d7706e7d6a99
+SHA256: e236c91e25b273dfa9d73fb65d32947d2c1ba782cba6ac5e606bd0dad4a21ec3
 Section: Tweaks
-Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改。
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
-Name: Kayoko剪切板-Roothide
+Name: Kayoko剪贴板-Roothide
 
 Package: com.mlgm.pulloverx
 Version: 1.4
@@ -2994,179 +2990,6 @@ Description: 在iOS相机应用程序中暂停/恢复视频录制。
 Author: PoomSmart
 Name: RecordPause暂停录制-Roothide
 
-Package: com.ps.youmute
-Version: 1.4.1
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 128
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.3.2)
-Filename: debs/YouTube.youmute_1.4.1_Roothide.deb
-Size: 6060
-MD5sum: 23b08dda199bba122f8a404d62c6e93f
-SHA1: 9aeee43ea9a7cc7f06081ea59f55e4b42e2d8287
-SHA256: 004559e06e6283d6bea9a512406ccf658b14d86fdc519471f8ef906376005400
-Section: YouTube
-Description: 直接在YouTube中静音/取消静音视频。
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
-Name: YouMute-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
-
-Package: com.ps.youpip
-Version: 1.12.12
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 212
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture (>= 1.0.1)
-Conflicts: com.spicat.youpip
-Replaces: com.spicat.youpip
-Provides: com.spicat.youpip
-Filename: debs/YouTube.youpip_1.12.12_Roothide.deb
-Size: 25196
-MD5sum: c9102d5a7bac404d63106f5b768b854d
-SHA1: c9061ac32d0d7aa35396edf83579d7873f9af78a
-SHA256: 23061f67408e0dc2fd12ab54e038ed475004149789e0745e8d60464f7874e20b
-Section: YouTube
-Description: 在iOS版YouTube应用中启用原生画中画功能。
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
-Name: YouPiP-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
-
-Package: com.ps.youquality
-Version: 1.3.6
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 124
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.1.1)
-Filename: debs/YouTube.youquality_1.3.6_Roothide.deb
-Size: 6588
-MD5sum: e1efc80cf1f8d59fdab5a2e754db7581
-SHA1: 28b5ed3b3ea90d5e2d0ae3108ae66d49f4d50a24
-SHA256: 1c0dc4ab32589a13025d86f4393d2eb7e95e8d3fa76cbe65ca89aca5a8559f25
-Section: YouTube
-Description: 在iOS YouTube应用程序中更快地查看/更改视频质量。
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
-Name: YouQuality-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
-
-Package: com.ps.ytshortsprogress
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 72
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: debs/YouTube.ytshortsprogress_1.0.3_Roothide.deb
-Size: 2856
-MD5sum: a6a15423d594ce8222ae6ca9da8e153b
-SHA1: 77fe7cc8eff2659456f4126425501e5cd499c8cb
-SHA256: 42180a112ca605c9871c53b6d66429ed0e9245057c57c8a67179d1b86dc7659b
-Section: YouTube
-Description: 启用YouTube短视频的进度条/拖动条。
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
-Name: YTShortsProgress-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
-
-Package: com.ps.ytsilentvote
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 72
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: debs/YouTube.ytsilentvote_1.0.1_Roothide.deb
-Size: 2932
-MD5sum: 3742fa17927db33562250e70f81e96fb
-SHA1: c0024451d89b1140909a812e0142edd262fee9e7
-SHA256: 23a3042c86cd71fe2427525dd0dc798e87fef6eab80c0a04b1d72e6d8727a13a
-Section: YouTube
-Description: 不会因为你喜欢/不喜欢视频而弹出消息。
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytsilentvote.html
-Name: YTSilentVote-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsilentvote.json
-
-Package: com.ps.ytuhd
-Version: 2.6.0
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 1164
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.libundirect (>= 1.1.6)
-Filename: debs/YouTube.ytuhd_2.6.0_Roothide.deb
-Size: 386564
-MD5sum: 849a861c870e8bf75151df0f7d800b0f
-SHA1: 0fca2cb6f74834e6c6687e17c709dd7c902e3606
-SHA256: 5086b5ec56b8cb01154d5bf948be70dd05ca301a4185d21fdef371c67f84675d
-Section: YouTube
-Description: 在iOS YouTube应用程序中解锁1440p和2160p分辨率。
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
-Name: YTUHD-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
-
-Package: com.ps.ytunshorts
-Version: 1.3.1
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 56
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
-Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: debs/YouTube.ytunshorts_1.3.1_Roothide.deb
-Size: 3508
-MD5sum: 8f446090d212514dfb58f4136748f38c
-SHA1: 5f063f0141886c3b99fe36dd21ce954af477013f
-SHA256: 42cefa8e3a5e8bc4fb67a2d7b4bc986ab97b258fc4c7932e5269c83fb0629e25
-Section: YouTube
-Description: 从YouTube应用程序的提要中删除短片。
-Author: PoomSmart
-Name: YTUnShorts-Roothide
-
-Package: com.ps.ytvideooverlay
-Version: 2.3.6
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 144
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: debs/YouTube.ytvideooverlay_2.3.6_Roothide.deb
-Size: 16252
-MD5sum: 5677ea49ec5b4d2f8c9353f68a318538
-SHA1: 8f4f44615f45965e148c6aaddce6e9bf32233e46
-SHA256: b02f0e6c50c2b8c7b96b8a42a92945b31d199197edbb4fb69825041f1a056776
-Section: YouTube
-Description: 在YouTube视频叠加层上添加按钮的助手调整。
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
-Name: YTVideoOverlay-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
-
-Package: com.ps.ytx
-Version: 1.7.19
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 72
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
-Filename: debs/YouTube.ytx_1.7.19_Roothide.deb
-Size: 5788
-MD5sum: e0139abc8e6a312d2848299954573f3d
-SHA1: 4d5eff32bd6fbcc74cdf40a64fac6284f77861ae
-SHA256: 178bdfb472ed053ff7e7db47c106ea107dd08e98942329247963ee4133a77f85
-Section: YouTube
-Description: 一个YouTube的优化改进。
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
-Name: YouTube X-Roothide
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
-
 Package: com.qimiao.WCRefine
 Version: 1.3-9
 Architecture: iphoneos-arm64e
@@ -3456,38 +3279,6 @@ Section: 美化插件
 Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改编译的中文版，去掉了Alderis Color Picker依赖，编译支持Roothide。
 Author: ren7995 & SINI
 Name: Atria桌面布局-Roothide
-
-Package: com.sini921.ccborder
-Version: 1.1.2-38
-Architecture: iphoneos-arm64e
-Maintainer: fiore & p2kdev & SINI
-Installed-Size: 972
-Depends: mobilesubstrate, firmware (>= 16.0)
-Filename: debs/CCBorder_1.1.2-38_Roothide.deb
-Size: 199176
-MD5sum: b9fb1e3e120e5d1a00ad72f9a6a8b14a
-SHA1: 1fe082d79440670812895cfb9285dc26932820f9
-SHA256: a749a2ff2f9f1bb1125b92b47e3adf1c2d34e91936aedc864f52e9d698ac81bf
-Section: 美化插件
-Description: 仿iOS18控制中心美化，可调整控制中心模块形状。基于开源修改编译，移除AlderisColorPicker依赖。
-Author: fiore & p2kdev & SINI
-Name: CCBorder控制中心-Roothide
-
-Package: com.sini921.ccborder
-Version: 1.1.2-39
-Architecture: iphoneos-arm64e
-Maintainer: fiore & p2kdev & SINI
-Installed-Size: 972
-Depends: mobilesubstrate, firmware (>= 16.0)
-Filename: debs/CCBorder_1.1.2-39_Roothide.deb
-Size: 198668
-MD5sum: 4cfd39c3335f0e2a5c48ce7f91590d62
-SHA1: a21cc6cc15b25ccc23a8ca65d127a9458e61efd8
-SHA256: 5f78ea00daa60749b294afc67aeb017bc8bfaf480624c1d4efc8f0f61b1e9345
-Section: 美化插件
-Description: 仿iOS18控制中心美化，可调整控制中心模块形状。基于开源修改编译，移除AlderisColorPicker依赖。
-Author: fiore & p2kdev & SINI
-Name: CCBorder-Roothide
 
 Package: com.sini921.disabledwarning
 Version: 0.0.1-2
@@ -4917,6 +4708,24 @@ Section: 依赖插件
 Description: 隐根越狱依赖插件。无根调整的兼容层。
 Author: roothide
 Name: rootless-compat
+
+Package: run.cheng.autopower
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: cheng <autopower@hutao.run>
+Installed-Size: 188
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), firmware (>= 15.0)
+Conflicts: run.cheng.autopower.debug
+Filename: debs/AutoPower_1.3.0_Roothide.deb
+Size: 20276
+MD5sum: 4370accb42c5033a43fbed80bcacdf23
+SHA1: c136a661e52e6525415e3c87b7932c96c97af69c
+SHA256: 78ee7f6854bb09844f250f87b7b9e402b5a960a46b93964bf6b000a4e3611101
+Section: Tweaks
+Description: 自动开启低电量模式。
+Author: cheng <autopower@hutao.run>
+Name: AutoPower自动低电-Roothide
 
 Package: se.geometric.graphite
 Version: 2.0
