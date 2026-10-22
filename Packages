@@ -1971,6 +1971,24 @@ Description: 相机开启全屏拍照，禁用拍照快门声音。安装后默�
 Author: iOSign
 Name: 全屏相机-Roothide
 
+Package: com.johndie.triggr
+Version: 2.0.0~beta7.1
+Architecture: iphoneos-arm64e
+Maintainer: John d_ie
+Installed-Size: 1964
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/Triggr_2.0.0~beta7.1_Roothide.deb
+Size: 214224
+MD5sum: f81710a88774cd0ea8b29507690e69bf
+SHA1: 0f86076487bee6f355b34926204de03833c1c473
+SHA256: a16bb989524dc157f44367757d4f437bb8c06982e0c6530b33728b4abb3953a1
+Section: Tweaks
+Description: 类似于Activator插件：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。
+Author: John d_ie
+Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.triggr.html
+Name: Triggr快捷手势-Roothide
+
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -2454,6 +2472,22 @@ Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: MrGcGamer
 Name: LibGcUniversal
+
+Package: com.mtac.lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: debs/Lynx_2.5.4_Roothide.deb
+Size: 654792
+MD5sum: 288433ace4d69321c753dc87a819ddd4
+SHA1: e61d72cb1821fc28060e5e2d581e3ee5c7fcd79e
+SHA256: 68bc7daeabff8c7de069b88ca0b77e7e2e257a04dedce24d8eb6af2b0fa8485c
+Section: Tweaks
+Description: 功能超级多，能改动锁屏、主屏图标、资源库、后台切换、状态栏、小组件、控制中心、CarPlay、应用商店、系统设置、电话、信息、相机、照片、音乐、备忘录等功能。该插件不适合小白用户使用，功能多到容易和其他插件冲突，请谨慎使用功能开关。
+Author: MTAC
+Name: Lynx 2系统优化-Roothide
 
 Package: com.mtac.vitreux
 Version: 1.3
@@ -3228,6 +3262,26 @@ Description: 有趣的桌面图标翻页特效，基于开源优化编译，修�
 Author: Ryan Nair & SINI
 Name: CylinderReborn图标特效-Roothide
 
+Package: com.ryannair05.cylinder
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1527
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: debs/Cylinder翻页特效_1.2.0_Roothide.deb
+Size: 282664
+MD5sum: 8f6a77677a5efbd72827121a3c218730
+SHA1: f66690af386c46f3398c8ce40fb0a01d5eb9fa6c
+SHA256: b5c11ce165296ff59e97d1911e2ab534d3654875516445acebb625abbf1b255a
+Section: Tweaks
+Description: 酷炫的桌面图标翻页特效。
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Depiction: https://chariz.com/get/cylinder-reborn
+Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
+Name: Cylinder Reborn翻页特效-Roothide
+
 Package: com.sergy.immortalizer
 Version: 2.3
 Architecture: iphoneos-arm64e
@@ -3807,6 +3861,25 @@ Description: 显示视频时长进度条，显示作品日期时间归属地，�
 Author: XUUᶻ
 Name: 抖音助手-Roothide
 
+Package: com.xuuz.douyinhelper
+Version: 2.2-7
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17708
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.2-7_Roothide.deb
+Size: 6846036
+MD5sum: 7762fc610a86d2e509dc0cbe9da48898
+SHA1: 132ae499620c2eb63ce714563eb348568f39902f
+SHA256: 70642910fd60fce8a19fedcd171467334c47e070a7b990e41fa245308544004f
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
 Package: com.yourepo.axs.zzfilter
 Version: 5.2.0-8
 Architecture: iphoneos-arm64e
@@ -3975,15 +4048,14 @@ Version: 0.3.6-17
 Architecture: iphoneos-arm64e
 Maintainer: zooah212
 Installed-Size: 5364
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), preferenceloader
 Filename: debs/SwipeDeck_0.3.6-17_Roothide.deb
-Size: 1924992
-MD5sum: 37452e24e21e39acdb584a7d378d6a16
-SHA1: 21500837bb785773bc6e577db7d29353cb634d7e
-SHA256: 62d29106c2cb748407881c2479d85c6202ca1f20959c06bb298ae3d47b80f00a
+Size: 1925408
+MD5sum: 456f7bad92a39545a2888e70754d16b0
+SHA1: 17c7ddc576eb2d40cb2d91d19ba82a283815c596
+SHA256: b37b83d0d4f5f00a2341d05d8f2537762eeef9bdcf71812752209e0c53c8bc79
 Section: Tweaks
-Description: 从右下角向上滑动即可访问快速操作面板。Resping、微信支付、支付宝、锁屏、计算器等的可定制按钮。温馨提示：该插件是付费插件！
+Description: 从右下角向上滑动即可访问快速操作面板。Resping、微信支付、支付宝、锁屏、计算器等的可定制按钮。
 Author: zooah212
 Name: SwipeDeck快捷助手-Roothide
 
@@ -4349,6 +4421,23 @@ Section: 美化插件
 Description: 29种款式图标遮罩合集，需要用到SnowBoard主题插件、SnowBoard Dock栏拓展、SnowBoard Icon Effects拓展和SnowBoard icon Masks拓展模块插件才能生效。
 Author: Acreson
 Name: 29款图标遮罩合集-Roothide
+
+Package: iya.banana.multitask
+Version: 0.1.2
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 2348
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/一芽分屏_0.1.2_Roothide.deb
+Size: 388972
+MD5sum: afb599abbc2d046d5ca80c063f858694
+SHA1: 1442d95db5bc307e50a8044b40cbb2196423c479
+SHA256: 065cd4303dfbe06b62755796a21f0887de37b60cf2d202d00258e0adbf109e1c
+Section: Tweaks
+Description: 适用于iOS15-26的可调节分屏、浮动窗口和多任务处理。
+Author: Banana
+Name: 一芽分屏-Roothide
 
 Package: jp.akusio.backgrounderaction15
 Version: 0.1.0
