@@ -4275,6 +4275,22 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
 Name: iCleaner Pro系统清理-Roothide
 
+Package: github.poqw312.jytzzx
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: poqw312
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>=15.0)
+Filename: debs/禁用通知中心下拉手势_1.0_Roothide.deb
+Size: 4004
+MD5sum: 99887e95aea7e130fb243a0f1c168591
+SHA1: 28d01a787cc7e8a2b1e277092ef6fa5fb6bab452
+SHA256: 1370a29ddbb33f1b94224032f1b8c4c6314f8310cc554916ff5ec096972f7ae2
+Section: Tweaks
+Description: 禁用通知中心下拉手势。仅在应用程序内禁用通知中心的下拉手势(适用于游戏党)，返回桌面不影响通知中心手势，该补丁默认生效全局应用，并不能单一选择应用，介意慎用！
+Author: poqw312
+Name: 禁用通知中心-Roothide
+
 Package: github.poqw312.killapps
 Version: 1.2-2
 Architecture: iphoneos-arm64e
