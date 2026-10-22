@@ -361,70 +361,6 @@ Author: 82flex
 Name: Unseen屏蔽截图检测-Roothide
 
 Package: com.HBWechatHelper.ailun
-Version: 2.1.2
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.1.2_Roothide.deb
-Size: 11028820
-MD5sum: 83d857a9d6bac28e0eef1cc185928ee2
-SHA1: ceacce11af6ec8df9fa2e5f49deb09791a3aab11
-SHA256: fc6a675a8f427a219281f63d9e7b5096db57a29c63a8f95d645021c48d2c5aa2
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
-
-Package: com.HBWechatHelper.ailun
-Version: 2.1.3
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.1.3_Roothide.deb
-Size: 11030516
-MD5sum: 3daa88d5ce1d97b126f3b76cecb746c0
-SHA1: 6dc83a3483f95b1e0334741bbd5cad31bd5f5282
-SHA256: 9394f3c8415c763573b7b363cae2745da6894c856924477f860d1b007ba3a0c6
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
-
-Package: com.HBWechatHelper.ailun
-Version: 2.1.4
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.1.4_Roothide.deb
-Size: 10441324
-MD5sum: 9d11fbc40c84cda45fb49a7d8d83c7f0
-SHA1: e7b2246c07e05d66f6e7f0105fa0cf7c6b008e6a
-SHA256: 7267adfb87acf8cf44ed829e095ba0de3bc28e037b6e5cf380205f1288e6b482
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
-
-Package: com.HBWechatHelper.ailun
-Version: 2.1.5
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/黄白助手_2.1.5_Roothide.deb
-Size: 6877916
-MD5sum: 09f62f7019cd0fbb1a4919778687078c
-SHA1: 9f7c8377ae86978172e93de4151d1778316bf2c8
-SHA256: dd40d065f8c81f1c336172e831e5aee0c636696a914be40b828eb805e66dd44a
-Section: 微信插件
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况Live图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载dylib文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能。
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Roothide
-
-Package: com.HBWechatHelper.ailun
 Version: 2.1.6
 Architecture: iphoneos-arm64e
 Maintainer: HuangBai <QQ:1343309363@qq.com>
@@ -1019,94 +955,6 @@ Author: doimty
 Name: ProMotion 120Hz-Roothide
 
 Package: com.dumpapp.wechat-rootless
-Version: 2.4.0
-Architecture: iphoneos-arm64e
-Maintainer: WeChat
-Installed-Size: 14436
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手_2.4.0_Roothide.deb
-Size: 11244368
-MD5sum: b9a3871e4303199ba8e7cdb21a271e25
-SHA1: 4d49311200c8ea1df2a89126a65ebd225efce8af
-SHA256: 6ace421d7337c27c8b91b9cea5e33c8c1c76bffe99de5802c2504379eaf8f7b7
-Section: 微信插件
-Description: 锤子助手插件，微信净化平替版。
-Author: DumpApp
-Name: 锤子助手-Roothide
-
-Package: com.dumpapp.wechat-rootless
-Version: 2.4.1
-Architecture: iphoneos-arm64e
-Maintainer: DumpApp
-Installed-Size: 14436
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手_2.4.1_Roothide.deb
-Size: 11246548
-MD5sum: 818741f1b83ca3a1fcfb1dfa909355c7
-SHA1: 6789167627185d777f8cda449b2d59a7f3b3c3cc
-SHA256: 100e40821e5ba3a4fcb851a0c5551af40ffb37cd120c2f38be358eba3afa5cfb
-Section: 微信插件
-Description: 锤子助手插件，微信净化平替版。
-Author: DumpApp
-Icon: file:///Applications/Cydia.app/Sections/Messaging.png
-Name: 锤子助手-Roothide
-
-Package: com.dumpapp.wechat-rootless
-Version: 2.4.3
-Architecture: iphoneos-arm64e
-Maintainer: DumpApp
-Installed-Size: 14532
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手_2.4.3_Roothide.deb
-Size: 5655900
-MD5sum: 87c746e09aa30efc611fae9602fe1415
-SHA1: 5548af87e3a7a8b0b57afbcbcb16d054a8404ea7
-SHA256: 944a91446a90b89f454ef6df859666f770cbe5e7635f28bb9c4f260dd4b3b439
-Section: 微信插件
-Description: 微信辅助插件。微信净化平替版。
-Author: DumpApp
-Icon: file:///Applications/Cydia.app/Sections/Messaging.png
-Name: 锤子助手-Roothide
-
-Package: com.dumpapp.wechat-rootless
-Version: 2.5.2
-Architecture: iphoneos-arm64e
-Maintainer: WeChat
-Installed-Size: 14900
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手_2.5.2_Roothide.deb
-Size: 5746088
-MD5sum: 21c9ec2d32f454ee1a58771e46a4fa35
-SHA1: 28303f4eb763774ce86ac1c0b9ddadbe6e44700c
-SHA256: 2dc6b5817dff33e60c4b54a60fe2f10cc175ea21ecde12fe4e2aa1aa0168c4ef
-Section: 微信插件
-Description: 微信多功能插件，微信净化平替版。
-Author: DumpApp
-Name: 锤子助手-Roothide
-
-Package: com.dumpapp.wechat-rootless
-Version: 2.6.2
-Architecture: iphoneos-arm64e
-Maintainer: WeChat
-Installed-Size: 15100
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/锤子助手_2.6.2_Roothide.deb
-Size: 5792600
-MD5sum: 74bda96046380dd6456c2e370687d955
-SHA1: e52f85f9c3b8bdb098403daed29eb5e026317c79
-SHA256: a4d688eb449ec367adc692d6e366ea1211594796d0836bc6dd319969479d8ebc
-Section: 微信插件
-Description: 锤子助手微信插件
- 微信增强 Tweak，提供聊天、语音和界面等可配置功能。
-Author: DumpApp
-Name: 锤子助手-Roothide
-
-Package: com.dumpapp.wechat-rootless
 Version: 2.6.5
 Architecture: iphoneos-arm64e
 Maintainer: DumpApp
@@ -1176,141 +1024,6 @@ Section: Tweaks
 Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插件可以独立对砸壳后的iPA软件包进行解析，点击"Select File"选择你要解析的iPA包(自行砸壳)，然后点击"Execute"即可开始解析，解析成功后会提示解析文件的存放路径。
 Author: DXcool223
 Name: Flex3应用解析-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.5-7
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.5-7_Roothide.deb
-Size: 7884152
-MD5sum: fd2fd9b3bccff2fdaa06acbd84b0c4c3
-SHA1: e4674e98e48ec2f7d632fc372996cab49a466432
-SHA256: cc4de0c41ea2c1d74920a2b37b07663e374719ca7784e85298e6734dbaf10501
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.5-8
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.5-8_Roothide.deb
-Size: 8604796
-MD5sum: afbc22eaefb5126ac7271a713a7db5ea
-SHA1: 7a0e9c0a61fcc53a5fb24cc2290d38a496a2ba9d
-SHA256: 9719002e13837a06a0ef34c5427c14fd5c0e199b84484dbee359bbaec74454af
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.5-9
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.5-9_Roothide.deb
-Size: 8744780
-MD5sum: e01f07867705fa3e0bb7e07873d56f67
-SHA1: caccabe9089d8d7d851856d87e09e80c8af31601
-SHA256: 36000af5fc59117dbe33fe569b5fde6005549242396a9f26a7c811144dd16a69
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签，视频倍速手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.6-1
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.6-1_Roothide.deb
-Size: 9852964
-MD5sum: 30f7e2f7e2f2371f810b114f498c5d6c
-SHA1: 243caadb6045c4ba1dfbe970cdf420d0c6813f65
-SHA256: aa66adb762b5a643ff7f95292f7d37b87044c0612de629979cf3d048d083dc7b
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.6-3
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.6-3_Roothide.deb
-Size: 4302340
-MD5sum: 4d1bd80712e9c0c072e28548c0921a99
-SHA1: fbb1c26032ee69a298138fb7fbbdb1fdb24ec408
-SHA256: 8ae3accd5b4213de80ee552606c10735a6296e99d3509e35cbd4040460454060
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.6-7
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.6-7_Roothide.deb
-Size: 4452328
-MD5sum: 4f05682581fed367eabae0b3ce2fdcc0
-SHA1: 49ab8e1984bcd85a8f4cefd32710f5e7509ae3d8
-SHA256: 4107c8c6a6853f5ed99fa3c184d8552ccdf3feec7667d30e9e2459846f4520e0
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.7-2
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.7-2_Roothide.deb
-Size: 3561736
-MD5sum: 7088dc2d85670dc26d1f5a09ecf5689b
-SHA1: dd60ff47b18d62bb0683a01ac4bec328904d7b0e
-SHA256: cdcf1d0eb93c0d0ed536fabd622b67973799a97754c96c26ed824a485dcf91a0
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.7-3
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.7-3_Roothide.deb
-Size: 3553732
-MD5sum: b58e91741b12e4af995438769262dff2
-SHA1: fd5b01bcb3420f0c1c93d0957d140bcb81f663bd
-SHA256: e9165ce5eab9fc80181dc8a50830c1ed89546279a84b536d9acc6a385bd90ee1
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
-
-Package: com.huami.WCPulse
-Version: 1.7-4
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/微信WCPulse_1.7-4_Roothide.deb
-Size: 3558660
-MD5sum: 894d8069e6cb4eba04a9078708100733
-SHA1: af562c26c20bc7ef377298bf43e88a8db50e5438
-SHA256: b87331c2961b7804add0bbaa4de6449f5069e5aa634a18434061471b27da475b
-Section: 微信插件
-Description: 微信脉冲助手，好用的分组、首页圆角、消息直达、消息合并、头像时间标签、视频倍数手势、消息超级防撤回、全屏返回手势等超多特色功能。
-Author: huami
-Name: WCPulse(微信插件)-Roothide
 
 Package: com.huami.WCPulse
 Version: 1.7-5
@@ -1784,6 +1497,23 @@ Size: 2721664
 MD5sum: eb2f9ea930d769775782670dd5c62a87
 SHA1: d71c28799f96ec7ccaa097acff1caa9bb5fc36d5
 SHA256: 8484a92964a6edd9dc3ad45fa2d83b59b68076605644beeb45f8cf06abc169c7
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
+Author: iosdump
+Name: SHELLX套壳截图-Roothide
+
+Package: com.iosdump.shellx
+Version: 11.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 11452
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Filename: debs/ShellX_11.3_Roothide.deb
+Size: 2609092
+MD5sum: be968c7d25213d4024b95876415028be
+SHA1: 752e43e51d85a299b64a1e554d85c1a0fa409fe4
+SHA256: 8db5f28d0bd5e80a5d24268e10c45b85a06e6d53d440ac1ccf756461f79995a4
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
 Author: iosdump
@@ -3025,120 +2755,6 @@ Author: PoomSmart
 Name: RecordPause暂停录制-Roothide
 
 Package: com.qimiao.WCRefine
-Version: 1.3-9
-Architecture: iphoneos-arm64e
-Maintainer: 热心网友
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/微信WCRefine_1.3-9_Roothide.deb
-Size: 4762280
-MD5sum: ecf22f5ba50c9b7685580037d37f07f0
-SHA1: 314df5ab9234b3952f4282c46add7a88c332049c
-SHA256: 39b71d78eb268d262c4cd5bf27b812bbf288324c2a4f2f584fff7435c7f9f758
-Section: 微信插件
-Priority: optional
-Description: 微信优化的重制版，基于微信8.0.64+版本制作。
-Author: 热心网友
-Dev: 君临
-Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
-Name: WCRefine(微信插件)-Roothide
-
-Package: com.qimiao.WCRefine
-Version: 1.4-0
-Architecture: iphoneos-arm64e
-Maintainer: 热心网友
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/微信WCRefine_1.4-0_Roothide.deb
-Size: 4757108
-MD5sum: a1f2d6d34061cd7cf047f77f42fc5e63
-SHA1: aa50055e7e91e54ee91b738c64c7eb1bb7e9db6e
-SHA256: c23d90e1dbda68801521ec4f052b992e924baab14570b00005ae71b2f1c35e18
-Section: 微信插件
-Priority: optional
-Description: 微信优化的重制版，基于微信8.0.64+版本制作。
-Author: 热心网友
-Dev: 君临
-Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
-Name: WCRefine(微信插件)-Roothide
-
-Package: com.qimiao.WCRefine
-Version: 1.4-2
-Architecture: iphoneos-arm64e
-Maintainer: 热心网友
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/微信WCRefine_1.4-2_Roothide.deb
-Size: 2929084
-MD5sum: 4c9c99097a00a576136655e53583b2e6
-SHA1: 79fdc2f6430a33083066a4e822eefaec9b847cb8
-SHA256: fb5b8c8970fffd3bce4f065b3ce92426ec963869c90a5417ac5730c2d121480b
-Section: 微信插件
-Priority: optional
-Description: 微信优化的重制版，基于微信8.0.64+版本制作。
-Author: 热心网友
-Dev: 君临
-Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
-Name: WCRefine(微信插件)-Roothide
-
-Package: com.qimiao.WCRefine
-Version: 1.4-6
-Architecture: iphoneos-arm64e
-Maintainer: 热心网友
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/微信WCRefine_1.4-6_Roothide.deb
-Size: 7280044
-MD5sum: f56c76d45e0e970bc69fc8ece224b82a
-SHA1: 2751c1bb1496130abb3ddf9b9d23ed62c50cbc9d
-SHA256: aff8eae5660261c6c15aab8f5af51463820ecd13ba133117a6eb9aa8e0438219
-Section: 微信插件
-Priority: optional
-Description: 微信优化的重制版，基于微信8.0.64+版本制作。
-Author: 热心网友
-Dev: 君临
-Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
-Name: WCRefine(微信插件)-Roothide
-
-Package: com.qimiao.WCRefine
-Version: 2.0-3
-Architecture: iphoneos-arm64e
-Maintainer: 热心网友
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/微信WCRefine_2.0-3_Roothide.deb
-Size: 8471184
-MD5sum: 1ec2016690544a55981846701c54d315
-SHA1: 69f408c2bc2467a0afe0091814f8ec95f13b1052
-SHA256: 3b307adc9efc802226e1f354e810e106240325cd8518de9419f91a6aa485cac1
-Section: 微信插件
-Priority: optional
-Description: 微信优化的重制版，基于微信8.0.64+版本制作。
-Author: 热心网友
-Dev: 君临
-Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
-Name: WCRefine(微信插件)-Roothide
-
-Package: com.qimiao.WCRefine
-Version: 2.1-1
-Architecture: iphoneos-arm64e
-Maintainer: 热心网友
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/微信WCRefine_2.1-1_Roothide.deb
-Size: 9627476
-MD5sum: f4d4cc8a82465a52c75b5fb4b0e5713b
-SHA1: 5d8fec53f9d8a93a9815f8ecc2588bf822fcab02
-SHA256: e50058b3d9f65f2f8d31bcdb985ddadea89ffb8a0fbd1dd08a7a5b5717cb8e74
-Section: 微信插件
-Priority: optional
-Description: 微信优化的重制版，基于微信8.0.64+版本制作。
-Author: 热心网友
-Icon: https://axs66.github.io/pro/icon/wechat.png
-Name: WCRefine(微信插件)-Roothide
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/WCRefine/js.json
-
-Package: com.qimiao.WCRefine
 Version: 2.1-2
 Architecture: iphoneos-arm64e
 Maintainer: 热心网友
@@ -3786,44 +3402,6 @@ Author: 茶 愫
 Name: WeChatEnhance(微信插件)-Roothide
 
 Package: com.xuuz.douyinhelper
-Version: 2.2-2
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17544
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.2-2_Roothide.deb
-Size: 6790368
-MD5sum: b775a0c9639dc2007f71cbb719d2b95c
-SHA1: 1f3efc5fe1f701c610e8d95ba5959abb0e4d9958
-SHA256: fee8c2bbf2f382108c83f8ed2303a578c710839ff1b9dc65e130bd0596994bce
-Section: 抖音插件
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
-
-Package: com.xuuz.douyinhelper
-Version: 2.2-4
-Architecture: iphoneos-arm64e
-Maintainer: XUUᶻ
-Installed-Size: 17544
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音助手_2.2-4_Roothide.deb
-Size: 6793844
-MD5sum: 1521be9134cc1c720d8f5fb5b9032614
-SHA1: 1973db1587d854ccf785758b582ffc4ee1086f14
-SHA256: 13992b43d76940ff7dc973ccc36c75abcf38898fa97688abdc87d62e91686246
-Section: 抖音插件
-Priority: optional
-Homepage: https://tc.uddz.cc/xuuz
-Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
-Author: XUUᶻ
-Name: 抖音助手-Roothide
-
-Package: com.xuuz.douyinhelper
 Version: 2.2-5
 Architecture: iphoneos-arm64e
 Maintainer: XUUᶻ
@@ -3976,6 +3554,25 @@ Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Name: SuperVIP看片助手-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+
+Package: com.yourepo.llyy.supervip-rootless
+Version: 4.5.7
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 7464
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Filename: debs/冷雨SuperVIP_4.5.7_Roothide.deb
+Size: 2612168
+MD5sum: 3aa728754bc7332c00a5cb68358f482c
+SHA1: 90e06ea4a8aa7e19ca716df9744fafb7b3942df1
+SHA256: b5b84b3065f68774d0fad677cc1bcd8a1a6482c7833545c7166616c1592f62e9
+Section: Tweaks
+Description: 超级影视助手，av无限看，直播破解收费。该插件是付费插件，需要购买激活码才能使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Name: SuperVIP看片助手-Roothide
 
 Package: com.zooah.debrecords
 Version: 1.0.3
