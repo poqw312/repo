@@ -3523,6 +3523,26 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
+Package: ellekit
+Version: 1.2-2
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/依赖Ellekit_1.2-2_Roothide.deb
+Size: 126396
+MD5sum: 1afbee0b218b83bfc2223664929c4772
+SHA1: 141ab45c2aa3ac022d3a454f12fb8015e814d69b
+SHA256: 8deda77be4248977db769a09968199372328a7add149b024a676f24a1cd55187
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器。
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: github.poqw312.anthocrack2
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -4188,6 +4208,22 @@ Description: 隐根越狱依赖插件。无根调整的兼容层。
 Author: roothide
 Name: rootless-compat
 
+Package: rootless-compat
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 300
+Depends: com.roothide.patchloader(>= 0.0.4)
+Filename: debs/依赖rootless-compat_2.0.1_Roothide.deb
+Size: 42288
+MD5sum: cfe83ce9b1e49cf12c51356658661cc8
+SHA1: 0d93fc933fe03bff8a99c3e198d48734a8895df4
+SHA256: 5ce8459ce9b3465e63165fe0dabd702229d9245d7e3a10e212301bff6f437f3c
+Section: 依赖插件
+Description: 隐根越狱依赖插件。无根调整的兼容层。
+Author: roothide
+Name: rootless-compat
+
 Package: run.cheng.autopower
 Version: 1.3.0
 Architecture: iphoneos-arm64e
@@ -4281,6 +4317,26 @@ SHA1: 66458f88d77531fe660d428ede0d0d3f57883b19
 SHA256: 21729fa81297e256b7022bb7ee8273b77f0eec71b7655233869281cc981b7de4
 Section: 依赖插件
 Description: 隐根越狱依赖插件。
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 2.0-51
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3260
+Depends: firmware (>= 15.0)
+Filename: debs/依赖Cephei_2.0-51_Roothide.deb
+Size: 273528
+MD5sum: cc75316aa86a9c949547ab7c76240185
+SHA1: f7255be8cd6513e99ee2f1a8113cf73dac4d4775
+SHA256: d7c3e8a210bb60b6b5cabfde05d9b4c55c9fec747aaaf3932a5e06bb6820138d
+Section: 依赖插件
+Description: 隐根越狱依赖插件。调整支持库
 Tag: role::developer, compatible_min::ios15.0
 Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://chariz.com/get/cephei
