@@ -1753,6 +1753,24 @@ Author: John d_ie
 Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.triggr.html
 Name: Triggr快捷手势-Roothide
 
+Package: com.johndie.triggr
+Version: 2.0.0~beta8
+Architecture: iphoneos-arm64e
+Maintainer: John d_ie
+Installed-Size: 1980
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/Triggr_2.0.0~beta8_Roothide.deb
+Size: 217764
+MD5sum: 09eb09bd298c1f94370272d6c6aa114e
+SHA1: 9c38f2588244d20b4a8bb2ef79557c0a2fc514da
+SHA256: a99045576f79eb361939fe4b52ee1e77ee943fe97cce4423c3ffa375370a2066
+Section: Tweaks
+Description: 类似于Activator手势插件：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。
+Author: John d_ie
+Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.triggr.html
+Name: Triggr快捷手势-Roothide
+
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
