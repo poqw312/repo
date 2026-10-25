@@ -311,6 +311,23 @@ Description: 微信插件收纳管理。
 Author: Mao
 Name: 微信插件管理-Roothide
 
+Package: com.551uk.callbarios16
+Version: 0.0.81.10
+Architecture: iphoneos-arm64e
+Maintainer: 551UK
+Installed-Size: 1032
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/CallBarios16_0.0.81.10_Roothide.deb
+Size: 121364
+MD5sum: 0d96183522ce925104aff5fe7c725dd6
+SHA1: 958848545e73f833b0cde50b94f3061caee8fae6
+SHA256: 933b59090d50134afcc8733eed6a112d6b8e236e938a4fce2490b2f113abca72
+Section: Tweaks
+Description: CallBar iOS 16 — 悬浮窗口可自定义的通话界面，支持锁屏控制、应用内通话、键盘、主题以及可选录音功能。
+Author: 551UK
+Name: CallBar窗口电话-Roothide
+
 Package: com.82flex.singlevpn
 Version: 2.0
 Architecture: iphoneos-arm64e
@@ -1959,19 +1976,18 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko剪切板-Roothide
 
 Package: com.mlgm.kayoko
-Version: 5.0.2
+Version: 5.0.3
 Architecture: iphoneos-arm64e
 Maintainer: mlgm
-Installed-Size: 3516
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 3500
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
 Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: debs/Kayoko_5.0.2_Roothide.deb
-Size: 733920
-MD5sum: b26e7065ecbb3e4b6887df103f9b66a4
-SHA1: 2c87a5034d9bce56332b0ba8b9b5d7706e7d6a99
-SHA256: e236c91e25b273dfa9d73fb65d32947d2c1ba782cba6ac5e606bd0dad4a21ec3
+Filename: debs/Kayoko_5.0.3_Roothide.deb
+Size: 747220
+MD5sum: a2e4e3f17b9a5fdebca564e4ee53c4e0
+SHA1: 6b6435961ec3ac500f5511882690e5fb13942eef
+SHA256: addb60939101a6611e463e212e556ec34973dc32c7a8c582cc2279a7e1618c7e
 Section: Tweaks
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Author: mlgm
@@ -3536,6 +3552,26 @@ Size: 126396
 MD5sum: 1afbee0b218b83bfc2223664929c4772
 SHA1: 141ab45c2aa3ac022d3a454f12fb8015e814d69b
 SHA256: 8deda77be4248977db769a09968199372328a7add149b024a676f24a1cd55187
+Section: 依赖插件
+Priority: optional
+Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器。
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 1.2-3
+Architecture: iphoneos-arm64e
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/依赖ellekit_1.2-3_Roothide.deb
+Size: 127860
+MD5sum: 530d08c271c1a60ea6222e49709d37ec
+SHA1: b72d791be458675998d77ecfbcbd0fdd01f6eeb5
+SHA256: 02d972a8b847842d63b83cea228f5e0f14f0f1e197ff9ceef7cb8982b15d37e5
 Section: 依赖插件
 Priority: optional
 Description: 隐根越狱依赖插件。ElleKit调整注入库和加载器。
