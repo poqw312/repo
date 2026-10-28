@@ -318,13 +318,30 @@ Maintainer: 551UK
 Installed-Size: 1032
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/CallBarios16_0.0.81.10_Roothide.deb
+Filename: debs/CallBar_0.0.81.10_Roothide.deb
 Size: 121364
 MD5sum: 0d96183522ce925104aff5fe7c725dd6
 SHA1: 958848545e73f833b0cde50b94f3061caee8fae6
 SHA256: 933b59090d50134afcc8733eed6a112d6b8e236e938a4fce2490b2f113abca72
 Section: Tweaks
 Description: CallBar iOS 16 — 悬浮窗口可自定义的通话界面，支持锁屏控制、应用内通话、键盘、主题以及可选录音功能。
+Author: 551UK
+Name: CallBar窗口电话-Roothide
+
+Package: com.551uk.callbarios16
+Version: 0.0.81.17
+Architecture: iphoneos-arm64e
+Maintainer: 551UK
+Installed-Size: 1032
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/CallBar_0.0.81.17_Roothide.deb
+Size: 122504
+MD5sum: 5208c3810354d70f5ac341944195c4be
+SHA1: 425acdc152fd1fa973f10800a6f96efb6218f419
+SHA256: 7da4aacb495f70f84093de36f8f37df4b63a7379b6d18da7b981376689ab6ca6
+Section: Tweaks
+Description: CallBar iOS 16 — 悬浮窗口可自定义的通话界面，包含锁屏和应用内通话控制、截图、键盘、主题以及可选的录音功能。
 Author: 551UK
 Name: CallBar窗口电话-Roothide
 
@@ -533,6 +550,24 @@ Description: 爱回收找机筛选助手。可按照/设备类型/系统版本/�
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ahsfilter.png
 Name: AhsFilter爱回收助手-Roothide
+
+Package: com.axs.cpufree
+Version: 5.2.0-72
+Architecture: iphoneos-arm64e
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1492
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/CPUFree温控_5.2.0-72_Roothide.deb
+Size: 141648
+MD5sum: 88fa5e18742d8de22db8ddda87e89bfd
+SHA1: 46e2bee36bc16e59fa4c7660a71dee43c9487a91
+SHA256: 75479c58e41af4d1bc26c7172d85ea254b420fea3b44ca79a7466d6ecb5b1b7f
+Section: Tweaks
+Description: 一款强大的iOS温控管理插件，接管系统温控决策，让iPhone发热时不再被强行降频、降亮度。加入120高刷功能和显示CPU实时占用率。
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Name: CPU Free解除温控-Roothide
 
 Package: com.be-huge.insulation
 Version: 0.1.36
