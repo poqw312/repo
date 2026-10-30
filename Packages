@@ -2046,6 +2046,25 @@ Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko剪贴板-Roothide
 
+Package: com.mlgm.kayoko
+Version: 5.0.4
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3500
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/Kayoko_5.0.4_Roothide.deb
+Size: 745936
+MD5sum: 76be0fef03939a075f612e6ed1d2ffd6
+SHA1: c40f9e4275b5451726ec2ce24b854e525d68fde5
+SHA256: 6fe015d487379edd158038878289185e5921023fdc7e4f0a11f2046eabefed99
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko剪贴板-Roothide
+
 Package: com.mlgm.pulloverx
 Version: 1.4
 Architecture: iphoneos-arm64e
@@ -3664,6 +3683,22 @@ Description: 完全隐藏和密码保护您的应用程序。首次打开插件�
 Author: Jailbreak Tweaker
 Icon: https://repo.cypwn.xyz/packages/AppHide-Rootless/icon.png
 Name: AppHide隐藏应用-Roothide
+
+Package: github.poqw312.bridge
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, ws.hbang.common
+Filename: debs/Bridge手表图标_1.1_Roothide.deb
+Size: 2829060
+MD5sum: 5f31d8c81131bd24fb93d9f4c07eb309
+SHA1: b01f7185df7974100cf0be1c46c08fa495cc6b7d
+SHA256: 2f838d25df5b4124a5914b4a0a2e4931a73df8b1264f6ab60f6da62f281b6ea3
+Section: Tweaks
+Description: 为iOS带来的Apple Watch主屏幕图标体验。控制中心加入快捷切换模式。
+Author: MTAC, ETHN
+Name: Bridge苹果表图标-Roothide
 
 Package: github.poqw312.carbridge13
 Version: 2.0.15
