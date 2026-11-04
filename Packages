@@ -1538,23 +1538,6 @@ Author: iosdump
 Name: 后台一键清理-Roothide
 
 Package: com.iosdump.shellx
-Version: 10.1.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 19492
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/ShellX_10.1.0_Roothide.deb
-Size: 4289792
-MD5sum: c85586bbf71b23a7bf8f13b899174008
-SHA1: 1212c27388f57baca7733549bfb46780a905f2ef
-SHA256: 851080d3c770eac8aba544bdc13611cac77a374d45145a290d7af10cf30dc3cb
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
 Version: 10.2.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -1617,74 +1600,6 @@ Size: 2609092
 MD5sum: be968c7d25213d4024b95876415028be
 SHA1: 752e43e51d85a299b64a1e554d85c1a0fa409fe4
 SHA256: 8db5f28d0bd5e80a5d24268e10c45b85a06e6d53d440ac1ccf756461f79995a4
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 3.0.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 13476
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_3.0.1_Roothide.deb
-Size: 2951568
-MD5sum: d1b7ab8ae881274eafead891c4e7e2ef
-SHA1: fcd483a28e847ccb8c4ec3f6907726bc45836049
-SHA256: b1ad97e65ac688e8a75aff16d54145781723056679a0e4788cc1a7648cb37a28
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 3.1.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 13896
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/Shellx_3.1.1_Roothide.deb
-Size: 3073724
-MD5sum: 1984c1760bd5d091f999d0591160b42d
-SHA1: c4f17a47913696cca65da44a9fbea1938a0955b9
-SHA256: 60b469312ddd35294596f9e7655cb0f9ee8cf570f4e707a3ba2a2b19777af77b
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 3.2.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 14436
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/ShellX_3.2.1_Roothide.deb
-Size: 3206228
-MD5sum: 2e753e7da574b063ec42ad33280dc638
-SHA1: 047ef94baa6493f91aa218cf4f44c3428baa7cb5
-SHA256: c35b680ac8b3094a8635615eefb4edbe9a2989f043e0e9cdc37b66ea5ef16712
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 6.0.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 14628
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/ShellX_6.0.0_Roothide.deb
-Size: 3248552
-MD5sum: 4b5bd8dc644075a16a88cdc1334a0142
-SHA1: 4dd956c17ed334292f09913c3dcb32db47fe7489
-SHA256: 392f09867c08ca99d1864642f7429463785c026a7050e97ed139136ed7e5a6c4
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
 Author: iosdump
@@ -2061,6 +1976,25 @@ SHA1: c40f9e4275b5451726ec2ce24b854e525d68fde5
 SHA256: 6fe015d487379edd158038878289185e5921023fdc7e4f0a11f2046eabefed99
 Section: Tweaks
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Name: Kayoko剪贴板-Roothide
+
+Package: com.mlgm.kayoko
+Version: 5.1.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 3864
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/Kayoko_5.1.1_Roothide.deb
+Size: 815036
+MD5sum: ba3870f130d064619d9320f600a15dc2
+SHA1: 6b2f744aea9a2f7628ecdca9a77b7c62183bb2a9
+SHA256: 61121ef4aad1293822744c56f3edba6771c0992f17ce09ee84eff55fe79e4355
+Section: Tweaks
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改。
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
 Name: Kayoko剪贴板-Roothide
@@ -2456,6 +2390,28 @@ Description: Nice插件依赖组件.
 Author: niceios
 Name: NiceHelper
 Sponsor: niceios
+
+Package: com.opa334.ccsupport
+Version: 1.3.13.1
+Architecture: iphoneos-arm64e
+Maintainer: ichitaso <willfeeltips@gmail.com>
+Installed-Size: 560
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: debs/依赖CCSupport_1.3.13.1_Roothide.deb
+Size: 60384
+MD5sum: ca78e920f75e6586441ec4276b39d95f
+SHA1: 72f19e2a20f7811613e8f1096bce8b7833813ff0
+SHA256: ca20c58da6dee4805cf5a3b4b1e322609c8311a01a446835a3298f1698495504
+Section: 依赖插件
+Description: 隐根越狱依赖插件。支持CC模块的调整！
+Author: opa334
+Depiction: https://cydia.ichitaso.com/depiction/ccsupport.html
+Icon: https://cydia.ichitaso.com/depiction/ccsupport/icon.png
+Name: CCSupport
+Sileodepiction: https://cydia.ichitaso.com/depiction/ccsupport.json
 
 Package: com.opa334.choicy
 Version: 1.5.3-3
@@ -3439,86 +3395,20 @@ Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Name: ZZFilter转转找机-Roothide
 
 Package: com.zooah.debrecords
-Version: 1.0.3
+Version: 1.2.2
 Architecture: iphoneos-arm64e
 Maintainer: zooah212
-Installed-Size: 800
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 1736
 Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/DebRecords_1.0.3_Roothide.deb
-Size: 83124
-MD5sum: df639bfaf5bff6a8df3b3cdd29e3d675
-SHA1: ce8abb8ae305f3894578efa9167fff4df3c285f2
-SHA256: 40d61691a2f38082904be6328d53f6dbef981ad3253ab7773ca0ac64705fdcd0
-Section: Tweaks
-Description: 记录插件安装、升级、卸载，以及 SpringBoard重启、安全模式和设备重启。
-Author: zooah212
-Name: DebRecords-Roothide
-
-Package: com.zooah.debrecords
-Version: 1.0.9
-Architecture: iphoneos-arm64e
-Maintainer: zooah212
-Installed-Size: 880
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/DebRecords_1.0.9_Roothide.deb
-Size: 99620
-MD5sum: 4270039703f35b4fe39a3b73dfe34652
-SHA1: 96b858f6e4a0ab4376b0ae32c33d24038ba120e8
-SHA256: 4bc70c4ed87f2da501045743ee6b43398d924789135fc91dc5c804485d23483c
-Section: Tweaks
-Description: 记录插件调整安装、升级、卸载和备份，以及SpringBoard重启、安全模式进入和设备重启。
-Author: zooah212
-Name: DebRecords-Roothide
-
-Package: com.zooah.debrecords
-Version: 1.1.7
-Architecture: iphoneos-arm64e
-Maintainer: zooah212
-Installed-Size: 1016
-Depends: firmware (>= 15.0), dpkg-repack, preferenceloader
-Filename: debs/Debrecords_1.1.7_Roothide.deb
-Size: 147004
-MD5sum: 8f98960f34ca7509e134a5797db4bc25
-SHA1: 3a4df83598d3605b470cae72dfc165f6e0e53286
-SHA256: b68ea026c4dd372e2635920400dd012ac35d4856389c9cac4e0d45d31a7cc9ef
+Filename: debs/DebRecords_1.2.2_Roothide.deb
+Size: 335228
+MD5sum: a14effd39c9ee390804e18d0b67b0bd0
+SHA1: 8bf731a5e1f8071faadd9cee7c73d74951c72f43
+SHA256: 841693a66e5ae90df9b074469a663c5e2aeee4071495a85f364f8d2a2c59850e
 Section: Tweaks
 Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
 Author: zooah212
-Name: DebRecords-Roothide
-
-Package: com.zooah.debrecords
-Version: 1.1.8
-Architecture: iphoneos-arm64e
-Maintainer: zooah212
-Installed-Size: 1588
-Depends: firmware (>= 15.0), com.zooah.swipedeck, preferenceloader
-Filename: debs/DebRecords_1.1.8_Roothide.deb
-Size: 299716
-MD5sum: f3dda3c699384bb028ee0df7ac6e379c
-SHA1: 3f8127e92a2a6f38be3e662d83b02654238a53dd
-SHA256: 7c99149adad8c7c8140ad605155983a30bbac8ea2c0515b10b0cd1ca5deb4913
-Section: Tweaks
-Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
-Author: zooah212
-Name: DebRecords-Roothide
-
-Package: com.zooah.swipedeck
-Version: 0.3.6-17
-Architecture: iphoneos-arm64e
-Maintainer: zooah212
-Installed-Size: 5364
-Depends: firmware (>= 15.0), preferenceloader
-Filename: debs/SwipeDeck_0.3.6-17_Roothide.deb
-Size: 1925408
-MD5sum: 456f7bad92a39545a2888e70754d16b0
-SHA1: 17c7ddc576eb2d40cb2d91d19ba82a283815c596
-SHA256: b37b83d0d4f5f00a2341d05d8f2537762eeef9bdcf71812752209e0c53c8bc79
-Section: Tweaks
-Description: 从右下角向上滑动即可访问快速操作面板。Resping、微信支付、支付宝、锁屏、计算器等的可定制按钮。
-Author: zooah212
-Name: SwipeDeck快捷助手-Roothide
+Name: DebRecords插件记录-Roothide
 
 Package: dev.theos.orion14
 Version: 1.0.1-3+debug
@@ -3954,6 +3844,23 @@ Section: 美化插件
 Description: 29种款式图标遮罩合集，需要用到SnowBoard主题插件、SnowBoard Dock栏拓展、SnowBoard Icon Effects拓展和SnowBoard icon Masks拓展模块插件才能生效。
 Author: Acreson
 Name: 29款图标遮罩合集-Roothide
+
+Package: im.mjh.doleo.roothide
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 1040
+Depends: mobilesubstrate, dpkg
+Filename: debs/Doleo_1.0.3_Roothide.deb
+Size: 232576
+MD5sum: 8e7b4c3d5a60992be624521502c8a01c
+SHA1: 96b2b2f8e8e727a18fee76c9b403fe2d920700df
+SHA256: ef1fd7fc40cf4cd7b3a312f85c53592eec705fdd9ce4c92c569e55681ef8dcbe
+Section: Tweaks
+Description: 在Sileo中下载并保留本地DEB插件包。安装后默认生效，在插件获取/更改左侧有个下载按钮。
+Author: Junhong
+Icon: file:///usr/share/doleo/icon.png
+Name: Doleo-Roothide
 
 Package: iya.banana.multitask
 Version: 0.1.2
