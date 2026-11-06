@@ -652,27 +652,6 @@ Description: 由toufu适配Roothide上的iOS17应用程序分屏多任务处理�
 Author: c1d3r, toufu
 Name: PullOver Pro应用分屏-Roothide
 
-Package: com.chloe.physpringboard
-Version: 1.9.23
-Architecture: iphoneos-arm64e
-Maintainer: Chloe
-Installed-Size: 584
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.chloe.gravitation17
-Replaces: com.chloe.gravitation17
-Provides: com.chloe.gravitation17
-Filename: debs/PhySpringBoard_1.9.23_Roothide.deb
-Size: 84200
-MD5sum: dbe249e3bf435eb01c45262b0ed4bb87
-SHA1: 90ec8f9a38cc0aa63915827c34925574e43a7573
-SHA256: 0250205e80cb5d50e258e6fc5ec987a3dbe1dcd5b6cb2ccb2b7f6b9ba42f26d6
-Section: Tweaks
-Description: 通过可配置的物理效果让SpringBoard图标自由晃动。
-Author: Chloe
-Icon: file:///var/jb/Library/PreferenceBundles/PhyspringboardPrefs.bundle/icon.png
-Name: Physpringboard图标失重-Roothide
-
 Package: com.crctdd.memtrim
 Version: 0.0.2
 Architecture: iphoneos-arm64e
