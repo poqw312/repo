@@ -941,7 +941,7 @@ Architecture: iphoneos-arm64e
 Maintainer: doimty
 Installed-Size: 108
 Depends: mobilesubstrate
-Filename: debs/120高刷Promotion_1.0.11_Roothide.deb
+Filename: debs/Promotion_1.0.11_Roothide.deb
 Size: 16776
 MD5sum: 0f56ea59bbc39a62c60bcf28dc317bff
 SHA1: 1bd57bb7d08cd78c18e4c29ce2d84a4db60fc9c5
@@ -2115,23 +2115,6 @@ Description: 对于双SIM卡设备，在控制中心添加一个快捷关闭或�
 Author: Netskao
 Name: CCSIM-Roothide
 
-Package: com.netskao.disablebottombarlrswipe
-Version: 1.1-2
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/禁用底部横条切换_1.1-2_Roothide.deb
-Size: 5940
-MD5sum: aae4fb443942df4f855531429dd7f14b
-SHA1: 513c3f9e976019b6f68f73dccf52749f81a7f6f2
-SHA256: a60d563d4c979e15ca912e2685f053777742b0c3b2342ab0a66e5c682b945d38
-Section: Netskao-Tweaks
-Description: 禁用底部横条向左/向右滑动切换应用。
-Author: Netskao
-Name: DisableBottomBarLRSwipe-Roothide
-
 Package: com.netskao.disableshuttersound
 Version: 1.1-2
 Architecture: iphoneos-arm64e
@@ -2517,22 +2500,6 @@ Description: 隐根越狱依赖插件。
 Tag: role::developer
 Author: opa334
 Name: libundirect
-
-Package: com.opa334.trollstorelite
-Version: 2.1.1
-Architecture: iphoneos-arm64e
-Maintainer: opa334
-Installed-Size: 8140
-Depends: ldid
-Filename: debs/TrollStoreLite_2.1.1_Roothide.deb
-Size: 2217920
-MD5sum: 95c82d6476df89cc41b01fc9096ad6d0
-SHA1: 53555696ab70791bc8d0d237e5c0818f374fc60c
-SHA256: 6ffddfe4228f8f51d55ea524c584afe8ec76d7c55d0d27d09a16693a5d3244ad
-Section: Tweaks
-Description: 将TrollStore增强版功能全部转移到TrollStore Lite。
-Author: opa334
-Name: TrollStore Lite(RootHide)
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1-2
@@ -3138,6 +3105,22 @@ SHA1: ceeb377dcb4de39fc12a890063a5b4a9f1ed3a96
 SHA256: 63140f896c01c768683ad6e7d1637ec954ad4cba6414445ae52544f555576268
 Section: 微信插件
 Description: 微信主题盒子
+Author: Mao
+Name: 主题盒子-Roothide
+Sponsor: admin@25mao.com
+
+Package: com.tencent.themebox
+Version: 3.0.8
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/微信主题盒子_3.0.8_Roothide.deb
+Size: 9758364
+MD5sum: 38d160394dbde49f1c39bf23ce452e43
+SHA1: be9a47d32e814559b59b38bdf3f62827b80164a7
+SHA256: e6e4ed0a2d10567c56c4d9314c08bfaf0d4465ff1e9f8999e6d0c80844b0f54c
+Section: 微信插件
+Description: 微信主题盒子。
 Author: Mao
 Name: 主题盒子-Roothide
 Sponsor: admin@25mao.com
