@@ -311,6 +311,23 @@ Description: 微信插件收纳管理。
 Author: Mao
 Name: 微信插件管理-Roothide
 
+Package: com.551uk.callbarios16
+Version: 0.0.81.18
+Architecture: iphoneos-arm64e
+Maintainer: 551UK
+Installed-Size: 1032
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/CallBar_0.0.81.18_Roothide.deb
+Size: 125276
+MD5sum: 1531da46029aa0d0f07278db64cc8e7a
+SHA1: 7e50ed30d0fe0eb6b7d51700b10176afcc9c6915
+SHA256: d5f7cf5320d50d77a12bf049f90b2e56fc6be27ace494627a6538d5ddebd22b2
+Section: Tweaks
+Description: CallBar iOS 16——悬浮窗口可自定义通话界面，支持锁屏和App通话控制、截图、拨号盘、主题以及可选录音。
+Author: 551UK
+Name: CallBar窗口电话-Roothide
+
 Package: com.82flex.singlevpn
 Version: 2.0
 Architecture: iphoneos-arm64e
@@ -651,6 +668,27 @@ Priority: optional
 Description: 由toufu适配Roothide上的iOS17应用程序分屏多任务处理。
 Author: c1d3r, toufu
 Name: PullOver Pro应用分屏-Roothide
+
+Package: com.chloe.physpringboard
+Version: 1.9.23
+Architecture: iphoneos-arm64e
+Maintainer: Chloe
+Installed-Size: 584
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.chloe.gravitation17
+Replaces: com.chloe.gravitation17
+Provides: com.chloe.gravitation17
+Filename: debs/PhySpringBoard_1.9.23_Roothide.deb
+Size: 84200
+MD5sum: dbe249e3bf435eb01c45262b0ed4bb87
+SHA1: 90ec8f9a38cc0aa63915827c34925574e43a7573
+SHA256: 0250205e80cb5d50e258e6fc5ec987a3dbe1dcd5b6cb2ccb2b7f6b9ba42f26d6
+Section: Tweaks
+Description: 通过可配置的物理效果让SpringBoard图标自由晃动。
+Author: Chloe
+Icon: file:///var/jb/Library/PreferenceBundles/PhyspringboardPrefs.bundle/icon.png
+Name: Physpringboard图标失重-Roothide
 
 Package: com.crctdd.memtrim
 Version: 0.0.2
@@ -1683,38 +1721,19 @@ Author: iOSign
 Name: 全屏相机-Roothide
 
 Package: com.johndie.triggr
-Version: 2.0.0~beta7.1
+Version: 2.0.0
 Architecture: iphoneos-arm64e
-Maintainer: John d_ie
-Installed-Size: 1964
-Pre-Depends: rootless-compat(>= 0.9)
+Maintainer: Jond-ie
+Installed-Size: 2080
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
-Filename: debs/Triggr_2.0.0~beta7.1_Roothide.deb
-Size: 214224
-MD5sum: f81710a88774cd0ea8b29507690e69bf
-SHA1: 0f86076487bee6f355b34926204de03833c1c473
-SHA256: a16bb989524dc157f44367757d4f437bb8c06982e0c6530b33728b4abb3953a1
+Filename: debs/Triggr_2.0.0_Roothide.deb
+Size: 241684
+MD5sum: ff64330866689194c32f1e3c1e827f57
+SHA1: c6be721e3b95f3b1ebb596c6829ab71dd25df82c
+SHA256: 43348366d0f50c39c7e1526a2f2fa983a22217b7995357f79b70eb2de23c587c
 Section: Tweaks
-Description: 类似于Activator插件：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。
-Author: John d_ie
-Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.triggr.html
-Name: Triggr快捷手势-Roothide
-
-Package: com.johndie.triggr
-Version: 2.0.0~beta8
-Architecture: iphoneos-arm64e
-Maintainer: John d_ie
-Installed-Size: 1980
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
-Filename: debs/Triggr_2.0.0~beta8_Roothide.deb
-Size: 217764
-MD5sum: 09eb09bd298c1f94370272d6c6aa114e
-SHA1: 9c38f2588244d20b4a8bb2ef79557c0a2fc514da
-SHA256: a99045576f79eb361939fe4b52ee1e77ee943fe97cce4423c3ffa375370a2066
-Section: Tweaks
-Description: 类似于Activator手势插件：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。
-Author: John d_ie
+Description: 让任意按钮、手势或事件执行你想要的任何操作。Activator已针对Rootless和RootHide越狱环境下的iOS15至27重新构建：支持按钮、屏幕边缘、状态栏、手势、来电、音乐、Wi-Fi和一天中的时间，并支持条件与序列。
+Author: Jond-ie
 Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.triggr.html
 Name: Triggr快捷手势-Roothide
 
