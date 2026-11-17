@@ -591,12 +591,12 @@ Maintainer: doimty
 Installed-Size: 780
 Depends: firmware (>= 15.0)
 Filename: debs/insulation解除温控_0.1.38_Roothide.deb
-Size: 57120
-MD5sum: 034cfb013950a4c6d45bde1520aa2d7e
-SHA1: a6b4415c0de499100e30ecf910fbedbe454a5473
-SHA256: 7ce5596c1ecc6d6e6cbfa005f093e84644bd1305ec38d7e80f35e25ea2539604
+Size: 56992
+MD5sum: 4ad1e396534c5d67cdef3355feac8da3
+SHA1: 984de0149f614e050343ec4ad4796d03cd81245d
+SHA256: 469bd0212875172149130ceabc179f86d88c5bb4827f111063d02dff76fe04c5
 Section: Tweaks
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Description: 解除温控，三种温控切换模式：(原生温控)-(低功耗)-(满功率)。
 Author: be-huge & doimty
 Name: insulation解除温控-Roothide
 
@@ -1265,53 +1265,19 @@ Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Name: DYYY抖音增强-Roothide
 
 Package: com.huayuarc.sneakycam
-Version: 2.1.3
+Version: 2.1.2
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
-Installed-Size: 612
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Filename: debs/SneakyCam_2.1.3_Roothide.deb
-Size: 102304
-MD5sum: bd422ebf0bcbb173fd727cf36cb7a952
-SHA1: d95d198d79dd624f416cb823656f3bd46161764c
-SHA256: 66ed38b7be41d601af682bb90e839b4ffcbdb3c03dcfeb98d95e42f9c8b5cfee
-Section: Tweaks
-Description: 一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心增加一键启用/关闭模块开关。视频或者照片默认保存路径：/var/mobile/Downloads
-Author: Huayuarc,Spark
-Icon: https://huayuarc.github.io/icon/SneakyCam.png
-Name: SneakyCam隐私相机-Roothide
-
-Package: com.huayuarc.sneakycam
-Version: 2.1.3-8
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 628
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Filename: debs/SneakyCam_2.1.3-8_Roothide.deb
-Size: 108400
-MD5sum: 25b3a9f4ed152e58e56c4a5f9e6c65b2
-SHA1: 50c49fc05cf536a88fdbe76ade9e8f71e97295d8
-SHA256: a7f83f99c3062a82bb4c96769d23abfeec8d64f3fdbd0600935831aee532aef5
-Section: Tweaks
-Description: 一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心添加一键启用/关闭模块。视频或者照片默认保存路径：/var/mobile/Downloads
-Author: Spark
-Icon: https://huayuarc.github.io/icon/SneakyCam.png
-Name: SneakyCam隐私相机-Roothide
-
-Package: com.huayuarc.sneakycam
-Version: 2.2.3
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 1424
+Installed-Size: 448
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/SneakyCam_2.2.3_Roothide.deb
-Size: 122132
-MD5sum: 639e22d0a1b2d062606da6fc5d46b0b3
-SHA1: 3ad411d2d7edb1e875da4b944ef868bca755e86f
-SHA256: fa74d7301840e99cc3e61cd382a54d6dc247aa1d075ccba2c900ce89566e8750
+Filename: debs/SneakyCam_2.1.2_Roothide.deb
+Size: 123936
+MD5sum: 26f954b588283386074354829be14205
+SHA1: a6873ee1fe90ebf0167acf65636e87eb89485748
+SHA256: 35b8505a8fc4c5981f8c12f6d22e389c1400afdd98ee3c2ace582f614b7469e0
 Section: Tweaks
-Description: 一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心增加一键启用/关闭模块。视频或者照片默认保存路径：/var/mobile/Media/Camera
-Author: Spark
+Description: 支持锁屏拍照/录像、录像声音、跨设备摄像头回退、会话中断恢复和多代音量键API。控制中心新增快捷启用/关闭模块。视频或照片默认保存到系统相册，也可保存至/var/mobile/Media/Camera。
+Author: Huayuarc,Spark
 Icon: https://huayuarc.github.io/icon/SneakyCam.png
 Name: SneakyCam隐私相机-Roothide
 
