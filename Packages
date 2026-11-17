@@ -1271,10 +1271,10 @@ Maintainer: Huayuarc
 Installed-Size: 448
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: debs/SneakyCam_2.1.2_Roothide.deb
-Size: 123936
-MD5sum: 26f954b588283386074354829be14205
-SHA1: a6873ee1fe90ebf0167acf65636e87eb89485748
-SHA256: 35b8505a8fc4c5981f8c12f6d22e389c1400afdd98ee3c2ace582f614b7469e0
+Size: 123832
+MD5sum: 56ead3d2e2c9f7d7332592efa1fa3ee2
+SHA1: f0d6d92bf4c7789afa26eec5e1aa419a69ad0fff
+SHA256: 500183dbec6c89bcd317a1cc755d4519bc46dc90cdac6434330824cd3711c536
 Section: Tweaks
 Description: 支持锁屏拍照/录像、录像声音、跨设备摄像头回退、会话中断恢复和多代音量键API。控制中心新增快捷启用/关闭模块。视频或照片默认保存到系统相册，也可保存至/var/mobile/Media/Camera。
 Author: Huayuarc,Spark
@@ -3144,6 +3144,24 @@ Section: Tweaks
 Description: 适用于iPhone、iPad、iPod Touch的文件管理器。此版本是隐根专用版。
 Author: TIGI Software
 Name: Filza文件管理器-Roothide
+
+Package: com.tigisoftware.filza64bit
+Version: 5.0.1-4
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Installed-Size: 32452
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.mlgm.filzapatch
+Filename: debs/Filza_5.0.1-4_Roothide.deb
+Size: 12442832
+MD5sum: 33b41dcdf9aeb60eea0318c1c53cd71e
+SHA1: ef9d3e5f4880df805d0e365a29c2f6cc1fc443aa
+SHA256: 7212600488d30569c84174f94478ad8790032c9134dc98d1f6b5efeb30966df5
+Section: Tweaks
+Description: 适用于iPhone、iPad、iPod Touch的文件管理器。支持iOS15+。 此版本是隐根专用版。
+Author: TIGI Software
+Name: Filza File Manager文件管理器-Roothide
 
 Package: com.tomaszpoliszuk.applibrarydisabler
 Version: 1.1.1
