@@ -479,6 +479,24 @@ Description: AFN是一个微信插件功能集合体。装完该插件其他微�
 Author: AFN Team
 Name: AFN(微信插件)-Roothide
 
+Package: com.afn
+Version: 3.6.2
+Architecture: iphoneos-arm64e
+Maintainer: AFN Team
+Installed-Size: 8004
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.tencent.xin.dkhelper, com.dkjone.dkhelper, com.afn.helper, com.xiaoxin.helper
+Filename: debs/微信AFN_3.6.2_Roothide.deb
+Size: 2743800
+MD5sum: d604992ad85f73f3a7a6973064b78766
+SHA1: b333a2fb46cfaf63e6efac7eb8fb93da5a1d087c
+SHA256: d1a4e96e690f27e44800d8260c2d3fa6df51d1f6ee93a536e3f18fa439bdb814
+Section: 微信插件
+Description: 微信插件集合体。一个插件涵盖全部功能。
+Author: AFN Team
+Name: AFN(微信插件)-Roothide
+
 Package: com.amywhile.aemulo
 Version: 1.2.5
 Architecture: iphoneos-arm64e
@@ -3163,6 +3181,24 @@ Description: 适用于iPhone、iPad、iPod Touch的文件管理器。支持iOS15
 Author: TIGI Software
 Name: Filza File Manager文件管理器-Roothide
 
+Package: com.tigisoftware.filza64bit
+Version: 5.0.1-6
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Installed-Size: 32472
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.mlgm.filzapatch
+Filename: debs/Filza_5.0.1-6_Roothide.deb
+Size: 12449708
+MD5sum: 9f6c3c99eee18dd68de612bbb7239454
+SHA1: b5e257a2d119d296f570fd00b5eba97e6084cff3
+SHA256: 67a4537acba95c30ddddc42f1035dd85321de7f89334ad8cf031ec54b919a983
+Section: Tweaks
+Description: 适用于iPhone、iPad、iPod Touch的文件管理器。 此版本是隐根专用版。
+Author: TIGI Software
+Name: Filza File Manager文件管理器-Roothide
+
 Package: com.tomaszpoliszuk.applibrarydisabler
 Version: 1.1.1
 Architecture: iphoneos-arm64e
@@ -3812,23 +3848,6 @@ Description: 在Sileo中下载并保留本地DEB插件包。安装后默认生�
 Author: Junhong
 Icon: file:///usr/share/doleo/icon.png
 Name: Doleo-Roothide
-
-Package: iya.banana.multitask
-Version: 0.1.2
-Architecture: iphoneos-arm64e
-Maintainer: Banana
-Installed-Size: 2348
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Filename: debs/一芽分屏_0.1.2_Roothide.deb
-Size: 388972
-MD5sum: afb599abbc2d046d5ca80c063f858694
-SHA1: 1442d95db5bc307e50a8044b40cbb2196423c479
-SHA256: 065cd4303dfbe06b62755796a21f0887de37b60cf2d202d00258e0adbf109e1c
-Section: Tweaks
-Description: 适用于iOS15-26的可调节分屏、浮动窗口和多任务处理。
-Author: Banana
-Name: 一芽分屏-Roothide
 
 Package: jp.akusio.backgrounderaction15
 Version: 0.1.0
