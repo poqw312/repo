@@ -113,12 +113,12 @@ Maintainer: 577FKJ
 Installed-Size: 4632
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: debs/WatchFix手表配对_2.0.4_Roothide.deb
-Size: 617272
-MD5sum: 6674c016417b2d8480b585a3b34261f8
-SHA1: 4590ed8af43f105ac3019590bbe6a54f8e57d618
-SHA256: 19f47b2973c02f2c02b8fbb06e89939d24717a4bef64535479f622fa5e023a0e
+Size: 616928
+MD5sum: b9689b3cf785abc84398d936b16d6684
+SHA1: cc61526c2cd2912e25c97c6076816d57b98550d7
+SHA256: 306be81ee6a54c51fe092e8521afcbbad8bc22d610b5b3a6cfe20721466d3acb
 Section: Tweaks
-Description: 修复Apple Watch和老系统设备配对连接问题。
+Description: 修复Apple Watch配对连接问题。
 Author: 577FKJ
 Name: WatchFix手表配对-Roothide
 
