@@ -570,6 +570,24 @@ Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Name: CPU Free解除温控-Roothide
 
+Package: com.axs.snapper4
+Version: 5.2.0-62
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhini000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag, com.iosdump.shellx
+Filename: debs/Snapper4_5.2.0-62_Roothide.deb
+Size: 394324
+MD5sum: 87b58dcc3dbc0394e6c0bf824d57a2a4
+SHA1: ae8bfd4c253d7ceedd010db34964fc5352585268
+SHA256: 29525ca8663b7cc0f6b0211abbc5e507e6267de5d6efdf0189322dbab511241b
+Section: Tweaks
+Description: iOS截图工具，支持区域裁剪、标注、翻译、AI服务等。
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Name: Snapper 4智能截图-Roothide
+
 Package: com.be-huge.insulation
 Version: 0.1.36
 Architecture: iphoneos-arm64e
@@ -923,23 +941,6 @@ Author: 妖刀
 Name: CCLess++控制中心(RootHide)
 
 Package: com.dao.milkywayreborn
-Version: 1.2
-Architecture: iphoneos-arm64e
-Maintainer: MilkyWay Reborn
-Installed-Size: 308
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.milkyway.reborn
-Filename: debs/Milkywayreborn_1.2_Roothide.deb
-Size: 47312
-MD5sum: 26977d16cc2a83c8135ad86ee7acf9ab
-SHA1: ea32caa2922f262bed1384daa37ba902e9a360eb
-SHA256: 0a54df26ad12c99cd0a158e9098a0d5407ddfa2c4cc3cfc12aa1ca99c05f844e
-Section: Tweaks
-Description: 窗口化多任务，也就是分屏；无设置，后台界面按住应用程序卡片2秒或者长按App图标选择窗口分屏，即可将此应用程序窗口化/分屏；按住顶部右侧箭头按钮滑动可以对窗口进行缩放调节，由 akusio 基于 MilkyWay2现代化重写；34306优化适用于iOS17–18和26。
-Author: MilkyWay Reborn
-Name: MilkyWayReborn-Roothide
-
-Package: com.dao.milkywayreborn
 Version: 1.3
 Architecture: iphoneos-arm64e
 Maintainer: MilkyWay Reborn
@@ -1148,6 +1149,22 @@ Section: Tweaks
 Description: 多巴胺越狱环境下Flex3无法对应用进行解析，该插件可以独立对砸壳后的iPA软件包进行解析，点击"Select File"选择你要解析的iPA包(自行砸壳)，然后点击"Execute"即可开始解析，解析成功后会提示解析文件的存放路径。
 Author: DXcool223
 Name: Flex3应用解析-Roothide
+
+Package: com.ginsu.comet
+Version: 2.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Ginsu
+Installed-Size: 1688
+Depends: firmware (>= 14.0)
+Filename: debs/依赖comet_2.0.1_Roothide.deb
+Size: 196536
+MD5sum: 7337542c840a0a45dff240868e62502b
+SHA1: 9bdb1f10b9873aa4cfe9508d15404eda239a1b09
+SHA256: 5c398e536a8d1cc5a9db55d023e1c5a56254927e51ce0a42567c516ad121faef
+Section: 依赖插件
+Description: 隐根越狱依赖插件。
+Author: Ginsu
+Name: Comet
 
 Package: com.huami.WCPulse
 Version: 1.7-5
@@ -1850,24 +1867,6 @@ Author: huami&Lxcloud
 Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
 Name: 微信增强-Roothide
 Sileodepiction: https://qaq.040207.xyz/sileo.json
-
-Package: com.m4fn3.k2gecamen
-Version: 1.1.0
-Architecture: iphoneos-arm64e
-Maintainer: mafu
-Installed-Size: 8928
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
-Filename: debs/K2geCamen隐私相机_1.1.0_Roothide.deb
-Size: 2987192
-MD5sum: ae47d8238e5d6a8cfc40029445e37cbf
-SHA1: d47af7b6d8c3a72ae8a4a2990177a76534af59fb
-SHA256: 3c41f72d7a744cc5a30e8b889efe67698ce0782cf479ad819fc41f29697c1318
-Section: Tweaks
-Description: 新版隐私相机，该插件是付费插件，需要购买激活码才能使用。貌似5.99刀可激活两台设备。
-Author: mafu
-Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
-Name: K2gecamen隐私相机-Roothide
 
 Package: com.mikey820.pleasedontstopthemusic
 Version: 2.2.0
@@ -2678,22 +2677,6 @@ Dev: 君临
 Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
 Name: WCRefine(微信插件)-Roothide
 
-Package: com.roothide.lockdown
-Version: 2.0
-Architecture: iphoneos-arm64e
-Maintainer: roothide
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Lockdown_2.0_Roothide.deb
-Size: 5412
-MD5sum: 7a947eb00eeb7522ddf166627ac63fc8
-SHA1: 4ab8a00cc2e11a8e4f35858ea0f910b79a5f97ec
-SHA256: 2aeb212e6ac09e14c269126966442031903074de5d7e55c6f37e21d2d084151b
-Section: Tweaks
-Description: 让你的设备免受DarkSword/Coruna漏洞攻击。WebContent流程的JSC安全强化。配置JavaScriptCore选项，以消除漏洞原语（addrof/fakeobj、JIT类型混淆、GC UAF）。默认启用！
-Author: roothide
-Name: Lockdown-Roothide
-
 Package: com.roothide.patcher
 Version: 2.1.5
 Architecture: iphoneos-arm64e
@@ -2785,24 +2768,6 @@ Description: 让应用程序保持在后台运行。
 Author: sergy, Korboy <korboybeats@gmail.com>
 Icon: https://repo.cypwn.xyz/packages/Immortalizer-Rootless/icon.png
 Name: Immortalizer真后台-Roothide
-
-Package: com.shtm.flexibleexpression
-Version: 1.2.0
-Architecture: iphoneos-arm64e
-Maintainer: SHTM
-Installed-Size: 4324
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/FlexibleExpression灵动空间_1.2.0_Roothide.deb
-Size: 3644700
-MD5sum: 638d81bde343126d6d4852aeb3b04995
-SHA1: 60087cb35c151a3aeb0834d66ec02507129d7f8a
-SHA256: 4bdbadd4cd602ff9c464466ab84f8eef2a699c2b9387cc6af7bea5b1325c861a
-Section: 美化插件
-Description: 灵动空间，灵动岛不再枯燥！新增锁屏动画
-Author: SHTM
-Icon: https://orig.shtm.best/descriptions/com.shtm.flexibleexpression/FlexibleExpression.png
-Name: FlexibleExpression灵动岛-Roothide
 
 Package: com.sini921.atria
 Version: 1.4.1-6
@@ -3190,10 +3155,10 @@ Depends: firmware (>= 15.0)
 Recommends: zip, tar
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.mlgm.filzapatch
 Filename: debs/Filza_5.0.1-6_Roothide.deb
-Size: 12449708
-MD5sum: 9f6c3c99eee18dd68de612bbb7239454
-SHA1: b5e257a2d119d296f570fd00b5eba97e6084cff3
-SHA256: 67a4537acba95c30ddddc42f1035dd85321de7f89334ad8cf031ec54b919a983
+Size: 12449944
+MD5sum: b0fc86e9fa13641af419fc5fa5d39b63
+SHA1: 8afafc151726036b1ebec1cf5aaf1cb07ac0cbfa
+SHA256: 22c8c9d9289d79ff72d70fb7611e58b11d7f15c2c19e46b8c0ca880468113c89
 Section: Tweaks
 Description: 适用于iPhone、iPad、iPod Touch的文件管理器。 此版本是隐根专用版。
 Author: TIGI Software
@@ -3782,6 +3747,23 @@ Section: Tweaks
 Description: 屏幕录制时显示触摸轨迹。
 Author: dvntm
 Name: ShowMyTouches触摸轨迹-Roothide
+
+Package: github.poqw312.stella
+Version: 1.1.5
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: debs/Stella_1.1.5_Roothide.deb
+Size: 359124
+MD5sum: f25626abfb1140edc2d839217270dd57
+SHA1: 2bbcf7e468ad6d3e0afd34538883e8e4ae96497c
+SHA256: f623d207ecce0c40e963e2fe88912cc7f6238297888d35363f5b10abbf033020
+Section: Tweaks
+Description: 锁屏和主屏幕桌面下雪特效！
+Author: yan
+Icon: https://yandevelop.github.io/assets/icons/stella/icon.png
+Name: Stella雪花特效-Roothide
 
 Package: github.poqw312.teleport
 Version: 1.1
