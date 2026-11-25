@@ -1262,25 +1262,6 @@ Author: huami
 Name: WCallRecorder微信录音-Roothide
 
 Package: com.huami.dyyy
-Version: 2.3-0
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 3112
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/抖音DYYY_2.3-0_Roothide.deb
-Size: 679092
-MD5sum: 5fe8e6fcd1635594fad7ec4f5283db67
-SHA1: a76f0e70e5d827f64edc3b2769c023c3938f8a83
-SHA256: 148723c547e8d86ba39c97f9ffe81dd1f636da2b5a43535ac859c1d093c9ea01
-Section: 抖音插件
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
-Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Name: DYYY抖音魔术师-Roothide
-
-Package: com.huami.dyyy
 Version: 2.3-0-19
 Architecture: iphoneos-arm64e
 Maintainer: huami
@@ -1556,74 +1537,6 @@ Section: Tweaks
 Description: 后台一键清理，无图标无设置，激活卡片后台会出现清理图标，点击即可一键清除全部后台程序，可下拉应用锁定清理白名单。支持iOS14-17
 Author: iosdump
 Name: 后台一键清理-Roothide
-
-Package: com.iosdump.shellx
-Version: 10.2.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 19916
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/ShellX_10.2.0_Roothide.deb
-Size: 4387900
-MD5sum: 438053f34547b2f86fcc25bea9d6400f
-SHA1: bc5fe9f464e4a4bcb06457bd569307c7da01a0f5
-SHA256: 138806067a98ed818bfba30240d2cbc70f4fbe683cc1f47fdc07c414619d415b
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 11.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 20244
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/ShellX_11.0_Roothide.deb
-Size: 4477652
-MD5sum: e43445f0969df2b30c650d0515f37ec5
-SHA1: 6dc290e5e5ed9cf5f8ef6b97204c8efdd572b386
-SHA256: ed4e9a72bab91a1af1c69028909922f376015dda0137c397a5fd90fb64629432
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 11.2
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 12292
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/ShellX_11.2_Roothide.deb
-Size: 2721664
-MD5sum: eb2f9ea930d769775782670dd5c62a87
-SHA1: d71c28799f96ec7ccaa097acff1caa9bb5fc36d5
-SHA256: 8484a92964a6edd9dc3ad45fa2d83b59b68076605644beeb45f8cf06abc169c7
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
-
-Package: com.iosdump.shellx
-Version: 11.3
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 11452
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
-Filename: debs/ShellX_11.3_Roothide.deb
-Size: 2609092
-MD5sum: be968c7d25213d4024b95876415028be
-SHA1: 752e43e51d85a299b64a1e554d85c1a0fa409fe4
-SHA256: 8db5f28d0bd5e80a5d24268e10c45b85a06e6d53d440ac1ccf756461f79995a4
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱。
-Author: iosdump
-Name: SHELLX套壳截图-Roothide
 
 Package: com.iosdump.trollcmtweak
 Version: 1.1.5
@@ -2552,6 +2465,26 @@ Description: 通知角标颜色。跟随应用图标颜色自适应变色！
 Author: P2KDev
 Name: Tinge角标颜色-Roothide
 
+Package: com.p2kdev.waqt
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 448
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/waqt_1.4.3_Roothide.deb
+Size: 35340
+MD5sum: 0dbefd4a7b0c2707251d690d1600208d
+SHA1: 4ec19d4ea67adc4fa5ad015b0bfa9c33c84b6066
+SHA256: 3c0e02194b57d41046a7e76a957ca4a5f43068e319e63471b14ccff6e3715de3
+Section: Tweaks
+Description: 免费版的状态栏双行日期！
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.waqt
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.waqt/icon.png
+Name: Waqt双行日期-Roothide
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.waqt.json
+
 Package: com.pingfan.wechat
 Version: 2.2-8
 Architecture: iphoneos-arm64e
@@ -3357,6 +3290,25 @@ Size: 6881000
 MD5sum: 9ea8474db9e13a9c593bfd6c810a1009
 SHA1: 3f885d9d9edc9844c67f270996107be56bd49dc0
 SHA256: cd3132bdd5ece4a2750cab488ba58307f9b7be0e2169434310fc5ff0734ed416
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
+Package: com.xuuz.douyinhelper
+Version: 2.3-1
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.3-1_Roothide.deb
+Size: 6886136
+MD5sum: 30cc24cc94141c37a9143f636a221f6b
+SHA1: 8d56263218ea8c4e4cbb6a3481f4b4346d32af67
+SHA256: edeebad2242563b4d4ce1374b1dea901d82d9248873b51ae6913c96ec8bc1c29
 Section: 抖音插件
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
