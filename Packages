@@ -588,6 +588,23 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 Name: Snapper 4智能截图-Roothide
 
+Package: com.axs.zzfilter
+Version: 5.2.0-8
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/转转找机_5.2.0-8_Roothide.deb
+Size: 62300
+MD5sum: b6fbea447fd50efb69fa955f6781f73a
+SHA1: a14b23a5bb5d8273992e43592dbcd1c80a12497e
+SHA256: f4e7ca4616aa13866a938b5fdda33d87eaed3e71e26cdb22d9fbca819c14b74e
+Section: Tweaks
+Description: 转转筛选助手：1.先输入需要搜索的商品名称，进入页面后长按悬浮球自动抓取数据。2.按机型/电池/系统版本/成色/内存筛选。3.支持单条复制链接、单条打开详情页和一键复制所有链接。
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Name: ZZFilter转转找机-Roothide
+
 Package: com.be-huge.insulation
 Version: 0.1.36
 Architecture: iphoneos-arm64e
@@ -1725,26 +1742,6 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/ghallownetwork.html
 Name: Allow Network-Roothide
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/ghallownetworksileo
-
-Package: com.lenglengyu.vpnplus-rootless
-Version: 3.2.0
-Architecture: iphoneos-arm64e
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 3772
-Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
-Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
-Filename: debs/VPN助手_3.2.0_Roothide.deb
-Size: 1230500
-MD5sum: cc74a54b03f98159614519e41d4e8846
-SHA1: 7fc4e0dfbbb4a500152807471734af9a9b4341bc
-SHA256: 7c4eb6ac409f0488a7ff63c31dd78507fc0edd34b7e6b766f0fcd139066709c3
-Section: Tweaks
-Description: 各种梯子破解工具，仅供会员使用。该插件是付费插件，需要购买激活码才能使用。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
-Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
-Name: VPN助手-Roothide
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
 
 Package: com.local.carbridge17
 Version: 0.7.2
@@ -3315,23 +3312,6 @@ Homepage: https://tc.uddz.cc/xuuz
 Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
 Author: XUUᶻ
 Name: 抖音助手-Roothide
-
-Package: com.yourepo.axs.zzfilter
-Version: 5.2.0-8
-Architecture: iphoneos-arm64e
-Maintainer: Axs <qiaozhani000@163.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/转转找机_5.2.0-8_Roothide.deb
-Size: 62368
-MD5sum: e8bf0633af9803ff9e934a34326b7db1
-SHA1: 45c27834fee3f7e11ea30699feb15db383b52dea
-SHA256: 841481ed5c060b97e2e7521994c1c1d5742bfa98294a6322cab39710ea2e7287
-Section: System (Axs-Tweaks)
-Description: 转转筛选助手：1.先输入需要搜索的商品名称，进入页面后长按悬浮球自动抓取数据。2.按机型/电池/系统版本/成色/内存筛选。3.支持单条复制链接、单条打开详情页和一键复制所有链接。
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/zzfilter.png
-Name: ZZFilter转转找机-Roothide
 
 Package: com.zooah.debrecords
 Version: 1.2.2
