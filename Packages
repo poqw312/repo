@@ -3833,6 +3833,24 @@ Description: 应用分屏插件。主屏幕长按应用在弹出菜单中选择"
 Author: uz.ra
 Name: Aerial应用分屏-Roothide
 
+Package: jp.uzra.aerial
+Version: 5.1
+Architecture: iphoneos-arm64e
+Maintainer: uz.ra
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts: xyz.cypwn.aerial
+Filename: debs/Aerial应用分屏_5.1_Roothide.deb
+Size: 14662004
+MD5sum: 13508d265b6845bd8a1a58c95fb97331
+SHA1: e7f68c5047f73402a6b7df7e9d9cc445d6ebac1f
+SHA256: d265bb340b1de6b5ee35bc6bb69bc39b15cae786d83346e75e819107df156de9
+Section: Tweaks
+Description: 应用分屏插件。主屏幕长按应用在弹出菜单中选择"Open Aerial"选项即可开启分屏模式。
+Author: uz.ra
+Icon: https://repo.cypwn.xyz/packages/Aerial-Rootless/icon.png
+Name: Aerial应用分屏-Roothide
+
 Package: libflex
 Version: 4.7.1
 Architecture: iphoneos-arm64e
