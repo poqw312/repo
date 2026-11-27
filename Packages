@@ -1150,6 +1150,24 @@ Author: DumpApp
 Icon: file:///Applications/Cydia.app/Sections/Messaging.png
 Name: 锤子助手-Roothide
 
+Package: com.dumpapp.wechat-rootless
+Version: 2.9.1
+Architecture: iphoneos-arm64e
+Maintainer: DumpApp
+Installed-Size: 17548
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/锤子助手_2.9.1_Roothide.deb
+Size: 6504108
+MD5sum: a23774e24e68cfa2fd3d3be6abcf7b87
+SHA1: e50cad9f1c8d817d02163aeec8a2199843cbdb0e
+SHA256: a1d0c34efe09d6550a5f5744c09df8656a47fec1fffa454e3bd4d48043527ea7
+Section: 微信插件
+Description: 微信多功能插件，微信净化平替版。
+Author: DumpApp
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
+Name: 锤子助手-Roothide
+
 Package: com.flex3.processor
 Version: 1.0-4+debug
 Architecture: iphoneos-arm64e
@@ -3306,6 +3324,25 @@ Size: 6886136
 MD5sum: 30cc24cc94141c37a9143f636a221f6b
 SHA1: 8d56263218ea8c4e4cbb6a3481f4b4346d32af67
 SHA256: edeebad2242563b4d4ce1374b1dea901d82d9248873b51ae6913c96ec8bc1c29
+Section: 抖音插件
+Priority: optional
+Homepage: https://tc.uddz.cc/xuuz
+Description: 显示视频时长进度条，显示作品日期时间归属地，语音消息转发，自定义语音秒数，消息防撤回，显示消息时间，屏蔽在线状态，屏蔽输入状态，猜拳骰子作弊，秒过激励广告，开启无水印保存视频图片，启用自动播放下一条，自定义微透隐藏移除无用项目模块等功能。
+Author: XUUᶻ
+Name: 抖音助手-Roothide
+
+Package: com.xuuz.douyinhelper
+Version: 2.3-3
+Architecture: iphoneos-arm64e
+Maintainer: XUUᶻ
+Installed-Size: 17840
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/抖音助手_2.3-3_Roothide.deb
+Size: 6873120
+MD5sum: 1bc753e0b5c66f2ef3e3eebe0e62b96e
+SHA1: 57fc20fd55b3c4a9c5b8f6695a1ee65bee211bff
+SHA256: f11bab236ca887a6525e56815ea7145208ebd1696120e95c748c7d587acc4e91
 Section: 抖音插件
 Priority: optional
 Homepage: https://tc.uddz.cc/xuuz
